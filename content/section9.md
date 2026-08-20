@@ -57,7 +57,7 @@
 
 ### 에포나 평판
 
-![이미지 109](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0109.png)
+![이미지 109](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0109.png){.half-size}
 ![이미지 110](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0110.png)
 
 에포나 평판 보상으로 얻을 수 있습니다.
@@ -70,8 +70,8 @@
 
 ### 모험의 서
 
-![이미지 111](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0111.png)
-![이미지 112](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0112.png)
+![이미지 111](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0111.png){.half-size}
+![이미지 112](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0112.png){.half-size}
 
 모험의 서 쿠르잔 북부 70% 보상으로 획득 가능합니다. 모험의 서 공략은 검색을 통해 쉽게 찾을 수 있습니다.
 
@@ -79,7 +79,7 @@
 
 ### 필드 보스
 
-![이미지 113](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0113.png)
+![이미지 113](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0113.png){.half-size}
 
 쿠르잔 북부 필드 보스 세베크 아툰을 잡아 얻을 수 있습니다.
 
@@ -87,7 +87,7 @@
 
 ### 크림스네일의 해도
 
-![이미지 114](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0114.png)
+![이미지 114](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0114.png){.half-size}
 ![이미지 115](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0115.png)
 
 크림스네일의 해도 '2포인트' 보상으로 획득 가능합니다. '두 번째 해도' 보상이 아니라 해도 2개를 모두 모았을 때 받는 보상입니다.
@@ -96,22 +96,22 @@
 
 1. 쿠르잔 북부의 모험의 서를 80% 이상 달성하기
 
-![이미지 116](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0116.png)
+![이미지 116](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0116.png){.half-size}
 
 2. 쿠르잔 북부의 필드 보스 세베크 아툰을 처치하여 일정 확률로 획득
 
-![이미지 117](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0117.png)
+![이미지 117](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0117.png){.half-size}
 
 3. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 판매하는 오래된 빈병에서 일정 확률로 획득
 
-![이미지 118](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0118.png)
-![이미지 119](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0119.png)
+![이미지 118](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0118.png){.half-size}
+![이미지 119](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0119.png){.half-size}
 
 해적 주화 4,000개로 교환 가능합니다. 확률이 낮아 해적 주화가 많이 필요할 수 있습니다.
 
 4. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 물물 교환으로 획득
 
-![이미지 120](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0120.png)
+![이미지 120](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0120.png){.half-size}
 
 해적 주화 100,000개로 교환 가능합니다.
 
@@ -119,7 +119,7 @@
 
 1. 림레이크 남섬에 있는 긴과 호감도 쌓기
 
-![이미지 121](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0121.png)
+![이미지 121](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0121.png){.half-size}
 
 긴 호감도 신뢰 보상으로 얻을 수 있습니다.
 
@@ -133,19 +133,19 @@
 
 3. 림레이크 남섬의 에포나 의뢰 평판 쌓기
 
-![이미지 123](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0123.png)
+![이미지 123](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0123.png){.half-size}
 
 림레이크 남부 에포나 의뢰 평판 보상으로 획득 가능하며, 14일이 필요합니다.
 
 4. 에브니 큐브 해금 이상 난이도의 몬스터들을 처치하여 일정 확률로 획득
 
-![이미지 124](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0124.png)
+![이미지 124](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0124.png){.half-size}
 
 큐브에서 획득 가능합니다. 럭키방 등장시 확정 드랍됩니다.
 
 5. 원정대 영지의 일반 파견에서 일정 확률로 획득
 
-![이미지 125](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0125.png)
+![이미지 125](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0125.png){.half-size}
 
 원정대 영지 일반 파견 보상으로 획득가능합니다.
 
@@ -217,13 +217,13 @@
 
 ### 섬의 마음
 
-![이미지 131](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0131.png)
+![이미지 131](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0131.png){.half-size}
 
 섬의 마음 20개 보상으로 획득이 가능합니다. 아크라시아 투어 완료 시 20개 이상의 섬의 마음을 제공하므로 자동으로 습득됩니다.
 
 ### 이그네아의 징표
 
-![이미지 132](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0132.png)
+![이미지 132](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0132.png){.half-size}
 
 이그네아의 징표는 각 대륙별 모험의 서를 100% 달성 시 획득이 가능합니다.
 
@@ -255,7 +255,7 @@
 
 ### 질풍
 
-![이미지 135](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0135.png)
+![이미지 135](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0135.png){.half-size}
 
 스킬 시전 속도를 올려주는 룬입니다.
 
@@ -273,13 +273,13 @@
 
 #### 오르페우스의 별
 
-![이미지 136](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0136.png)
+![이미지 136](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0136.png){.half-size}
 
 5개 보상에서 획득 가능하며, 아크라시아 투어 보상으로 받을 수 있습니다.
 
 #### 블루홀
 
-![이미지 137](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0137.png)
+![이미지 137](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0137.png){.half-size}
 
 캘린더 섬인 블루홀 섬에서 획득 가능합니다.
 
@@ -287,7 +287,7 @@
 
 #### 항해 모험물
 
-![이미지 138](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0138.png)
+![이미지 138](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0138.png){.half-size}
 
 모험물 34개 보상으로 얻을 수 있습니다. 아크라시아 투어 완료 시 20개 정도를 주므로 14개를 더 모아야 합니다.
 
