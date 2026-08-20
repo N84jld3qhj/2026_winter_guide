@@ -4,14 +4,14 @@
 
 ---
 ## 대미지 폰트 축약 표시
-![이미지 5](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0004.png)
+![이미지 5](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0004.png)  
 
 적에게 주는 피해량의 크기가 일정 수준이 되면 피해량 수치를 축약해서 출력합니다.
 
 ---
 ## 대미지 폰트 합산
 ![이미지 6](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0005.png)
-![이미지 6](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0006.png)
+![이미지 6](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0006.png)  
 하나의 스킬에서 발생하는 대미지 폰트를 합산하여 표시합니다.
 
 ---
@@ -24,13 +24,17 @@
 ## 던전 내 연출 자동 스킵
 ![이미지 8](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0008.png)
 
-파티 던전 또는 레이드 진행 시 스킵 가능한 연출을 자동으로 스킵합니다. 로아는 대부분의 레이드가 중간에 컷신이 나옵니다. 이때 esc 로 컷신을 스킵할 수 있는데 자동으로 스킵해주는 기능입니다.
+파티 던전 또는 레이드 진행 시 스킵 가능한 연출을 자동으로 스킵합니다.
+
+로아는 대부분의 레이드가 중간에 컷신이 나옵니다. 이때 esc 로 컷신을 스킵할 수 있는데 자동으로 스킵해주는 기능입니다.
 
 ---
 ## 스킬 방향 보정
 ![이미지 9](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0009.png)
 
-마우스 커서가 적대적 대상 위에 있는 경우 스킬 방향을 보정해주는 옵션입니다. 원하지 않는 방향으로 스킬이 나가는 경우가 생길 수 있으니 끄는게 좋습니다.
+마우스 커서가 적대적 대상 위에 있는 경우 스킬 방향을 보정해주는 옵션입니다.
+
+원하지 않는 방향으로 스킬이 나가는 경우가 생길 수 있으니 끄는게 좋습니다.
 
 ---
 ## 펫 표시
@@ -61,7 +65,9 @@
 ![이미지 13](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0013.png)
 ![이미지 14](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0014.png)
 
-로스트아크는 체력바 위에 버프 아이콘이 출력이 되는데 한번에 알아보기 힘들정도로 많습니다. 그래서 우선 순위 설정을 통해 확인이 필요한 버프를 인지하기 쉽도록 만드는게 좋습니다.
+로스트아크는 체력바 위에 버프 아이콘이 출력이 되는데 한번에 알아보기 힘들정도로 많습니다.
+
+그래서 우선 순위 설정을 통해 확인이 필요한 버프를 인지하기 쉽도록 만드는게 좋습니다.
 
 이때 버프 우선 순위는 직업별로 다르기 때문에 직접 찾아보셔서 설정을 하셔야 합니다.
 
