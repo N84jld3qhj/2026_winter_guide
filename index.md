@@ -4,10 +4,45 @@ title: 홈
 ---
 
 # 프로젝트 안내서
+<style>
+  /* 전체 레이아웃 (사이드바 + 본문) */
+  .docs-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  /* 왼쪽 고정 목차 사이드바 */
+  .docs-sidebar {
+    position: sticky;
+    top: 20px; /* 스크롤 시 상단에서 멈추는 위치 */
+    width: 220px;
+    flex-shrink: 0;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    font-size: 0.9em;
+    padding-right: 15px;
+    border-right: 1px solid #e1e4e8;
+  }
+  
+  /* 본문 영역 */
+  .docs-content {
+    flex-grow: 1;
+    min-width: 0;
+  }
+</style>
 
-## 목차
-* Toc
+<div class="docs-container">
+
+<div class="docs-sidebar" markdown="1">
+
+### 목차
+* TOC
 {:toc}
+
+</div>
+
+<div class="docs-content" markdown="1">
 
 # 2. 공식 게임 가이드
 
