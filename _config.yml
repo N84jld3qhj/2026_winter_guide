@@ -1,7 +1,0 @@
-title: 내 프로젝트 문서
-description: GitHub Pages로 배포하는 Jekyll 사이트
-theme: jekyll-theme-primer # 사용할 테마 이름
-
-# 사이드바/상단 목차 자동 생성을 원할 경우 설정
-header_pages:
-  - index.md

@@ -1,0 +1,16 @@
+# Ralph Loop
+.ralph/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+dist/

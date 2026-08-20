@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{TITLE}}</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="{{PAGEKIND}}">
+
+    <!-- 상단바: 워드마크 · 검색 · breadcrumb · 테마 토글 -->
+    <header class="topbar">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <a class="wordmark" href="index.html">
+            <span class="wordmark-mark">로아온 가이드</span><span class="wordmark-sub">2026 썸머</span>
+        </a>
+        <button class="search-trigger search-trigger--bar" data-search-open aria-label="검색 열기">
+            <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+        </button>
+        <nav class="breadcrumb" aria-label="현재 위치">{{BREADCRUMB}}</nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+            <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+            <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+        </button>
+    </header>
+
+    <div class="scrim" id="drawerScrim" hidden></div>
+
+    <div class="layout layout-{{PAGEKIND}}">
+        <!-- Zone A: 전역 0–9 스파인 (좌) -->
+        <aside class="rail rail-left" id="railLeft" aria-label="전역 목차">
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <nav class="spine" aria-label="섹션 0–9">
+                {{SPINE}}
+            </nav>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </aside>
+
+        <!-- Zone: 본문 (중앙, 유일하게 스크롤되는 컬럼) -->
+        <main class="content main-content" id="content">
+            {{CONTENT}}
+        </main>
+
+        <!-- Zone B: 이 페이지 h2 목차 (우) -->
+        <aside class="rail rail-right" id="railRight" aria-label="이 페이지 목차">
+            {{PAGEINDEX}}
+        </aside>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    {{SCRIPTS}}
+</body>
+
+</html>

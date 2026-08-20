@@ -1,0 +1,946 @@
+/* =====================================================================
+   로아온 가이드 — Lost Ark 2026 뉴비/복귀 가이드 디자인 시스템
+   토큰 기반. 모든 색은 CSS 변수 경유. sharp(<=2px). 전설 골드 강조 +
+   로스트아크 아이템 등급 색 체계.
+   ===================================================================== */
+
+/* ---------- 1. 토큰 : 라이트(:root) / 다크(html[data-theme=dark]) ---------- */
+:root {
+    /* color — light (Lost Ark: 쿨다크 게임 패널의 라이트 대응, 전설 골드 강조) */
+    --bg: #F5F6F8;
+    --surface: #FFFFFF;
+    --surface-2: #EBEEF2;
+    --border: #D5DBE3;
+    --text: #141A22;
+    --text-muted: #5A6573;
+    --accent: #C07A12;
+    /* 전설 골드 (라이트: 진한 골드로 대비) */
+    --accent-weak: #FBEFD8;
+    --accent-hover: #9C6309;
+    --focus-ring: #C07A12;
+    --figure-shadow: 0 1px 2px rgba(0, 0, 0, .06);
+
+    /* 로스트아크 아이템 등급 색 (라이트: 대비 확보) */
+    --tier-common: #6B7280;
+    --tier-uncommon: #3E9E2E;
+    --tier-rare: #1577C2;
+    --tier-heroic: #8A3FD1;
+    --tier-legendary: #C07A12;
+    --tier-relic: #D24A1E;
+    --tier-ancient: #9A8A52;
+    --tier-esther: #138C82;
+    --tier-weak: #EBEEF2;
+
+    /* type */
+    --font-display: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "Pretendard Variable", Pretendard, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+    --fs-h1: 2.1875rem;
+    --fs-h2: 1.8125rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.25rem;
+    --fs-body: 1.0625rem;
+    --fs-cap: 0.8125rem;
+
+    /* spacing (4px base) */
+    --sp-1: 4px;
+    --sp-2: 8px;
+    --sp-3: 12px;
+    --sp-4: 16px;
+    --sp-5: 20px;
+    --sp-6: 24px;
+    --sp-7: 28px;
+    --sp-8: 32px;
+    --sp-10: 40px;
+    --sp-12: 48px;
+
+    /* radius (sharp) */
+    --r-chip: 2px;
+    --r-frame: 2px;
+    --r-zero: 0;
+
+    /* layout */
+    --topbar-h: 56px;
+    --rail-left-w: 280px;
+    --rail-right-w: 220px;
+    --content-w: 45rem;
+}
+
+html[data-theme="dark"] {
+    /* 로스트아크 게임 패널: 어두운 남청-회색 쿨다크 + 전설 골드 */
+    --bg: #0B0F14;
+    --surface: #141A22;
+    --surface-2: #1C2530;
+    --border: #2A3542;
+    --text: #E8ECF2;
+    --text-muted: #94A1B2;
+    --accent: #F2A93B;
+    /* 전설 골드 */
+    --accent-weak: #2A2113;
+    --accent-hover: #FFC25E;
+    --focus-ring: #F2A93B;
+    --figure-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+
+    /* 로스트아크 아이템 등급 색 (다크) */
+    --tier-common: #B6BEC9;
+    --tier-uncommon: #5FD24A;
+    --tier-rare: #33B5FF;
+    --tier-heroic: #B775FF;
+    --tier-legendary: #F2A93B;
+    --tier-relic: #FA6A3C;
+    --tier-ancient: #E3D6A8;
+    --tier-esther: #3BD0C4;
+    --tier-weak: #1C2530;
+}
+
+/* ---------- 2. base reset ---------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--topbar-h) + 8px);
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    line-height: 1.8;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color .15s ease, color .15s ease;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: var(--r-chip);
+}
+
+/* ---------- 3. 상단바 ---------- */
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: var(--topbar-h);
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    padding: 0 var(--sp-5);
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.wordmark {
+    display: flex;
+    align-items: baseline;
+    gap: var(--sp-2);
+    color: var(--text);
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.wordmark:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.wordmark-mark {
+    font-size: 1.125rem;
+    color: var(--accent);
+}
+
+.wordmark-sub {
+    font-size: var(--fs-cap);
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.breadcrumb {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--fs-cap);
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.breadcrumb .crumb-sep {
+    margin: 0 var(--sp-2);
+    opacity: .5;
+}
+
+.breadcrumb .crumb-current {
+    color: var(--accent);
+}
+
+/* 검색 트리거 (pill) */
+.search-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    padding: var(--sp-2) var(--sp-3);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    font-size: var(--fs-cap);
+    cursor: pointer;
+}
+
+.search-trigger:hover {
+    border-color: var(--accent);
+    color: var(--text);
+}
+
+.search-kbd {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    padding: 1px 5px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+}
+
+.search-trigger--bar .search-label {
+    display: none;
+}
+
+.search-trigger--rail {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+/* 테마 토글 */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+}
+
+.theme-ico {
+    display: none;
+}
+
+html[data-theme="light"] .theme-ico--moon {
+    display: inline;
+}
+
+html[data-theme="dark"] .theme-ico--sun {
+    display: inline;
+}
+
+/* drawer toggle (mobile only) */
+.drawer-toggle {
+    display: none;
+    width: 34px;
+    height: 34px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    color: var(--text);
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+/* ---------- 4. 레이아웃 3존 ---------- */
+.layout {
+    display: grid;
+    grid-template-columns: var(--rail-left-w) minmax(0, var(--content-w)) var(--rail-right-w);
+    justify-content: center;
+    gap: var(--sp-8);
+    padding: 0 var(--sp-5);
+    align-items: start;
+}
+
+/* 랜딩은 우측 페이지 목차가 없지만, 본문 컬럼 위치가 섹션 페이지와 동일하도록
+   3컬럼 그리드를 그대로 쓰고 우측 칸을 빈 채로 예약한다(레이아웃 점프 방지). */
+.layout-landing .rail-right {
+    visibility: hidden;
+}
+
+.rail {
+    position: sticky;
+    top: var(--topbar-h);
+    max-height: calc(100vh - var(--topbar-h));
+    overflow-y: auto;
+    padding: var(--sp-6) 0;
+}
+
+/* ---------- 5. 좌측 스파인 (시그니처) ---------- */
+.rail-left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-4);
+    border-right: 1px solid var(--border);
+    padding-right: var(--sp-4);
+}
+
+.spine {
+    display: flex;
+    flex-direction: column;
+}
+
+.spine-row {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-2) var(--sp-3);
+    border-left: 3px solid transparent;
+    color: var(--text-muted);
+    font-size: 0.9375rem;
+    line-height: 1.3;
+}
+
+.spine-row:hover {
+    color: var(--text);
+    text-decoration: none;
+    background: var(--surface-2);
+}
+
+.spine-badge {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 26px;
+    background: var(--surface-2);
+    border-radius: var(--r-chip);
+    /* 등급 사다리 시그니처: 각 섹션 배지에 등급색 좌측 스트라이프 + 등급색 숫자 */
+    border-left: 3px solid var(--tier, transparent);
+    color: var(--tier, var(--text));
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.spine-label {
+    min-width: 0;
+}
+
+.spine-row.active {
+    color: var(--text);
+    background: var(--accent-weak);
+    border-left-color: var(--accent);
+    font-weight: 600;
+}
+
+.spine-row.active .spine-badge {
+    background: var(--accent);
+    border-left-color: var(--accent);
+    color: var(--bg);
+}
+
+/* 진행률 채움 (스파인 하단) */
+.spine-progress {
+    margin-top: auto;
+    height: 3px;
+    background: var(--surface-2);
+}
+
+.spine-progress #progressBar {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--accent);
+}
+
+/* ---------- 6. 본문 ---------- */
+.content {
+    min-width: 0;
+    padding: var(--sp-8) 0 var(--sp-12);
+}
+
+.section-container {
+    margin-bottom: var(--sp-10);
+}
+
+/* 챕터 헤드: 64px 챕터칩 + h1 */
+.chapter-head {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    margin-bottom: var(--sp-6);
+}
+
+.chapter-chip {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    height: 64px;
+    padding: 0 var(--sp-3);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 3.25rem; /* ~52px chapter-mark numeral — dominant signature, distinct from 14px spine badge (spec §2.3/§4) */
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.main-title {
+    font-size: var(--fs-h1);
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.chapter-head .main-title {
+    margin: 0;
+}
+
+.sub-title {
+    font-size: var(--fs-h2);
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: var(--sp-10) 0 var(--sp-5);
+    padding-bottom: var(--sp-3);
+    border-bottom: 1px solid var(--border);
+    scroll-margin-top: calc(var(--topbar-h) + 8px);
+}
+
+.section-header {
+    font-size: var(--fs-h3);
+    line-height: 1.3;
+    font-weight: 600;
+    margin: var(--sp-7) 0 var(--sp-3);
+    scroll-margin-top: calc(var(--topbar-h) + 8px);
+}
+
+.sub-section-header {
+    font-size: var(--fs-h4);
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--text);
+    margin: var(--sp-5) 0 var(--sp-2);
+    scroll-margin-top: calc(var(--topbar-h) + 8px);
+}
+
+.content p {
+    margin: var(--sp-3) 0;
+}
+
+.content ul,
+.content ol {
+    margin: var(--sp-3) 0;
+    padding-left: var(--sp-6);
+}
+
+/* ---------- 7. 카드 / 이미지 / 표 ---------- */
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    padding: var(--sp-6);
+    margin: var(--sp-5) 0;
+}
+
+.card>img,
+.full-size,
+.half-size {
+    border: 1px solid var(--border);
+    border-radius: var(--r-frame);
+    box-shadow: var(--figure-shadow);
+    margin: var(--sp-3) 0;
+}
+
+.full-size {
+    width: 100%;
+}
+
+.half-size {
+    width: 100%;
+    max-width: 50%;
+}
+
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    border: 1px dashed var(--border);
+    border-radius: var(--r-frame);
+    color: var(--text-muted);
+    background: var(--surface-2);
+    margin: var(--sp-3) 0;
+}
+
+table,
+.life-skill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--sp-4) 0;
+    font-size: 0.95rem;
+}
+
+th,
+td {
+    border: 1px solid var(--border);
+    padding: var(--sp-2) var(--sp-3);
+    text-align: left;
+}
+
+thead th,
+th {
+    background: var(--surface-2);
+    font-weight: 600;
+}
+
+/* mono / tier 칩 (콘텐츠에서 사용 가능) */
+code,
+.mono {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--surface-2);
+    border-radius: var(--r-chip);
+    padding: 1px 6px;
+    letter-spacing: 0.02em;
+}
+
+.tier-chip {
+    display: inline-block;
+    color: var(--accent);
+    background: var(--accent-weak);
+    border-radius: var(--r-chip);
+    padding: 0 var(--sp-2);
+    font-size: var(--fs-cap);
+    font-weight: 600;
+}
+
+/* 로스트아크 등급 색 — 본문 등급어 인라인 컬러링 (인게임 아이템명처럼) */
+.tier {
+    font-weight: 600;
+}
+
+.tier-common {
+    color: var(--tier-common);
+}
+
+.tier-uncommon {
+    color: var(--tier-uncommon);
+}
+
+.tier-rare {
+    color: var(--tier-rare);
+}
+
+.tier-heroic {
+    color: var(--tier-heroic);
+}
+
+.tier-legendary {
+    color: var(--tier-legendary);
+}
+
+.tier-relic {
+    color: var(--tier-relic);
+}
+
+.tier-ancient {
+    color: var(--tier-ancient);
+}
+
+.tier-esther {
+    color: var(--tier-esther);
+}
+
+/* ---------- 8. 우측 페이지 목차 (h2-only) ---------- */
+.page-toc {
+    font-size: 0.9rem;
+}
+
+.page-toc-summary {
+    list-style: none;
+    color: var(--text-muted);
+    font-size: var(--fs-cap);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: var(--sp-3);
+    cursor: default;
+}
+
+.page-toc-summary::-webkit-details-marker {
+    display: none;
+}
+
+.page-toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid var(--border);
+}
+
+.page-toc li {
+    margin: 0;
+}
+
+.page-toc-link {
+    display: block;
+    padding: var(--sp-1) var(--sp-3);
+    margin-left: -1px;
+    border-left: 2px solid transparent;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.page-toc-link:hover {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.page-toc-link.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 600;
+}
+
+/* ---------- 9. 랜딩 목차 리스트 ---------- */
+.landing-toc {
+    list-style: none;
+    padding: 0;
+    margin: var(--sp-4) 0 0;
+    border-top: 1px solid var(--border);
+}
+
+.landing-toc li {
+    border-bottom: 1px solid var(--border);
+}
+
+.landing-toc li a {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    padding: var(--sp-4) var(--sp-2);
+    color: var(--text);
+}
+
+.landing-toc li a:hover {
+    background: var(--surface-2);
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.landing-badge {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 28px;
+    background: var(--surface-2);
+    border-radius: var(--r-chip);
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+/* ---------- 10. ⌘K 검색 다이얼로그 ---------- */
+.search-dialog {
+    width: min(560px, 92vw);
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    background: var(--surface);
+    color: var(--text);
+    /* '* { margin:0 }' 리셋이 <dialog>의 기본 중앙정렬(margin:auto)을 죽이므로 명시적으로 복원 */
+    margin: 12vh auto auto;
+}
+
+.search-dialog::backdrop {
+    background: rgba(0, 0, 0, .5);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-3);
+    padding: var(--sp-4);
+    border-bottom: 1px solid var(--border);
+}
+
+.search-dialog-ico {
+    color: var(--text-muted);
+}
+
+.search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-close {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    padding: 2px 6px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.search-results {
+    list-style: none;
+    margin: 0;
+    padding: var(--sp-2);
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.search-results li a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: var(--sp-2) var(--sp-3);
+    border-radius: var(--r-chip);
+    color: var(--text);
+}
+
+.search-results li a:hover,
+.search-results li a.active {
+    background: var(--accent-weak);
+    text-decoration: none;
+}
+
+.search-results .res-title {
+    font-weight: 600;
+}
+
+.search-results .res-ctx {
+    font-size: var(--fs-cap);
+    color: var(--text-muted);
+}
+
+.search-results .res-snip {
+    font-size: var(--fs-cap);
+    color: var(--text-muted);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.search-results mark {
+    background: var(--accent-weak);
+    color: var(--accent);
+    border-radius: var(--r-chip);
+    padding: 0 1px;
+    font-weight: 600;
+}
+
+.search-empty {
+    padding: var(--sp-5);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: var(--fs-cap);
+}
+
+/* ---------- 11. 하단 고정 UI ---------- */
+/* 단일 불투명 카드: 우측 레일(스크롤 시 뒤에 깔리는 페이지 목차)이 박스 사이
+   틈으로 비쳐 글자가 겹쳐 보이던 문제 방지. 레일 위로 확실히 띄운다. */
+.fixed-bottom-ui {
+    position: fixed;
+    right: var(--sp-5);
+    bottom: var(--sp-5);
+    z-index: 60;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r-chip);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .22);
+    overflow: hidden;
+}
+
+.fixed-bottom-ui ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed-bottom-ui button {
+    display: block;
+    width: 100%;
+    padding: var(--sp-2) var(--sp-5);
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: var(--fs-cap);
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fixed-bottom-ui button:hover {
+    background: var(--surface-2);
+    color: var(--accent);
+}
+
+.fixed-bottom-ui .update-date {
+    padding: var(--sp-2) var(--sp-5);
+    color: var(--text-muted);
+    font-size: var(--fs-cap);
+    text-align: center;
+    white-space: nowrap;
+    border-top: 1px solid var(--border);
+}
+
+/* scrim (drawer backdrop) */
+.scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 45;
+    background: rgba(0, 0, 0, .5);
+}
+
+/* ---------- 12. 반응형 ---------- */
+/* 중간폭: 우측 레일을 본문 위 드롭다운으로 */
+@media (max-width: 1180px) {
+
+    .layout,
+    .layout-landing {
+        grid-template-columns: var(--rail-left-w) minmax(0, 1fr);
+    }
+
+    .rail-right {
+        grid-column: 2;
+        grid-row: 1;
+        position: static;
+        max-height: none;
+        overflow: visible;
+        padding: var(--sp-4) 0 0;
+    }
+
+    .page-toc {
+        border: 1px solid var(--border);
+        border-radius: var(--r-chip);
+        background: var(--surface);
+        padding: var(--sp-2) var(--sp-4);
+    }
+
+    .page-toc-summary {
+        cursor: pointer;
+        margin: 0;
+        padding: var(--sp-1) 0;
+    }
+
+    .page-toc[open] .page-toc-summary {
+        margin-bottom: var(--sp-2);
+    }
+}
+
+/* 모바일: 좌측 스파인 → off-canvas 드로어, 단일 컬럼 */
+@media (max-width: 800px) {
+    .drawer-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .layout,
+    .layout-landing {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 0 var(--sp-4);
+    }
+
+    .rail-left {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 46;
+        width: min(280px, 84vw);
+        height: 100vh;
+        max-height: 100vh;
+        background: var(--surface);
+        border-right: 1px solid var(--border);
+        padding: var(--sp-6) var(--sp-4);
+        transform: translateX(-100%);
+        transition: transform .18s ease-out;
+    }
+
+    body.drawer-open .rail-left {
+        transform: translateX(0);
+    }
+
+    .rail-right {
+        grid-column: 1;
+    }
+}
+
+/* ---------- 13. 모션 절제 ---------- */
+.spine-row,
+.page-toc-link,
+.search-trigger,
+.theme-toggle {
+    transition: color .12s ease, background-color .12s ease, border-color .12s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0ms !important;
+        animation-duration: 0ms !important;
+    }
+}
