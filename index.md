@@ -1,7 +1,19 @@
 ---
 layout: default
-title: 홈
+title: 내 프로젝트 문서
 ---
+
+<div class="docs-container">
+
+<div class="docs-sidebar" markdown="1">
+
+### 목차
+* TOC
+{:toc}
+
+</div>
+
+<div class="docs-content" markdown="1">
 
 # 프로젝트 안내서
 
@@ -1531,3 +1543,8 @@ title: 홈
 모험물 34개 보상으로 얻을 수 있습니다.[cite: 5] 아크라시아 투어 완료 시 20개 정도를 주므로 14개를 더 모아야 합니다.[cite: 5]
 
 항해 협동은 가장 나중으로 미루고 영지 교환/호감도 위주로 모으는[cite: 5]
+
+
+</div>
+
+</div>

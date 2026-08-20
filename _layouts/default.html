@@ -25,6 +25,12 @@
       padding-right: 15px;
       border-right: 1px solid #e1e4e8;
     }
+
+    /* 사이드바 안의 리스트 점 제거 */
+    .docs-sidebar ul {
+      list-style: none;
+      padding-left: 10px;
+    }
     
     /* 오른쪽 본문 영역 */
     .docs-content {
@@ -36,13 +42,7 @@
 <body>
 
 <div class="docs-container">
-  <!-- 왼쪽 고정 목차 영역 -->
-  <div class="docs-sidebar">
-    <h3>목차</h3>
-    {{ content | toc }}
-  </div>
-
-  <!-- 오른쪽 본문 마크다운 출력 영역 -->
+  <!-- 본문 내용을 전체 받아오는 영역 -->
   <div class="docs-content">
     {{ content }}
   </div>
