@@ -5,10 +5,6 @@ title: 홈
 
 # 프로젝트 안내서
 
-## 목차
-* Toc
-{:toc}
-
 # 2. 공식 게임 가이드
 
 ![이미지 3](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0002.png)
