@@ -1,6 +1,3 @@
----
-title: "WINTER_GUIDE"
----
 
 
 # 2. 공식 게임 가이드
