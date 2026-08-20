@@ -3,18 +3,6 @@ layout: default
 title: 내 프로젝트 문서
 ---
 
-<div class="docs-container">
-
-<div class="docs-sidebar" markdown="1">
-
-### 목차
-* TOC
-{:toc}
-
-</div>
-
-<div class="docs-content" markdown="1">
-
 # 프로젝트 안내서
 
 # 2. 공식 게임 가이드
