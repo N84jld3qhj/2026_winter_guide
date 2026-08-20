@@ -27,11 +27,11 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Build static site
-        run: python3 build.py
-
       - name: Install dependencies
         run: pip install markdown
+
+      - name: Build static site
+        run: python3 build.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
