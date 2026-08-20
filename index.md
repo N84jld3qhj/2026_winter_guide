@@ -1,3 +1,10 @@
+---
+title: "WINTER_GUIDE"
+---
+
+# 원래 작성하던 내용
+여기서부터 마크다운 작성...
+
 # 2. 공식 게임 가이드
 
 ![이미지 3](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0002.png)
