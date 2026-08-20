@@ -202,7 +202,7 @@ def main() -> int:
     raw_by_id: dict[str, str] = {}
     index_by_id: dict[str, list[tuple[str, str, str]]] = {}
 
-    md_converter = markdown.Markdown(extensions=['tables', 'fenced_code', 'toc'])
+    md_converter = markdown.Markdown(extensions=['attr_list','tables', 'fenced_code', 'toc'])
 
     for pid, frag, fname in fragments:
         raw_text = read_fragment(frag, pid)

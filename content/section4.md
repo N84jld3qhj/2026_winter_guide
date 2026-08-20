@@ -115,7 +115,7 @@
 
 ### 세계수의 잎
 ![이미지 192](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0192.png)
-![이미지 193](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0193.png)
+![이미지 193](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0193.png){.half-size}
 
 세계수의 잎은 캐릭터의 스펙에 직접적으로 영향을 주는 보상은 없습니다.
 
@@ -128,7 +128,7 @@
 부적으로 얻을 수 있는 추가 수익이 엄청나게 크거나 한건 아니라서 유물 도구와 마찬가지로 전설 등급만 있어도 괜찮습니다.
 
 ### 도약의 정수
-![이미지 194](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0194.png)
+![이미지 194](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0194.png){.half-size}
 
 도약의 정수는 생활의 정수 소비량을 2배로 증가시키는 대신 보상을 2번 획득하는 아이템입니다.
 
