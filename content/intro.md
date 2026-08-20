@@ -332,675 +332,675 @@ title: 내 프로젝트 문서
 재료를 직접 팔아서 얻는 골드와 제작 후 제작된 아이템을 팔아서 얻는 골드를 비교하게 되는데 [➡️ 로아도구](https://loatool.taeu.kr/) 나 [➡️ 즐로아](https://zloa.net/craft) 사이트를 이용하시면 어떤게 이득인지 쉽게 확인이 가능합니다.
 
 
-# 5. 주간 콘텐츠[cite: 1]
+# 5. 주간 콘텐츠
 
-## 엔드 콘텐츠[cite: 1]
+## 엔드 콘텐츠
 
-![이미지 46](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0046.png)[cite: 1]
+![이미지 46](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0046.png)
 
-로스트아크의 레이드 콘텐츠로 클리어 보상으로 '골드'를 획득가능한 콘텐츠입니다.[cite: 1]
+로스트아크의 레이드 콘텐츠로 클리어 보상으로 '골드'를 획득가능한 콘텐츠입니다.
 
-캐릭터당 3회, 원정대당 6개의 캐릭터로 골드 획득이 가능합니다.[cite: 1]
+캐릭터당 3회, 원정대당 6개의 캐릭터로 골드 획득이 가능합니다.
 
-기본적으로 입장레벨을 기준으로 캐릭터가 갈 수 있는 상위 레이드 3개로 골드를 받게 됩니다.[cite: 1]
+기본적으로 입장레벨을 기준으로 캐릭터가 갈 수 있는 상위 레이드 3개로 골드를 받게 됩니다.
 
-3개의 레이드 이후에는 골드 보상은 받지 못하지만 골드 이외의 재료는 보상으로 받을 수 있기 때문에 필요한 경우 나머지 레이드들을 돌아도 됩니다.[cite: 1]
+3개의 레이드 이후에는 골드 보상은 받지 못하지만 골드 이외의 재료는 보상으로 받을 수 있기 때문에 필요한 경우 나머지 레이드들을 돌아도 됩니다.
 
-### 6회 제한[cite: 1]
+### 6회 제한
 
-[➡️ 엔드 콘텐츠 골드 보상 획득](https://lostark.game.onstove.com/GameGuide/Pages/%EC%BD%98%ED%85%90%EC%B8%A0%20%ED%98%84%ED%99%A9%20%ED%99%95%EC%9D%B8#h3-2)[cite: 1]
+[➡️ 엔드 콘텐츠 골드 보상 획득](https://lostark.game.onstove.com/GameGuide/Pages/%EC%BD%98%ED%85%90%EC%B8%A0%20%ED%98%84%ED%99%A9%20%ED%99%95%EC%9D%B8#h3-2)
 
-로스트아크는 원정대별로 6개의 캐릭터만 골드를 획득할 수 있습니다.[cite: 1] 보통 6회 제한이라고 하는데 7번째 캐릭터부터는 다른 재료들은 동일하게 획득할 수 있지만 골드는 획득할 수 없습니다.[cite: 1]
+로스트아크는 원정대별로 6개의 캐릭터만 골드를 획득할 수 있습니다. 보통 6회 제한이라고 하는데 7번째 캐릭터부터는 다른 재료들은 동일하게 획득할 수 있지만 골드는 획득할 수 없습니다.
 
-항상 문제가 되는 부분입니다.[cite: 1] 6회 제한을 풀자니 인게임 경제가 박살나고 제한을 하자니 7개 이상 캐릭터를 키우는걸 방해하고 뭘 하든 문제가 생기는 부분이라 게임사에서 매번 신중하게 접근하는 문제이긴 합니다만 아직까지는 6회 제한을 유지하는 중입니다.[cite: 1]
+항상 문제가 되는 부분입니다. 6회 제한을 풀자니 인게임 경제가 박살나고 제한을 하자니 7개 이상 캐릭터를 키우는걸 방해하고 뭘 하든 문제가 생기는 부분이라 게임사에서 매번 신중하게 접근하는 문제이긴 합니다만 아직까지는 6회 제한을 유지하는 중입니다.
 
-![이미지 47](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0047.png)[cite: 1]
+![이미지 47](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0047.png)
 
-골드 보상을 획득할 캐릭터는 [게임 메뉴](단축키 ESC) [골드 획득 캐릭터 지정]을 통해 사전에 미리 설정해 둘 수 있습니다.[cite: 1]
+골드 보상을 획득할 캐릭터는 [게임 메뉴](단축키 ESC) [골드 획득 캐릭터 지정]을 통해 사전에 미리 설정해 둘 수 있습니다.
 
-최대 6개 캐릭터까지 지정해둘 수 있으며, 한번 지정된 상태는 계속 유지됩니다.[cite: 1]
+최대 6개 캐릭터까지 지정해둘 수 있으며, 한번 지정된 상태는 계속 유지됩니다.
 
-6개 미만 캐릭터를 지정한 경우, 지정하지 않은 캐릭터 중 선착순으로 골드 보상을 획득합니다.[cite: 1]
+6개 미만 캐릭터를 지정한 경우, 지정하지 않은 캐릭터 중 선착순으로 골드 보상을 획득합니다.
 
-6개 캐릭터를 모두 지정한 후, 지정하지 않은 다른 캐릭터로 던전에 입장할 경우, 던전을 클리어하여도 골드 보상은 획득할 수 없습니다.[cite: 1]
+6개 캐릭터를 모두 지정한 후, 지정하지 않은 다른 캐릭터로 던전에 입장할 경우, 던전을 클리어하여도 골드 보상은 획득할 수 없습니다.
 
-매주 수요일 06시에 모든 캐릭터의 골드 획득 귀속 상태가 해제됩니다.[cite: 1]
+매주 수요일 06시에 모든 캐릭터의 골드 획득 귀속 상태가 해제됩니다.
 
-지난 주에 골드 보상을 획득했던 캐릭터는 금주에 자동으로 골드 보상 획득 캐릭터 지정 상태로 설정됩니다.[cite: 1]
+지난 주에 골드 보상을 획득했던 캐릭터는 금주에 자동으로 골드 보상 획득 캐릭터 지정 상태로 설정됩니다.
 
-### 싱글 모드[cite: 1]
+### 싱글 모드
 
-![이미지 48](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0048.png)[cite: 1]
+![이미지 48](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0048.png)
 
-[➡️ 콘텐츠 > 싱글 모드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%8B%B1%EA%B8%80%20%EB%AA%A8%EB%93%9C)[cite: 1]
+[➡️ 콘텐츠 > 싱글 모드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%8B%B1%EA%B8%80%20%EB%AA%A8%EB%93%9C)
 
-싱글 모드는 일부 엔드 콘텐츠를 '1인 입장'하여 도전 할 수 있는 콘텐츠 입니다.[cite: 1]
+싱글 모드는 일부 엔드 콘텐츠를 '1인 입장'하여 도전 할 수 있는 콘텐츠 입니다.
 
-보상은 노말과 비슷한 수준이지만 클리어시 획득하는 골드가 일부 '캐릭터 귀속 골드'로 지급됩니다.[cite: 1]
+보상은 노말과 비슷한 수준이지만 클리어시 획득하는 골드가 일부 '캐릭터 귀속 골드'로 지급됩니다.
 
-싱글 모드에서는 여러가지 지원 효과를 받을 수 있습니다.[cite: 1]
+싱글 모드에서는 여러가지 지원 효과를 받을 수 있습니다.
 
-![이미지 49](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0049.png)[cite: 1]
+![이미지 49](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0049.png)
 
-'운명의 천칭'은 전투에 도움이 되는 다양한 버프 중 하나를 선택하여 지원받을 수 있는 시스템입니다.[cite: 1]
+'운명의 천칭'은 전투에 도움이 되는 다양한 버프 중 하나를 선택하여 지원받을 수 있는 시스템입니다.
 
-일부 버프는 콘텐츠 또는 클래스 특성에 따라 다른 버프가 제공됩니다.[cite: 1]
+일부 버프는 콘텐츠 또는 클래스 특성에 따라 다른 버프가 제공됩니다.
 
-![이미지 50](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0050.png)[cite: 1]
+![이미지 50](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0050.png)
 
-'운명의 가호'는 전투에 도움이 되는 추가 효과를 획득할 수 있는 시스템입니다.[cite: 1]
+'운명의 가호'는 전투에 도움이 되는 추가 효과를 획득할 수 있는 시스템입니다.
 
-운명의 가호는 보스 전투 중, 특정 조건을 만족할 때 획득할 수 있습니다.[cite: 1]
+운명의 가호는 보스 전투 중, 특정 조건을 만족할 때 획득할 수 있습니다.
 
-운명의 가호는 관문별 최대 3개까지 획득할 수 있습니다.[cite: 1]
+운명의 가호는 관문별 최대 3개까지 획득할 수 있습니다.
 
-![이미지 51](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0051.png)[cite: 1]
+![이미지 51](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0051.png)
 
-싱글 모드에서는 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 '아크투르스의 손길' 이 적용됩니다.[cite: 1]
+싱글 모드에서는 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 '아크투르스의 손길' 이 적용됩니다.
 
-아크투르스의 손길은 일부 엔드콘텐츠에서 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 시스템입니다.[cite: 1]
+아크투르스의 손길은 일부 엔드콘텐츠에서 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 시스템입니다.
 
-![이미지 52](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0052.png)[cite: 1]
+![이미지 52](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0052.png)
 
-싱글 모드가 제공되는 콘텐츠는 난이도와 무관하게 클리어 시 '클리어 메달'을 획득할 수 있습니다.[cite: 1]
+싱글 모드가 제공되는 콘텐츠는 난이도와 무관하게 클리어 시 '클리어 메달'을 획득할 수 있습니다.
 
-클리어 메달은 대도시의 '싱글 모드 교환' NPC 또는 싱글 모드 입장 UI의 '보상 교환' 버튼을 눌러 다양한 아이템으로 교환할 수 있습니다.[cite: 1]
+클리어 메달은 대도시의 '싱글 모드 교환' NPC 또는 싱글 모드 입장 UI의 '보상 교환' 버튼을 눌러 다양한 아이템으로 교환할 수 있습니다.
 
-### 매칭 모드[cite: 1]
+### 매칭 모드
 
-![이미지 247](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0247.png)[cite: 1]
+![이미지 247](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0247.png)
 
-그림자 레이드부터는 싱글 모드가 매칭 모드로 변경됩니다.[cite: 1]
+그림자 레이드부터는 싱글 모드가 매칭 모드로 변경됩니다.
 
-매칭 모드는 4인 매칭 또는 1인 솔로 플레이 2가지 방식으로 진행하는 레이드로 싱글 모드와는 약간의 차이가 있습니다.[cite: 1]
+매칭 모드는 4인 매칭 또는 1인 솔로 플레이 2가지 방식으로 진행하는 레이드로 싱글 모드와는 약간의 차이가 있습니다.
 
-싱글 모드에서 주어지는 운명의 천칭과 운명의 가호 버프가 제거되는 대신 사망 시 부활의 깃털을 사용해 부활이 가능하고 파티원이 전멸하더라도 레이드 실패가 되지 않고 계속 진행이 가능합니다.[cite: 1]
+싱글 모드에서 주어지는 운명의 천칭과 운명의 가호 버프가 제거되는 대신 사망 시 부활의 깃털을 사용해 부활이 가능하고 파티원이 전멸하더라도 레이드 실패가 되지 않고 계속 진행이 가능합니다.
 
-추가로 진행 시간에 따라 캐릭터의 공격력을 증가시켜주는 버프가 적용되기 때문에 어렵지 않게 클리어가 가능합니다.[cite: 1]
+추가로 진행 시간에 따라 캐릭터의 공격력을 증가시켜주는 버프가 적용되기 때문에 어렵지 않게 클리어가 가능합니다.
 
 ---
 
-## 낙원[cite: 1]
+## 낙원
 
-![이미지 53](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0053.png)[cite: 1]
+![이미지 53](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0053.png)
 
-[➡️ 낙원](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%99%EC%9B%90)[cite: 1]
+[➡️ 낙원](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%99%EC%9B%90)
 
-낙원은 주단위 보정 콘텐츠로 천상 / 증명 / 지옥 3가지로 나뉩니다.[cite: 1]
+낙원은 주단위 보정 콘텐츠로 천상 / 증명 / 지옥 3가지로 나뉩니다.
 
-낙원은 기본적으로 스킬 포인트를 제외한 모든 스펙 및 내실이 적용되지 않고 낙원에서 획득한 유산 장비만으로 스펙이 적용됩니다.[cite: 1]
+낙원은 기본적으로 스킬 포인트를 제외한 모든 스펙 및 내실이 적용되지 않고 낙원에서 획득한 유산 장비만으로 스펙이 적용됩니다.
 
-천상에서 장비를 파밍한 후 증명에서 기록을 새워 순위를 매긴 후 순위별로 보상으로 지옥 열쇠를 받아 지옥에서 귀속 보상을 받는 방식입니다.[cite: 1]
+천상에서 장비를 파밍한 후 증명에서 기록을 새워 순위를 매긴 후 순위별로 보상으로 지옥 열쇠를 받아 지옥에서 귀속 보상을 받는 방식입니다.
 
-![이미지 191](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0191.png)[cite: 1]
+![이미지 191](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0191.png)
 
-30위 이내의 최상위권의 경우 시즌별 증명 배너와 칭호를 얻을 수 있습니다만 과금이나 배럭 입장권 몰아주기 등 필요한 것들이 많아서 뉴비나 복귀가 노리기에는 무리가 있습니다.[cite: 1]
+30위 이내의 최상위권의 경우 시즌별 증명 배너와 칭호를 얻을 수 있습니다만 과금이나 배럭 입장권 몰아주기 등 필요한 것들이 많아서 뉴비나 복귀가 노리기에는 무리가 있습니다.
 
-### 천상[cite: 1]
+### 천상
 
-![이미지 54](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0054.png)[cite: 1]
+![이미지 54](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0054.png)
 
-천상은 낙원에서만 적용되는 장비인 유산을 획득하는 던전으로 주간 5회 입장이 가능합니다.[cite: 1]
+천상은 낙원에서만 적용되는 장비인 유산을 획득하는 던전으로 주간 5회 입장이 가능합니다.
 
-천상은 클리어한 증명 단계를 기준으로 오픈이 되기 때문에 증명을 최대한 높은 단계까지 클리어한 이후에 천상을 돌면 됩니다.[cite: 1]
+천상은 클리어한 증명 단계를 기준으로 오픈이 되기 때문에 증명을 최대한 높은 단계까지 클리어한 이후에 천상을 돌면 됩니다.
 
-![이미지 190](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0190.png)[cite: 1]
+![이미지 190](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0190.png)
 
-순위권을 노리기 위해선 높은 등급의 유산 장비 / 복원 / 공명 이 3가지가 필요한데 이를 위해서는 최대한 많이 천상을 돌아야 합니다.[cite: 1]
+순위권을 노리기 위해선 높은 등급의 유산 장비 / 복원 / 공명 이 3가지가 필요한데 이를 위해서는 최대한 많이 천상을 돌아야 합니다.
 
-천상 입장은 기본적으로 주마다 5회 제공되며 추가로 입장권을 파밍해서 입장이 가능한데 입장권을 파밍하는 방법은 크게 3가지가 있습니다.[cite: 1]
+천상 입장은 기본적으로 주마다 5회 제공되며 추가로 입장권을 파밍해서 입장이 가능한데 입장권을 파밍하는 방법은 크게 3가지가 있습니다.
 
-과금 / 지옥 보상 / 원정대 입장권 몰아주기 3가지 방식인데 뉴비/복귀가 하기에는 어려운 방법들입니다.[cite: 1]
+과금 / 지옥 보상 / 원정대 입장권 몰아주기 3가지 방식인데 뉴비/복귀가 하기에는 어려운 방법들입니다.
 
-천상 입장권을 지옥 보상으로 선택하는 경우 다른 귀속 재료들을 포기해야만 하는데 지옥에서 얻을 수 있는 귀속 재료들이 상당히 많습니다.[cite: 1] 그 재료들을 포기하고 순위권 경쟁을 위해 천상 입장권을 선택하는건 뉴비/복귀 유저가 하기에는 어려운 선택입니다.[cite: 1]
+천상 입장권을 지옥 보상으로 선택하는 경우 다른 귀속 재료들을 포기해야만 하는데 지옥에서 얻을 수 있는 귀속 재료들이 상당히 많습니다. 그 재료들을 포기하고 순위권 경쟁을 위해 천상 입장권을 선택하는건 뉴비/복귀 유저가 하기에는 어려운 선택입니다.
 
-![이미지 200](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0200.png)[cite: 1]
-![이미지 201](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0201.png)[cite: 1]
+![이미지 200](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0200.png)
+![이미지 201](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0201.png)
 
-원정대 입장권은 부캐릭터들의 복원석을 원정대 공유 천상 입장권으로 바꿔 본캐릭터에 몰아주는 방식인데 낙원은 1640만 되면 입장이 가능하고 아이템 레벨에 상관없이 복원석 획득량이 모두 동일하기 때문에 원정대에 최대한 많은 1640 캐릭터를 만들어 입장권을 몰아줘야 합니다.[cite: 1]
+원정대 입장권은 부캐릭터들의 복원석을 원정대 공유 천상 입장권으로 바꿔 본캐릭터에 몰아주는 방식인데 낙원은 1640만 되면 입장이 가능하고 아이템 레벨에 상관없이 복원석 획득량이 모두 동일하기 때문에 원정대에 최대한 많은 1640 캐릭터를 만들어 입장권을 몰아줘야 합니다.
 
-1640 캐릭터를 만들기 위해선 캐릭터 슬롯을 구매하고 지식전수나 점핑권을 구매해야 하는데 보통 순위권 유저들은 모든 캐릭터 슬롯을 개방하여 1640 캐릭터를 채워서 입장권을 몰아주기 때문에 이걸 따라가기 위해서는 꽤나 큰 돈과 시간이 필요합니다.[cite: 1]
+1640 캐릭터를 만들기 위해선 캐릭터 슬롯을 구매하고 지식전수나 점핑권을 구매해야 하는데 보통 순위권 유저들은 모든 캐릭터 슬롯을 개방하여 1640 캐릭터를 채워서 입장권을 몰아주기 때문에 이걸 따라가기 위해서는 꽤나 큰 돈과 시간이 필요합니다.
 
-지옥 보상과 마찬가지로 뉴비/복귀 유저가 사용하기에는 어려운 방법입니다.[cite: 1]
+지옥 보상과 마찬가지로 뉴비/복귀 유저가 사용하기에는 어려운 방법입니다.
 
-### 증명[cite: 1]
+### 증명
 
-![이미지 55](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0055.png)[cite: 1]
+![이미지 55](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0055.png)
 
-증명은 제한시간 안에 보스를 잡는 콘텐츠로 유산을 제외한 다른 모든 스펙이 적용이 되지 않습니다.[cite: 1]
+증명은 제한시간 안에 보스를 잡는 콘텐츠로 유산을 제외한 다른 모든 스펙이 적용이 되지 않습니다.
 
-증명 클리어 시간에 따라 주간 순위가 산정되고 순위에 따라 지옥 입장 열쇠가 보상으로 주어지기 때문에 높은 단계의 증명을 최대한 빠르게 클리어하는게 중요합니다.[cite: 1]
+증명 클리어 시간에 따라 주간 순위가 산정되고 순위에 따라 지옥 입장 열쇠가 보상으로 주어지기 때문에 높은 단계의 증명을 최대한 빠르게 클리어하는게 중요합니다.
 
-마지막주에 얻을 수 있는 순위권 보상은 기간제가 아니라서 마지막주에는 순위권 경쟁이 치열합니다.[cite: 1]
+마지막주에 얻을 수 있는 순위권 보상은 기간제가 아니라서 마지막주에는 순위권 경쟁이 치열합니다.
 
-순위권 경쟁을 위해선 높은 스펙(편린 장비), 시간, 실링, 고점 빌드 등 필요한게 너무 많아서 몇번이고 말하지만 뉴비/복귀 유저가 하기엔 너무 어렵습니다.[cite: 1]
+순위권 경쟁을 위해선 높은 스펙(편린 장비), 시간, 실링, 고점 빌드 등 필요한게 너무 많아서 몇번이고 말하지만 뉴비/복귀 유저가 하기엔 너무 어렵습니다.
 
-### 지옥[cite: 1]
+### 지옥
 
-![이미지 56](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0056.png)[cite: 1]
-![이미지 57](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0057.png)[cite: 1]
+![이미지 56](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0056.png)
+![이미지 57](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0057.png)
 
-낙원의 핵심입니다.[cite: 1] 증명 주간 순위에 따라 입장 열쇠를 보상으로 받을 수 있고 열쇠 등급에 따라 강하 시도횟수가 달라집니다.[cite: 1]
+낙원의 핵심입니다. 증명 주간 순위에 따라 입장 열쇠를 보상으로 받을 수 있고 열쇠 등급에 따라 강하 시도횟수가 달라집니다.
 
-강하가 끝나면 보상을 획득할 수 있는데 보상의 종류는 매번 무작위로 선정되며 높은 단계일수록 보상량이 많아집니다.[cite: 1] 보상은 전부 캐릭터 귀속입니다.[cite: 1]
+강하가 끝나면 보상을 획득할 수 있는데 보상의 종류는 매번 무작위로 선정되며 높은 단계일수록 보상량이 많아집니다. 보상은 전부 캐릭터 귀속입니다.
 
-보상 관련 자세한 내용은 [➡️ 지옥 보상 효율 | Loatto](https://loatto.kr/hell-rewards) 참고하시면 됩니다.[cite: 1]
+보상 관련 자세한 내용은 [➡️ 지옥 보상 효율 | Loatto](https://loatto.kr/hell-rewards) 참고하시면 됩니다.
 
-지옥 보상으로 저레벨 구간 스펙업이 굉장히 쉬워졌습니다.[cite: 1]
+지옥 보상으로 저레벨 구간 스펙업이 굉장히 쉬워졌습니다.
 
-특수 재련, 융화재료, 귀속 골드, 재련 보조 재료 등 부캐릭 육성에 도움이 되는 재료들만 보상으로 나와서 진짜 골드 하나 안쓰고 지옥 보상으로만으로도 1730레벨이 가능할 정도입니다.[cite: 1]
+특수 재련, 융화재료, 귀속 골드, 재련 보조 재료 등 부캐릭 육성에 도움이 되는 재료들만 보상으로 나와서 진짜 골드 하나 안쓰고 지옥 보상으로만으로도 1730레벨이 가능할 정도입니다.
 
-급하게 키우는 캐릭이 아니라면 지옥 보상으로 최대한 효율적으로 키우시는걸 추천드립니다.[cite: 1]
+급하게 키우는 캐릭이 아니라면 지옥 보상으로 최대한 효율적으로 키우시는걸 추천드립니다.
 
-### 나락[cite: 1]
+### 나락
 
-![이미지 58](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0058.png)[cite: 1]
+![이미지 58](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0058.png)
 
-나락은 지옥의 상위 콘텐츠로 지옥보다 더 많은 보상을 얻을 수 있지만 강하 시 조건에 따라 사망하여 보상을 얻을 수 없게 됩니다.[cite: 1]
+나락은 지옥의 상위 콘텐츠로 지옥보다 더 많은 보상을 얻을 수 있지만 강하 시 조건에 따라 사망하여 보상을 얻을 수 없게 됩니다.
 
-[➡️ 지옥 보상 효율 | Loatto](https://loatto.kr/hell-rewards) 마찬가지로 여기서 나락 보상을 확인할 수 있는데 지옥과 비교했을 때 5배 정도의 보상을 얻을 수 있다고 생각하시면 됩니다.[cite: 1]
+[➡️ 지옥 보상 효율 | Loatto](https://loatto.kr/hell-rewards) 마찬가지로 여기서 나락 보상을 확인할 수 있는데 지옥과 비교했을 때 5배 정도의 보상을 얻을 수 있다고 생각하시면 됩니다.
 
-랜덤 유물 각인서 상자가 보상으로 추가되었고 8단계 이상부터는 귀속 8레벨 보석도 나올 수 있습니다.[cite: 1]
+랜덤 유물 각인서 상자가 보상으로 추가되었고 8단계 이상부터는 귀속 8레벨 보석도 나올 수 있습니다.
 
-![이미지 183](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0183.png)[cite: 1]
+![이미지 183](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0183.png)
 
-나락에 입장하기 위해선 나락 열쇠가 필요한데 나락 열쇠는 지옥 열쇠를 연성하여 확률적으로 얻을 수 있습니다.[cite: 1]
+나락에 입장하기 위해선 나락 열쇠가 필요한데 나락 열쇠는 지옥 열쇠를 연성하여 확률적으로 얻을 수 있습니다.
 
-지옥 입장시 0층에서 20% , 50층과 100층에서 100% 확률로 제단이 등장하는데 제단에서 연성 가능한 지옥 열쇠를 연성 시 40% 확률로 나락 열쇠를 획득하고 60% 확률로 등급 변경(-2~+2)이 됩니다.[cite: 1]
+지옥 입장시 0층에서 20% , 50층과 100층에서 100% 확률로 제단이 등장하는데 제단에서 연성 가능한 지옥 열쇠를 연성 시 40% 확률로 나락 열쇠를 획득하고 60% 확률로 등급 변경(-2~+2)이 됩니다.
 
-![이미지 184](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0184.png)[cite: 1]
+![이미지 184](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0184.png)
 
-나락 입장 시 선택한 열쇠(화염/서리)에 따라, 강하 후 도달한 층수(홀수/짝수)에 의해 생존 여부가 달라집니다.[cite: 1]
+나락 입장 시 선택한 열쇠(화염/서리)에 따라, 강하 후 도달한 층수(홀수/짝수)에 의해 생존 여부가 달라집니다.
 
-나락에서는 기본적으로 1회의 부활 기회가 제공됩니다.[cite: 1]
+나락에서는 기본적으로 1회의 부활 기회가 제공됩니다.
 
-부활 횟수를 모두 소진한 상태에서 사망하는 경우 보상 기회가 소멸됩니다.[cite: 1]
+부활 횟수를 모두 소진한 상태에서 사망하는 경우 보상 기회가 소멸됩니다.
 
-'중단하고 보상 받기' 버튼을 선택하면, 해당 층에 해당하는 보상 상자가 등장하며 나락이 종료됩니다.[cite: 1]
+'중단하고 보상 받기' 버튼을 선택하면, 해당 층에 해당하는 보상 상자가 등장하며 나락이 종료됩니다.
 
 ---
 
-# 6. 캘린더 콘텐츠 (프로키온의 나침반)[cite: 2]
+# 6. 캘린더 콘텐츠 (프로키온의 나침반)
 
-![이미지 59](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0059.png)[cite: 2]
+![이미지 59](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0059.png)
 
-[➡️ 프로키온의 나침반](https://lostark.game.onstove.com/GameGuide/Pages/%ED%94%84%EB%A1%9C%ED%82%A4%EC%98%A8%EC%9D%98%20%EB%82%98%EC%B9%A8%EB%B0%98)[cite: 2]
+[➡️ 프로키온의 나침반](https://lostark.game.onstove.com/GameGuide/Pages/%ED%94%84%EB%A1%9C%ED%82%A4%EC%98%A8%EC%9D%98%20%EB%82%98%EC%B9%A8%EB%B0%98)
 
-프로키온의 나침반에 일정이 표시되는 콘텐츠입니다.[cite: 2]
+프로키온의 나침반에 일정이 표시되는 콘텐츠입니다.
 
-지정된 시간에 입장이 가능하고 클리어 시 다양한 보상을 얻을 수 있습니다.[cite: 2]
+지정된 시간에 입장이 가능하고 클리어 시 다양한 보상을 얻을 수 있습니다.
 
-보상 획득 기회가 제한되어 있는 대신 시간대비 보상이 좋은 편이라 가능하다면 참여해서 보상을 받으시는걸 추천드립니다.[cite: 2]
+보상 획득 기회가 제한되어 있는 대신 시간대비 보상이 좋은 편이라 가능하다면 참여해서 보상을 받으시는걸 추천드립니다.
 
-몇몇 콘텐츠의 경우 내실과 관련된 보상이 있는데 시간이 맞지 않으면 꽤 오래 콘텐츠 오픈을 기다리는 경우가 있으니 캘린더 확인해서 미리미리 준비하시면 좋습니다.[cite: 2]
+몇몇 콘텐츠의 경우 내실과 관련된 보상이 있는데 시간이 맞지 않으면 꽤 오래 콘텐츠 오픈을 기다리는 경우가 있으니 캘린더 확인해서 미리미리 준비하시면 좋습니다.
 
-## 섬[cite: 2]
+## 섬
 
-![이미지 60](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0060.png)[cite: 2]
+![이미지 60](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0060.png)
 
-매일 3개의 섬이 시간에 맞춰 열립니다.[cite: 2] 주말에는 오전/오후 각각 3개씩 6개의 섬이 열립니다.[cite: 2]
+매일 3개의 섬이 시간에 맞춰 열립니다. 주말에는 오전/오후 각각 3개씩 6개의 섬이 열립니다.
 
-보상은 골드, 카드, 실링, 해적주화 4종류가 돌아가면서 주어지며 흔히 골드를 주는 섬을 쌀섬이라고 하며 최우선 순위로 가게 됩니다.[cite: 2]
+보상은 골드, 카드, 실링, 해적주화 4종류가 돌아가면서 주어지며 흔히 골드를 주는 섬을 쌀섬이라고 하며 최우선 순위로 가게 됩니다.
 
-또한 섬의 마음을 얻을 수 있기 때문에 내실이 필요한 경우 캘린더를 확인하여 필요한 섬에서 보상을 받으시면 됩니다.[cite: 2]
+또한 섬의 마음을 얻을 수 있기 때문에 내실이 필요한 경우 캘린더를 확인하여 필요한 섬에서 보상을 받으시면 됩니다.
 
-## 카오스게이트[cite: 2]
+## 카오스게이트
 
-![이미지 61](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0061.png)[cite: 2]
+![이미지 61](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0061.png)
 
-카오스게이트는 목,토,일,월 주에 4번 열리는 콘텐츠로 오전 7시부터 매시 정각에 입장 가능합니다.[cite: 2]
+카오스게이트는 목,토,일,월 주에 4번 열리는 콘텐츠로 오전 7시부터 매시 정각에 입장 가능합니다.
 
-원정대당 1회 보상 획득이 가능합니다.[cite: 2]
+원정대당 1회 보상 획득이 가능합니다.
 
-![이미지 62](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0062.png)[cite: 2]
+![이미지 62](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0062.png)
 
-보상으로 귀속 골드, 보석, 재련 재료(파편 주머니, 숨결), 전설 카드, 유물 각인서 등을 얻을 수 있으며 클리어 후 경매로 전설 카드나 젬을 입찰할 수 있습니다.[cite: 2]
+보상으로 귀속 골드, 보석, 재련 재료(파편 주머니, 숨결), 전설 카드, 유물 각인서 등을 얻을 수 있으며 클리어 후 경매로 전설 카드나 젬을 입찰할 수 있습니다.
 
-보상이 일일 숙제에 비해 많은 편이며 유물 각인서가 나올 확률이 일일 숙제에 비해 높기 때문에 반드시 참여하는 것을 추천드립니다.[cite: 2]
+보상이 일일 숙제에 비해 많은 편이며 유물 각인서가 나올 확률이 일일 숙제에 비해 높기 때문에 반드시 참여하는 것을 추천드립니다.
 
-## 필드 보스[cite: 2]
+## 필드 보스
 
-![이미지 63](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0063.png)[cite: 2]
+![이미지 63](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0063.png)
 
-필드 보스는 금,일,화 주에 3번 열리는 콘텐츠로 오전 7시부터 매시 3분에 필드보스가 출현하게 됩니다.[cite: 2]
+필드 보스는 금,일,화 주에 3번 열리는 콘텐츠로 오전 7시부터 매시 3분에 필드보스가 출현하게 됩니다.
 
-카게와 마찬가지로 원정대당 1회 보상 획득이 가능합니다.[cite: 2]
+카게와 마찬가지로 원정대당 1회 보상 획득이 가능합니다.
 
-보상으로 보석, 각인서, 재련 재료를 얻을 수 있고 경매로 전설 카드, 유물 각인서를 입찰할 수 있습니다.[cite: 2]
+보상으로 보석, 각인서, 재련 재료를 얻을 수 있고 경매로 전설 카드, 유물 각인서를 입찰할 수 있습니다.
 
-카게와 마찬가지로 보상이 일일 숙제에 비해 좋고 비싼 유물 각인서가 경매로 나오는 경우 입찰금이 상당하기 때문에 반드시 참여하는 것을 추천드립니다.[cite: 2]
+카게와 마찬가지로 보상이 일일 숙제에 비해 좋고 비싼 유물 각인서가 경매로 나오는 경우 입찰금이 상당하기 때문에 반드시 참여하는 것을 추천드립니다.
 
-## 태초의 섬[cite: 2]
+## 태초의 섬
 
-![이미지 64](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0064.png)[cite: 2]
+![이미지 64](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0064.png)
 
-배틀 로얄 장르의 미니게임입니다.[cite: 2] 화/목/토 입장 가능하고 일일 최대 3회 입장 가능합니다.[cite: 2]
+배틀 로얄 장르의 미니게임입니다. 화/목/토 입장 가능하고 일일 최대 3회 입장 가능합니다.
 
-![이미지 65](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0065.png)[cite: 2]
+![이미지 65](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0065.png)
 
-매주 최고 순위를 기준으로 보상을 지급합니다.[cite: 2]
+매주 최고 순위를 기준으로 보상을 지급합니다.
 
-재련 재료, 보석 등 유용한 보상을 받을 수 있지만 미쳐버린 고인물들과 스마게의 티밍 유저 방치 등 증명의 전장급 뉴비 배척 콘텐츠가 되어가는 중입니다.[cite: 2]
+재련 재료, 보석 등 유용한 보상을 받을 수 있지만 미쳐버린 고인물들과 스마게의 티밍 유저 방치 등 증명의 전장급 뉴비 배척 콘텐츠가 되어가는 중입니다.
 
-보석을 받을 수 있는 등수까지만 달성하고 안하시는게 정신건강에 좋습니다.[cite: 2]
+보석을 받을 수 있는 등수까지만 달성하고 안하시는게 정신건강에 좋습니다.
 
 ---
 
-# 7. 골드 수급처[cite: 3]
+# 7. 골드 수급처
 
-![이미지 15](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0015.png)[cite: 3]
+![이미지 15](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0015.png)
 
-골드를 획득할 수 있는 콘텐츠들입니다.[cite: 3]
+골드를 획득할 수 있는 콘텐츠들입니다.
 
-## 엔드 콘텐츠[cite: 3]
+## 엔드 콘텐츠
 
-![이미지 16](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0016.png)[cite: 3]
+![이미지 16](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0016.png)
 
-클리어 보상으로 골드를 주는 레이드입니다.[cite: 3]
+클리어 보상으로 골드를 주는 레이드입니다.
 
-원정대당 6개의 캐릭터를 골드 획득 캐릭터로 지정 가능하며 골드 획득 캐릭터 이외의 캐릭터는 엔드 콘텐츠를 클리어해도 보상으로 골드를 받을 수 없습니다(6회 제한).[cite: 3]
+원정대당 6개의 캐릭터를 골드 획득 캐릭터로 지정 가능하며 골드 획득 캐릭터 이외의 캐릭터는 엔드 콘텐츠를 클리어해도 보상으로 골드를 받을 수 없습니다(6회 제한).
 
-레이드 입장화면에서 관문 정보를 누르면 지급 되는 골드를 확인할 수 있습니다.[cite: 3]
+레이드 입장화면에서 관문 정보를 누르면 지급 되는 골드를 확인할 수 있습니다.
 
-![이미지 17](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0017.png)[cite: 3]
+![이미지 17](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0017.png)
 
-싱글 모드의 경우 일정 비율을 캐릭터 귀속 골드로 받습니다.[cite: 3]
+싱글 모드의 경우 일정 비율을 캐릭터 귀속 골드로 받습니다.
 
-## 일일 숙제[cite: 3]
+## 일일 숙제
 
-![이미지 18](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0018.png)[cite: 3]
+![이미지 18](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0018.png)
 
-일일 숙제인 쿠르잔 전선과 가디언 토벌에서 나오는 재료들을 팔아 돈을 벌 수 있습니다.[cite: 3]
+일일 숙제인 쿠르잔 전선과 가디언 토벌에서 나오는 재료들을 팔아 돈을 벌 수 있습니다.
 
-![이미지 19](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0019.png)[cite: 3]
+![이미지 19](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0019.png)
 
-일일 콘텐츠에서는 낮은 확률로 편린이 나오는데 최대 30만골드까지 획득이 가능합니다.[cite: 3]
+일일 콘텐츠에서는 낮은 확률로 편린이 나오는데 최대 30만골드까지 획득이 가능합니다.
 
-아제나의 축복을 구매한 캐릭터의 경우 추가적으로 '축복의 편린'이 나오는데 축복의 편린에서 획득한 골드는 획득 시 원정대 귀속, 사용 시 캐릭터 귀속이 됩니다.[cite: 3]
+아제나의 축복을 구매한 캐릭터의 경우 추가적으로 '축복의 편린'이 나오는데 축복의 편린에서 획득한 골드는 획득 시 원정대 귀속, 사용 시 캐릭터 귀속이 됩니다.
 
-낮은 레벨의 캐릭터라도 동일하게 편린 보상이 나와서 저레벨 캐릭터에 아제나의 축복을 사주고 편린에서 나온 골드를 키우는 캐릭에 몰아주는 방식으로 사용할수도 있습니다.[cite: 3]
+낮은 레벨의 캐릭터라도 동일하게 편린 보상이 나와서 저레벨 캐릭터에 아제나의 축복을 사주고 편린에서 나온 골드를 키우는 캐릭에 몰아주는 방식으로 사용할수도 있습니다.
 
-## 큐브[cite: 3]
+## 큐브
 
-![이미지 20](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0020.png)[cite: 3]
+![이미지 20](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0020.png)
 
-큐브/할의 모래시계는 쿠르잔 전선을 돌아 얻을 수 있는 입장권을 사용하여 입장 가능하며 클리어 보상으로 보석, 돌파석(귀속), 숨결(귀속), 각인서를 얻을 수 있습니다.[cite: 3]
+큐브/할의 모래시계는 쿠르잔 전선을 돌아 얻을 수 있는 입장권을 사용하여 입장 가능하며 클리어 보상으로 보석, 돌파석(귀속), 숨결(귀속), 각인서를 얻을 수 있습니다.
 
-각인서의 경우 낮은 확률이지만 유효 유물 각인서가 나올 경우 상당한 골드를 벌 수 있습니다.[cite: 3]
+각인서의 경우 낮은 확률이지만 유효 유물 각인서가 나올 경우 상당한 골드를 벌 수 있습니다.
 
-![이미지 21](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0021.png)[cite: 3]
+![이미지 21](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0021.png)
 
-큐브는 입장권 3배 사용이 가능합니다.[cite: 3] 보상이 3배로 나오지만 럭키나 메가럭키가 나올 확률이 3배가 되지는 않으니 잘 생각해서 사용합시다.[cite: 3]
+큐브는 입장권 3배 사용이 가능합니다. 보상이 3배로 나오지만 럭키나 메가럭키가 나올 확률이 3배가 되지는 않으니 잘 생각해서 사용합시다.
 
-![이미지 22](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0022.png)[cite: 3]
+![이미지 22](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0022.png)
 
-큐브 입장권은 지옥 열쇠로 교환이 가능한데 지옥에서 얻는 보상은 모두 귀속이라 판매하여 골드로 바꿀 수 없으니 골드가 필요한 경우에는 큐브를 도는게 좋습니다.[cite: 3]
+큐브 입장권은 지옥 열쇠로 교환이 가능한데 지옥에서 얻는 보상은 모두 귀속이라 판매하여 골드로 바꿀 수 없으니 골드가 필요한 경우에는 큐브를 도는게 좋습니다.
 
-## 캘린더 콘텐츠[cite: 3]
+## 캘린더 콘텐츠
 
-### 섬[cite: 3]
+### 섬
 
-![이미지 23](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0023.png)[cite: 3]
+![이미지 23](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0023.png)
 
-모험섬 보상은 랜덤으로 정해지는데 골드가 보상으로 나오는 경우 참여해주시면 좋습니다.[cite: 3]
+모험섬 보상은 랜덤으로 정해지는데 골드가 보상으로 나오는 경우 참여해주시면 좋습니다.
 
-### 카오스게이트[cite: 3]
+### 카오스게이트
 
-![이미지 24](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0024.png)[cite: 3]
-![이미지 25](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0025.png)[cite: 3]
+![이미지 24](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0024.png)
+![이미지 25](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0025.png)
 
-카오스게이트 보상으로 귀속 골드, 파편 주머니, 숨결, 각인서, 보석이 나오고 히든 관문 등장시 랜덤으로 거래 가능 골드를 보상으로 획득할 수 있습니다.[cite: 3]
+카오스게이트 보상으로 귀속 골드, 파편 주머니, 숨결, 각인서, 보석이 나오고 히든 관문 등장시 랜덤으로 거래 가능 골드를 보상으로 획득할 수 있습니다.
 
-모든 보상이 거래 가능하고 유물 각인서를 획득할 확률이 높기 때문에 보상 획득기회가 남아있다면 반드시 참여하는게 좋습니다.[cite: 3]
+모든 보상이 거래 가능하고 유물 각인서를 획득할 확률이 높기 때문에 보상 획득기회가 남아있다면 반드시 참여하는게 좋습니다.
 
-### 필드 보스[cite: 3]
+### 필드 보스
 
-![이미지 26](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0026.png)[cite: 3]
+![이미지 26](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0026.png)
 
-보상으로 보석, 각인서, 재련 재료를 얻을 수 있습니다.[cite: 3] 경매로 각인서와 카드가 나오는데 비싼 각인서가 나올 경우 분배금으로 꽤 많은 골드가 들어옵니다.[cite: 3]
+보상으로 보석, 각인서, 재련 재료를 얻을 수 있습니다. 경매로 각인서와 카드가 나오는데 비싼 각인서가 나올 경우 분배금으로 꽤 많은 골드가 들어옵니다.
 
-카게와 마찬가지로 보상 획득기회가 남아 있다면 반드시 참여하는게 좋습니다.[cite: 3]
+카게와 마찬가지로 보상 획득기회가 남아 있다면 반드시 참여하는게 좋습니다.
 
-### 태초의 섬[cite: 3]
+### 태초의 섬
 
-![이미지 27](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0027.png)[cite: 3]
+![이미지 27](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0027.png)
 
-일종의 배틀로얄 장르의 미니게임으로 15위 달성 시 3레벨 보석 상자를 받을 수 있습니다.[cite: 3]
+일종의 배틀로얄 장르의 미니게임으로 15위 달성 시 3레벨 보석 상자를 받을 수 있습니다.
 
-고인물들이 많고 티밍유저들도 있으니 그냥 맘 편하게 보석만 노리고 15등만 하시는게 좋습니다.[cite: 3]
+고인물들이 많고 티밍유저들도 있으니 그냥 맘 편하게 보석만 노리고 15등만 하시는게 좋습니다.
 
-## 생활[cite: 3]
+## 생활
 
-![이미지 28](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0028.png)[cite: 3]
+![이미지 28](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0028.png)
 
-매일 충전되는 생명의 기운을 소모해 생활 재료를 얻을 수 있습니다.[cite: 3] 뉴비들에게는 엔드 콘텐츠 획득 골드를 제외하면 가장 많은 골드를 벌 수 있는 방법입니다.[cite: 3]
+매일 충전되는 생명의 기운을 소모해 생활 재료를 얻을 수 있습니다. 뉴비들에게는 엔드 콘텐츠 획득 골드를 제외하면 가장 많은 골드를 벌 수 있는 방법입니다.
 
-생활 레벨이 낮을땐 크게 벌린다는 생각이 안들수도 있지만 생활 레벨이 올라가고 높은 등급의 도구를 맞추면 주간 획득 골드가 상당하니 꾸준히 생활을 해줍시다.[cite: 3]
+생활 레벨이 낮을땐 크게 벌린다는 생각이 안들수도 있지만 생활 레벨이 올라가고 높은 등급의 도구를 맞추면 주간 획득 골드가 상당하니 꾸준히 생활을 해줍시다.
 
-## 길드 혈석 상점 교환[cite: 3]
+## 길드 혈석 상점 교환
 
-![이미지 204](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0204.png)[cite: 3]
+![이미지 204](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0204.png)
 
-길드 활동을 통해 매주 실마엘 혈석을 획득하고 혈석 상점에서 필요한 물품을 교환할 수 있습니다.[cite: 3]
+길드 활동을 통해 매주 실마엘 혈석을 획득하고 혈석 상점에서 필요한 물품을 교환할 수 있습니다.
 
-파괴석 결정을 판매하거나 큐브 입장권을 구매해 큐브를 돌고 나온 보석을 판매해서 골드를 벌 수 있습니다.[cite: 3]
+파괴석 결정을 판매하거나 큐브 입장권을 구매해 큐브를 돌고 나온 보석을 판매해서 골드를 벌 수 있습니다.
 
-길드 활동에 관심이 없더라도 혈석 길드나 1인 길드를 통해 혈석 상점을 이용하시는게 좋습니다.[cite: 3]
+길드 활동에 관심이 없더라도 혈석 길드나 1인 길드를 통해 혈석 상점을 이용하시는게 좋습니다.
 
-## 림레이크 보석 교환[cite: 3]
+## 림레이크 보석 교환
 
-![이미지 29](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0029.png)[cite: 3]
+![이미지 29](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0029.png)
 
-림레이크 항구 앞바다에서 매시 정각~15분 / 30분~45분 출현하는 텀벙게 어업 길드선에서 주마다 1레벨 보석 상자를 구매할 수 있습니다.[cite: 3]
+림레이크 항구 앞바다에서 매시 정각~15분 / 30분~45분 출현하는 텀벙게 어업 길드선에서 주마다 1레벨 보석 상자를 구매할 수 있습니다.
 
-## 수집품[cite: 3]
+## 수집품
 
-![이미지 30](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0030.png)[cite: 3]
+![이미지 30](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0030.png)
 
-필드에서 사냥을 통해 모험의서 수집품을 획득해 판매하는 방법입니다.[cite: 3] 별로 추천드리는 방법은 아닙니다.[cite: 3]
+필드에서 사냥을 통해 모험의서 수집품을 획득해 판매하는 방법입니다. 별로 추천드리는 방법은 아닙니다.
 
-프로키온의 숨결은 가격이 비싼데 비싼 이유가 다 있습니다.[cite: 3] 가격이 비쌀수록 드랍률이 낮아서 이거 할 시간에 다른거 하는게 좋습니다.[cite: 3]
+프로키온의 숨결은 가격이 비싼데 비싼 이유가 다 있습니다. 가격이 비쌀수록 드랍률이 낮아서 이거 할 시간에 다른거 하는게 좋습니다.
 
-신규 대륙이 나올 경우 해당 대륙의 수집품이 비싸기 때문에 이때는 수집품 노가다를 하셔도 괜찮습니다.[cite: 3] 이때는 낮은 등급의 수집품도 가격이 비싸기 때문에 할만 합니다.[cite: 3]
+신규 대륙이 나올 경우 해당 대륙의 수집품이 비싸기 때문에 이때는 수집품 노가다를 하셔도 괜찮습니다. 이때는 낮은 등급의 수집품도 가격이 비싸기 때문에 할만 합니다.
 
-4인이 파티를 맺고 같이 하면 같은 화면에 있지 않아도 보상이 나오기 때문에 수집품 파티를 구해서 하시면 4배의 효율로 가능합니다.[cite: 3]
+4인이 파티를 맺고 같이 하면 같은 화면에 있지 않아도 보상이 나오기 때문에 수집품 파티를 구해서 하시면 4배의 효율로 가능합니다.
 
 ---
 
-# 8. 스펙업[cite: 4]
+# 8. 스펙업
 
-![이미지 66](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0066.png)[cite: 4]
+![이미지 66](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0066.png)
 
-로스트아크의 스펙업 요소들입니다.[cite: 4] 작성 순서가 스펙업 우선 순위가 아닙니다.[cite: 4] 우선 순위와 효율은 매 순간 달라지기 때문에 본인에 맞는 스펙업을 찾아서 하셔야 합니다.[cite: 4]
+로스트아크의 스펙업 요소들입니다. 작성 순서가 스펙업 우선 순위가 아닙니다. 우선 순위와 효율은 매 순간 달라지기 때문에 본인에 맞는 스펙업을 찾아서 하셔야 합니다.
 
-## 스펙업 순서[cite: 4]
+## 스펙업 순서
 
-로아는 레이드 입장 조건을 **아이템 레벨**로 설정하고 있습니다.[cite: 4] 그래서 아이템 레벨만 넘으면 입장이 가능한데 클리어가 가능한건 아닙니다.[cite: 4]
+로아는 레이드 입장 조건을 **아이템 레벨**로 설정하고 있습니다. 그래서 아이템 레벨만 넘으면 입장이 가능한데 클리어가 가능한건 아닙니다.
 
-시즌2까지는 아이템 레벨을 제외한 스펙업 요소가 많지 않아서 아이템 레벨만 봐도 충분했지만 시즌3는 아이템 레벨만으로는 제대로된 스펙을 보는게 힘들어졌고 전투력이라는 시스템이 나오게 됐습니다.[cite: 4]
+시즌2까지는 아이템 레벨을 제외한 스펙업 요소가 많지 않아서 아이템 레벨만 봐도 충분했지만 시즌3는 아이템 레벨만으로는 제대로된 스펙을 보는게 힘들어졌고 전투력이라는 시스템이 나오게 됐습니다.
 
-근데 문제는 아직도 입장 조건은 아이템 레벨이라서 결국 레이드에 가기 위해선 아이템 레벨을 제일 먼저 맞춰야 합니다.[cite: 4] 결국 1순위는 아이템 레벨입니다.[cite: 4]
+근데 문제는 아직도 입장 조건은 아이템 레벨이라서 결국 레이드에 가기 위해선 아이템 레벨을 제일 먼저 맞춰야 합니다. 결국 1순위는 아이템 레벨입니다.
 
-그 다음은 효율 순으로 가게 되는데 외부 사이트에서 쉽게 확인이 가능합니다.[cite: 4]
+그 다음은 효율 순으로 가게 되는데 외부 사이트에서 쉽게 확인이 가능합니다.
 
-[➡️ 로아업](https://loaup.com/) 스펙업 효율, 전투력 시뮬, 전투력 루트 등 다양한 정보를 얻을 수 있습니다.[cite: 4]
+[➡️ 로아업](https://loaup.com/) 스펙업 효율, 전투력 시뮬, 전투력 루트 등 다양한 정보를 얻을 수 있습니다.
 
-![이미지 67](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0067.png)[cite: 4]
+![이미지 67](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0067.png)
 
-[➡️ 로펙](https://lopec.kr/) 전투력 환산 지표를 보여주는 사이트입니다.[cite: 4] 해당 지표나 전투력을 사용해 스펙업 시뮬레이터와 가이드를 제공하고 있습니다.[cite: 4]
+[➡️ 로펙](https://lopec.kr/) 전투력 환산 지표를 보여주는 사이트입니다. 해당 지표나 전투력을 사용해 스펙업 시뮬레이터와 가이드를 제공하고 있습니다.
 
-![이미지 68](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0068.png)[cite: 4]
+![이미지 68](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0068.png)
 
-요약을 하자면 원하는 레이드 입장 레벨까지 아이템 레벨을 맞춘 후 효율표에 따라 순서대로 스펙업 하시면 됩니다.[cite: 4]
+요약을 하자면 원하는 레이드 입장 레벨까지 아이템 레벨을 맞춘 후 효율표에 따라 순서대로 스펙업 하시면 됩니다.
 
-## 재련[cite: 4]
+## 재련
 
-![이미지 70](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0070.png)[cite: 4]
+![이미지 70](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0070.png)
 
-[➡️ 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%AC%EB%A0%A8)[cite: 4]
+[➡️ 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%AC%EB%A0%A8)
 
-재련은 장비 아이템의 성장을 통해 아이템 레벨과 능력을 향상시킬 수 있는 성장의 핵심 시스템 중 하나입니다.[cite: 4]
+재련은 장비 아이템의 성장을 통해 아이템 레벨과 능력을 향상시킬 수 있는 성장의 핵심 시스템 중 하나입니다.
 
-로아의 모든 레이드는 '전투력'이 아닌 '아이템 레벨'을 기준으로 입장이 가능합니다.[cite: 4] 그렇기 때문에 레이드에 가기 위해서는 장비 재련을 최우선으로 하셔야 합니다.[cite: 4]
+로아의 모든 레이드는 '전투력'이 아닌 '아이템 레벨'을 기준으로 입장이 가능합니다. 그렇기 때문에 레이드에 가기 위해서는 장비 재련을 최우선으로 하셔야 합니다.
 
-### 재련 재료 수급처[cite: 4]
+### 재련 재료 수급처
 
-![이미지 71](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0071.png)[cite: 4]
+![이미지 71](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0071.png)
 
-대부분의 PVE 컨텐츠에서 획득이 가능합니다.[cite: 4]
+대부분의 PVE 컨텐츠에서 획득이 가능합니다.
 
-### 싱글 상점 주간 교환[cite: 4]
+### 싱글 상점 주간 교환
 
-![이미지 72](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0072.png)[cite: 4]
+![이미지 72](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0072.png)
 
-싱글 상점에서 클리어 메달을 사용해 다양한 재련 재료를 구매할 수 있습니다.[cite: 4]
+싱글 상점에서 클리어 메달을 사용해 다양한 재련 재료를 구매할 수 있습니다.
 
-클리어 메달은 싱글 모드가 있는 레이드를 난이도 상관없이 클리어 시 받을 수 있습니다.[cite: 4]
+클리어 메달은 싱글 모드가 있는 레이드를 난이도 상관없이 클리어 시 받을 수 있습니다.
 
-### 효율적인 재련 방법과 순서[cite: 4]
+### 효율적인 재련 방법과 순서
 
-![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)[cite: 4]
+![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)
 
-로스트아크에는 거래 가능한 재료와 귀속 재료가 나뉘어져있고 거래 가능 재료의 가격이 계속 변하기 때문에 효율적인 재련 순서나 방법이 매번 바뀌게 됩니다.[cite: 4]
+로스트아크에는 거래 가능한 재료와 귀속 재료가 나뉘어져있고 거래 가능 재료의 가격이 계속 변하기 때문에 효율적인 재련 순서나 방법이 매번 바뀌게 됩니다.
 
-보조 재료인 숨결이나 책을 사용하는 것이 이득일 때도 있고 오히려 손해인 경우도 있습니다.[cite: 4]
+보조 재료인 숨결이나 책을 사용하는 것이 이득일 때도 있고 오히려 손해인 경우도 있습니다.
 
-일반 재련보다 상급 재련을 먼저하는게 목표레벨 달성이 쉬운 구간이 있고 반대로 상급 재련이 일반 재련보다 효율적인 구간도 있습니다.[cite: 4]
+일반 재련보다 상급 재련을 먼저하는게 목표레벨 달성이 쉬운 구간이 있고 반대로 상급 재련이 일반 재련보다 효율적인 구간도 있습니다.
 
-예를들어 위의 사진은 효율적인 재련 순서를 알려주는 외부 사이트인데 방어구 재련 순서를 보시면 일반재련 12강 > 상급 재련 20 > 일반 재련 19강 > 상급 재련 40 순으로 효율이 좋다고 나와있습니다.[cite: 4]
+예를들어 위의 사진은 효율적인 재련 순서를 알려주는 외부 사이트인데 방어구 재련 순서를 보시면 일반재련 12강 > 상급 재련 20 > 일반 재련 19강 > 상급 재련 40 순으로 효율이 좋다고 나와있습니다.
 
-매번 재련 효율이 다르기 때문에 효율적인 재련 방법을 찾아서 재련을 하는게 좋은데 외부 사이트들을 사용하면 쉽게 찾을 수 있습니다.[cite: 4]
+매번 재련 효율이 다르기 때문에 효율적인 재련 방법을 찾아서 재련을 하는게 좋은데 외부 사이트들을 사용하면 쉽게 찾을 수 있습니다.
 
-[➡️ 재련 정보 사이트](#재련-정보) 재련 정보를 얻을 수 있는 외부 사이트 모음입니다.[cite: 4] 사이트 참고 하셔서 효율적인 재련 순서와 방법을 사용하시면 되겠습니다.[cite: 4]
+[➡️ 재련 정보 사이트](#재련-정보) 재련 정보를 얻을 수 있는 외부 사이트 모음입니다. 사이트 참고 하셔서 효율적인 재련 순서와 방법을 사용하시면 되겠습니다.
 
-### 특수 재련[cite: 4]
+### 특수 재련
 
-![이미지 73](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0073.png)[cite: 4]
+![이미지 73](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0073.png)
 
-특수 재련은 기존 재료를 쓰지 않고 특수 재련 재료만을 사용하여 재련을 하는 방식입니다.[cite: 4]
+특수 재련은 기존 재료를 쓰지 않고 특수 재련 재료만을 사용하여 재련을 하는 방식입니다.
 
-기존 재련 재료가 들어가지 않기 때문에 골드가 많이 필요없고 대신 장인의 기운은 오르지 않습니다.[cite: 4]
+기존 재련 재료가 들어가지 않기 때문에 골드가 많이 필요없고 대신 장인의 기운은 오르지 않습니다.
 
-특수 재련 재료는 레이드 클리어시 얻거나 낙원 지옥 콘텐츠에서 랜덤하게 얻을 수 있습니다.[cite: 4]
+특수 재련 재료는 레이드 클리어시 얻거나 낙원 지옥 콘텐츠에서 랜덤하게 얻을 수 있습니다.
 
-![이미지 74](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0074.png)[cite: 4]
+![이미지 74](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0074.png)
 
-지옥이 특수 재련의 핵심입니다.[cite: 4] 특수 재련은 원래 레이드에서 재료가 많이 나오지 않아서 붙으면 좋고 아니면 말고 수준이였는데 지옥에서 주는 특수 재련 재료의 보상량이 많아서 부캐릭터의 경우 매주 지옥을 돌아서 나온 특수 재련 재료 만으로도 1700 이상을 찍는게 가능해졌습니다.[cite: 4]
+지옥이 특수 재련의 핵심입니다. 특수 재련은 원래 레이드에서 재료가 많이 나오지 않아서 붙으면 좋고 아니면 말고 수준이였는데 지옥에서 주는 특수 재련 재료의 보상량이 많아서 부캐릭터의 경우 매주 지옥을 돌아서 나온 특수 재련 재료 만으로도 1700 이상을 찍는게 가능해졌습니다.
 
-지옥 보상 중 '특수 재련' 보상이 효율이 매우 좋으니 필요하다면 선택해서 사용하시면 좋겠습니다.[cite: 4]
+지옥 보상 중 '특수 재련' 보상이 효율이 매우 좋으니 필요하다면 선택해서 사용하시면 좋겠습니다.
 
-## 상급 재련[cite: 4]
+## 상급 재련
 
-![이미지 75](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0075.png)[cite: 4]
+![이미지 75](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0075.png)
 
-[➡️ 상급 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%81%EA%B8%89%20%EC%9E%AC%EB%A0%A8)[cite: 4]
+[➡️ 상급 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%81%EA%B8%89%20%EC%9E%AC%EB%A0%A8)
 
-상급 재련은 일반 재련과 다른 방식으로 진행되는 재련입니다.[cite: 4]
+상급 재련은 일반 재련과 다른 방식으로 진행되는 재련입니다.
 
-![이미지 76](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0076.png)[cite: 4]
+![이미지 76](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0076.png)
 
-상급 재련을 하기 위해서는 먼저 담금질이 필요한데 10단계와 20단계를 하기 위해서는 카제로스 레이드 서막 클리어 보상이 필요하고 30단계와 40단계를 위해서는 3막 클리어 보상이 필요합니다.[cite: 4]
+상급 재련을 하기 위해서는 먼저 담금질이 필요한데 10단계와 20단계를 하기 위해서는 카제로스 레이드 서막 클리어 보상이 필요하고 30단계와 40단계를 위해서는 3막 클리어 보상이 필요합니다.
 
-![이미지 77](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0077.png)[cite: 4]
+![이미지 77](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0077.png)
 
-상급 재련은 확률에 의해 성공 / 대성공 / 대성공x2 의 결과를 얻을 수 있는데 보조 재료와 재봉술/야금술을 사용해 대성공/대성공x2 의 확률을 올릴 수 있습니다.[cite: 4]
+상급 재련은 확률에 의해 성공 / 대성공 / 대성공x2 의 결과를 얻을 수 있는데 보조 재료와 재봉술/야금술을 사용해 대성공/대성공x2 의 확률을 올릴 수 있습니다.
 
-![이미지 78](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0078.png)[cite: 4]
+![이미지 78](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0078.png)
 
-상급 재련을 3번 진행하면 선조의 가호를 받을 수 있습니다.[cite: 4] 확률에 따라 추가 효과가 발동되는데 테메르의 정을 제외한 효과들이 모두 좋아서 가능하다면 선조의 가호 턴에는 추가 재료를 넣어주시는게 좋습니다.[cite: 4]
+상급 재련을 3번 진행하면 선조의 가호를 받을 수 있습니다. 확률에 따라 추가 효과가 발동되는데 테메르의 정을 제외한 효과들이 모두 좋아서 가능하다면 선조의 가호 턴에는 추가 재료를 넣어주시는게 좋습니다.
 
-### 선택 재료[cite: 4]
+### 선택 재료
 
-숨결, 야금술/재봉술의 가격이 항상 변하기 때문에 추가 재료를 넣는게 좋을때도 있고 넣지 않는게 더 좋을때도 있습니다.[cite: 4]
+숨결, 야금술/재봉술의 가격이 항상 변하기 때문에 추가 재료를 넣는게 좋을때도 있고 넣지 않는게 더 좋을때도 있습니다.
 
-어떤 추가 재료를 어느 타이밍에 사용하는게 좋은지는 외부 사이트에서 쉽게 확인할 수 있습니다[cite: 4]
+어떤 추가 재료를 어느 타이밍에 사용하는게 좋은지는 외부 사이트에서 쉽게 확인할 수 있습니다
 
-![이미지 236](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0236.png)[cite: 4]
+![이미지 236](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0236.png)
 
-[➡️ 로아업](https://loaup.com/refine-efficiency)[cite: 4]
+[➡️ 로아업](https://loaup.com/refine-efficiency)
 
-![이미지 237](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0237.png)[cite: 4]
+![이미지 237](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0237.png)
 
-[➡️ 로아또](https://loatto.kr/advanced-refining)[cite: 4]
+[➡️ 로아또](https://loatto.kr/advanced-refining)
 
-![이미지 238](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0238.png)[cite: 4]
+![이미지 238](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0238.png)
 
-[➡️ 아이스펭](https://loa.icepeng.com/advanced-refining)[cite: 4]
+[➡️ 아이스펭](https://loa.icepeng.com/advanced-refining)
 
-이런 사이트들에서 본인이 가지고 있는 귀속 재화를 입력하고 최적의 효율을 찾아서 상급재련을 진행하시면 됩니다.[cite: 4]
+이런 사이트들에서 본인이 가지고 있는 귀속 재화를 입력하고 최적의 효율을 찾아서 상급재련을 진행하시면 됩니다.
 
-### 상급 재련 순서[cite: 4]
+### 상급 재련 순서
 
-![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)[cite: 4]
+![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)
 
-일반 재련에서도 설명을 했지만 재련과 상급 재련은 효율이 바뀌는 구간이 존재합니다.[cite: 4] 물론 최종적으로는 둘 다 하는게 맞지만 저레벨 구간에서는 효율이 더 좋은 방법을 먼저 사용하는게 좋기 때문에 재련에서 설명한 것처럼 외부 사이트를 활용해 효율적인 순서로 재련을 하시는게 좋습니다.[cite: 4]
+일반 재련에서도 설명을 했지만 재련과 상급 재련은 효율이 바뀌는 구간이 존재합니다. 물론 최종적으로는 둘 다 하는게 맞지만 저레벨 구간에서는 효율이 더 좋은 방법을 먼저 사용하는게 좋기 때문에 재련에서 설명한 것처럼 외부 사이트를 활용해 효율적인 순서로 재련을 하시는게 좋습니다.
 
-## 각인[cite: 4]
+## 각인
 
-![이미지 79](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0079.png)[cite: 4]
-![이미지 80](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0080.png)[cite: 4]
+![이미지 79](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0079.png)
+![이미지 80](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0080.png)
 
-[➡️ 각인](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8)[cite: 4]
+[➡️ 각인](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8)
 
-각인은 전투와 관련된 다양한 효과를 얻을 수 있는 시스템으로 원정대 단위로 공유됩니다.[cite: 4] 각인 및 어빌리티 스톤을 장착하여 활성화 할 수 있습니다.[cite: 4]
+각인은 전투와 관련된 다양한 효과를 얻을 수 있는 시스템으로 원정대 단위로 공유됩니다. 각인 및 어빌리티 스톤을 장착하여 활성화 할 수 있습니다.
 
-습득한 각인들 중 원하는 각인을 선택해서 최대 5개를 장착하게 되는데 각인은 습득한 각인서의 등급에 따라 전설/유물 등급으로 나뉘게 됩니다.[cite: 4]
+습득한 각인들 중 원하는 각인을 선택해서 최대 5개를 장착하게 되는데 각인은 습득한 각인서의 등급에 따라 전설/유물 등급으로 나뉘게 됩니다.
 
-각인서는 5장 습득마다 1단계씩 활성화되며 전설 각인서 20장(전설 4단계)을 읽으면 유물 각인서를 읽는게 가능해집니다.[cite: 4]
+각인서는 5장 습득마다 1단계씩 활성화되며 전설 각인서 20장(전설 4단계)을 읽으면 유물 각인서를 읽는게 가능해집니다.
 
-유물 각인서도 마찬가지로 최대 20장을 읽을 수 있는데 가격이 상당히 비쌉니다.[cite: 4] 진짜 많이 비쌉니다.[cite: 4]
+유물 각인서도 마찬가지로 최대 20장을 읽을 수 있는데 가격이 상당히 비쌉니다. 진짜 많이 비쌉니다.
 
-본인 스펙업 효율 생각해서 현명하게 구매하시길 바랍니다.[cite: 4]
+본인 스펙업 효율 생각해서 현명하게 구매하시길 바랍니다.
 
-![이미지 81](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0081.png)[cite: 4]
+![이미지 81](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0081.png)
 
-나락에서 보상으로 귀속 랜덤 유물 각인서 상자가 나오기 때문에 최고의 가성비를 노린다면 유물 각인서는 3단계만 활성화하고 나락에서 나오길 기다려도 됩니다.[cite: 4]
+나락에서 보상으로 귀속 랜덤 유물 각인서 상자가 나오기 때문에 최고의 가성비를 노린다면 유물 각인서는 3단계만 활성화하고 나락에서 나오길 기다려도 됩니다.
 
-## 어빌리티 스톤[cite: 4]
+## 어빌리티 스톤
 
-![이미지 82](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0082.png)[cite: 4]
+![이미지 82](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0082.png)
 
-[➡️ 어빌리티 스톤](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8#h3-2)[cite: 4]
+[➡️ 어빌리티 스톤](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8#h3-2)
 
-어빌리티 스톤은 각인서와 함께 더 높은 수준의 '각인 효과'를 활성화 시킬 수 있는 아이템입니다.[cite: 4]
+어빌리티 스톤은 각인서와 함께 더 높은 수준의 '각인 효과'를 활성화 시킬 수 있는 아이템입니다.
 
-기본적으로 체력 증가 효과를 제공하며, 어빌리티 스톤 내에 깃들어 있는 각인 효과를 통해 추가 효과를 얻을 수 있습니다.[cite: 4]
+기본적으로 체력 증가 효과를 제공하며, 어빌리티 스톤 내에 깃들어 있는 각인 효과를 통해 추가 효과를 얻을 수 있습니다.
 
-그러나 모든 능력치를 활성화 할 수 있는 것은 아니며, 활성화 시 감소되는 능력치 역시 함께 깃들어 있기 때문에 정밀한 세공을 필요로 합니다.[cite: 4]
+그러나 모든 능력치를 활성화 할 수 있는 것은 아니며, 활성화 시 감소되는 능력치 역시 함께 깃들어 있기 때문에 정밀한 세공을 필요로 합니다.
 
-세공 성공 6/7/9/10회마다 세공 레벨 1/2/3/4레벨에 해당하는 어빌리티 스톤 효과가 부여됩니다.[cite: 4]
+세공 성공 6/7/9/10회마다 세공 레벨 1/2/3/4레벨에 해당하는 어빌리티 스톤 효과가 부여됩니다.
 
-### 97돌[cite: 4]
+### 97돌
 
-![이미지 239](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0239.png)[cite: 4]
+![이미지 239](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0239.png)
 
-어빌리티 스톤에 부여된 2개의 증가 효과 각인(전투 각인)의 세공 레벨 합이 5 이상이라면 기본 공격력 1.5% 증가 효과가 적용됩니다.[cite: 4]
+어빌리티 스톤에 부여된 2개의 증가 효과 각인(전투 각인)의 세공 레벨 합이 5 이상이라면 기본 공격력 1.5% 증가 효과가 적용됩니다.
 
-'세공 레벨 합이 5 이상' 이 조건을 만족하는 어빌리티 스톤을 97돌이라고 합니다.[cite: 4] 하나가 3단계(9성공), 나머지 하나가 2단계(7성공) 이상인 돌을 말하는데 이게 성공 확률이 굉장히 낮습니다.[cite: 4] 돌파고에 물어보면 0.136% 정도라고 나오는데 굉장히 낮은 확률이죠.[cite: 4]
+'세공 레벨 합이 5 이상' 이 조건을 만족하는 어빌리티 스톤을 97돌이라고 합니다. 하나가 3단계(9성공), 나머지 하나가 2단계(7성공) 이상인 돌을 말하는데 이게 성공 확률이 굉장히 낮습니다. 돌파고에 물어보면 0.136% 정도라고 나오는데 굉장히 낮은 확률이죠.
 
-그런데 어빌리티 스톤은 천장이 없습니다.[cite: 4] 재련은 장인의 기운이 있고 각인도 20장이 최대고 보석은 10레벨이 끝입니다.[cite: 4] 장신구도 상상상이 끝이고 카드도 30각이 끝입니다.[cite: 4] 근데 97돌이랑 팔찌는 천장이 없습니다.[cite: 4] 진짜 운이 없다면 몇천만원 쓰고도 못깎습니다.[cite: 4]
+그런데 어빌리티 스톤은 천장이 없습니다. 재련은 장인의 기운이 있고 각인도 20장이 최대고 보석은 10레벨이 끝입니다. 장신구도 상상상이 끝이고 카드도 30각이 끝입니다. 근데 97돌이랑 팔찌는 천장이 없습니다. 진짜 운이 없다면 몇천만원 쓰고도 못깎습니다.
 
-그러니 97돌이랑 팔찌는 마지막에 하셔야 합니다.[cite: 4]
+그러니 97돌이랑 팔찌는 마지막에 하셔야 합니다.
 
-[➡️ 자동 세공 확률 공개](https://lostark.game.onstove.com/Probability/%EC%96%B4%EB%B9%8C%EB%A6%AC%ED%8B%B0%20%EC%8A%A4%ED%86%A4%20%EC%9E%90%EB%8F%99%20%EC%84%B8%EA%B3%B5)[cite: 4]
+[➡️ 자동 세공 확률 공개](https://lostark.game.onstove.com/Probability/%EC%96%B4%EB%B9%8C%EB%A6%AC%ED%8B%B0%20%EC%8A%A4%ED%86%A4%20%EC%9E%90%EB%8F%99%20%EC%84%B8%EA%B3%B5)
 
-공개된 자동 세공 확률표를 보면 세공 레벨 합이[cite: 4]
+공개된 자동 세공 확률표를 보면 세공 레벨 합이
 
-* 5 이상일 확률: 0.13410497373900000000000000%[cite: 4]
-* 6 이상일 확률: 0.00381178684834200000000000%[cite: 4]
-* 7 이상일 확률: 0.00001320761073040000000000%[cite: 4]
-* 8 이상일 확률: 0.00000014983300745100000000%[cite: 4]
+* 5 이상일 확률: 0.13410497373900000000000000%
+* 6 이상일 확률: 0.00381178684834200000000000%
+* 7 이상일 확률: 0.00001320761073040000000000%
+* 8 이상일 확률: 0.00000014983300745100000000%
 
-저 확률에 천장도 없으니까 무리하지말고 천천히 깎으시길 바랍니다.[cite: 4]
+저 확률에 천장도 없으니까 무리하지말고 천천히 깎으시길 바랍니다.
 
-### 어빌리티 스톤 지정 키트[cite: 4]
+### 어빌리티 스톤 지정 키트
 
-![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0083.png)[cite: 4]
+![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0083.png)
 
-낙원 지옥 보상으로 비상의 돌 각인 지정 키트 를 얻을 수 있습니다.[cite: 4]
+낙원 지옥 보상으로 비상의 돌 각인 지정 키트 를 얻을 수 있습니다.
 
-사용 시 본인이 원하는 돌을 설정해서 얻을 수 있습니다.[cite: 4]
+사용 시 본인이 원하는 돌을 설정해서 얻을 수 있습니다.
 
-돌 깎을때 가장 비싼게 페온입니다.[cite: 4] 돌 가격은 이미 바닥이기 때문에 문제가 없는데 돌 살때 사용하는 페온의 가격이 비쌉니다.[cite: 4]
+돌 깎을때 가장 비싼게 페온입니다. 돌 가격은 이미 바닥이기 때문에 문제가 없는데 돌 살때 사용하는 페온의 가격이 비쌉니다.
 
-그런데 키트를 사용하면 페온값 없이 돌을 구할 수 있기 때문에 만약 97돌을 노릴 생각이시라면 지옥에서 선택지가 나오면 고려할만 합니다.[cite: 4]
+그런데 키트를 사용하면 페온값 없이 돌을 구할 수 있기 때문에 만약 97돌을 노릴 생각이시라면 지옥에서 선택지가 나오면 고려할만 합니다.
 
-## 보석[cite: 4]
+## 보석
 
-![이미지 84](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0084.png)[cite: 4]
+![이미지 84](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0084.png)
 
-[➡️ 보석](https://lostark.game.onstove.com/GameGuide/Pages/%EB%B3%B4%EC%84%9D)[cite: 4]
+[➡️ 보석](https://lostark.game.onstove.com/GameGuide/Pages/%EB%B3%B4%EC%84%9D)
 
-보석은 스킬을 강화해주는 아이템으로 스킬 대미지를 올려주는 겁화 / 쿨타임을 줄여주는 작열 2종류가 있습니다.[cite: 4]
+보석은 스킬을 강화해주는 아이템으로 스킬 대미지를 올려주는 겁화 / 쿨타임을 줄여주는 작열 2종류가 있습니다.
 
-보석은 레벨에 따라 효과가 달라지며 10레벨이 최고레벨입니다.[cite: 4]
+보석은 레벨에 따라 효과가 달라지며 10레벨이 최고레벨입니다.
 
-보석은 1개의 스킬만을 강화해주는데 원하는 스킬이 아니라면 실링을 사용해 다른 스킬로 변환이 가능합니다.[cite: 4]
+보석은 1개의 스킬만을 강화해주는데 원하는 스킬이 아니라면 실링을 사용해 다른 스킬로 변환이 가능합니다.
 
-### 보석 조율 광휘의 보석[cite: 4]
+### 보석 조율 광휘의 보석
 
-![이미지 85](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0085.png)[cite: 4]
+![이미지 85](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0085.png)
 
-4티어 보석은 광휘의 보석으로 조율이 가능하며 광휘의 보석은 겁화↔작열을 마음대로 바꿀 수 있고 효과 변환도 무료로 가능합니다.[cite: 4]
+4티어 보석은 광휘의 보석으로 조율이 가능하며 광휘의 보석은 겁화↔작열을 마음대로 바꿀 수 있고 효과 변환도 무료로 가능합니다.
 
-대신 캐릭터 귀속으로 바뀌게 되며 조율을 풀기 위해서는 15일을 기다리거나 크리스탈을 소모해야 합니다.[cite: 4]
+대신 캐릭터 귀속으로 바뀌게 되며 조율을 풀기 위해서는 15일을 기다리거나 크리스탈을 소모해야 합니다.
 
-### 싱글 상점 6레벨 광휘의 보석[cite: 4]
+### 싱글 상점 6레벨 광휘의 보석
 
-![이미지 86](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0086.png)[cite: 4]
+![이미지 86](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0086.png)
 
-싱글 상점에서 6레벨 광휘의 보석을 구입할 수 있습니다.[cite: 4]
+싱글 상점에서 6레벨 광휘의 보석을 구입할 수 있습니다.
 
-일명 협찬 보석인데 로아는 보석이 큰 진입장벽으로 작용하기 때문에 이를 완화하기 위해 나온 정책입니다.[cite: 4]
+일명 협찬 보석인데 로아는 보석이 큰 진입장벽으로 작용하기 때문에 이를 완화하기 위해 나온 정책입니다.
 
-6광휘만 하더라도 다른 스펙업이 충분하다면 대부분의 숙제 콘텐츠가 가능하니까 우선은 6광휘 사용하시다가 상위레벨 보석 구매하시면 됩니다.[cite: 4]
+6광휘만 하더라도 다른 스펙업이 충분하다면 대부분의 숙제 콘텐츠가 가능하니까 우선은 6광휘 사용하시다가 상위레벨 보석 구매하시면 됩니다.
 
-### 골드 상점 7레벨 광휘의 보석[cite: 4]
+### 골드 상점 7레벨 광휘의 보석
 
-![이미지 87](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0087.png)[cite: 4]
-![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0088.png)[cite: 4]
+![이미지 87](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0087.png)
+![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0088.png)
 
-골드 상점에서 7레벨 광휘의 보석 11개를 구매할 수 있습니다.[cite: 4]
+골드 상점에서 7레벨 광휘의 보석 11개를 구매할 수 있습니다.
 
-귀속 골드로 구매가 가능하기 때문에 부캐릭터 육성에 부담이 많이 줄었습니다.[cite: 4]
+귀속 골드로 구매가 가능하기 때문에 부캐릭터 육성에 부담이 많이 줄었습니다.
 
-### 나이스단[cite: 4]
+### 나이스단
 
-![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0089.png)[cite: 4]
+![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0089.png)
 
-나이스단은 동일 직업을 여러개 키워 보석을 공유하는 원정대 구성을 의미합니다.[cite: 4]
+나이스단은 동일 직업을 여러개 키워 보석을 공유하는 원정대 구성을 의미합니다.
 
-어원은 데헌'나이스' 입니다.[cite: 4] 참고로 저 사람은 로아 접고 디아블로4 버스광고 하던게 마지막 목격담입니다.[cite: 4]
+어원은 데헌'나이스' 입니다. 참고로 저 사람은 로아 접고 디아블로4 버스광고 하던게 마지막 목격담입니다.
 
-보석은 광휘로 변환하지 않으면 공유가 가능한대 같은 직업이라면 스킬변환 없이 사용이 가능하기 때문에 같은 직업으로만 원정대를 구성해서 보석을 돌려쓰는 사람들을 나이스단이라고 표현합니다.[cite: 4]
+보석은 광휘로 변환하지 않으면 공유가 가능한대 같은 직업이라면 스킬변환 없이 사용이 가능하기 때문에 같은 직업으로만 원정대를 구성해서 보석을 돌려쓰는 사람들을 나이스단이라고 표현합니다.
 
-효율은 정말 좋습니다.[cite: 4] 보석을 1세트만 사면 되기 때문에 비나이스단과 비교했을 때 같은 금액으로 더 높은 레벨의 보석을 사용 가능하며 동일 직업이라면 각인도 공유하기 때문에 비나이스단에 비해 더 높은 전투력으로 파티가입도 편하고 숙제도 쉽게 뺄 수 있습니다.[cite: 4]
+효율은 정말 좋습니다. 보석을 1세트만 사면 되기 때문에 비나이스단과 비교했을 때 같은 금액으로 더 높은 레벨의 보석을 사용 가능하며 동일 직업이라면 각인도 공유하기 때문에 비나이스단에 비해 더 높은 전투력으로 파티가입도 편하고 숙제도 쉽게 뺄 수 있습니다.
 
-추천을 하냐고 물으시면 효율면에서는 당연히 추천하는게 맞는대 동일 직업으로만 플레이하는게 사람에 따라선 정말 재미없게 느껴지기 때문에 직접적으로 추천드리지는 않습니다.[cite: 4]
+추천을 하냐고 물으시면 효율면에서는 당연히 추천하는게 맞는대 동일 직업으로만 플레이하는게 사람에 따라선 정말 재미없게 느껴지기 때문에 직접적으로 추천드리지는 않습니다.
 
-## 카드[cite: 4]
+## 카드
 
-![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0090.png)[cite: 4]
+![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0090.png)
 
-[➡️ 카드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%B9%B4%EB%93%9C)[cite: 4]
+[➡️ 카드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%B9%B4%EB%93%9C)
 
-한때 뉴비 절단기 1호였던 시스템입니다.[cite: 4] 한 종류의 카드를 16장을 모아 5각성을 하게 되는데 세트효과를 맞추기 위해서는 6개의 5각성 카드가 필요합니다.[cite: 4]
+한때 뉴비 절단기 1호였던 시스템입니다. 한 종류의 카드를 16장을 모아 5각성을 하게 되는데 세트효과를 맞추기 위해서는 6개의 5각성 카드가 필요합니다.
 
-가장 많이 쓰이는 세상을 구한 빛, 일명 세구빛 30각을 위해서 80장의 전설 카드가 필요하다는 의미죠.[cite: 4]
+가장 많이 쓰이는 세상을 구한 빛, 일명 세구빛 30각을 위해서 80장의 전설 카드가 필요하다는 의미죠.
 
-물론 지금은 익스프레스 진행 시 세구빛 30각을 지원해주기 때문에 큰 문제 없습니다.[cite: 4]
+물론 지금은 익스프레스 진행 시 세구빛 30각을 지원해주기 때문에 큰 문제 없습니다.
 
-세구빛 외에 다른 속성 세트인 암구빛, 토구빛, 화구빛, 뇌구빛, 수구빛 세트가 있는데 뉴비의 영역이 아닙니다.[cite: 4] 고인물들의 영역이니까 뉴비들은 천천히 맞추시면 되겠습니다.[cite: 4]
+세구빛 외에 다른 속성 세트인 암구빛, 토구빛, 화구빛, 뇌구빛, 수구빛 세트가 있는데 뉴비의 영역이 아닙니다. 고인물들의 영역이니까 뉴비들은 천천히 맞추시면 되겠습니다.
 
-어차피 뉴비들이 이거 필요한 레이드 나올 쯤이면 완화해서 맞추기 쉬워질겁니다.[cite: 4]
+어차피 뉴비들이 이거 필요한 레이드 나올 쯤이면 완화해서 맞추기 쉬워질겁니다.
 
-### 카드 수급처[cite: 4]
+### 카드 수급처
 
-#### 모험섬[cite: 4]
+#### 모험섬
 
-![이미지 90](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0091.png)[cite: 4]
+![이미지 90](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0091.png)
 
-모험섬 보상으로 카드가 들어있습니다.[cite: 4] 골드섬이 있는게 아니라면 대부분 카드섬을 갑니다.[cite: 4]
+모험섬 보상으로 카드가 들어있습니다. 골드섬이 있는게 아니라면 대부분 카드섬을 갑니다.
 
-#### 카드작[cite: 4]
+#### 카드작
 
-![이미지 91](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0092.png)[cite: 4]
+![이미지 91](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0092.png)
 
-엔드 콘텐츠는 골드 획득 3회 이후부터는 골드는 획득하지 못하지만 다른 보상은 획득이 가능합니다.[cite: 4]
+엔드 콘텐츠는 골드 획득 3회 이후부터는 골드는 획득하지 못하지만 다른 보상은 획득이 가능합니다.
 
-전설 카드 역시 획득이 가능한데 이를 이용해 보상으로 카드를 주는 하위 레이드를 도는걸 카드작이라고 합니다.[cite: 4]
+전설 카드 역시 획득이 가능한데 이를 이용해 보상으로 카드를 주는 하위 레이드를 도는걸 카드작이라고 합니다.
 
-싱글 모드로 플레이가능한 레이드 위주로 많이 돕니다.[cite: 4]
+싱글 모드로 플레이가능한 레이드 위주로 많이 돕니다.
 
-#### 떠돌이 상인[cite: 4]
+#### 떠돌이 상인
 
-![이미지 92](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0093.png)[cite: 4]
+![이미지 92](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0093.png)
 
-로아에는 떠돌이 상인 NPC가 있습니다[cite: 4]
+로아에는 떠돌이 상인 NPC가 있습니다
 
-10시~15시 30분 / 16시~21시 30분 / 22시~03시 30분 / 04시~09시 30분에 대륙별로 출현을 하는데 판매 품목중에 카드가 있고 몇몇 대륙의 경우 전설 카드를 판매하기도 합니다.[cite: 4]
+10시~15시 30분 / 16시~21시 30분 / 22시~03시 30분 / 04시~09시 30분에 대륙별로 출현을 하는데 판매 품목중에 카드가 있고 몇몇 대륙의 경우 전설 카드를 판매하기도 합니다.
 
-실링만으로 전설 카드 구매가 가능하기 때문에 대륙별로 판매하는 전설 카드 확인하시고 시간별로 확인해서 필요한 카드 구매하시면 되겠습니다.[cite: 4]
+실링만으로 전설 카드 구매가 가능하기 때문에 대륙별로 판매하는 전설 카드 확인하시고 시간별로 확인해서 필요한 카드 구매하시면 되겠습니다.
 
 | 지역 | 획득 가능 카드 |
 |---|---|
@@ -1016,88 +1016,88 @@ title: 내 프로젝트 문서
 | 볼다이크 | 바르칸 |
 | 쿠르잔 북부 | 카멘 |
 
-[cite: 4]
 
-#### 일회성 수급처[cite: 4]
 
-[➡️ https://gall.dcinside.com/mgallery/board/view/?id=loaon&no=2459029](https://gall.dcinside.com/mgallery/board/view/?id=loaon&no=2459029)[cite: 4]
+#### 일회성 수급처
 
-위 링크 참고 하시면 좋을것 같습니다.[cite: 4]
+[➡️ https://gall.dcinside.com/mgallery/board/view/?id=loaon&no=2459029](https://gall.dcinside.com/mgallery/board/view/?id=loaon&no=2459029)
 
-## 장신구 연마[cite: 4]
+위 링크 참고 하시면 좋을것 같습니다.
 
-![이미지 93](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0094.png)[cite: 4]
+## 장신구 연마
 
-[➡️ 장신구 연마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EC%8B%A0%EA%B5%AC%20%EC%97%B0%EB%A7%88)[cite: 4]
+![이미지 93](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0094.png)
 
-장신구는 연마를 통해 아크 패시브 포인트와 연마 효과를 얻을 수 있습니다.[cite: 4]
+[➡️ 장신구 연마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EC%8B%A0%EA%B5%AC%20%EC%97%B0%EB%A7%88)
 
-아크 패시브 포인트는 품질 에 따라 부여가 되는데 66 이상이면 최대 포인트가 되니까 크게 신경쓸 필요는 없습니다.[cite: 4]
+장신구는 연마를 통해 아크 패시브 포인트와 연마 효과를 얻을 수 있습니다.
 
-연마 효과가 메인인데 연마 효과는 같은 옵션이라도 등급에 따라 효과가 다릅니다.[cite: 4] 그리고 옵션은 중복해서 나오지 않기 때문에 유효 옵션 중 높은 등급의 옵션을 가진 장신구를 사용해야 합니다.[cite: 4]
+아크 패시브 포인트는 품질 에 따라 부여가 되는데 66 이상이면 최대 포인트가 되니까 크게 신경쓸 필요는 없습니다.
 
-예를들어 딜러의 경우 귀걸이에서 유효 옵션으로 공격력 % 와 무기 공격력 %가 있고 이 2개의 옵션이 어떻게 붙었느냐에 따라 상상/상중/상단일/중중 등 장신구의 효과가 결정됩니다.[cite: 4] 공격력 1.55% 와 무기 공격력 1.8%가 붙었다면 상중 귀걸이가 되는식입니다.[cite: 4]
+연마 효과가 메인인데 연마 효과는 같은 옵션이라도 등급에 따라 효과가 다릅니다. 그리고 옵션은 중복해서 나오지 않기 때문에 유효 옵션 중 높은 등급의 옵션을 가진 장신구를 사용해야 합니다.
 
-![이미지 203](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0203.png)[cite: 4]
+예를들어 딜러의 경우 귀걸이에서 유효 옵션으로 공격력 % 와 무기 공격력 %가 있고 이 2개의 옵션이 어떻게 붙었느냐에 따라 상상/상중/상단일/중중 등 장신구의 효과가 결정됩니다. 공격력 1.55% 와 무기 공격력 1.8%가 붙었다면 상중 귀걸이가 되는식입니다.
 
-왼쪽부터 상상/상중/상하/중중/상단일 악세로 왼쪽으로 갈수록 성능이 좋습니다.[cite: 4]
+![이미지 203](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0203.png)
 
-뉴비들이라면 상하~상단일 정도를 사용하시는게 좋습니다.[cite: 4]
+왼쪽부터 상상/상중/상하/중중/상단일 악세로 왼쪽으로 갈수록 성능이 좋습니다.
 
-![이미지 95](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0095.png)[cite: 4]
-![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0096.png)[cite: 4]
+뉴비들이라면 상하~상단일 정도를 사용하시는게 좋습니다.
 
-골드 상점에서 장신구를 구매할 수 있습니다.[cite: 4] 귀속 골드로 구매가 가능하지만 거래소에서 구매할 경우 페온을 사용하지만 가격은 훨씬 더 싸기 때문에 남는 페온이 있다면 거래소에서 사셔도 됩니다.[cite: 4]
+![이미지 95](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0095.png)
+![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0096.png)
 
-저 정도 악세로 초반에 대부분의 컨텐츠가 가능하니까 악세 부담없이 뉴비나 복귀유저가 세팅할 수 있게 됐습니다.[cite: 4]
+골드 상점에서 장신구를 구매할 수 있습니다. 귀속 골드로 구매가 가능하지만 거래소에서 구매할 경우 페온을 사용하지만 가격은 훨씬 더 싸기 때문에 남는 페온이 있다면 거래소에서 사셔도 됩니다.
 
-## 팔찌[cite: 4]
+저 정도 악세로 초반에 대부분의 컨텐츠가 가능하니까 악세 부담없이 뉴비나 복귀유저가 세팅할 수 있게 됐습니다.
 
-![이미지 97](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0097.png)[cite: 4]
+## 팔찌
 
-[➡️ 팔찌](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EB%B9%84#h3-2)[cite: 4]
+![이미지 97](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0097.png)
 
-팔찌는 달성 아이템 레벨 1490 이후 부터 획득 및 착용 가능한 장신구 아이템입니다.[cite: 4]
+[➡️ 팔찌](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EB%B9%84#h3-2)
 
-팔찌가 보유하고 있는 효과를 통해 전투에 도움이 되는 다양한 스탯, 특성, 특수 효과를 얻을 수 있습니다.[cite: 4]
+팔찌는 달성 아이템 레벨 1490 이후 부터 획득 및 착용 가능한 장신구 아이템입니다.
 
-팔찌는 고정 효과와 부여 효과로 구분 됩니다.[cite: 4]
+팔찌가 보유하고 있는 효과를 통해 전투에 도움이 되는 다양한 스탯, 특성, 특수 효과를 얻을 수 있습니다.
 
-고정 효과는 팔찌 습득 시 자동으로 고정되어 있는 효과들로 무작위로 부여되며 변경할 수 없습니다.[cite: 4]
+팔찌는 고정 효과와 부여 효과로 구분 됩니다.
 
-부여 효과는 최대 3개까지 부여가 가능하며 팔찌 습득 시 슬롯의 갯수가 랜덤하게 부여됩니다.[cite: 4]
+고정 효과는 팔찌 습득 시 자동으로 고정되어 있는 효과들로 무작위로 부여되며 변경할 수 없습니다.
 
-슬롯은 NPC를 통해 효과 기본 4회 부여가 가능하고 팔찌 효과 재변환권을 사용해 3회 추가 변경이 가능합니다.[cite: 4]
+부여 효과는 최대 3개까지 부여가 가능하며 팔찌 습득 시 슬롯의 갯수가 랜덤하게 부여됩니다.
 
-직업에 맞는 전투 특성 2개를 고정 효과로 갖고 부여 효과 3줄을 유효로 갖는 팔찌를 만드는게 목표입니다.[cite: 4]
+슬롯은 NPC를 통해 효과 기본 4회 부여가 가능하고 팔찌 효과 재변환권을 사용해 3회 추가 변경이 가능합니다.
 
-팔찌는 엔드급을 노리는게 아니라면 효율이 좋은 편입니다.[cite: 4] 특성 2줄 + 특옵 2줄 정도라면 그렇게 큰 돈안쓰고 뽑을 수 있는데 효율이 좋은 편이니 그정도는 뉴비가 뽑으셔도 괜찮습니다.[cite: 4]
+직업에 맞는 전투 특성 2개를 고정 효과로 갖고 부여 효과 3줄을 유효로 갖는 팔찌를 만드는게 목표입니다.
 
-팔찌에서 가장 중요한 점은 97돌과 마찬가지로 천장이 없습니다.[cite: 4] 운이 없으면 억을 박아도 안나오는게 팔찌입니다.[cite: 4]
+팔찌는 엔드급을 노리는게 아니라면 효율이 좋은 편입니다. 특성 2줄 + 특옵 2줄 정도라면 그렇게 큰 돈안쓰고 뽑을 수 있는데 효율이 좋은 편이니 그정도는 뉴비가 뽑으셔도 괜찮습니다.
 
-적당한 팔찌 뽑으면 천장있는 다른 스펙업 먼저 하시고 마지막에 97돌이랑 같이 하시길 바랍니다.[cite: 4]
+팔찌에서 가장 중요한 점은 97돌과 마찬가지로 천장이 없습니다. 운이 없으면 억을 박아도 안나오는게 팔찌입니다.
 
-![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0098.png)[cite: 4]
+적당한 팔찌 뽑으면 천장있는 다른 스펙업 먼저 하시고 마지막에 97돌이랑 같이 하시길 바랍니다.
 
-골드 상점에서 팔찌를 구매할 수 있는데 뉴비에게 굉장히 좋은편입니다.[cite: 4] 구매해서 사용하다가 특성2줄 + 특옵2줄 정도 노리면서 깎아보시는걸 추천드립니다.[cite: 4]
+![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0098.png)
 
-팔찌 효율은 인게임내에서 전투력을 비교하여 알 수 있는데 사실 인게임 전투력은 옵션별 가중치가 정확하지 않아서 잘 사용하지 않고 외부 사이트들을 사용합니다.[cite: 4]
+골드 상점에서 팔찌를 구매할 수 있는데 뉴비에게 굉장히 좋은편입니다. 구매해서 사용하다가 특성2줄 + 특옵2줄 정도 노리면서 깎아보시는걸 추천드립니다.
 
-➡️ [로펙](https://lopec.kr/) / [로스트빌드](https://lostbuilds.com/) / [클로아](https://kloa.gg/)[cite: 4]
+팔찌 효율은 인게임내에서 전투력을 비교하여 알 수 있는데 사실 인게임 전투력은 옵션별 가중치가 정확하지 않아서 잘 사용하지 않고 외부 사이트들을 사용합니다.
 
-이런 외부 사이트 들에서 팔찌 효율을 확인 가능한데 같은 팔찌라도 사이트별로 효율이 다르게 나오는 경우가 있습니다.[cite: 4] 사이트별로 옵션별 가중치를 다르게 둬서 생기는 문제인데 사실 어디가 정확하다 얘기할 수 없는 부분이라 그냥 참고만 하시면 되겠습니다.[cite: 4]
+➡️ [로펙](https://lopec.kr/) / [로스트빌드](https://lostbuilds.com/) / [클로아](https://kloa.gg/)
 
-## 카르마[cite: 4]
+이런 외부 사이트 들에서 팔찌 효율을 확인 가능한데 같은 팔찌라도 사이트별로 효율이 다르게 나오는 경우가 있습니다. 사이트별로 옵션별 가중치를 다르게 둬서 생기는 문제인데 사실 어디가 정확하다 얘기할 수 없는 부분이라 그냥 참고만 하시면 되겠습니다.
 
-![이미지 99](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0099.png)[cite: 4]
+## 카르마
 
-[➡️ 카르마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%ED%8C%A8%EC%8B%9C%EB%B8%8C#h3-2)[cite: 4]
+![이미지 99](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0099.png)
 
-카르마는 2막 클리어 후 개방 가능한 시스템으로 아크 패시브와 관련된 효과를 강화할 수 있습니다.[cite: 4]
+[➡️ 카르마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%ED%8C%A8%EC%8B%9C%EB%B8%8C#h3-2)
 
-랭크 성장과 레벨 성장으로 나뉘며 각 아크 패시브 타입에 따라 강화 효과가 달라집니다.[cite: 4]
+카르마는 2막 클리어 후 개방 가능한 시스템으로 아크 패시브와 관련된 효과를 강화할 수 있습니다.
 
-진화 / 깨달음 / 도약으로 나뉘며 각각 성장 시 강화 효과는 다음과 같습니다.[cite: 4]
+랭크 성장과 레벨 성장으로 나뉘며 각 아크 패시브 타입에 따라 강화 효과가 달라집니다.
+
+진화 / 깨달음 / 도약으로 나뉘며 각각 성장 시 강화 효과는 다음과 같습니다.
 
 | 타입 | 설명 |
 |:---:|---|
@@ -1105,432 +1105,432 @@ title: 내 프로젝트 문서
 | **깨달음** | - 랭크 성장 : 깨달음 포인트 획득<br>- 레벨 성장 : 무기 공격력 증가 |
 | **도약** | - 랭크 성장 : 도약 포인트 획득<br>- 레벨 성장 : 초각성기 피해 증가 |
 
-[cite: 4]
 
-진화와 도약은 랭크 성장이 중요하며 깨달음은 랭크 성장과 레벨성장 둘 다 중요합니다.[cite: 4]
 
-랭크는 최대 6랭크, 레벨은 최대 30레벨까지 가능한데 진화와 도약의 경우 21 레벨 이상은 큰 의미가 없기 때문에 6랭크 21레벨만 달성하고 다른 스펙업을 하는게 좋습니다.[cite: 4]
+진화와 도약은 랭크 성장이 중요하며 깨달음은 랭크 성장과 레벨성장 둘 다 중요합니다.
 
-깨달음의 경우 6랭크 21레벨 이후 레벨 1업당 무기 공격력 0.1%가 상승하는데 26레벨까지는 카르마의 기운(카기백)이 있어서 할만합니다.[cite: 4]
+랭크는 최대 6랭크, 레벨은 최대 30레벨까지 가능한데 진화와 도약의 경우 21 레벨 이상은 큰 의미가 없기 때문에 6랭크 21레벨만 달성하고 다른 스펙업을 하는게 좋습니다.
 
-그 이상은 고인물의 영역으로 골드를 때려 박아야 하는데[cite: 4]
+깨달음의 경우 6랭크 21레벨 이후 레벨 1업당 무기 공격력 0.1%가 상승하는데 26레벨까지는 카르마의 기운(카기백)이 있어서 할만합니다.
 
-![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0100.png)[cite: 4]
+그 이상은 고인물의 영역으로 골드를 때려 박아야 하는데
 
-지옥에서 얻을 수 있게된 정련된 운명의돌이 있습니다.[cite: 4] 특수 재련 재료와 비슷한데 무료로 강화 시도를 할 수 있는 대신 카르마의 기운은 오르지 않습니다.[cite: 4] 지옥 보상에서 선택지로 나온다면 고려해볼만한 보상입니다.[cite: 4]
+![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0100.png)
 
-## 아크 그리드[cite: 4]
+지옥에서 얻을 수 있게된 정련된 운명의돌이 있습니다. 특수 재련 재료와 비슷한데 무료로 강화 시도를 할 수 있는 대신 카르마의 기운은 오르지 않습니다. 지옥 보상에서 선택지로 나온다면 고려해볼만한 보상입니다.
 
-![이미지 101](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0101.png)[cite: 4]
-![이미지 102](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0102.png)[cite: 4]
+## 아크 그리드
 
-[➡️ 아크 그리드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%EA%B7%B8%EB%A6%AC%EB%93%9C)[cite: 4]
+![이미지 101](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0101.png)
+![이미지 102](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0102.png)
 
-아크 그리드는 코어와 젬을 장착 및 조합하여 다양한 효과를 얻을 수 있는 성장 시스템입니다.[cite: 4]
+[➡️ 아크 그리드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%EA%B7%B8%EB%A6%AC%EB%93%9C)
 
-아크 그리드에 구조개선을 포함한 다양한 옵션들이 있기 때문에 아크 그리드 전/후로 캐릭터가 완전히 달라지는 경우가 많기 때문에 아크 그리드 이후부터 제대로된 캐릭터의 성능을 발휘하는 경우가 많습니다.[cite: 4]
+아크 그리드는 코어와 젬을 장착 및 조합하여 다양한 효과를 얻을 수 있는 성장 시스템입니다.
 
-### 코어[cite: 4]
+아크 그리드에 구조개선을 포함한 다양한 옵션들이 있기 때문에 아크 그리드 전/후로 캐릭터가 완전히 달라지는 경우가 많기 때문에 아크 그리드 이후부터 제대로된 캐릭터의 성능을 발휘하는 경우가 많습니다.
 
-**코어**는 클래스별 고유 효과를 지는 질서 코어와 모든 클래스가 같은 효과를 받는 혼돈 코어로 나뉩니다.[cite: 4]
+### 코어
 
-질서 코어는 해/달/별 3가지 종류로 나뉘고 각각 직업각인별로 3종류가 존재합니다.[cite: 4]
+**코어**는 클래스별 고유 효과를 지는 질서 코어와 모든 클래스가 같은 효과를 받는 혼돈 코어로 나뉩니다.
 
-해달별이 각각 3 종류기 때문에 총 27가지 조합이 가능하지만 실제로는 성능이 좋지않은 코어들이 많아서 몇가지 조합만 실전에서 사용하는 편입니다.[cite: 4]
+질서 코어는 해/달/별 3가지 종류로 나뉘고 각각 직업각인별로 3종류가 존재합니다.
 
-직업별로 사용되는 코어 조합이 다르기 때문에 직접 알아보고 사용할 조합을 선택하셔야 합니다.[cite: 4]
+해달별이 각각 3 종류기 때문에 총 27가지 조합이 가능하지만 실제로는 성능이 좋지않은 코어들이 많아서 몇가지 조합만 실전에서 사용하는 편입니다.
 
-혼돈 코어 역시 해/달/별 3가지로 나뉘고 각각 6종류의 코어가 존재합니다.[cite: 4]
+직업별로 사용되는 코어 조합이 다르기 때문에 직접 알아보고 사용할 조합을 선택하셔야 합니다.
 
-혼돈 코어는 효율이 가장 좋은 조합이 고정되어 있습니다.[cite: 4]
+혼돈 코어 역시 해/달/별 3가지로 나뉘고 각각 6종류의 코어가 존재합니다.
 
-![이미지 240](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0240.png)[cite: 4]
+혼돈 코어는 효율이 가장 좋은 조합이 고정되어 있습니다.
 
-딜러는 현란한 공격(해) / 불타는 일격(달) / 공격(별)[cite: 4]
+![이미지 240](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0240.png)
 
-![이미지 241](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0241.png)[cite: 4]
+딜러는 현란한 공격(해) / 불타는 일격(달) / 공격(별)
 
-서포터는 신념의 강화(해) / 낙인의 흔적(달) / 무기(별)[cite: 4]
+![이미지 241](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0241.png)
 
-저 혼돈 코어들이 없다면 차선책으로 다른 코어를 낄 수는 있지만 성능이 저 코어들에 비해 좋지 않기 때문에 결국에는 저 코어들을 맞추셔야 합니다.[cite: 4]
+서포터는 신념의 강화(해) / 낙인의 흔적(달) / 무기(별)
 
-코어는 랜덤으로 드랍되기 때문에 본인이 원한다고 세팅을 할 수 있는건 아닙니다.[cite: 4]
+저 혼돈 코어들이 없다면 차선책으로 다른 코어를 낄 수는 있지만 성능이 저 코어들에 비해 좋지 않기 때문에 결국에는 저 코어들을 맞추셔야 합니다.
 
-원하는 고대 코어를 확정으로 얻을 방법은 지평의 성당 보상으로 얻을 수 있는 고대 코어 선택 상자 뿐인데 캐릭터별로 1회만 구매 가능하기 때문에 모든 코어를 고대로 세팅하는건 운이 많이 필요합니다.[cite: 4]
+코어는 랜덤으로 드랍되기 때문에 본인이 원한다고 세팅을 할 수 있는건 아닙니다.
 
-우선은 코어 정수 모아서 유물 등급을 다 맞추는걸 목표로 하시면 됩니다.[cite: 4]
+원하는 고대 코어를 확정으로 얻을 방법은 지평의 성당 보상으로 얻을 수 있는 고대 코어 선택 상자 뿐인데 캐릭터별로 1회만 구매 가능하기 때문에 모든 코어를 고대로 세팅하는건 운이 많이 필요합니다.
 
-### 111? 222? 333 ?[cite: 4]
+우선은 코어 정수 모아서 유물 등급을 다 맞추는걸 목표로 하시면 됩니다.
 
-직업별 공략을 보다보면 111, 222, 221 이런식으로 코어조합을 숫자로 표시하는게 있습니다.[cite: 4]
+### 111? 222? 333 ?
 
-이건 아크 그리드 창에서 나오는 코어를 위쪽부터 순서대로 번호를 붙여서 부르기 편하게 만든 방식입니다.[cite: 4]
+직업별 공략을 보다보면 111, 222, 221 이런식으로 코어조합을 숫자로 표시하는게 있습니다.
 
-![이미지 242](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0242.png)[cite: 4]
+이건 아크 그리드 창에서 나오는 코어를 위쪽부터 순서대로 번호를 붙여서 부르기 편하게 만든 방식입니다.
 
-예를들어 위의 사진은 기상술사의 코어 표인데 질풍 기상술사의 경우[cite: 4]
+![이미지 242](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0242.png)
 
-비연참(1)/우산의 춤(1)/휘몰아치기(1)를 사용하는 111 빌드[cite: 4]
+예를들어 위의 사진은 기상술사의 코어 표인데 질풍 기상술사의 경우
 
-기류 조절(2)/상승기류(2)/휘몰아치기(1)를 사용하는 221 빌드[cite: 4]
+비연참(1)/우산의 춤(1)/휘몰아치기(1)를 사용하는 111 빌드
 
-바람의 칼날(3)/쾌속(3)/강풍일섬(3)을 사용하는 333빌드가 있습니다[cite: 4]
+기류 조절(2)/상승기류(2)/휘몰아치기(1)를 사용하는 221 빌드
 
-### 젬[cite: 4]
+바람의 칼날(3)/쾌속(3)/강풍일섬(3)을 사용하는 333빌드가 있습니다
 
-![이미지 243](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0243.png)[cite: 4]
+### 젬
 
-**젬**은 코어에 착용하는 아이템으로 젬의 포인트에 따라 코어 옵션이 활성화됩니다.[cite: 4]
+![이미지 243](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0243.png)
 
-젬 옵션은 의지력 효율, 질서/혼돈 포인트, 딜러 옵션(공격력,추가피해,보스피해), 서포터 옵션(낙인력,아군피해강화,아군공격강화)으로 나뉩니다.[cite: 4]
+**젬**은 코어에 착용하는 아이템으로 젬의 포인트에 따라 코어 옵션이 활성화됩니다.
 
-기본적으로 의지력 효율, 질서/혼돈 포인트는 고정이고 나머지 2자리를 딜러 옵션과 서포터 옵션중에 랜덤으로 2가지가 정해집니다.[cite: 4]
+젬 옵션은 의지력 효율, 질서/혼돈 포인트, 딜러 옵션(공격력,추가피해,보스피해), 서포터 옵션(낙인력,아군피해강화,아군공격강화)으로 나뉩니다.
 
-젬 가공 시 랜덤으로 주어지는 4개의 선택지 중에서 1개씩 선택해서 옵션 수치가 바뀌거나 옵션 자체가 다른 종류로 변하거나 합니다.[cite: 4]
+기본적으로 의지력 효율, 질서/혼돈 포인트는 고정이고 나머지 2자리를 딜러 옵션과 서포터 옵션중에 랜덤으로 2가지가 정해집니다.
 
-젬 가공의 목표는 의지력 효율, 질서/혼돈 포인트를 최대로 하는걸 최우선으로 하고 남은 2자리에 본인 캐릭터에 맞는 옵션 수치를 올리는걸 나중으로 하게 됩니다.[cite: 4]
+젬 가공 시 랜덤으로 주어지는 4개의 선택지 중에서 1개씩 선택해서 옵션 수치가 바뀌거나 옵션 자체가 다른 종류로 변하거나 합니다.
 
-젬의 옵션보다 코어의 활성화 옵션이 훨씬 성능이 좋기 때문에 코어 활성화를 위해 의지력 효율, 질서/혼돈 포인트를 최우선으로 하고 이후에 코어 활성화가 다 되었다면 그때 나머지 옵션을 올리면 되겠습니다.[cite: 4]
+젬 가공의 목표는 의지력 효율, 질서/혼돈 포인트를 최대로 하는걸 최우선으로 하고 남은 2자리에 본인 캐릭터에 맞는 옵션 수치를 올리는걸 나중으로 하게 됩니다.
 
-### 발사대[cite: 4]
+젬의 옵션보다 코어의 활성화 옵션이 훨씬 성능이 좋기 때문에 코어 활성화를 위해 의지력 효율, 질서/혼돈 포인트를 최우선으로 하고 이후에 코어 활성화가 다 되었다면 그때 나머지 옵션을 올리면 되겠습니다.
 
-![이미지 244](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0244.png)[cite: 4]
+### 발사대
 
-코어 17포인트 활성화를 위해 의지력과 질서/혼돈 포인트만 최대한 높인 젬을 발사대라고 합니다.[cite: 4] 사진의 젬은 의지력 효율 5 / 질서 포인트 5 만 맞춘 젬으로 저런걸 발사대라고 합니다.[cite: 4]
+![이미지 244](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0244.png)
 
-발사대는 많은 골드가 들지 않지만 유효 옵션만으로 젬옵션을 도배하는 세팅은 매우 많은 골드가 들어갑니다.[cite: 4]
+코어 17포인트 활성화를 위해 의지력과 질서/혼돈 포인트만 최대한 높인 젬을 발사대라고 합니다. 사진의 젬은 의지력 효율 5 / 질서 포인트 5 만 맞춘 젬으로 저런걸 발사대라고 합니다.
 
-특히 보스 피해/아군 공격 강화 옵션을 위해서 젬을 깎는 경우 매우 많은 골드가 필요합니다.[cite: 4]
+발사대는 많은 골드가 들지 않지만 유효 옵션만으로 젬옵션을 도배하는 세팅은 매우 많은 골드가 들어갑니다.
 
-뉴비들은 부가 옵션보다는 코어 활성화가 우선이니 발사대를 띄워서 코어 17포인트를 활성화하는걸 목표로 젬을 깎는걸 추천드립니다.[cite: 4]
+특히 보스 피해/아군 공격 강화 옵션을 위해서 젬을 깎는 경우 매우 많은 골드가 필요합니다.
 
-### 안정침식 / 견고왜곡 / 불변붕괴[cite: 4]
+뉴비들은 부가 옵션보다는 코어 활성화가 우선이니 발사대를 띄워서 코어 17포인트를 활성화하는걸 목표로 젬을 깎는걸 추천드립니다.
 
-![이미지 245](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0245.png)[cite: 4]
+### 안정침식 / 견고왜곡 / 불변붕괴
 
-코어를 다 활성화한 후에는 젬 부가 옵션을 올리는걸 목표로 하는데 부가 옵션 중 보스피해/아군공격강화의 성능이 다른 옵션들보다 좋기 때문에 이걸 노리고 젬 가공을 시도하게 됩니다.[cite: 4] 보통 이걸 '보피작' 이라고 합니다.[cite: 4]
+![이미지 245](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0245.png)
 
-표에서 보면 안정/침식은 보스피해/아군공격강화 옵션이 나오지 않습니다.[cite: 4] 대신 기본 필요 의지력이 8이기 때문에 보피작은 불가능하지만 발사대를 깎기 위해서는 좋습니다.[cite: 4]
+코어를 다 활성화한 후에는 젬 부가 옵션을 올리는걸 목표로 하는데 부가 옵션 중 보스피해/아군공격강화의 성능이 다른 옵션들보다 좋기 때문에 이걸 노리고 젬 가공을 시도하게 됩니다. 보통 이걸 '보피작' 이라고 합니다.
 
-견고/왜곡부터 보피/아공강이 나오는데 공격력/낙인력 보다 추가피해/아피강이 성능이 더 좋기 때문에 보피작을 할 때 불변/붕괴를 많이 깎습니다.[cite: 4]
+표에서 보면 안정/침식은 보스피해/아군공격강화 옵션이 나오지 않습니다. 대신 기본 필요 의지력이 8이기 때문에 보피작은 불가능하지만 발사대를 깎기 위해서는 좋습니다.
 
-하지만 불변/붕괴는 기본 필요 의지력이 10이기 때문에 발사대로 사용하기 어렵습니다.[cite: 4] 그러니 뉴비들은 가능하다면 안정/침식 위주로 깎아서 발사대를 먼저 완성하시는게 좋습니다.[cite: 4]
+견고/왜곡부터 보피/아공강이 나오는데 공격력/낙인력 보다 추가피해/아피강이 성능이 더 좋기 때문에 보피작을 할 때 불변/붕괴를 많이 깎습니다.
 
-[➡️ 아크 그리드 사이트](#아크-그리드) 아크 그리드 관련 외부 사이트입니다.[cite: 4] 잼을 깎거나 착용할 때 도움을 받을 수 있는 사이트들입니다.[cite: 4]
+하지만 불변/붕괴는 기본 필요 의지력이 10이기 때문에 발사대로 사용하기 어렵습니다. 그러니 뉴비들은 가능하다면 안정/침식 위주로 깎아서 발사대를 먼저 완성하시는게 좋습니다.
 
-![이미지 246](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0246.png)[cite: 4]
+[➡️ 아크 그리드 사이트](#아크-그리드) 아크 그리드 관련 외부 사이트입니다. 잼을 깎거나 착용할 때 도움을 받을 수 있는 사이트들입니다.
 
-로아온 업데이트에서 젬 자동 장착 기능이 추가되었습니다.[cite: 4] 하지만 전투력을 기준으로 젬을 장착하기 때문에 젬이 제대로 깎이지 않은 상태에서 사용한다면 하나의 코어에 젬이 몰리는 현상이 있어서 사용해보고 제대로 코어 옵션들이 활성화 되지 않는다면 외부 사이트를 사용해보시는걸 추천드립니다.[cite: 4]
+![이미지 246](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0246.png)
 
-## 전설 아바타[cite: 4]
+로아온 업데이트에서 젬 자동 장착 기능이 추가되었습니다. 하지만 전투력을 기준으로 젬을 장착하기 때문에 젬이 제대로 깎이지 않은 상태에서 사용한다면 하나의 코어에 젬이 몰리는 현상이 있어서 사용해보고 제대로 코어 옵션들이 활성화 되지 않는다면 외부 사이트를 사용해보시는걸 추천드립니다.
 
-![이미지 103](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0103.png)[cite: 4]
-![이미지 104](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0104.png)[cite: 4]
+## 전설 아바타
 
-전설 아바타는 부위당 스탯 2%의 옵션을 갖고 있는데 영웅 아바타는 부위당 스탯 1%입니다.[cite: 4]
+![이미지 103](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0103.png)
+![이미지 104](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0104.png)
 
-머리, 상의, 하의, 무기 총 4부위를 착용하니까 최대 4%의 스탯을 추가로 얻을 수 있습니다.[cite: 4]
+전설 아바타는 부위당 스탯 2%의 옵션을 갖고 있는데 영웅 아바타는 부위당 스탯 1%입니다.
 
-효율이 좋은 편이기 때문에 가능하다면 맞춰주시는게 좋습니다.[cite: 4]
+머리, 상의, 하의, 무기 총 4부위를 착용하니까 최대 4%의 스탯을 추가로 얻을 수 있습니다.
 
-요즈의 항아리를 사용해 직접 만들수도 있지만 확률이 10%라 추천은 안합니다.[cite: 4]
+효율이 좋은 편이기 때문에 가능하다면 맞춰주시는게 좋습니다.
+
+요즈의 항아리를 사용해 직접 만들수도 있지만 확률이 10%라 추천은 안합니다.
 
 ---
 
-# 9. 내실[cite: 5]
+# 9. 내실
 
-[➡️ 초보자 가이드 > 내실을 탄탄하게](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%B4%EC%8B%A4%EC%9D%84%20%ED%83%84%ED%83%84%ED%95%98%EA%B2%8C)[cite: 5]
+[➡️ 초보자 가이드 > 내실을 탄탄하게](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%B4%EC%8B%A4%EC%9D%84%20%ED%83%84%ED%83%84%ED%95%98%EA%B2%8C)
 
-## 내실이란?[cite: 5]
+## 내실이란?
 
-내실이란 원정대 단위로 적용되는 캐릭터 스펙업 요소입니다.[cite: 5] 퀘스트, 수집형 포인트, 던전 클리어 보상 등으로 획득할 수 있습니다.[cite: 5]
+내실이란 원정대 단위로 적용되는 캐릭터 스펙업 요소입니다. 퀘스트, 수집형 포인트, 던전 클리어 보상 등으로 획득할 수 있습니다.
 
-캐릭터 스펙에 직접적인 영향이 없는 단순한 수집 요소(ex. 모코코)도 내실이라 부르지만, 이 문서에서는 캐릭터 스펙에 직접적으로 영향을 주는 요소들만 다루도록 하겠습니다.[cite: 5]
+캐릭터 스펙에 직접적인 영향이 없는 단순한 수집 요소(ex. 모코코)도 내실이라 부르지만, 이 문서에서는 캐릭터 스펙에 직접적으로 영향을 주는 요소들만 다루도록 하겠습니다.
 
-내실은 캐릭터 스펙에 가장 기본이 되는 요소이며, 골드로 구매가 불가능하기 때문에 시간을 들여서 직접 작업을 진행해야 합니다.[cite: 5]
+내실은 캐릭터 스펙에 가장 기본이 되는 요소이며, 골드로 구매가 불가능하기 때문에 시간을 들여서 직접 작업을 진행해야 합니다.
 
-![이미지 105](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0105.png)[cite: 5]
+![이미지 105](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0105.png)
 
-게임 내 아이템 사전(Alt + D)을 통해 내실 관련 획득 정보를 쉽게 확인할 수 있습니다.[cite: 5]
+게임 내 아이템 사전(Alt + D)을 통해 내실 관련 획득 정보를 쉽게 확인할 수 있습니다.
 
-## 내실 우선 순위[cite: 5]
+## 내실 우선 순위
 
-내실 우선 순위는[cite: 5]
+내실 우선 순위는
 
-1. 아크 패시브 포인트[cite: 5]
-2. 스킬 포인트[cite: 5]
-3. 룬[cite: 5]
-4. 영구 능력치 증가 치명 / 특화 / 신속[cite: 5]
-5. 카드[cite: 5]
-6. 펫목장[cite: 5]
-7. 영구 능력치 증가 기본 능력치[cite: 5]
-8. 영구 능력치 증가 체력[cite: 5]
+1. 아크 패시브 포인트
+2. 스킬 포인트
+3. 룬
+4. 영구 능력치 증가 치명 / 특화 / 신속
+5. 카드
+6. 펫목장
+7. 영구 능력치 증가 기본 능력치
+8. 영구 능력치 증가 체력
 
-다만, 직업에 따라 '풍요' 룬이 필수인 경우가 있습니다.[cite: 5] 이 경우 풍요 룬을 우선으로 작업하는 것이 좋습니다.[cite: 5]
+다만, 직업에 따라 '풍요' 룬이 필수인 경우가 있습니다. 이 경우 풍요 룬을 우선으로 작업하는 것이 좋습니다.
 
-제압/인내/신속 능력치 및 성향 포인트(지성, 담력, 매력, 친절)는 캐릭터 스펙에 큰 영향을 주지 않습니다.[cite: 5]
+제압/인내/신속 능력치 및 성향 포인트(지성, 담력, 매력, 친절)는 캐릭터 스펙에 큰 영향을 주지 않습니다.
 
-### 평판 우선 순위[cite: 5]
+### 평판 우선 순위
 
-1. '끝나지 않은 싸움' 아크 패시브 포인트[cite: 5]
-2. '지혜의 섬 보조 사서' 스킬 포인트[cite: 5]
+1. '끝나지 않은 싸움' 아크 패시브 포인트
+2. '지혜의 섬 보조 사서' 스킬 포인트
 
-내실 관련 에포나 평판은 2개만 하시면 됩니다.[cite: 5] 나머지는 아크라시아 투어 보상으로 자동 완료됩니다.[cite: 5]
+내실 관련 에포나 평판은 2개만 하시면 됩니다. 나머지는 아크라시아 투어 보상으로 자동 완료됩니다.
 
-## 아크라시아 투어[cite: 5]
+## 아크라시아 투어
 
-![이미지 106](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0106.png)[cite: 5]
-![이미지 107](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0107.png)[cite: 5]
+![이미지 106](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0106.png)
+![이미지 107](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0107.png)
 
-아크라시아 투어는 원정대 단위로 저티어 내실을 간단한 퀘스트와 수집을 통해 스킵해주는 시스템이며, 일종의 내실 점핑이라고 볼 수 있습니다.[cite: 5]
+아크라시아 투어는 원정대 단위로 저티어 내실을 간단한 퀘스트와 수집을 통해 스킵해주는 시스템이며, 일종의 내실 점핑이라고 볼 수 있습니다.
 
-총 4단계로 구성되어 있으며, 간단한 퀘스트만으로 파푸니카까지의 내실 보상을 받을 수 있으므로 가장 먼저 진행해야 합니다.[cite: 5]
+총 4단계로 구성되어 있으며, 간단한 퀘스트만으로 파푸니카까지의 내실 보상을 받을 수 있으므로 가장 먼저 진행해야 합니다.
 
-> 💡 **안내**: 아크라시아 투어로 전체 혹은 일부 획득 가능한 내실 요소들은 참고하여 진행해 주시기 바랍니다.[cite: 5]
+> 💡 **안내**: 아크라시아 투어로 전체 혹은 일부 획득 가능한 내실 요소들은 참고하여 진행해 주시기 바랍니다.
 
-## 아크 패시브 포인트[cite: 5]
+## 아크 패시브 포인트
 
-![이미지 108](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0108.png)[cite: 5]
+![이미지 108](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0108.png)
 
-아크 패시브 중 '깨달음' 관련 포인트를 내실로 획득할 수 있습니다.[cite: 5] 깨달음 노드 4티어를 찍기 위해 반드시 최우선적으로 모아야 하는 포인트입니다.[cite: 5]
+아크 패시브 중 '깨달음' 관련 포인트를 내실로 획득할 수 있습니다. 깨달음 노드 4티어를 찍기 위해 반드시 최우선적으로 모아야 하는 포인트입니다.
 
-### 에포나 평판[cite: 5]
+### 에포나 평판
 
-![이미지 109](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0109.png)[cite: 5]
-![이미지 110](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0110.png)[cite: 5]
+![이미지 109](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0109.png)
+![이미지 110](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0110.png)
 
-에포나 평판 보상으로 얻을 수 있습니다.[cite: 5]
+에포나 평판 보상으로 얻을 수 있습니다.
 
-에포나 의뢰 창에서 평판 현황 → 평판 보상 → 깨달음 포인트 물약 검색 시 확인할 수 있습니다.[cite: 5]
+에포나 의뢰 창에서 평판 현황 → 평판 보상 → 깨달음 포인트 물약 검색 시 확인할 수 있습니다.
 
-완료까지 16일이 걸리므로 미리 시작해야 합니다.[cite: 5]
+완료까지 16일이 걸리므로 미리 시작해야 합니다.
 
-첫 번째 의뢰인 '악몽의 그림자'가 끝나는 날은 두 번째 의뢰를 바로 이어서 수행 가능합니다.[cite: 5] 그날 두 번 깨서 수행 횟수를 늘려야 총 16일차에 획득할 수 있습니다.[cite: 5]
+첫 번째 의뢰인 '악몽의 그림자'가 끝나는 날은 두 번째 의뢰를 바로 이어서 수행 가능합니다. 그날 두 번 깨서 수행 횟수를 늘려야 총 16일차에 획득할 수 있습니다.
 
-### 모험의 서[cite: 5]
+### 모험의 서
 
-![이미지 111](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0111.png)[cite: 5]
-![이미지 112](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0112.png)[cite: 5]
+![이미지 111](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0111.png)
+![이미지 112](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0112.png)
 
-모험의 서 쿠르잔 북부 70% 보상으로 획득 가능합니다.[cite: 5] 모험의 서 공략은 검색을 통해 쉽게 찾을 수 있습니다.[cite: 5]
+모험의 서 쿠르잔 북부 70% 보상으로 획득 가능합니다. 모험의 서 공략은 검색을 통해 쉽게 찾을 수 있습니다.
 
-80% 보상인 해도 조각도 다음 깨달음 포인트 물약 획득 과정에 필요하므로, 쿠르잔 북부 모험의 서 80% 달성을 목표로 하는 것이 좋습니다.[cite: 5]
+80% 보상인 해도 조각도 다음 깨달음 포인트 물약 획득 과정에 필요하므로, 쿠르잔 북부 모험의 서 80% 달성을 목표로 하는 것이 좋습니다.
 
-### 필드 보스[cite: 5]
+### 필드 보스
 
-![이미지 113](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0113.png)[cite: 5]
+![이미지 113](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0113.png)
 
-쿠르잔 북부 필드 보스 세베크 아툰을 잡아 얻을 수 있습니다.[cite: 5]
+쿠르잔 북부 필드 보스 세베크 아툰을 잡아 얻을 수 있습니다.
 
-확률로 드랍하며, 보이지 않는 천장(18회)이 존재하기 때문에 꾸준히 잡다 보면 반드시 획득할 수 있습니다.[cite: 5]
+확률로 드랍하며, 보이지 않는 천장(18회)이 존재하기 때문에 꾸준히 잡다 보면 반드시 획득할 수 있습니다.
 
-### 크림스네일의 해도[cite: 5]
+### 크림스네일의 해도
 
-![이미지 114](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0114.png)[cite: 5]
-![이미지 115](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0115.png)[cite: 5]
+![이미지 114](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0114.png)
+![이미지 115](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0115.png)
 
-크림스네일의 해도 '2포인트' 보상으로 획득 가능합니다.[cite: 5] '두 번째 해도' 보상이 아니라 해도 2개를 모두 모았을 때 받는 보상입니다.[cite: 5]
+크림스네일의 해도 '2포인트' 보상으로 획득 가능합니다. '두 번째 해도' 보상이 아니라 해도 2개를 모두 모았을 때 받는 보상입니다.
 
-#### 첫번째 해도[cite: 5]
+#### 첫번째 해도
 
-1. 쿠르잔 북부의 모험의 서를 80% 이상 달성하기[cite: 5]
+1. 쿠르잔 북부의 모험의 서를 80% 이상 달성하기
 
-![이미지 116](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0116.png)[cite: 5]
+![이미지 116](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0116.png)
 
-2. 쿠르잔 북부의 필드 보스 세베크 아툰을 처치하여 일정 확률로 획득[cite: 5]
+2. 쿠르잔 북부의 필드 보스 세베크 아툰을 처치하여 일정 확률로 획득
 
-![이미지 117](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0117.png)[cite: 5]
+![이미지 117](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0117.png)
 
-3. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 판매하는 오래된 빈병에서 일정 확률로 획득[cite: 5]
+3. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 판매하는 오래된 빈병에서 일정 확률로 획득
 
-![이미지 118](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0118.png)[cite: 5]
-![이미지 119](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0119.png)[cite: 5]
+![이미지 118](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0118.png)
+![이미지 119](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0119.png)
 
-해적 주화 4,000개로 교환 가능합니다.[cite: 5] 확률이 낮아 해적 주화가 많이 필요할 수 있습니다.[cite: 5]
+해적 주화 4,000개로 교환 가능합니다. 확률이 낮아 해적 주화가 많이 필요할 수 있습니다.
 
-4. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 물물 교환으로 획득[cite: 5]
+4. 쿠르잔 남부의 작살아귀 헌팅 길드선에서 물물 교환으로 획득
 
-![이미지 120](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0120.png)[cite: 5]
+![이미지 120](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0120.png)
 
-해적 주화 100,000개로 교환 가능합니다.[cite: 5]
+해적 주화 100,000개로 교환 가능합니다.
 
-#### 두번째 해도[cite: 5]
+#### 두번째 해도
 
-1. 림레이크 남섬에 있는 긴과 호감도 쌓기[cite: 5]
+1. 림레이크 남섬에 있는 긴과 호감도 쌓기
 
-![이미지 121](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0121.png)[cite: 5]
+![이미지 121](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0121.png)
 
-긴 호감도 신뢰 보상으로 얻을 수 있습니다.[cite: 5]
+긴 호감도 신뢰 보상으로 얻을 수 있습니다.
 
-2. 루테란의 왕실 무역선에서 물물 교환으로 획득[cite: 5]
+2. 루테란의 왕실 무역선에서 물물 교환으로 획득
 
-![이미지 122](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0122.png)[cite: 5]
+![이미지 122](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0122.png)
 
-루테란 왕실 무역선에서 해적 주화 100,000개로 구매 가능합니다.[cite: 5]
+루테란 왕실 무역선에서 해적 주화 100,000개로 구매 가능합니다.
 
-[➡️ 두번째 해도 2번 조각 루테란 왕실 무역선 정보 로스트아크 에펨코리아](https://www.fmkorea.com/7901156628) 이 글을 참고하여 구매하면 됩니다.[cite: 5]
+[➡️ 두번째 해도 2번 조각 루테란 왕실 무역선 정보 로스트아크 에펨코리아](https://www.fmkorea.com/7901156628) 이 글을 참고하여 구매하면 됩니다.
 
-3. 림레이크 남섬의 에포나 의뢰 평판 쌓기[cite: 5]
+3. 림레이크 남섬의 에포나 의뢰 평판 쌓기
 
-![이미지 123](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0123.png)[cite: 5]
+![이미지 123](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0123.png)
 
-림레이크 남부 에포나 의뢰 평판 보상으로 획득 가능하며, 14일이 필요합니다.[cite: 5]
+림레이크 남부 에포나 의뢰 평판 보상으로 획득 가능하며, 14일이 필요합니다.
 
-4. 에브니 큐브 해금 이상 난이도의 몬스터들을 처치하여 일정 확률로 획득[cite: 5]
+4. 에브니 큐브 해금 이상 난이도의 몬스터들을 처치하여 일정 확률로 획득
 
-![이미지 124](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0124.png)[cite: 5]
+![이미지 124](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0124.png)
 
-큐브에서 획득 가능합니다.[cite: 5] 럭키방 등장시 확정 드랍됩니다.[cite: 5]
+큐브에서 획득 가능합니다. 럭키방 등장시 확정 드랍됩니다.
 
-5. 원정대 영지의 일반 파견에서 일정 확률로 획득[cite: 5]
+5. 원정대 영지의 일반 파견에서 일정 확률로 획득
 
-![이미지 125](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0125.png)[cite: 5]
+![이미지 125](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0125.png)
 
-원정대 영지 일반 파견 보상으로 획득가능합니다.[cite: 5]
+원정대 영지 일반 파견 보상으로 획득가능합니다.
 
-## 스킬 포인트[cite: 5]
+## 스킬 포인트
 
-스킬 포인트는 모험의 서, 일반 퀘스트, 필드보스, 거인의 심장, 에포나 평판, 섬의 마음, 이그네아의 징표, 오르페우스의 별 콘텐츠에서 획득 가능합니다.[cite: 5]
+스킬 포인트는 모험의 서, 일반 퀘스트, 필드보스, 거인의 심장, 에포나 평판, 섬의 마음, 이그네아의 징표, 오르페우스의 별 콘텐츠에서 획득 가능합니다.
 
-총 31가지가 있으며, 아이템 사전(Alt + D)을 통해 확인하면 편리합니다.[cite: 5]
+총 31가지가 있으며, 아이템 사전(Alt + D)을 통해 확인하면 편리합니다.
 
-> 💡 아크라시아 투어 완료시 거의 대부분의 스킬포인트를 획득 가능하니 아크라시아 투어를 먼저 진행해주세요.[cite: 5]
+> 💡 아크라시아 투어 완료시 거의 대부분의 스킬포인트를 획득 가능하니 아크라시아 투어를 먼저 진행해주세요.
 
-### 모험의 서[cite: 5]
+### 모험의 서
 
-![이미지 126](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0126.png)[cite: 5]
+![이미지 126](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0126.png)
 
-루테란 동부 / 베른 북부 / 슈샤이어 / 로헨델 / 파푸니카 / 림레이크 남섬 모험의 서에서 획득 가능합니다.[cite: 5]
+루테란 동부 / 베른 북부 / 슈샤이어 / 로헨델 / 파푸니카 / 림레이크 남섬 모험의 서에서 획득 가능합니다.
 
-아크라시아 투어에서 앞의 4개 대륙 보상을 지급합니다.[cite: 5] 파푸니카 대륙은 직접 보상을 주지는 않지만 호감도/요리/수집품을 제외한 것들을 다 채워줍니다.[cite: 5]
+아크라시아 투어에서 앞의 4개 대륙 보상을 지급합니다. 파푸니카 대륙은 직접 보상을 주지는 않지만 호감도/요리/수집품을 제외한 것들을 다 채워줍니다.
 
-따라서 사실상 림레이크 남섬만 직접 달성하면 됩니다.[cite: 5]
+따라서 사실상 림레이크 남섬만 직접 달성하면 됩니다.
 
-### 필드보스[cite: 5]
+### 필드보스
 
-![이미지 127](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0127.png)[cite: 5]
+![이미지 127](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0127.png)
 
-필드보스를 잡아 스킬포인트 물약을 얻을 수 있습니다.[cite: 5]
+필드보스를 잡아 스킬포인트 물약을 얻을 수 있습니다.
 
-대부분 아크라시아 투어 완료 시 자동으로 받을 수 있습니다.[cite: 5]
+대부분 아크라시아 투어 완료 시 자동으로 받을 수 있습니다.
 
-### 일반 퀘스트[cite: 5]
+### 일반 퀘스트
 
-![이미지 128](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0128.png)[cite: 5]
+![이미지 128](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0128.png)
 
-일반 퀘스트 보상으로 스킬 포인트 물약을 주는 경우가 있습니다.[cite: 5]
+일반 퀘스트 보상으로 스킬 포인트 물약을 주는 경우가 있습니다.
 
-점핑권을 사용했다면 대부분의 일반 퀘스트가 자동으로 클리어되기 때문에 따로 진행할 필요는 없습니다.[cite: 5]
+점핑권을 사용했다면 대부분의 일반 퀘스트가 자동으로 클리어되기 때문에 따로 진행할 필요는 없습니다.
 
-아이템 사전을 확인하여 혹시 미완료 퀘스트가 있다면 진행하시면 됩니다.[cite: 5]
+아이템 사전을 확인하여 혹시 미완료 퀘스트가 있다면 진행하시면 됩니다.
 
-### 거인의 심장[cite: 5]
+### 거인의 심장
 
-![이미지 129](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0129.png)[cite: 5]
+![이미지 129](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0129.png)
 
-4개의 스킬 포인트 물약을 획득 가능합니다.[cite: 5]
+4개의 스킬 포인트 물약을 획득 가능합니다.
 
-거인의 심장은 아크라시아 투어 완료 시 호감도 보상 3개와 마지막 퀘스트 보상 1개를 제외한 11개를 보상으로 받을 수 있습니다.[cite: 5]
+거인의 심장은 아크라시아 투어 완료 시 호감도 보상 3개와 마지막 퀘스트 보상 1개를 제외한 11개를 보상으로 받을 수 있습니다.
 
-따라서 호감도로 하나만 더 수집하면 됩니다.[cite: 5]
+따라서 호감도로 하나만 더 수집하면 됩니다.
 
-로스트아크는 스토리 진행 중 특정 NPC의 호감도 진행이 불가능한 경우 해당 NPC의 호감도를 신뢰로 만들어주는 시스템이 있습니다.[cite: 5]
+로스트아크는 스토리 진행 중 특정 NPC의 호감도 진행이 불가능한 경우 해당 NPC의 호감도를 신뢰로 만들어주는 시스템이 있습니다.
 
-아만, 진저웨일, 베아트리스 등이 있는데 이 중에서 베아트리스의 경우 카제로스 전조 퀘스트 진행 중에 행방불명 되면서 호감도 진행이 불가능해지는 구간이 있습니다[cite: 5]
+아만, 진저웨일, 베아트리스 등이 있는데 이 중에서 베아트리스의 경우 카제로스 전조 퀘스트 진행 중에 행방불명 되면서 호감도 진행이 불가능해지는 구간이 있습니다
 
-이때 호감도 창에서 신뢰 등급까지 보상을 모두 받을 수 있는데 이를 활용해서 거인의 심장을 수집할 수 있습니다.[cite: 5]
+이때 호감도 창에서 신뢰 등급까지 보상을 모두 받을 수 있는데 이를 활용해서 거인의 심장을 수집할 수 있습니다.
 
-카제로스 전조 퀘스트는 1660 레벨부터 진행이 가능합니다.[cite: 5]
+카제로스 전조 퀘스트는 1660 레벨부터 진행이 가능합니다.
 
-### 에포나 평판[cite: 5]
+### 에포나 평판
 
-![이미지 130](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0130.png)[cite: 5]
+![이미지 130](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0130.png)
 
-평판 보상으로 2개를 받을 수 있습니다.[cite: 5]
+평판 보상으로 2개를 받을 수 있습니다.
 
-1개는 아크라시아 투어 보상으로 획득 가능하므로 1개만 추가로 진행하면 됩니다.[cite: 5]
+1개는 아크라시아 투어 보상으로 획득 가능하므로 1개만 추가로 진행하면 됩니다.
 
-지혜의 섬에서 수행 가능한 에포나 의뢰 '지혜의 섬 보조 사서'를 수행해야 합니다.[cite: 5]
+지혜의 섬에서 수행 가능한 에포나 의뢰 '지혜의 섬 보조 사서'를 수행해야 합니다.
 
-첫 번째 의뢰가 끝나는 날 바로 두 번째 의뢰가 가능하므로, 그날은 2번 수행이 가능합니다.[cite: 5] 총 13일이 필요합니다.[cite: 5]
+첫 번째 의뢰가 끝나는 날 바로 두 번째 의뢰가 가능하므로, 그날은 2번 수행이 가능합니다. 총 13일이 필요합니다.
 
-### 섬의 마음[cite: 5]
+### 섬의 마음
 
-![이미지 131](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0131.png)[cite: 5]
+![이미지 131](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0131.png)
 
-섬의 마음 20개 보상으로 획득이 가능합니다.[cite: 5] 아크라시아 투어 완료 시 20개 이상의 섬의 마음을 제공하므로 자동으로 습득됩니다.[cite: 5]
+섬의 마음 20개 보상으로 획득이 가능합니다. 아크라시아 투어 완료 시 20개 이상의 섬의 마음을 제공하므로 자동으로 습득됩니다.
 
-### 이그네아의 징표[cite: 5]
+### 이그네아의 징표
 
-![이미지 132](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0132.png)[cite: 5]
+![이미지 132](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0132.png)
 
-이그네아의 징표는 각 대륙별 모험의 서를 100% 달성 시 획득이 가능합니다.[cite: 5]
+이그네아의 징표는 각 대륙별 모험의 서를 100% 달성 시 획득이 가능합니다.
 
-모험의 서의 경우 아크라시아 투어 완료 시 100%를 달성해주지는 않기 때문에 따로 작업해야 합니다.[cite: 5]
+모험의 서의 경우 아크라시아 투어 완료 시 100%를 달성해주지는 않기 때문에 따로 작업해야 합니다.
 
-호감도/요리/수집품 3가지를 직접 수행해야 하며, 대륙별 난이도가 다르기 때문에 쉬운 대륙 위주로 작업하는 것이 좋습니다.[cite: 5]
+호감도/요리/수집품 3가지를 직접 수행해야 하며, 대륙별 난이도가 다르기 때문에 쉬운 대륙 위주로 작업하는 것이 좋습니다.
 
-참고로 9개 보상인 비프로스트 열쇠도 매우 중요하므로, 하는 김에 9개까지 달성하는 것이 좋습니다.[cite: 5]
+참고로 9개 보상인 비프로스트 열쇠도 매우 중요하므로, 하는 김에 9개까지 달성하는 것이 좋습니다.
 
-[➡️ 뉴비를 위한 이그네아 징표작 대륙 추천 | 로아 인벤](https://www.inven.co.kr/board/lostark/4821/79873)[cite: 5]
+[➡️ 뉴비를 위한 이그네아 징표작 대륙 추천 | 로아 인벤](https://www.inven.co.kr/board/lostark/4821/79873)
 
-이 글 참고하시면 좋을것 같습니다.[cite: 5]
+이 글 참고하시면 좋을것 같습니다.
 
-### 오르페우스의 별[cite: 5]
+### 오르페우스의 별
 
-![이미지 133](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0133.png)[cite: 5]
+![이미지 133](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0133.png)
 
-오르페우스의 별 2개, 6개 보상에 스킬포인트 물약이 있습니다.[cite: 5]
+오르페우스의 별 2개, 6개 보상에 스킬포인트 물약이 있습니다.
 
-아크라시아 투어 보상으로 오르페우스의 별 6개를 지급하므로, 스킬 포인트 물약을 얻기 위해 따로 오르페우스의 별을 모을 필요는 없습니다.[cite: 5]
+아크라시아 투어 보상으로 오르페우스의 별 6개를 지급하므로, 스킬 포인트 물약을 얻기 위해 따로 오르페우스의 별을 모을 필요는 없습니다.
 
-## 스킬 룬[cite: 5]
+## 스킬 룬
 
-![이미지 134](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0134.png)[cite: 5]
+![이미지 134](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0134.png)
 
-[➡️ 스킬 룬](https://lostark.game.onstove.com/GameGuide/Pages/%EC%8A%A4%ED%82%AC%20%EB%A3%AC)[cite: 5]
+[➡️ 스킬 룬](https://lostark.game.onstove.com/GameGuide/Pages/%EC%8A%A4%ED%82%AC%20%EB%A3%AC)
 
-스킬 룬은 원하는 스킬에 장착하여 해당 스킬 사용 시 더욱 강력한 효과를 얻을 수 있는 시스템입니다.[cite: 5]
+스킬 룬은 원하는 스킬에 장착하여 해당 스킬 사용 시 더욱 강력한 효과를 얻을 수 있는 시스템입니다.
 
-### 질풍[cite: 5]
+### 질풍
 
-![이미지 135](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0135.png)[cite: 5]
+![이미지 135](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0135.png)
 
-스킬 시전 속도를 올려주는 룬입니다.[cite: 5]
+스킬 시전 속도를 올려주는 룬입니다.
 
-'공격 속도'가 아니라 '시전 속도'입니다.[cite: 5] 공격 속도는 140% 제한이 있지만, 시전 속도는 스킬 프레임 자체를 줄여주기 때문에 140% 제한 없이 적용됩니다.[cite: 5]
+'공격 속도'가 아니라 '시전 속도'입니다. 공격 속도는 140% 제한이 있지만, 시전 속도는 스킬 프레임 자체를 줄여주기 때문에 140% 제한 없이 적용됩니다.
 
-스킬 모션이 긴 스킬에 착용합니다.[cite: 5]
+스킬 모션이 긴 스킬에 착용합니다.
 
-가디언 토벌에서 획득 가능합니다.[cite: 5]
+가디언 토벌에서 획득 가능합니다.
 
-### 풍요[cite: 5]
+### 풍요
 
-스킬 적중 시 아이덴티티 게이지 획득량을 증가시켜주는 룬입니다.[cite: 5]
+스킬 적중 시 아이덴티티 게이지 획득량을 증가시켜주는 룬입니다.
 
-아덴(아이덴티티) 캐릭터라면 필수입니다.[cite: 5] 일부 직업은 풍요 룬이 없으면 스킬 사이클 자체가 안 굴러가는 경우가 있으니 그런 경우 최우선으로 작업해야 합니다.[cite: 5]
+아덴(아이덴티티) 캐릭터라면 필수입니다. 일부 직업은 풍요 룬이 없으면 스킬 사이클 자체가 안 굴러가는 경우가 있으니 그런 경우 최우선으로 작업해야 합니다.
 
-#### 오르페우스의 별[cite: 5]
+#### 오르페우스의 별
 
-![이미지 136](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0136.png)[cite: 5]
+![이미지 136](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0136.png)
 
-5개 보상에서 획득 가능하며, 아크라시아 투어 보상으로 받을 수 있습니다.[cite: 5]
+5개 보상에서 획득 가능하며, 아크라시아 투어 보상으로 받을 수 있습니다.
 
-#### 블루홀[cite: 5]
+#### 블루홀
 
-![이미지 137](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0137.png)[cite: 5]
+![이미지 137](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0137.png)
 
-캘린더 섬인 블루홀 섬에서 획득 가능합니다.[cite: 5]
+캘린더 섬인 블루홀 섬에서 획득 가능합니다.
 
-인게임에서 Alt + H 를 누르면 캘린더가 열리는데 여기서 섬 스케쥴을 확인할 수 있습니다.[cite: 5] 미리 블루홀 섬이 나오는 날을 체크해두시면 좋습니다.[cite: 5]
+인게임에서 Alt + H 를 누르면 캘린더가 열리는데 여기서 섬 스케쥴을 확인할 수 있습니다. 미리 블루홀 섬이 나오는 날을 체크해두시면 좋습니다.
 
-#### 항해 모험물[cite: 5]
+#### 항해 모험물
 
-![이미지 138](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0138.png)[cite: 5]
+![이미지 138](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0138.png)
 
-모험물 34개 보상으로 얻을 수 있습니다.[cite: 5] 아크라시아 투어 완료 시 20개 정도를 주므로 14개를 더 모아야 합니다.[cite: 5]
+모험물 34개 보상으로 얻을 수 있습니다. 아크라시아 투어 완료 시 20개 정도를 주므로 14개를 더 모아야 합니다.
 
-항해 협동은 가장 나중으로 미루고 영지 교환/호감도 위주로 모으는[cite: 5]
+항해 협동은 가장 나중으로 미루고 영지 교환/호감도 위주로 모으는
 
 
 </div>
