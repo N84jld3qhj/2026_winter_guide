@@ -175,13 +175,28 @@ def read(path: pathlib.Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def read_fragment(frag: str, pid: str) -> str:
+    """Read target fragment, fallback to .html if .md doesn't exist, or placeholder."""
+    p = CONTENT / frag
+    if p.exists():
+        return read(p)
+    
+    # .md 파일이 없으면 기존 .html 파일이 있는지 확인
+    alt_p = CONTENT / (p.stem + ".html") if p.suffix == ".md" else CONTENT / (p.stem + ".md")
+    if alt_p.exists():
+        return read(alt_p)
+        
+    # 둘 다 없으면 빌드가 실패하지 않도록 임시 내용 생성
+    return f"# {pid}\n\n내용 준비 중입니다."
+
+
 def main() -> int:
     registry: dict[str, str] = {LANDING_ID: LANDING_FILE}
     for pid, fname, _label, _frag, _title in SECTIONS:
         registry[pid] = fname
 
     fragments = [("intro", "intro.md", LANDING_FILE)] + [
-        (pid, frag, fname) for pid, fname, _l, frag, _t in SECTIONS
+        (pid, frag, fname) for pid, frag, fname in SECTIONS
     ]
 
     raw_by_id: dict[str, str] = {}
@@ -190,8 +205,9 @@ def main() -> int:
     md_converter = markdown.Markdown(extensions=['tables', 'fenced_code', 'toc'])
 
     for pid, frag, fname in fragments:
-        raw_md = read(CONTENT / frag)
-        html = md_converter.convert(raw_md)
+        # 안전한 파일 읽기 함수 적용
+        raw_text = read_fragment(frag, pid)
+        html = md_converter.convert(raw_text)
         md_converter.reset()
         
         seen: set[str] = set()
