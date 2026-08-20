@@ -83,26 +83,6 @@ SPINE_TIERS = [
     "relic", "ancient", "esther", "legendary", "ancient",
 ]
 
-GRADE_TIERS = {
-    "전설": "legendary", "유물": "relic", "고대": "ancient",
-    "영웅": "heroic", "희귀": "rare", "에스더": "esther",
-}
-_GRADE_NOUNS = (
-    "등급|코어|카드|각인서|악세사리|악세|장신구|장비|무기|방어구|아바타|"
-    "엘릭서|세트|젬|보석|도구|재료|품질|돌파석|전투|악세서리|코어들|초월"
-)
-GRADE_RE = re.compile(
-    r"(전설|유물|고대|영웅|희귀|에스더)(?=\s+(?:" + _GRADE_NOUNS + r"))"
-)
-
-
-def colorize_grades(html: str) -> str:
-    """Wrap a grade word in its tier color span (content preserved — text only)."""
-    def _c(m: re.Match) -> str:
-        w = m.group(1)
-        return f'<span class="tier tier-{GRADE_TIERS[w]}">{w}</span>'
-    return GRADE_RE.sub(_c, html)
-
 
 CHUNK_HEADING_RE = re.compile(
     r'<(h[123])\b[^>]*\bid="([^"]+)"[^>]*>(.*?)</\1>',
@@ -245,7 +225,6 @@ def main() -> int:
         html = HREF_ANCHOR_RE.sub(_href, html)
         html = INLINE_LINK_STYLE_RE.sub("", html)
         html = theme_inline_styles(html)
-        html = colorize_grades(html)
         return rewrite_images(html)
 
     template = read(TEMPLATES / "template.html")
