@@ -186,7 +186,7 @@
 
 ### 어빌리티 스톤 지정 키트
 
-![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0083.png)
+![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0083.png){.half-size}
 
 낙원 지옥 보상으로 비상의 돌 각인 지정 키트 를 얻을 수 있습니다.
 
@@ -229,7 +229,7 @@
 ### 골드 상점 7레벨 광휘의 보석
 
 ![이미지 87](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0087.png)
-![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0088.png)
+![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0088.png){.half-size}
 
 골드 상점에서 7레벨 광휘의 보석 11개를 구매할 수 있습니다.
 
@@ -336,7 +336,7 @@
 뉴비들이라면 상하~상단일 정도를 사용하시는게 좋습니다.
 
 ![이미지 95](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0095.png)
-![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0096.png)
+![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0096.png){.half-size}
 
 골드 상점에서 장신구를 구매할 수 있습니다. 귀속 골드로 구매가 가능하지만 거래소에서 구매할 경우 페온을 사용하지만 가격은 훨씬 더 싸기 때문에 남는 페온이 있다면 거래소에서 사셔도 됩니다.
 
@@ -368,7 +368,7 @@
 
 적당한 팔찌 뽑으면 천장있는 다른 스펙업 먼저 하시고 마지막에 97돌이랑 같이 하시길 바랍니다.
 
-![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0098.png)
+![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0098.png){.half-size}
 
 골드 상점에서 팔찌를 구매할 수 있는데 뉴비에게 굉장히 좋은편입니다. 구매해서 사용하다가 특성2줄 + 특옵2줄 정도 노리면서 깎아보시는걸 추천드립니다.
 
@@ -406,7 +406,7 @@
 
 그 이상은 고인물의 영역으로 골드를 때려 박아야 하는데
 
-![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0100.png)
+![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0100.png){.half-size}
 
 지옥에서 얻을 수 있게된 정련된 운명의돌이 있습니다. 특수 재련 재료와 비슷한데 무료로 강화 시도를 할 수 있는 대신 카르마의 기운은 오르지 않습니다. 지옥 보상에서 선택지로 나온다면 고려해볼만한 보상입니다.
 
