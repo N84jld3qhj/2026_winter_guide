@@ -186,7 +186,7 @@ def read_fragment(frag: str, pid: str) -> str:
     if alt_p.exists():
         return read(alt_p)
         
-    # 둘 다 없으면 빌드가 실패하지 않도록 임시 내용 생성
+    # 둘 다 없으면 임시 내용 생성
     return f"# {pid}\n\n내용 준비 중입니다."
 
 
@@ -196,7 +196,7 @@ def main() -> int:
         registry[pid] = fname
 
     fragments = [("intro", "intro.md", LANDING_FILE)] + [
-        (pid, frag, fname) for pid, frag, fname in SECTIONS
+        (pid, frag, fname) for pid, fname, _label, frag, _title in SECTIONS
     ]
 
     raw_by_id: dict[str, str] = {}
@@ -205,7 +205,6 @@ def main() -> int:
     md_converter = markdown.Markdown(extensions=['tables', 'fenced_code', 'toc'])
 
     for pid, frag, fname in fragments:
-        # 안전한 파일 읽기 함수 적용
         raw_text = read_fragment(frag, pid)
         html = md_converter.convert(raw_text)
         md_converter.reset()
