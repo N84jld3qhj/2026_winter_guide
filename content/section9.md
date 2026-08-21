@@ -445,7 +445,7 @@
 ![이미지 164](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0164.png){.half-size}
 파푸니카 퀘스트로 받을 수 있습니다.
 
-### 기본 능력치 / 체력 증가 물약
+## 기본 능력치 / 체력 증가 물약
 
 ![이미지 165](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0165.png)
 
