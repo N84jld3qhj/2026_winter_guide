@@ -36,10 +36,10 @@
 
 사멸은 로스트아크 시스템 중 공격 타입이 '백어택' 또는 '헤드어택' 이 주류인 직업을 말합니다.
 
-![백어택](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0255.png){half-size}  
+![백어택](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0255.png){half-size}  
 백어택은 몬스터의 후방에서 공격 시 백어택이 적용되는 스킬들로 피해량 5%, 치명타 적중률 10% 보너스가 있습니다.
 
-![헤드어택](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0256.png){half-size}  
+![헤드어택](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0256.png){half-size}  
 헤드어택은 몬스터의 전방에서 공격 시 헤드어택이 적용되는 스킬들로 피해량 20% , 무력화 10% 보너스가 있습니다.
 
 모든 스킬에 백어택,헤드어택이 적용되는게 아니라 스킬 설명을 보면 '공격 타입'에 백어택,헤드어택이 적혀있는 스킬들만 적용이 됩니다.
@@ -103,12 +103,12 @@
 
 ### 무력화
 
-![무력화](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0260.png){half-size} 
+![무력화](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0260.png){half-size} 
 네임드 등급 이상 몬스터는 체력바 밑에 무력화 게이지가 있습니다.
 
 무력화 게이지는 데미지가 아니라 스킬에 있는 '무력화' 피해에 따라 감소하며 무력화 게이지가 모두 감소하면 무력화 상태에 빠집니다.
 
-![무력화 패턴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0261.png){half-size} 
+![무력화 패턴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0261.png){half-size} 
 특정 레이드에서는 무력화를 해야하는 패턴이 존재합니다. 
 
 몬스터에 무력화 게이지가 따로 표시되며 무력화 게이지를 모두 깎지 못하면 실패하게 됩니다.
@@ -119,10 +119,10 @@
 
 ### 부위 파괴
 
-![부위 파괴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0262.png){half-size} 
+![부위 파괴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0262.png){half-size} 
 일부 몬스터는 부위 파괴가 가능합니다.
 
-![부위 파괴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0263.png){half-size} 
+![부위 파괴](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0263.png){half-size} 
 파괴 효과가 있는 스킬이나 배틀 아이템으로 파괴 수치를 누적시킬 수 있으며 일정 수치 이상 파괴되면 부위 파괴 상태가 됩니다.
 
 부위 파괴 이후에는 몬스터의 패턴이 변경되거나 약화됩니다.
@@ -131,17 +131,17 @@
 
 ### 카운터
 
-![카운터](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0257.png){half-size}  
+![카운터](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0257.png){half-size}  
 몬스터가 특정 패턴에서 파랗게 빛나면 '카운터' 스킬로 패턴을 저지할 수 있습니다.
 
-![카운터 스킬](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0258.png){half-size}  
+![카운터 스킬](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0258.png){half-size}  
 직업별로 카운터 스킬이 존재하며 카운터 스킬로 헤드어택을 성공했을 때만 카운터에 성공합니다.
 
 레이드 기믹에 많이 활용되는 패턴이기 때문에 연습해두시면 좋습니다.
 
 ### 저스트 가드
 
-![저스트 가드](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/0259.png){half-size}  
+![저스트 가드](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0259.png){half-size}  
 몬스터가 특정 패턴에서 노랗게 빛나면 적절한 타이밍에 맞춰 'G'키를 눌러 저스트 가드를 할 수 있습니다.
 
 저스트 가드 성공 시 피해를 받지 않고 방어할 수 있습니다.
