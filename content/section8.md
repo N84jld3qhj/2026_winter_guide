@@ -14,11 +14,13 @@
 
 그 다음은 효율 순으로 가게 되는데 외부 사이트에서 쉽게 확인이 가능합니다.
 
-[➡️ 로아업](https://loaup.com/) 스펙업 효율, 전투력 시뮬, 전투력 루트 등 다양한 정보를 얻을 수 있습니다.
+### [➡️ 로아업](https://loaup.com/) 
+스펙업 효율, 전투력 시뮬, 전투력 루트 등 다양한 정보를 얻을 수 있습니다.
 
 ![이미지 67](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0067.png)
 
-[➡️ 로펙](https://lopec.kr/) 전투력 환산 지표를 보여주는 사이트입니다. 해당 지표나 전투력을 사용해 스펙업 시뮬레이터와 가이드를 제공하고 있습니다.
+### [➡️ 로펙](https://lopec.kr/) 
+전투력 환산 지표를 보여주는 사이트입니다. 해당 지표나 전투력을 사용해 스펙업 시뮬레이터와 가이드를 제공하고 있습니다.
 
 ![이미지 68](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0068.png)
 
@@ -110,15 +112,15 @@
 
 ![이미지 236](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0236.png)
 
-[➡️ 로아업](https://loaup.com/refine-efficiency)
+#### [➡️ 로아업](https://loaup.com/refine-efficiency)
 
 ![이미지 237](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0237.png)
 
-[➡️ 로아또](https://loatto.kr/advanced-refining)
+#### [➡️ 로아또](https://loatto.kr/advanced-refining)
 
 ![이미지 238](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0238.png)
 
-[➡️ 아이스펭](https://loa.icepeng.com/advanced-refining)
+#### [➡️ 아이스펭](https://loa.icepeng.com/advanced-refining)
 
 이런 사이트들에서 본인이 가지고 있는 귀속 재화를 입력하고 최적의 효율을 찾아서 상급재련을 진행하시면 됩니다.
 

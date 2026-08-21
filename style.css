@@ -890,6 +890,54 @@ mark {
     font-weight: 600;
 }
 
+/* 서포터 4종 통합 배너 박스 */
+.supporter-combined-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--r-card);
+    padding: var(--sp-4) var(--sp-2) var(--sp-2);
+    margin: var(--sp-4) 0;
+    gap: var(--sp-2);
+    overflow: hidden;
+}
+
+.supporter-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supporter-item img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease;
+}
+
+.supporter-item:hover img {
+    transform: translateY(-6px);
+}
+
+.supporter-item span {
+    margin-top: var(--sp-2);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+/* 모바일 대응 (2x2 배치로 전환) */
+@media (max-width: 600px) {
+    .supporter-combined-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* ---------- 12. 반응형 ---------- */
 /* 중간폭: 우측 레일을 본문 위 드롭다운으로 */
 @media (max-width: 1180px) {

@@ -65,6 +65,25 @@
 
 ### 서포터 직업군
 
+<div class="supporter-combined-banner">
+    <div class="supporter-item">
+        <img src="./images/colosseumseasoninfo_ibc_nopack.png" alt="바드">
+        <span>바드</span>
+    </div>
+    <div class="supporter-item">
+        <img src="/images/colosseumseasoninfo_idb_nopack.png" alt="홀리나이트">
+        <span>홀리나이트</span>
+    </div>
+    <div class="supporter-item">
+        <img src="images/colosseumseasoninfo_iae_nopack.png" alt="도화가">
+        <span>도화가</span>
+    </div>
+    <div class="supporter-item">
+        <img src=".images/colosseumseasoninfo_ie2_nopack.png" alt="발키리">
+        <span>발키리</span>
+    </div>
+</div>
+
 서포터는 바드, 홀리나이트, 도화가, 발키리 4개의 직업이 있습니다.
 
 서폿은 딜러에 비해 난이도가 높습니다.
