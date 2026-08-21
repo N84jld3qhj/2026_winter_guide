@@ -51,7 +51,7 @@
 
 총 4단계로 구성되어 있으며, 간단한 퀘스트만으로 파푸니카까지의 내실 보상을 받을 수 있으므로 가장 먼저 진행해야 합니다.
 
-> **💡 참고:** 아크라시아 투어로 전체 혹은 일부 획득 가능한 내실 요소들은 가이드 내에 별도로 표시되어 있습니다.
+> **💡 참고:** 아크라시아 투어로 전체 혹은 일부 획득 가능한 내실 요소들은 가이드 내에 <mark>강조</mark>로 표시되어 있습니다.
 
 ---
 
@@ -144,9 +144,9 @@
 
 총 31가지가 있으며, 아이템 사전(Alt + D)을 통해 확인하면 편리합니다.
 
-> 아크라시아 투어 완료시 거의 대부분의 스킬포인트를 획득 가능하니 아크라시아 투어를 먼저 진행해주세요.
+> <mark>아크라시아 투어 완료시 거의 대부분의 스킬포인트를 획득 가능하니 아크라시아 투어를 먼저 진행해주세요.</mark>
 
-### 모험의 서 (아크라시아 투어 지원)
+### <mark>모험의 서 </mark>
 ![이미지 126](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0126.png)
 
 루테란 동부 / 베른 북부 / 슈샤이어 / 로헨델 / 파푸니카 / 림레이크 남섬 모험의 서에서 획득 가능합니다.
@@ -155,14 +155,14 @@
 
 따라서 사실상 림레이크 남섬만 직접 달성하면 됩니다.
 
-### 필드보스 (아크라시아 투어 지원)
+### <mark>필드보스</mark>
 ![이미지 127](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0127.png)
 
 필드보스를 잡아 스킬포인트 물약을 얻을 수 있습니다.
 
 대부분 아크라시아 투어 완료 시 자동으로 받을 수 있습니다.
 
-### 일반 퀘스트 (아크라시아 투어 지원)
+### <mark>일반 퀘스트</mark>
 ![이미지 128](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0128.png)
 
 일반 퀘스트 보상으로 스킬 포인트 물약을 주는 경우가 있습니다.
@@ -171,7 +171,7 @@
 
 아이템 사전을 확인하여 혹시 미완료 퀘스트가 있다면 진행하시면 됩니다.
 
-### 거인의 심장 (아크라시아 투어 지원)
+### <mark>거인의 심장</mark>
 ![이미지 129](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0129.png)
 
 4개의 스킬 포인트 물약을 획득 가능합니다.
@@ -188,7 +188,7 @@
 
 카제로스 전조 퀘스트는 1660 레벨부터 진행이 가능합니다.
 
-### 에포나 평판 (아크라시아 투어 지원)
+### <mark>에포나 평판</mark>
 ![이미지 130](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0130.png)
 
 평판 보상으로 2개를 받을 수 있습니다.
@@ -199,7 +199,7 @@
 
 첫 번째 의뢰가 끝나는 날 바로 두 번째 의뢰가 가능하므로, 그날은 2번 수행이 가능합니다. 총 13일이 필요합니다.
 
-### 섬의 마음 (아크라시아 투어 지원)
+### <mark>섬의 마음</mark>
 ![이미지 131](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0131.png){.half-size}
 
 섬의 마음 20개 보상으로 획득이 가능합니다. 아크라시아 투어 완료 시 20개 이상의 섬의 마음을 제공하므로 자동으로 습득됩니다.
@@ -217,7 +217,7 @@
 
 [➡️ 뉴비를 위한 이그네아 징표작 대륙 추천 | 로아 인벤](https://www.inven.co.kr/board/lostark/4821/79873) 이 글 참고하시면 좋을것 같습니다.
 
-### 오르페우스의 별 (아크라시아 투어 지원)
+### <mark>오르페우스의 별</mark>
 ![이미지 133](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0133.png)
 
 오르페우스의 별 2개, 6개 보상에 스킬포인트 물약이 있습니다.
@@ -250,7 +250,7 @@
 
 아덴(아이덴티티) 캐릭터라면 필수입니다. 일부 직업은 풍요 룬이 없으면 스킬 사이클 자체가 안 굴러가는 경우가 있으니 그런 경우 최우선으로 작업해야 합니다.
 
-#### 오르페우스의 별 (아크라시아 투어 지원)
+#### <mark>오르페우스의 별</mark>
 ![이미지 136](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0136.png){.half-size}
 5개 보상에서 획득 가능하며, 아크라시아 투어 보상으로 받을 수 있습니다.
 
@@ -303,11 +303,11 @@
 ![이미지 144](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0144.png){.half-size}
 영지에서 구매 가능합니다.
 
-#### 오르페우스의 별 (아크라시아 투어 지원)
+#### <mark>오르페우스의 별</mark>
 ![이미지 145](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0145.png){.half-size}
 오르페우스의 별 3개 보상에 있습니다. 아크라시아 투어에서 자동으로 받아집니다.
 
-#### 모험의 서 (아크라시아 투어 지원)
+#### <mark>모험의 서</mark>
 ![이미지 146](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0146.png){.half-size}
 페이튼 모험의 서 보상입니다. 아크라시아 투어 보상으로 획득 가능합니다.
 
@@ -324,7 +324,7 @@
 ![이미지 147](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0147.png)
 영지에서 54,000개로 구매 가능합니다. 등급이 높을수록 발동확률이 높아서 사실 이것만 사시면 됩니다.
 
-#### 영웅 등급 (아크라시아 투어 지원)
+#### <mark>영웅 등급</mark>
 ![이미지 148](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0148.png)
 미술품은 24개 보상입니다. 아크라시아 투어 완료시 20개쯤 주고 큐브나 카오스게이트에서도 획득 가능하니 크게 어렵지 않습니다.
 
@@ -409,7 +409,7 @@
 ![이미지 156](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0156.png){.half-size}
 아제나 호감도 신뢰 등급 보상입니다.
 
-#### 평판 (아크라시아 투어 지원)
+#### <mark>평판</mark>
 ![이미지 157](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0157.png){.half-size}
 독을 품은 사막 에포나 평판보상입니다. 아크라시아 투어 보상으로 받을 수 있습니다.
 
@@ -427,7 +427,7 @@
 ![이미지 160](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0160.png){.half-size}
 쿠르잔 남부 모험의서 30% 보상으로 받을 수 있습니다.
 
-#### 퀘스트 (아크라시아 투어 지원)
+#### <mark>퀘스트</mark>
 ![이미지 161](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0161.png){.half-size}
 욘 퀘스트로 받을 수 있습니다. 아크라시아 투어 완료시 지급됩니다.
 
@@ -437,7 +437,7 @@
 ![이미지 162](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0162.png)
 헬가이아 / 레바노스 / 루메루스 / 가르가디스 / 드렉탈라스 보상으로 얻을 수 있습니다.
 
-#### 평판 (아크라시아 투어 지원)
+#### <mark>평판</mark>
 ![이미지 163](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0163.png)
 페이토와 로헨델 에포나 평판 보상으로 받을 수 있는데 두개 역시 아크라시아 투어 보상으로 받을 수 있습니다.
 

@@ -868,6 +868,15 @@ code,
     background: rgba(0, 0, 0, .5);
 }
 
+/*아크라시아 투어 강조 표시*/
+mark {
+    background: var(--accent-weak); /* 골드 계열 은은한 배경색 */
+    color: var(--text);          /* 강조 글자색 */
+    padding: 0 4px;
+    border-radius: var(--r-chip);
+    font-weight: 600;
+}
+
 /* ---------- 12. 반응형 ---------- */
 /* 중간폭: 우측 레일을 본문 위 드롭다운으로 */
 @media (max-width: 1180px) {
