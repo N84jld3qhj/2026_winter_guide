@@ -395,7 +395,7 @@
 
 
 
-## 영구 능력치 증가 치명 / 특화 / 신속
+## 치명 / 특화 / 신속
 
 이건 종류가 몇개 없어서 카드나 펫특기에 비해 금방 모으기 때문에 우선 순위 4위로 했습니다.
 
@@ -445,7 +445,7 @@
 ![이미지 164](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0164.png){.half-size}
 파푸니카 퀘스트로 받을 수 있습니다.
 
-### 영구 능력치 증가 기본 능력치/체력
+## 기본 능력치 / 체력 증가 물약
 
 ![이미지 165](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0165.png)
 
