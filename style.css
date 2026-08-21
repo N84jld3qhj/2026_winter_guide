@@ -610,48 +610,61 @@ code,
 }
 
 /* ---------- 8. 우측 페이지 목차 (h2-only) ---------- */
+/* 이 페이지 목차 컨테이너 */
 .page-toc {
-    font-size: 0.9rem;
+    margin-top: var(--sp-4);
+    padding: 0;
+    background: transparent;
+    border: none;
 }
 
+/* 요약 헤더 '이 페이지 목차' */
 .page-toc-summary {
-    list-style: none;
+    font-size: 0.8125rem;
+    font-weight: 700;
     color: var(--text-muted);
-    font-size: var(--fs-cap);
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-bottom: var(--sp-3);
-    cursor: default;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    user-select: none;
+    padding: var(--sp-2) var(--sp-2);
+    margin-bottom: var(--sp-2);
+    border-bottom: 1px solid var(--border);
+    list-style: none;
 }
 
 .page-toc-summary::-webkit-details-marker {
     display: none;
 }
 
+/* 리스트 컨테이너 */
 .page-toc ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
-    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
-.page-toc li {
-    margin: 0;
-}
-
+/* 텍스트 위주의 깔끔한 링크 버튼 */
 .page-toc-link {
     display: block;
-    padding: var(--sp-1) var(--sp-3);
-    margin-left: -1px;
-    border-left: 2px solid transparent;
+    padding: 8px 12px;
+    font-size: 0.9375rem;
+    font-weight: 500;
     color: var(--text-muted);
-    line-height: 1.4;
+    text-decoration: none;
+    border-left: 3px solid transparent; /* 기본 상태에서는 투명 */
+    border-radius: 0 var(--r-chip) var(--r-chip) 0;
+    transition: all 0.15s ease;
 }
 
+/* Hover 시에만 왼쪽 골드 포인트 바 활성화 */
 .page-toc-link:hover {
     color: var(--text);
-    text-decoration: none;
+    background: var(--accent-weak);
+    border-left-color: var(--accent); /* 마우스 호버 시 포인트 좌측선 생성 */
+    font-weight: 600;
 }
 
 .page-toc-link.active {
