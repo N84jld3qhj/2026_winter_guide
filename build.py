@@ -31,7 +31,7 @@ DIST = ROOT / "dist"
 
 # Top-level navigation / page table. Order = display order.
 # (page_id, output filename, short nav label, content fragment, <title>)
-SITE_TITLE = "2026 썸머 로아온 뉴비/복귀 가이드"
+SITE_TITLE = "2026 로아온 윈터 뉴비/복귀 가이드"
 SECTIONS = [
     ("section0", "section0.html", "0. 게임 시스템 소개", "section0.md", "0. 게임 시스템 소개"),
     ("section1", "section1.html", "1. 과금 요소", "section1.md", "1. 과금 요소"),
