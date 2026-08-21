@@ -67,19 +67,19 @@
 
 <div class="supporter-combined-banner">
     <div class="supporter-item">
-        <img src="./images/colosseumseasoninfo_ibc_nopack.png" alt="바드">
+        <img src="https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/colosseumseasoninfo_ibc_nopack.png" alt="바드">
         <span>바드</span>
     </div>
     <div class="supporter-item">
-        <img src="/images/colosseumseasoninfo_idb_nopack.png" alt="홀리나이트">
+        <img src="https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/colosseumseasoninfo_idb_nopack.png" alt="홀리나이트">
         <span>홀리나이트</span>
     </div>
     <div class="supporter-item">
-        <img src="images/colosseumseasoninfo_iae_nopack.png" alt="도화가">
+        <img src="https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/colosseumseasoninfo_iae_nopack.png" alt="도화가">
         <span>도화가</span>
     </div>
     <div class="supporter-item">
-        <img src=".images/colosseumseasoninfo_ie2_nopack.png" alt="발키리">
+        <img src="https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/colosseumseasoninfo_ie2_nopack.png" alt="발키리">
         <span>발키리</span>
     </div>
 </div>
