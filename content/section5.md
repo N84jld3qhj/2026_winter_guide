@@ -2,7 +2,7 @@
 
 ## 엔드 콘텐츠
 
-![이미지 46](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0046.png)
+![이미지 46](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0046.png)
 
 로스트아크의 레이드 콘텐츠로 클리어 보상으로 '골드'를 획득가능한 콘텐츠입니다.
 
@@ -23,7 +23,7 @@
 항상 문제가 되는 부분입니다. 6회 제한을 풀자니 인게임 경제가 박살나고 제한을 하자니 7개 이상 캐릭터를 키우는걸 방해하고 뭘 하든 문제가 생기는 부분이라 게임사에서 매번 신중하게 접근하는 문제이긴 합니다만 아직까지는 6회 제한을 유지하는 중입니다.  
 
 
-![이미지 47](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0047.png)
+![이미지 47](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0047.png)
 
 골드 보상을 획득할 캐릭터는 [게임 메뉴] - [골드 획득 캐릭터 지정]을 통해 사전에 미리 설정해 둘 수 있습니다.
 
@@ -39,7 +39,7 @@
 
 ### 싱글 모드
 
-![이미지 48](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0048.png)
+![이미지 48](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0048.png)
 
 [➡️ 콘텐츠 > 싱글 모드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%8B%B1%EA%B8%80%20%EB%AA%A8%EB%93%9C)
 
@@ -49,13 +49,13 @@
 
 싱글 모드에서는 운명의 천칭/운명의 가호 등 여러가지 지원 효과를 받을 수 있어 레이드를 잘 못하는 신규 유저들도 부담없이 진행할 수 있습니다.
 
-![이미지 51](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0051.png)
+![이미지 51](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0051.png)
 
 싱글 모드에서는 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 '아크투르스의 손길' 이 적용됩니다.
 
 아크투르스의 손길은 일부 엔드콘텐츠에서 클리어 보상 및 더보기 보상을 추가로 획득할 수 있는 시스템입니다.
 
-![이미지 52](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0052.png)
+![이미지 52](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0052.png)
 
 싱글 모드가 제공되는 콘텐츠는 난이도와 무관하게 클리어 시 '클리어 메달'을 획득할 수 있습니다.
 
@@ -63,7 +63,7 @@
 
 ### 매칭 모드
 
-![이미지 247](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0247.png)
+![이미지 247](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0247.png)
 
 그림자 레이드부터는 싱글 모드가 매칭 모드로 변경됩니다.
 
@@ -82,7 +82,7 @@
 
 ## 낙원
 
-![이미지 53](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0053.png)
+![이미지 53](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0053.png)
 
 [➡️ 낙원](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%99%EC%9B%90)
 
@@ -92,20 +92,20 @@
 
 천상에서 장비를 파밍한 후 증명에서 기록을 새워 순위를 매긴 후 순위별로 보상으로 지옥 열쇠를 받아 지옥에서 귀속 보상을 받는 방식입니다.
 
-![이미지 191](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0191.png)
+![이미지 191](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0191.png)
 
 
 30위 이내의 최상위권의 경우 시즌별 증명 배너와 칭호를 얻을 수 있습니다만 과금이나 배럭 입장권 몰아주기 등 필요한 것들이 많아서 뉴비나 복귀가 노리기에는 무리가 있습니다.
 
 ### 천상
 
-![이미지 54](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0054.png)
+![이미지 54](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0054.png)
 
 천상은 낙원에서만 적용되는 장비인 유산을 획득하는 던전으로 주간 5회 입장이 가능합니다.
 
 천상은 클리어한 증명 단계를 기준으로 오픈이 되기 때문에 증명을 최대한 높은 단계까지 클리어한 이후에 천상을 돌면 됩니다.
 
-![이미지 190](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0190.png)
+![이미지 190](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0190.png)
 
 순위권을 노리기 위해선 높은 등급의 유산 장비 / 복원 / 공명 이 3가지가 필요한데 이를 위해서는 최대한 많이 천상을 돌아야 합니다.
 
@@ -117,8 +117,8 @@
 
 그 재료들을 포기하고 순위권 경쟁을 위해 천상 입장권을 선택하는건 뉴비/복귀 유저가 하기에는 어려운 선택입니다.
 
-![이미지 200](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0200.png){.half-size}
-![이미지 201](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0201.png){.half-size}
+![이미지 200](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0200.png){.half-size}
+![이미지 201](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0201.png){.half-size}
 
 원정대 입장권은 부캐릭터들의 복원석을 원정대 공유 천상 입장권으로 바꿔 본캐릭터에 몰아주는 방식인데 낙원은 1640만 되면 입장이 가능하고 아이템 레벨에 상관없이 복원석 획득량이 모두 동일하기 때문에 원정대에 최대한 많은 1640 캐릭터를 만들어 입장권을 몰아줘야 합니다.
 
@@ -130,7 +130,7 @@
 
 ### 증명
 
-![이미지 55](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0055.png)
+![이미지 55](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0055.png)
 
 증명은 제한시간 안에 보스를 잡는 콘텐츠로 유산을 제외한 다른 모든 스펙이 적용이 되지 않습니다.
 
@@ -144,8 +144,8 @@
 
 ### 지옥
 
-![이미지 56](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0056.png)
-![이미지 57](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0057.png)
+![이미지 56](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0056.png)
+![이미지 57](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0057.png)
 
 낙원의 핵심입니다. 증명 주간 순위에 따라 입장 열쇠를 보상으로 받을 수 있고 열쇠 등급에 따라 강하 시도횟수가 달라집니다.
 
@@ -165,7 +165,7 @@
 
 ### 나락
 
-![이미지 58](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0058.png)
+![이미지 58](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0058.png)
 
 나락은 지옥의 상위 콘텐츠로 지옥보다 더 많은 보상을 얻을 수 있지만 강하 시 조건에 따라 사망하여 보상을 얻을 수 없게 됩니다.
 
@@ -173,13 +173,13 @@
 
 랜덤 유물 각인서 상자가 보상으로 추가되었고 8단계 이상부터는 귀속 8레벨 보석도 나올 수 있습니다.
 
-![이미지 183](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0183.png)
+![이미지 183](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0183.png)
 
 나락에 입장하기 위해선 나락 열쇠가 필요한데 나락 열쇠는 지옥 열쇠를 연성하여 확률적으로 얻을 수 있습니다.
 
 지옥 입장시 0층에서 20% , 50층과 100층에서 100% 확률로 제단이 등장하는데 제단에서 연성 가능한 지옥 열쇠를 연성 시 40% 확률로 나락 열쇠를 획득하고 60% 확률로 등급 변경(-2~+2)이 됩니다.
 
-![이미지 184](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0184.png)
+![이미지 184](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0184.png)
 
 나락 입장 시 선택한 열쇠(화염/서리)에 따라, 강하 후 도달한 층수(홀수/짝수)에 의해 생존 여부가 달라집니다.
 

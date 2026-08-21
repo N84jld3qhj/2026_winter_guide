@@ -2,7 +2,7 @@
 # 4. 일일 콘텐츠
 
 ## 쿠르잔 전선
-![이미지 31](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0031.png)
+![이미지 31](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0031.png)
 
 [➡️ 쿠르잔 전선](https://lostark.game.onstove.com/GameGuide/Pages/%EB%8D%98%EC%A0%84#h3-4)
 
@@ -11,7 +11,7 @@
 보상으로 4티어 재련 재료(파편, 돌파석, 파괴석, 수호석), 젬, 유물 각인서 등을 얻을 수 있고 주기적으로 큐브 입장권을 획득할 수 있습니다.
 
 ## 가디언 토벌
-![이미지 32](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0032.png)
+![이미지 32](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0032.png)
 
 [➡️ 가디언 토벌](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%80%EB%94%94%EC%96%B8%20%ED%86%A0%EB%B2%8C)
 
@@ -20,7 +20,7 @@
 보석, 장신구, 팔찌, 젬, 유물 각인서 등을 얻을 수 있습니다.
 
 ### 편린
-![이미지 33](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0033.png)
+![이미지 33](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0033.png)
 
 전선과 가토 중에는 낮은 확률로 편린을 획득할 수 있습니다.
 
@@ -29,7 +29,7 @@
 골드 편린의 경우 최대 30만골드 까지 나오기 때문에 일일 숙제는 꾸준히 돌아주시는게 좋습니다.
 
 ### 휴식 보너스
-![이미지 34](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0034.png)
+![이미지 34](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0034.png)
 
 ⓘ 휴식 보너스란?
 
@@ -49,7 +49,7 @@
 
 
 ## 에포나 의뢰
-![이미지 35](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0035.png)
+![이미지 35](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0035.png)
 
 [➡️ 에포나 의뢰](https://lostark.game.onstove.com/GameGuide/Pages/%ED%80%98%EC%8A%A4%ED%8A%B8#h3-2)
 
@@ -64,7 +64,7 @@
 아크 패시브 포인트, 스킬 포인트, 능력치 증가 물약, 위대한 미술품, 감정표현, 호감도 아이템 등 다양한 평판 보상이 존재하는데 내실 관련 평판을 최우선으로 진행한 후 이후에는 필요한 보상을 찾아서 진행하시면 됩니다.
 
 ## 생활
-![이미지 36](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0036.png)
+![이미지 36](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0036.png)
 
 [➡️ 생활](https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%9D%ED%99%9C%20%ED%99%9C%EB%8F%99)
 
@@ -77,7 +77,7 @@
 생활 도구 옵션이나 생활별 획득 골드 정보는 [➡️ 로스트골드](https://lostgld.com/) 사이트에서 얻을 수 있습니다.
 
 ### 추천 생활 스킬
-![이미지 195](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0195.png)
+![이미지 195](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0195.png)
 
 생활 종류별로 얻을 수 있는 재료가 다르고 재료별로 사용처가 달라서 매번 가격이 변동되기 때문에 추천 순위가 계속해서 바뀝니다.
 
@@ -96,8 +96,8 @@
 벌목은 반드시 2인으로 진행을 해야 합니다. 혼자서 할 시 메리트가 전혀 없기 때문에 2인으로 하는게 싫다면 다른 생활을 하는게 좋습니다.
 
 ### 유물 도구
-![이미지 196](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0196.png)
-![이미지 042](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0042.png)
+![이미지 196](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0196.png)
+![이미지 042](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0042.png)
 
 유물 도구를 만들기 위해서는 달인용 제작 키트가 필요한데 가격이 비쌉니다.
 
@@ -105,8 +105,8 @@
 
 하지만 유물 도구를 만들더라도 한번에 원하는 옵션을 모두 뽑기 어렵고 막상 수익에서도 큰 차이가 나지는 않습니다.
 
-![이미지 197](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0197.png)
-![이미지 198](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0198.png)
+![이미지 197](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0197.png)
+![이미지 198](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0198.png)
 
 [➡️ 로스트골드](https://lostgld.com/) 사이트에서 뽑은 70%급 유물 도구와 50%급 전설 도구를 비교해보면 1만생기당 1500골드 정도 더 수익을 낼 수 있습니다.
 
@@ -115,8 +115,8 @@
 반면에 전설 도구는 만드는 가격이 싸서 원하는 옵션을 뽑기가 쉽고 수익도 큰 차이가 나지는 않습니다. 수리비도 등급이 높을수록 비싸기 때문에 뉴비때는 전설 도구 정도만 뽑아서 하시는걸 추천드립니다.
 
 ### 세계수의 잎
-![이미지 192](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0192.png)
-![이미지 193](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0193.png){.half-size}
+![이미지 192](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0192.png)
+![이미지 193](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0193.png){.half-size}
 
 세계수의 잎은 캐릭터의 스펙에 직접적으로 영향을 주는 보상은 없습니다.
 
@@ -129,7 +129,7 @@
 부적으로 얻을 수 있는 추가 수익이 엄청나게 크거나 한건 아니라서 유물 도구와 마찬가지로 전설 등급만 있어도 괜찮습니다.
 
 ### 도약의 정수
-![이미지 194](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0194.png){.half-size}
+![이미지 194](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0194.png){.half-size}
 
 도약의 정수는 생활의 정수 소비량을 2배로 증가시키는 대신 보상을 2번 획득하는 아이템입니다.
 
@@ -140,7 +140,7 @@
 로아샵에서 크리스탈로 구매하는것 보다는 아제나의 축복 보상으로 얻는게 더 효율이 좋습니다.
 
 ### 식물 채집
-![이미지 37](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0037.png)
+![이미지 37](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0037.png)
 
 식물 채집은 다른 생활과 다르게 미니게임이 없습니다.  
 대신 골든 핑거라는 버프를 유지하며 자동으로 추가보상을 획득하는 방식입니다.
@@ -155,7 +155,7 @@
 골든핑거 발동 시 채집 속도가 빨리지기는 하지만 기본 생기 소모량이 30이기 때문에 생기 소모 속도가 빠른편은 아닙니다.
 
 ### 채광
-![이미지 38](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0038.png)
+![이미지 38](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0038.png)
 
 벌목과 비슷한 보상 종류를 갖는 생활이지만 벌목보다 유저수가 적고 배틀 아이템을 만드는데 필요한 재료가 있어 가격이 더 비쌉니다.
 
@@ -168,7 +168,7 @@
 대신 생기 소모 속도는 벌목과는 비교할 수 없을 정도로 느립니다.
 
 ### 벌목
-![이미지 39](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0039.png)
+![이미지 39](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0039.png)
 
 시즌3 기준 유저들이 가장 많이 하는 생활입니다.
 
@@ -189,7 +189,7 @@
 팁을 드리자면 깐부 구했는데 펫효과가 없다? 도망가십쇼. 자리 많은데 옆에서 시비건다? 그냥 채널이동 하십쇼. 진짜 로아에서 쌀먹하는 새끼들은 엮이면 피해만 봅니다.
 
 ### 수렵
-![이미지 40](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0040.png)
+![이미지 40](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0040.png)
 
 수렵 특성상 몹을 잡고 바로 갈무리를 하지 않아도 갈무리감이 일정 시간 남아있는데 이걸 이용해서 케투스(영웅 등급)를 잡고 갈무리하지 않고 남겨뒀다가 미니게임 기회 획득 후 남겨놓은 케투스에 미니게임을 할 수 있습니다.
 
@@ -200,7 +200,7 @@
 얀의 길에 카오스게이트가 나오기 때문에 채널이 많고 유저수가 많지 않아 경쟁은 거의 없는편입니다. 생기 소모 속도는 빠른편은 아닙니다.
 
 ### 고고학
-![이미지 41](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0041.png)
+![이미지 41](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0041.png)
 
 시즌3에는 벌목에 자리를 넘겨줬지만 시즌2까지는 독보적인 1위 생활이였습니다.
 
@@ -210,14 +210,14 @@
 
 하지만 희귀 재료가 가치가 없고 재료 가격이 다른 생활에 비해 싸기 때문에 추천을 드리지는 않습니다.
 
-![이미지 42](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0042.png)
+![이미지 42](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0042.png)
 
 생활 중 유일하게 제작 키트를 얻을 수 있습니다. 유물 등급 제작 키트의 경우 가격이 상당하기 때문에 이걸 노리고 고고학을 하기도 합니다.
 
 사소한거긴 한데 다른 생활들은 30레벨부터 미니게임이 가능하지만 고고학은 20레벨부터 가능합니다.
 
 ### 낚시
-![이미지 43](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0043.png)
+![이미지 43](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0043.png)
 
 낚시는 매크로 때문에 다른 생활에 비해 보상이 적습니다. 매크로가 어딨어? 라고 생각하신다면 레이크바 낚시터에 한번 가보십쇼.
 
@@ -239,10 +239,10 @@
 | **낚시** | 매우 느림 | 없음 | 수익 적음. 내실용으로만 |
 
 ### 재료 직접 판매 vs 영지 제작
-![이미지 44](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0044.png)
+![이미지 44](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0044.png)
 
 영지에서 생활 재료를 사용해 융화 재료나 배틀 아이템을 제작할 수 있습니다.
 
-![이미지 45](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0045.png)
+![이미지 45](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0045.png)
 
 재료를 직접 팔아서 얻는 골드와 제작 후 제작된 아이템을 팔아서 얻는 골드를 비교하게 되는데 [➡️ 로아도구](https://loatool.taeu.kr/) 나 [➡️ 즐로아](https://zloa.net/craft) 사이트를 이용하시면 어떤게 이득인지 쉽게 확인이 가능합니다.

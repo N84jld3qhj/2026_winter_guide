@@ -1,6 +1,6 @@
 # 8. 스펙업
 
-![이미지 66](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0066.png)
+![이미지 66](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0066.png)
 
 로스트아크의 스펙업 요소들입니다. 작성 순서가 스펙업 우선 순위가 아닙니다. 우선 순위와 효율은 매 순간 달라지기 때문에 본인에 맞는 스펙업을 찾아서 하셔야 합니다.
 
@@ -17,18 +17,18 @@
 ### [➡️ 로아업](https://loaup.com/) 
 스펙업 효율, 전투력 시뮬, 전투력 루트 등 다양한 정보를 얻을 수 있습니다.
 
-![이미지 67](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0067.png)
+![이미지 67](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0067.png)
 
 ### [➡️ 로펙](https://lopec.kr/) 
 전투력 환산 지표를 보여주는 사이트입니다. 해당 지표나 전투력을 사용해 스펙업 시뮬레이터와 가이드를 제공하고 있습니다.
 
-![이미지 68](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0068.png)
+![이미지 68](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0068.png)
 
 요약을 하자면 원하는 레이드 입장 레벨까지 아이템 레벨을 맞춘 후 효율표에 따라 순서대로 스펙업 하시면 됩니다.
 
 ## 재련
 
-![이미지 70](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0070.png)
+![이미지 70](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0070.png)
 
 [➡️ 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%AC%EB%A0%A8)
 
@@ -38,13 +38,13 @@
 
 ### 재련 재료 수급처
 
-![이미지 71](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0071.png)
+![이미지 71](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0071.png)
 
 대부분의 PVE 컨텐츠에서 획득이 가능합니다.
 
 ### 싱글 상점 주간 교환
 
-![이미지 72](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0072.png)
+![이미지 72](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0072.png)
 
 싱글 상점에서 클리어 메달을 사용해 다양한 재련 재료를 구매할 수 있습니다.
 
@@ -52,7 +52,7 @@
 
 ### 효율적인 재련 방법과 순서
 
-![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)
+![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0173.png)
 
 로스트아크에는 거래 가능한 재료와 귀속 재료가 나뉘어져있고 거래 가능 재료의 가격이 계속 변하기 때문에 효율적인 재련 순서나 방법이 매번 바뀌게 됩니다.
 
@@ -68,7 +68,7 @@
 
 ### 특수 재련
 
-![이미지 73](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0073.png)
+![이미지 73](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0073.png)
 
 특수 재련은 기존 재료를 쓰지 않고 특수 재련 재료만을 사용하여 재련을 하는 방식입니다.
 
@@ -76,7 +76,7 @@
 
 특수 재련 재료는 레이드 클리어시 얻거나 낙원 지옥 콘텐츠에서 랜덤하게 얻을 수 있습니다.
 
-![이미지 74](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0074.png)
+![이미지 74](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0074.png)
 
 지옥이 특수 재련의 핵심입니다. 
 
@@ -86,21 +86,21 @@
 
 ## 상급 재련
 
-![이미지 75](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0075.png)
+![이미지 75](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0075.png)
 
 [➡️ 상급 재련](https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%81%EA%B8%89%20%EC%9E%AC%EB%A0%A8)
 
 상급 재련은 일반 재련과 다른 방식으로 진행되는 재련입니다.
 
-![이미지 76](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0076.png)
+![이미지 76](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0076.png)
 
 상급 재련을 하기 위해서는 먼저 담금질이 필요한데 10단계와 20단계를 하기 위해서는 카제로스 레이드 서막 클리어 보상이 필요하고 30단계와 40단계를 위해서는 3막 클리어 보상이 필요합니다.
 
-![이미지 77](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0077.png)
+![이미지 77](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0077.png)
 
 상급 재련은 확률에 의해 성공 / 대성공 / 대성공x2 의 결과를 얻을 수 있는대 보조 재료와 재봉술/야금술을 사용해 대성공/대성공x2 의 확률을 올릴 수 있습니다.
 
-![이미지 78](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0078.png)
+![이미지 78](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0078.png)
 
 상급 재련을 3번 진행하면 선조의 가호를 받을 수 있습니다. 확률에 따라 추가 효과가 발동되는데 테메르의 정을 제외한 효과들이 모두 좋아서 가능하다면 선조의 가호 턴에는 추가 재료를 넣어주시는게 좋습니다.
 
@@ -110,15 +110,15 @@
 
 어떤 추가 재료를 어느 타이밍에 사용하는게 좋은지는 외부 사이트에서 쉽게 확인할 수 있습니다
 
-![이미지 236](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0236.png)
+![이미지 236](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0236.png)
 
 #### [➡️ 로아업](https://loaup.com/refine-efficiency)
 
-![이미지 237](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0237.png)
+![이미지 237](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0237.png)
 
 #### [➡️ 로아또](https://loatto.kr/advanced-refining)
 
-![이미지 238](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0238.png)
+![이미지 238](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0238.png)
 
 #### [➡️ 아이스펭](https://loa.icepeng.com/advanced-refining)
 
@@ -126,7 +126,7 @@
 
 ### 상급 재련 순서
 
-![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0173.png)
+![이미지 173](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0173.png)
 
 일반 재련에서도 설명을 했지만 재련과 상급 재련은 효율이 바뀌는 구간이 존재합니다. 
 
@@ -134,8 +134,8 @@
 
 ## 각인
 
-![이미지 79](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0079.png)
-![이미지 80](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0080.png)
+![이미지 79](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0079.png)
+![이미지 80](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0080.png)
 
 [➡️ 각인](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8)
 
@@ -149,13 +149,13 @@
 
 본인 스펙업 효율 생각해서 현명하게 구매하시길 바랍니다.
 
-![이미지 81](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0081.png)
+![이미지 81](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0081.png)
 
 나락에서 보상으로 귀속 랜덤 유물 각인서 상자가 나오기 때문에 최고의 가성비를 노린다면 유물 각인서는 3단계만 활성화하고 나락에서 나오길 기다려도 됩니다.
 
 ## 어빌리티 스톤
 
-![이미지 82](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0082.png)
+![이미지 82](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0082.png)
 
 [➡️ 어빌리티 스톤](https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8#h3-2)
 
@@ -169,7 +169,7 @@
 
 ### 97돌
 
-![이미지 239](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0239.png)
+![이미지 239](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0239.png)
 
 어빌리티 스톤에 부여된 2개의 증가 효과 각인(전투 각인)의 세공 레벨 합이 5 이상이라면 기본 공격력 1.5% 증가 효과가 적용됩니다.
 
@@ -202,7 +202,7 @@
 
 ### 어빌리티 스톤 지정 키트
 
-![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0083.png){.half-size}
+![이미지 83](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0083.png){.half-size}
 
 낙원 지옥 보상으로 비상의 돌 각인 지정 키트 를 얻을 수 있습니다.
 
@@ -216,7 +216,7 @@
 
 ## 보석
 
-![이미지 84](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0084.png)
+![이미지 84](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0084.png)
 
 [➡️ 보석](https://lostark.game.onstove.com/GameGuide/Pages/%EB%B3%B4%EC%84%9D)
 
@@ -228,7 +228,7 @@
 
 ### 보석 조율 광휘의 보석
 
-![이미지 85](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0085.png)
+![이미지 85](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0085.png)
 
 4티어 보석은 광휘의 보석으로 조율이 가능하며 광휘의 보석은 겁화↔작열을 마음대로 바꿀 수 있고 효과 변환도 무료로 가능합니다.
 
@@ -236,7 +236,7 @@
 
 ### 싱글 상점 6레벨 광휘의 보석
 
-![이미지 86](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0086.png)
+![이미지 86](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0086.png)
 
 싱글 상점에서 6레벨 광휘의 보석을 구입할 수 있습니다.
 
@@ -246,8 +246,8 @@
 
 ### 골드 상점 7레벨 광휘의 보석
 
-![이미지 87](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0087.png)
-![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0088.png){.half-size}
+![이미지 87](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0087.png)
+![이미지 88](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0088.png){.half-size}
 
 골드 상점에서 7레벨 광휘의 보석 11개를 구매할 수 있습니다.
 
@@ -255,7 +255,7 @@
 
 ### 나이스단
 
-![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0089.png)
+![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0089.png)
 
 나이스단은 동일 직업을 여러개 키워 보석을 공유하는 원정대 구성을 의미합니다.
 
@@ -271,7 +271,7 @@
 
 ## 카드
 
-![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0090.png)
+![이미지 89](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0090.png)
 
 [➡️ 카드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%B9%B4%EB%93%9C)
 
@@ -293,13 +293,13 @@
 
 #### 모험섬
 
-![이미지 90](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0091.png)
+![이미지 90](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0091.png)
 
 모험섬 보상으로 카드가 들어있습니다. 골드섬이 있는게 아니라면 대부분 카드섬을 갑니다.
 
 #### 카드작
 
-![이미지 91](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0092.png)
+![이미지 91](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0092.png)
 
 엔드 콘텐츠는 골드 획득 3회 이후부터는 골드는 획득하지 못하지만 다른 보상은 획득이 가능합니다.
 
@@ -309,7 +309,7 @@
 
 #### 떠돌이 상인
 
-![이미지 92](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0093.png)
+![이미지 92](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0093.png)
 
 로아에는 떠돌이 상인 NPC가 있습니다
 
@@ -341,7 +341,7 @@
 
 ## 장신구 연마
 
-![이미지 93](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0094.png)
+![이미지 93](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0094.png)
 
 [➡️ 장신구 연마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EC%8B%A0%EA%B5%AC%20%EC%97%B0%EB%A7%88)
 
@@ -357,14 +357,14 @@
 
 공격력 1.55% 와 무기 공격력 1.8%가 붙었다면 상중 귀걸이가 되는식입니다.
 
-![이미지 203](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0203.png)
+![이미지 203](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0203.png)
 
 왼쪽부터 상상/상중/상하/중중/상단일 악세로 왼쪽으로 갈수록 성능이 좋습니다.
 
 뉴비들이라면 상하~상단일 정도를 사용하시는게 좋습니다.
 
-![이미지 95](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0095.png)
-![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0096.png){.half-size}
+![이미지 95](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0095.png)
+![이미지 96](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0096.png){.half-size}
 
 골드 상점에서 장신구를 구매할 수 있습니다. 귀속 골드로 구매가 가능하지만 거래소에서 구매할 경우 페온을 사용하지만 가격은 훨씬 더 싸기 때문에 남는 페온이 있다면 거래소에서 사셔도 됩니다.
 
@@ -372,7 +372,7 @@
 
 ## 팔찌
 
-![이미지 97](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0097.png)
+![이미지 97](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0097.png)
 
 [➡️ 팔찌](https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EB%B9%84#h3-2)
 
@@ -398,7 +398,7 @@
 
 적당한 팔찌 뽑으면 천장있는 다른 스펙업 먼저 하시고 마지막에 97돌이랑 같이 하시길 바랍니다.
 
-![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0098.png){.half-size}
+![이미지 98](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0098.png){.half-size}
 
 골드 상점에서 팔찌를 구매할 수 있는데 뉴비에게 굉장히 좋은편입니다. 구매해서 사용하다가 특성2줄 + 특옵2줄 정도 노리면서 깎아보시는걸 추천드립니다.
 
@@ -411,7 +411,7 @@
 
 ## 카르마
 
-![이미지 99](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0099.png)
+![이미지 99](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0099.png)
 
 [➡️ 카르마](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%ED%8C%A8%EC%8B%9C%EB%B8%8C#h3-2)
 
@@ -437,15 +437,15 @@
 
 그 이상은 고인물의 영역으로 골드를 때려 박아야 하는데
 
-![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0100.png){.half-size}
+![이미지 100](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0100.png){.half-size}
 
 지옥에서 얻을 수 있게된 정련된 운명의돌이 있습니다. 특수 재련 재료와 비슷한데 무료로 강화 시도를 할 수 있는 대신 카르마의 기운은 오르지 않습니다. 지옥 보상에서 선택지로 나온다면 고려해볼만한 보상입니다.
 
 
 ## 아크 그리드
 
-![이미지 101](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0101.png)
-![이미지 102](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0102.png)
+![이미지 101](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0101.png)
+![이미지 102](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0102.png)
 
 [➡️ 아크 그리드](https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%EA%B7%B8%EB%A6%AC%EB%93%9C)
 
@@ -487,11 +487,11 @@
 
 혼돈 코어는 효율이 가장 좋은 조합이 고정되어 있습니다.
 
-![이미지 240](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0240.png)
+![이미지 240](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0240.png)
 
 딜러는 현란한 공격(해) / 불타는 일격(달) / 공격(별)
 
-![이미지 241](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0241.png)
+![이미지 241](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0241.png)
 
 서포터는 신념의 강화(해) / 낙인의 흔적(달) / 무기(별)
 
@@ -510,7 +510,7 @@
 
 이건 아크 그리드 창에서 나오는 코어를 위쪽부터 순서대로 번호를 붙여서 부르기 편하게 만든 방식입니다.
 
-![이미지 242](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0242.png)
+![이미지 242](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0242.png)
 
 예를들어 위의 사진은 기상술사의 코어 표인데 질풍 기상술사의 경우
 
@@ -523,7 +523,7 @@
 
 ### 젬
 
-![이미지 243](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0243.png)
+![이미지 243](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0243.png)
 
 **젬**은 코어에 착용하는 아이템으로 젬의 포인트에 따라 코어 옵션이 활성화됩니다.
 
@@ -540,7 +540,7 @@
 
 ### 발사대
 
-![이미지 244](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0244.png)
+![이미지 244](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0244.png)
 
 코어 17포인트 활성화를 위해 의지력과 질서/혼돈 포인트만 최대한 높인 젬을 발사대라고 합니다. 사진의 젬은 의지력 효율 5 / 질서 포인트 5 만 맞춘 젬으로 저런걸 발사대라고 합니다.
 
@@ -553,7 +553,7 @@
 
 ### 안정침식 / 견고왜곡 / 불변붕괴
 
-![이미지 245](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0245.png)
+![이미지 245](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0245.png)
 
 코어를 다 활성화한 후에는 젬 부가 옵션을 올리는걸 목표로 하는데 부가 옵션 중 보스피해/아군공격강화의 성능이 다른 옵션들보다 좋기 때문에 이걸 노리고 젬 가공을 시도하게 됩니다. 보통 이걸 '보피작' 이라고 합니다.
 
@@ -565,7 +565,7 @@
 
 [➡️ 아크 그리드 사이트](#아크-그리드) 아크 그리드 관련 외부 사이트입니다. 잼을 깎거나 착용할 때 도움을 받을 수 있는 사이트들입니다.
 
-![이미지 246](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0246.png)
+![이미지 246](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0246.png)
 
 로아온 업데이트에서 젬 자동 장착 기능이 추가되었습니다. 하지만 전투력을 기준으로 젬을 장착하기 때문에 젬이 제대로 깎이지 않은 상태에서 사용한다면 하나의 코어에 젬이 몰리는 현상이 있어서 사용해보고 제대로 코어 옵션들이 활성화 되지 않는다면 외부 사이트를 사용해보시는걸 추천드립니다.
 
@@ -594,8 +594,8 @@
 
 ## 전설 아바타
 
-![이미지 103](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0103.png)
-![이미지 104](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0104.png){.half-size}
+![이미지 103](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0103.png)
+![이미지 104](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0104.png){.half-size}
 
 전설 아바타는 부위당 스탯 2%의 옵션을 갖고 있는데 영웅 아바타는 부위당 스탯 1%입니다.
 

@@ -1,6 +1,6 @@
 # 6. 캘린더 콘텐츠 (프로키온의 나침반)
 
-![이미지 59](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0059.png)
+![이미지 59](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0059.png)
 
 [➡️ 프로키온의 나침반](https://lostark.game.onstove.com/GameGuide/Pages/%ED%94%84%EB%A1%9C%ED%82%A4%EC%98%A8%EC%9D%98%20%EB%82%98%EC%B9%A8%EB%B0%98)
 
@@ -14,7 +14,7 @@
 
 ## 섬
 
-![이미지 60](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0060.png)
+![이미지 60](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0060.png)
 
 매일 3개의 섬이 시간에 맞춰 열립니다. 주말에는 오전/오후 각각 3개씩 6개의 섬이 열립니다.
 
@@ -24,13 +24,13 @@
 
 ## 카오스게이트
 
-![이미지 61](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0061.png)
+![이미지 61](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0061.png)
 
 카오스게이트는 목,토,일,월 주에 4번 열리는 콘텐츠로 오전 7시부터 매시 정각에 입장 가능합니다.
 
 원정대당 1회 보상 획득이 가능합니다.
 
-![이미지 62](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0062.png)
+![이미지 62](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0062.png)
 
 보상으로 귀속 골드, 보석, 재련 재료(파편 주머니, 숨결), 전설 카드, 유물 각인서 등을 얻을 수 있으며 클리어 후 경매로 전설 카드나 젬을 입찰할 수 있습니다.
 
@@ -38,7 +38,7 @@
 
 ## 필드 보스
 
-![이미지 63](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0063.png)
+![이미지 63](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0063.png)
 
 필드 보스는 금,일,화 주에 3번 열리는 콘텐츠로 오전 7시부터 매시 3분에 필드보스가 출현하게 됩니다.
 
@@ -50,11 +50,11 @@
 
 ## 태초의 섬
 
-![이미지 64](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0064.png)
+![이미지 64](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0064.png)
 
 배틀 로얄 장르의 미니게임입니다. 화/목/토 입장 가능하고 일일 최대 3회 입장 가능합니다.
 
-![이미지 65](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0065.png)
+![이미지 65](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0065.png)
 
 매주 최고 순위를 기준으로 보상을 지급합니다.
 

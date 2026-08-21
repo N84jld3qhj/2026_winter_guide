@@ -2,7 +2,7 @@
 
 ## 아크 패스
 
-![이미지 225](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0225.png)
+![이미지 225](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0225.png)
 
 [➡️ 아크 패스](https://m-lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%ED%8C%A8%EC%8A%A4)
 
@@ -18,7 +18,7 @@
 
 ## 아제나의 축복
 
-![이미지 226](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0226.png)
+![이미지 226](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0226.png)
 
 **아제나의 축복**은 캐릭터별로 적용되는 유료 기간제 패키지로 7,700원에 28일동안 지속되는 효과를 받을 수 있습니다.
 
@@ -32,7 +32,7 @@
 
 ## 기타 패키지
 
-![이미지 228](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0228.png)
+![이미지 228](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0228.png)
 
 월간 패키지, 주간 패키지, 2+1 패키지 등 다양한 패키지들이 주기적으로 출시됩니다.
 
