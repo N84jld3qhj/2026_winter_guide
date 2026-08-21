@@ -921,10 +921,6 @@ mark {
     transition: transform 0.2s ease;
 }
 
-.dealer-item:hover img {
-    transform: translateY(-6px);
-}
-
 .dealer-item span {
     margin-top: var(--sp-2);
     font-size: 0.875rem;
