@@ -151,37 +151,37 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
     const supporters = [
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/바드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/홀리나이트.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/도화가.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/발키리.png"
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
     ];
 
     const dealers = [
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/가디언나이트.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/건슬링어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/기공사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/기상술사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/데모닉.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/데빌헌터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/디스트로이어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/리퍼.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/배틀마스터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/브레이커.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/블래스터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/블레이드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/서머너.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/소서리스.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/소울이터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/스카우터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/스트라이커.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/슬레이어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/아르카나.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/워로드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/인파이터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/창술사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/호크아이.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/dealer/환술사.png"
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
     ];
 
     // 배너 랜더링 함수
