@@ -26,7 +26,8 @@
 
 
 
-<div class="dealer-random-banner" id="dealerbanner"></div>
+<div class="dealer-random-banner" id="dealerBanner"></div>
+
 
 딜러 직업군은 여러가지 방식으로 나눌 수 있지만 크게는 사멸 / 비사멸 직업군으로 구분합니다.
 
@@ -71,7 +72,7 @@
 
 
 
-<div class="dealer-random-banner" id="supporterbanner"></div>
+<div class="dealer-random-banner" id="supporterBanner"></div>
 
 
 서포터는 바드, 홀리나이트, 도화가, 발키리 4개의 직업이 있습니다.
