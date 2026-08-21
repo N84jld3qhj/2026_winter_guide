@@ -25,8 +25,9 @@
 ### 딜러 직업군
 
 
-<!-- 딜러 랜덤 배너 -->
+
 <div class="dealer-random-banner" id="dealerBanner"></div>
+
 
 딜러 직업군은 여러가지 방식으로 나눌 수 있지만 크게는 사멸 / 비사멸 직업군으로 구분합니다.
 
@@ -69,8 +70,10 @@
 
 ### 서포터 직업군
 
-<!-- 서포터 랜덤 배너 -->
+
+
 <div class="dealer-random-banner" id="supporterBanner"></div>
+
 
 서포터는 바드, 홀리나이트, 도화가, 발키리 4개의 직업이 있습니다.
 
@@ -146,68 +149,3 @@
 카운터와 마찬가지로 레이드 기믹에 많이 활용되기 때문에 연습하시면 좋습니다.
 
 
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
-    const supporters = [
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
-    ];
-
-    const dealers = [
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
-        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
-    ];
-
-    // 배너 랜더링 함수
-    function renderBanner(containerId, list, count) {
-        const container = document.getElementById(containerId);
-        if (!container) return;
-        
-        // 무작위 셔플 후 지정된 개수 추출
-        const shuffled = [...list].sort(() => 0.5 - Math.random());
-        const selected = shuffled.slice(0, count);
-
-        container.innerHTML = selected.map(src => {
-            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
-            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
-
-            return `
-                <div class="dealer-item">
-                    <img src="${src}" alt="${jobName}">
-                    <span>${jobName}</span>
-                </div>
-            `;
-        }).join("");
-    }
-
-    // 실행 (서포터 4개, 딜러 4개 추출)
-    renderBanner("supporterBanner", supporters, 4);
-    renderBanner("dealerBanner", dealers, 4);
-});
-</script>
