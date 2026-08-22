@@ -356,7 +356,7 @@
 
 카드는 2가지 효과가 있습니다.
 
-![카드 누적 효과](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0279.png)
+![카드 누적 효과](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0270.png)
 
 **수집 효과** 카드를 수집하여 도감을 완성했을 때 얻는 효과입니다. 
 
