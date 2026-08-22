@@ -1,12 +1,17 @@
 
 # 4. 일일 콘텐츠
 
-## 쿠르잔 전선
-![이미지 31](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0031.png)
+## 영웅의 공명
+
+![영웅의 공명](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0264.png)
 
 [➡️ 쿠르잔 전선](https://lostark.game.onstove.com/GameGuide/Pages/%EB%8D%98%EC%A0%84#h3-4)
 
-쿠르잔 전선은 제한 시간 내 몰아치는 적들을 처치하고, 성장 구간에 필요한 다양한 재화를 획득할 수 있는 던전입니다.
+매일 충전되는 공명의 기운을 사용하여 입장 가능한 컨텐츠입니다.
+
+레벨 구간에 따라 카오스 던전 / 쿠르잔 전선 / 혼돈의 균열로 나뉩니다. 이름만 다르지 진행 방식과 보상은 같습니다.
+
+제한 시간 내 몰아치는 적들을 처치하고, 성장 구간에 필요한 다양한 재화를 획득할 수 있는 던전입니다.
 
 보상으로 4티어 재련 재료(파편, 돌파석, 파괴석, 수호석), 젬, 유물 각인서 등을 얻을 수 있고 주기적으로 큐브 입장권을 획득할 수 있습니다.
 
@@ -20,7 +25,7 @@
 보석, 장신구, 팔찌, 젬, 유물 각인서 등을 얻을 수 있습니다.
 
 ### 편린
-![이미지 33](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0033.png)
+![편린](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0265.png)
 
 전선과 가토 중에는 낮은 확률로 편린을 획득할 수 있습니다.
 
@@ -42,6 +47,8 @@
 쉽게 말해서 3일동안 1번만 클리어하면 2회치 보상을 얻을 수 있는 시스템입니다. 일일숙제를 할 시간이 부족하거나 낮은 레벨의 캐릭터라서 보상이 적어서 시간이 아깝거나 하는 경우 사용하시면 되는 시스템입니다.
 
 ### 아제나의 축복
+
+![이미지 226](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0226.png)  
 
 아제나의 축복은 캐릭터별로 적용되는 과금 시스템으로 구매 시 쿠르잔 전선과 가디언 토벌에서 축복의 편린을 추가적으로 획득할 수 있습니다. 
 

@@ -10,7 +10,8 @@
 
 내실은 캐릭터 스펙에 가장 기본이 되는 요소이며, 골드로 구매가 불가능하기 때문에 시간을 들여서 직접 작업을 진행해야 합니다.
 
-![이미지 105](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0105.png)
+![내실 아이템 사전](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0269.png)
+
 
 게임 내 아이템 사전(Alt + D)을 통해 내실 관련 획득 정보를 쉽게 확인할 수 있습니다.
 
@@ -355,9 +356,9 @@
 
 카드는 2가지 효과가 있습니다.
 
-![이미지 151](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0151.png)
+![카드 누적 효과](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0279.png)
 
-**수집 효과** 카드를 수집하여 도감을 완성했을 때 얻는 효과입니다. 4번에 누적 도감 효과를 보시면 됩니다.
+**수집 효과** 카드를 수집하여 도감을 완성했을 때 얻는 효과입니다. 
 
 수집 효과는 모든 카드를 5각성을 해야 완성이 됩니다. 장착 효과가 없는 카드라도 도감에서 효과를 받기 위해 5각성을 해야한다는 의미인데 이게 뉴비들은 굉장히 어렵습니다. 카드를 모으는것 자체도 어렵고 카드 경험치 모으는것도 어렵습니다.
 
