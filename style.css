@@ -456,7 +456,6 @@ h2,
     /* 목차 이동 시 상단바에 가려지지 않는 위치 보정 */
     scroll-margin-top: calc(var(--topbar-h) + 16px);
 }
-
 h3,
 .section-header {
     font-size: var(--fs-h3);

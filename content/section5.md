@@ -189,6 +189,8 @@
 
 '중단하고 보상 받기' 버튼을 선택하면, 해당 층에 해당하는 보상 상자가 등장하며 나락이 종료됩니다.
 
-## 종언의 뭐시기
+## 종언의 잔영
 
-아마도 주간 컨텐츠가 아닐까 함
+![이미지 271](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0271.png)
+
+
