@@ -46,7 +46,7 @@
 
 ### 싱글 상점 주간 교환
 
-![이미지 72](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0072.png)
+![이미지 52](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0052.png)
 
 싱글 상점에서 클리어 메달을 사용해 다양한 재련 재료를 구매할 수 있습니다.
 
