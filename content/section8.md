@@ -1,8 +1,12 @@
 # 8. 스펙업
 
+<div class="card" markdown="1">
+
 ![이미지 66](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0066.png)
 
 로스트아크의 스펙업 요소들입니다. 작성 순서가 스펙업 우선 순위가 아닙니다. 우선 순위와 효율은 매 순간 달라지기 때문에 본인에 맞는 스펙업을 찾아서 하셔야 합니다.
+
+</div>
 
 ## 스펙업 순서
 

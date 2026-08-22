@@ -1,5 +1,6 @@
 # 1. 과금 요소
 
+
 ## 아크 패스
 
 ![이미지 225](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0225.png)
@@ -16,6 +17,7 @@
 
 프리미엄은 매우 효율이 좋습니다. 지금까지 한번도 손해를 보는 구성으로 나온적이 없고 반드시 매우 높은 효율로 나오기 때문에 스펙업을 위해 과금을 할 생각이 있다면 반드시 구매해야 합니다.
 
+
 ## 아제나의 축복
 
 ![이미지 226](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0226.png)
@@ -30,6 +32,7 @@
 
 요약하자면 절대로 손해를 보는 패키지는 아니지만 쿠르잔 전선,가디언 토벌을 빼먹는 횟수가 많을수록 효율이 줄어드는 패키지입니다.
 
+
 ## 기타 패키지
 
 ![이미지 228](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0228.png)
@@ -41,3 +44,4 @@
 [➡️ 로아로골](https://loalogol.kr/package)
 
 패키지 효율 계산 사이트나 여러 유튜버 등 패키지가 나오면 효율을 계산해주는 분들이 많으니 찾아보고 구매하시면 됩니다.
+

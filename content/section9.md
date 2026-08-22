@@ -1,8 +1,9 @@
 # 9. 내실
 
-[➡️ 초보자 가이드 > 내실을 탄탄하게](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%B4%EC%8B%A4%EC%9D%84%20%ED%83%84%ED%83%84%ED%95%98%EA%B2%8C)
 
 ## 내실이란?
+
+[➡️ 초보자 가이드 > 내실을 탄탄하게](https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%B4%EC%8B%A4%EC%9D%84%20%ED%83%84%ED%83%84%ED%95%98%EA%B2%8C)
 
 내실이란 원정대 단위로 적용되는 캐릭터 스펙업 요소입니다. 퀘스트, 수집형 포인트, 던전 클리어 보상 등으로 획득할 수 있습니다.
 

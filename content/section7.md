@@ -1,8 +1,12 @@
 # 7. 골드 수급처
 
+<div class="card" markdown="1">
+
 ![이미지 15](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0015.png)
 
 골드를 획득할 수 있는 콘텐츠들입니다.
+
+</div>
 
 ## 엔드 콘텐츠
 

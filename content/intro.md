@@ -1,3 +1,5 @@
+<div class="card" markdown="1">
+
 # 가이드 소개
 
 ![이미지 1](https://raw.githubusercontent.com/N84jld3qhj/2026_loaon_guide/main/images/0000.png)
@@ -9,3 +11,5 @@
 본 가이드의 문장 및 문법 검토, 레이아웃 작성은 제미나이(Gemini)의 도움을 받았습니다.
 
 🛠️ 시스템 구축 및 배포 환경 지원: [94wogus](https://github.com/94wogus)
+
+</div>

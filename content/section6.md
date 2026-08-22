@@ -1,5 +1,7 @@
 # 6. 캘린더 콘텐츠 (프로키온의 나침반)
 
+<div class="card" markdown="1">
+
 ![이미지 59](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0059.png)
 
 [➡️ 프로키온의 나침반](https://lostark.game.onstove.com/GameGuide/Pages/%ED%94%84%EB%A1%9C%ED%82%A4%EC%98%A8%EC%9D%98%20%EB%82%98%EC%B9%A8%EB%B0%98)
@@ -11,6 +13,8 @@
 보상 획득 기회가 제한되어 있는 대신 시간대비 보상이 좋은 편이라 가능하다면 참여해서 보상을 받으시는걸 추천드립니다.
 
 몇몇 콘텐츠의 경우 내실과 관련된 보상이 있는데 시간이 맞지 않으면 꽤 오래 콘텐츠 오픈을 기다리는 경우가 있으니 캘린더 확인해서 미리미리 준비하시면 좋습니다.
+
+</div>
 
 ## 섬
 

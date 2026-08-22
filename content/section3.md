@@ -1,7 +1,10 @@
 # 3. 인게임 설정
 
+<div class="card" markdown="1">
+
 필수는 아니지만 알아두면 좋은 설정을 알려드립니다.
 
+</div>
 
 ## 대미지 폰트 축약 표시
 ![이미지 5](https://raw.githubusercontent.com/N84jld3qhj/2026_winter_loaon_guide/main/images/0004.png)  

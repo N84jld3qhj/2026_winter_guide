@@ -182,12 +182,27 @@ def main() -> int:
     raw_by_id: dict[str, str] = {}
     index_by_id: dict[str, list[tuple[str, str, str]]] = {}
 
-    md_converter = markdown.Markdown(extensions=['attr_list','tables', 'fenced_code', 'toc'])
-
+    md_converter = markdown.Markdown(extensions=['md_in_html', 'attr_list', 'tables', 'fenced_code', 'toc'])
+    
     for pid, frag, fname in fragments:
         raw_text = read_fragment(frag, pid)
         html = md_converter.convert(raw_text)
         md_converter.reset()
+
+    # === [추가] H2 기준으로 자동으로 div.card 감싸기 ===
+        if pid != "intro": # intro가 아닌 일반 섹션 페이지일 때
+            parts = re.split(r'(?=<h[2]\b)', html, flags=re.IGNORECASE)
+            wrapped_parts = []
+            for part in parts:
+                part = part.strip()
+                if not part:
+                    continue
+                if re.match(r'<h[2]\b', part, re.IGNORECASE):
+                    wrapped_parts.append(f'<div class="card">\n{part}\n</div>')
+                else:
+                    wrapped_parts.append(part)
+            html = "\n\n".join(wrapped_parts)
+        # ===================================================
         
         seen: set[str] = set()
 
@@ -299,7 +314,7 @@ def main() -> int:
         page = page.replace("{{SCRIPTS}}", scripts)
         return page
 
-    cards = ['<div class="section-container">',
+    cards = ['<div class="card"><div class="section-container">',
              '<h1 class="main-title">전체 목차</h1>',
              '<ul class="landing-toc">']
     for pid, fname, label, *_ in SECTIONS:
@@ -308,7 +323,7 @@ def main() -> int:
             f'<li><a href="{fname}"><span class="landing-badge">{n:02d}</span>'
             f'<span>{short_label(label)}</span></a></li>'
         )
-    cards.append("</ul></div>")
+    cards.append("</ul></div></div>")
     landing_content = finalize(raw_by_id["intro"]) + "\n            " + "\n            ".join(cards)
     (DIST / LANDING_FILE).write_text(
         render(LANDING_ID, SITE_TITLE, landing_content, "landing"), encoding="utf-8"
