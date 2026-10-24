@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>10. 외부 사이트 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="10. 외부 사이트 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a></div>
+                <div class="spine-item"><a class="spine-row active" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">통합 디스코드</a><a class="page-toc-link" href="#_2">전투정보실</a><a class="page-toc-link" href="#_6">재련 정보</a><a class="page-toc-link" href="#_15">스펙업 시뮬레이션</a><a class="page-toc-link" href="#_19">전투력</a><a class="page-toc-link" href="#_22">스킬 시뮬레이터</a><a class="page-toc-link" href="#_26">젬 장착 최적화</a><a class="page-toc-link" href="#_29">젬 가공 시뮬레이션</a><a class="page-toc-link" href="#_31">젬 가공 효율</a><a class="page-toc-link" href="#_34">효율 계산</a><a class="page-toc-link" href="#_40">생활 / 영지 제작 효율</a><a class="page-toc-link" href="#_46">지옥보상</a><a class="page-toc-link" href="#_51">북미 미터기</a><a class="page-toc-link" href="#_52">사사게 검색기</a></div></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">10</span><h1 class="main-title" id="10">외부 사이트</h1></div>
+<div class="card">
+<p>다른 RPG 게임들과 마찬가지로 로스트아크도 게임 플레이에 도움이 되는 외부 사이트들이 있습니다.</p>
+<p>인게임에서 디테일한 정보를 숨겨놓는 경우가 많아서 외부 사이트를 통해서 정보들을 얻는게 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_1">통합 디스코드</h2>
+<a class="site-card" href="https://discord.com/invite/lark" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/discord.com.jpg" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 디스코드</div>
+        <div class="site-card-domain">discord.com</div>
+        <div class="site-card-desc">한국 로스트아크의 전 서버 모험가들을 위한 커뮤니티 서버입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<p>로아 통디 입니다. </p>
+<p>로아는 인게임에서 음성채팅을 지원하지 않기 때문에 공팟에서 음성채팅이 필요한 경우 통합디스코드를 사용합니다. </p>
+<p>신규 레이드 나올때 공대 구인 구직도 여기서 많이 합니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_2">전투정보실</h2>
+<p>캐릭터 정보를 볼 수 있는 사이트들입니다.</p>
+<p>공식 홈페이지에서도 <a href="https://lostark.game.onstove.com/Profile/Character">➡️ 전투정보실</a> 을 제공하기는 하지만 UI나 기능면에서 부족한게 많기 때문에 외부 사이트들을 많이 사용합니다.</p>
+<h3 id="_3">로아와</h3>
+<a class="site-card" href="https://loawa.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loawa.com.jpg" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아와(LOAWA) - 로스트아크 정보 제공</div>
+        <div class="site-card-domain">loawa.com</div>
+        <div class="site-card-desc">로스트아크 캐릭터 검색,로아,loa,로아와,loawa, 주간 일정표, 모험 섬, 카오스게이트, 필드보스 정보를 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_4">클로아</h3>
+<a class="site-card" href="https://kloa.gg/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/03.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">클로아 - 로스트아크 전투정보, 떠돌이 상인, 랭킹</div>
+        <div class="site-card-domain">kloa.gg</div>
+        <div class="site-card-desc">로스트아크 모험가를 위한 올인원 도우미, 클로아! 클로아에서는 캐릭터 검색, 전투력/아이템 레벨 랭킹, 내실 랭킹, 떠돌이 상인 정보 및 유물 각인서 시세 차트 등을 확인하실 수 있어요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_5">로펙</h3>
+<a class="site-card" href="https://lopec.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로펙 | 로스트아크 환산 점수·시뮬레이터</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<p>전투정보실 사이트는 위에 적은곳 말고도 다른 사이트들이 많습니다. UI 맘에 드는 사이트 골라서 사용하시면 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_6">재련 정보</h2>
+<p>재련 비용이나 효율적인 재련 순서등을 알려주는 사이트들입니다.</p>
+<p>보유 재료, 목표 단계 등을 입력하면 필요한 재화들을 계산해줍니다. </p>
+<h3 id="_7">아이스펭</h3>
+<a class="site-card" href="https://loa.icepeng.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image site-card-image-empty" style="pointer-events: none;">↗</div>
+    <div class="site-card-body">
+        <div class="site-card-title">LoaCalc</div>
+        <div class="site-card-domain">loa.icepeng.com</div>
+        <div class="site-card-desc">로스트아크 최적화 계산기 - 각인, 트포, 재련, 세공</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_8">모코코</h3>
+<a class="site-card" href="https://mokoko.co.kr/upgrade-calculator" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/mokoko.co.kr.webp" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">모코코 - 로스트아크 팬사이트</div>
+        <div class="site-card-domain">mokoko.co.kr</div>
+        <div class="site-card-desc">재련 비용 사이트</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_9">로아베스팅</h3>
+<a class="site-card" href="https://www.loavesting.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image site-card-image-empty" style="pointer-events: none;">↗</div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아베스팅</div>
+        <div class="site-card-domain">www.loavesting.com</div>
+        <div class="site-card-desc">재련 견적 사이트</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_10">로아가드</h3>
+<a class="site-card" href="https://loaguard.com/honing/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 재련 플랜 · 일반·상급 재련 계산기 · LoaGuard</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">통합 재련 플랜·일반 재련 효율·상급 재련 보조재료 전략을 한곳에서 계산합니다. 업화·전율·계승 경로 포함 6부위 최소비용 경로를 자동 산출합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_11">로아또</h3>
+<a class="site-card" href="https://loatto.kr/refining-simulator" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/05.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합재련 시뮬레이터 | Loatto</div>
+        <div class="site-card-domain">loatto.kr</div>
+        <div class="site-card-desc">여러 재련단계를 통합해서 확인하고 장비성장 및 담금질 비용을 포함하여 계산합니다. 장비별 강화 계획을 세워보세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_12">로아랩</h3>
+<a class="site-card" href="https://lo4.app/tools/refine" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 재련 계산기 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">캐릭터 검색으로 일반·상급 재련 목표와 필요 재료를 계산하고, 일반 재련·상급 재련 계산기와 특재 효율을 한 곳에서 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_13">로아갭</h3>
+<a class="site-card" href="https://loagap.com/efficiency/enhance" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loagap.com.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">상급 재련 효율 계산기 | LOAGAP</div>
+        <div class="site-card-domain">loagap.com</div>
+        <div class="site-card-desc">로스트아크 상급 재련 비용 대비 효율을 실시간 시세로 분석하고, 최적의 재련 루트를 제안하는 계산기입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_14">로펙</h3>
+<a class="site-card" href="https://lopec.kr/tool/enhancement" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">강화 최적화 | 로펙</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_15">스펙업 시뮬레이션</h2>
+<p>캐릭터의 세팅을 기준으로 가장 효율적인 스펙업 순서를 시뮬레이션해주는 사이트들입니다.</p>
+<p>무기 이펙트 같은 낭만을 추구하는게 아니라면 사이트 추천 순서대로 효율적으로 스펙업 하시는게 좋습니다.</p>
+<h3 id="_16">로아가드</h3>
+<a class="site-card" href="https://loaguard.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아가드(LoaGuard) - 로스트아크 캐릭터 조회·전투력 랭킹·내실·레이드 헬퍼·고정 공대</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">캐릭터 스펙·전투력 랭킹·내실 진행도부터 레이드 헬퍼·고정 공대 일정까지. 로스트아크 올인원 도구.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_17">로아업</h3>
+<a class="site-card" href="https://loaup.com/combatpower-curve" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/11.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아업 LoaUp - 로스트아크 캐릭터 스펙업 효율 및 우선순위</div>
+        <div class="site-card-domain">loaup.com</div>
+        <div class="site-card-desc">로스트아크 캐릭터 정보 조회 및 개인화 스펙업 효율 우선순위 분석 서비스입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_18">로펙</h3>
+<a class="site-card" href="https://lopec.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로펙 | 로스트아크 환산 점수·시뮬레이터</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_19">전투력</h2>
+<p>환산 전투력을 알려주는 사이트들입니다. </p>
+<p>시즌3가 나오면서 아이템 레벨 이외에 스펙 점수가 필요한 상황이 많아졌고 외부 사이트에서 환산 전투력이 나오기 시작했습니다.</p>
+<p>이후에 인게임에 전투력이 업데이트됐지만 전투력 수치가 실제 성능과 일치하지 않는 부분이 많아서 아직도 외부사이트를 사용하는 경우가 많습니다.</p>
+<h3 id="_20">로펙</h3>
+<a class="site-card" href="https://lopec.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로펙 | 로스트아크 환산 점수·시뮬레이터</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_21">즐로아</h3>
+<a class="site-card" href="https://zloa.net/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/06.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+        <div class="site-card-domain">zloa.net</div>
+        <div class="site-card-desc">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_22">스킬 시뮬레이터</h2>
+<p>캐릭터 스킬 분석 / 세팅 시뮬레이션 / DPS 비교 등 다양한 기능을 제공하는 사이트들입니다.</p>
+<h3 id="_23">로스트허브</h3>
+<a class="site-card" href="https://losthub.cloud/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/losthub.cloud.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로스트허브 - 로스트아크 딜 계산기·재련·경매 유틸리티 사이트</div>
+        <div class="site-card-domain">losthub.cloud</div>
+        <div class="site-card-desc">로아 딜 계산기·재련·경매·거래소 시세를 한곳에 모은 로스트아크 유틸리티 사이트. 캐릭터 닉네임 검색 한 번으로 스킬별 기대 DPS와 딜 지분을 확인하고 장비·보석·각인·아크그리드를 바꿔 보며 효율을 비교하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_24">러스트빌드</h3>
+<a class="site-card" href="https://lustbuilds.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lustbuilds.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">러스트빌드 - 로아 데미지 시뮬레이터</div>
+        <div class="site-card-domain">lustbuilds.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 데미지 시뮬레이션과 세팅 비교 분석</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_25">로아콩</h3>
+<a class="site-card" href="https://loakong.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loakong.com.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아콩 - 로스트아크 전적 검색 및 캐릭터 시뮬레이터</div>
+        <div class="site-card-domain">loakong.com</div>
+        <div class="site-card-desc">로스트아크 캐릭터 전적 검색, 실시간 아이템 시세 확인, 각인 및 특성 최적화 시뮬레이션을 제공하는 로아콩입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_26">젬 장착 최적화</h2>
+<p>게임 내에 젬 자동 장착 기능이 있지만 장착 기준이 전투력이라서 젬이 충분하지 않은 상태라면 코어가 제대로 활성화 되지 않는 경우가 있습니다.</p>
+<p>그럴때는 외부 사이트에서 직접 세팅이 가능한지 확인하고 젬을 장착하는걸 추천드립니다.</p>
+<h3 id="_27">알로아</h3>
+<a class="site-card" href="https://aloa.gg/ko/arkgrid" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/aloa.gg.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">ALOA - 아크그리드 최적화</div>
+        <div class="site-card-domain">aloa.gg</div>
+        <div class="site-card-desc">로스트아크 게임 화면을 실시간으로 인식하여 젬 정보를 추출, 보유 코어에 최적화 하는 도구 입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_28">아크 그리드 전투력 최적화</h3>
+<a class="site-card" href="https://airplaner.github.io/lostark-arkgrid-gem-locator-v2/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/airplaner.github.io.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">아크 그리드 전투력 최적화</div>
+        <div class="site-card-domain">airplaner.github.io</div>
+        <div class="site-card-desc">가장 높은 전투력의 아크 그리드 세팅을 계산합니다. 화면 인식으로 빠르게 젬을 추가하고 관리할 수 있습니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_29">젬 가공 시뮬레이션</h2>
+<p>젬 가공 시 선택지별 확률을 계산해 최적의 젬 가공 방법을 찾아주는 사이트입니다.</p>
+<p>어차피 젬 가공이 운이라 이거 써도 안되는 경우에는 안되는대 젬 가공에 자아가 없는 뉴비들이 사용하시면 좋습니다.</p>
+<h3 id="_30">로아또</h3>
+<a class="site-card" href="https://loatto.kr/gempago" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/05.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로스트아크 젬파고 - 아크 그리드 젬 확률 계산기</div>
+        <div class="site-card-domain">loatto.kr</div>
+        <div class="site-card-desc">로스트아크 젬파고 - 아크 그리드 젬 가공 확률 계산기. 아크 그리드 젬 최적화를 위한 정확한 확률 계산과 시뮬레이션을 제공합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_31">젬 가공 효율</h2>
+<p>발사대 이후 보피작을 시작하게 되면 젬 깎는 효율을 생각하게 되는대 그때 젬깎 효율을 알려주는 사이트들입니다.</p>
+<p>부위별 젬 가공 효율을 계산하여 우선순위를 제공합니다.</p>
+<h3 id="_32">로아랩</h3>
+<a class="site-card" href="https://lo4.app/tools/gem-upgrades" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">아크 그리드 젬 교체 효율 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">캐릭터의 아크 그리드 젬을 분석하고 전투력 상승과 기대 비용을 비교해 효율적인 교체 순서를 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_33">로아가드</h3>
+<a class="site-card" href="https://loaguard.com/arkgrid-gem" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">아크그리드 젬 최적화 · LoaGuard</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">장착 중인 아크그리드 젬 구성을 분석해 어떤 젬부터 교체하는 것이 효율이 좋은지 우선순위로 추천합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_34">효율 계산</h2>
+<p>패키지 효율, 아크 패스 효율, 레이드 더보기 효율 등 다양한 계산을 지원하는 사이트입니다.</p>
+<h3 id="_35">로아로골</h3>
+<a class="site-card" href="https://loalogol.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loalogol.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아로골 - 로아 시세 거래소 가격 차트</div>
+        <div class="site-card-domain">loalogol.kr</div>
+        <div class="site-card-desc">로아로골 - 로아 패키지 효율 실시간 계산! 로아 거래소 시세, 과거 시세 차트, 재련 재료·각인서 시세까지 한눈에.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_36">로아차트</h3>
+<a class="site-card" href="https://loachart.com/rewardcalc" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/07.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아차트</div>
+        <div class="site-card-domain">loachart.com</div>
+        <div class="site-card-desc">로아차트</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_37">로펙</h3>
+<a class="site-card" href="https://lopec.kr/tool/enhancement" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아샵 효율 | 로펙</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_38">로아픽</h3>
+<a class="site-card" href="https://loapick.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/12.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아픽</div>
+        <div class="site-card-domain">loapick.com</div>
+        <div class="site-card-desc">로스트아크 경매장 검색, 재련 최적화, 패키지 효율, 거래소 시세와 교환 가치를 한곳에서 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_39">알로아</h3>
+<a class="site-card" href="https://aloa.gg/ko/efficiency" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/aloa.gg.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">ALOA - 효율 분석</div>
+        <div class="site-card-domain">aloa.gg</div>
+        <div class="site-card-desc">레이드 더보기, 클리어 메달, 재료 교환 효율 분석</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_40">생활 / 영지 제작 효율</h2>
+<p>생활 관련 사이트들입니다. <br />
+생활 도구 옵션 비교, 영지 제작 효율 등 생활 관련 정보를 얻을 수 있습니다.</p>
+<h3 id="_41">로스트골드</h3>
+<a class="site-card" href="https://lostgld.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/08.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로스트골드 - 효율적인 골드 수급·소비</div>
+        <div class="site-card-domain">lostgld.com</div>
+        <div class="site-card-desc">로스트아크 재화 수급 계산기</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_42">로아도구</h3>
+<a class="site-card" href="https://loatool.taeu.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loatool.taeu.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아도구 - 로스트아크 실시간 정보 제공 사이트</div>
+        <div class="site-card-domain">loatool.taeu.kr</div>
+        <div class="site-card-desc">영지 제작 효율을 확인할 수 있습니다. 본인 영지 세팅 입력 후 제작 효율을 확인할 수 있습니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_43">로아로골</h3>
+<a class="site-card" href="https://loalogol.kr/life-master" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loalogol.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아로골 | 벌목 계산기 - 생활 효율, 융화재료 제작</div>
+        <div class="site-card-domain">loalogol.kr</div>
+        <div class="site-card-desc">로아로골 벌목 효율, 로아 생활 효율, 로아 융화재료 제작 손익을 실시간 시세로 계산하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_44">로아랩</h3>
+<a class="site-card" href="https://lo4.app/tools/item-craft" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">아비도스 쌀산기 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">로스트아크 생활 제작 수익을 계산하세요. 재료 가격을 입력하면 제작 비용과 수익을 분석할 수 있습니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_45">즐로아</h3>
+<a class="site-card" href="https://zloa.net/craft" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/06.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+        <div class="site-card-domain">zloa.net</div>
+        <div class="site-card-desc">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_46">지옥보상</h2>
+<p>지옥 보상 비교 사이트들입니다. <br />
+레벨, 귀속 재화, 지옥 단계 등 여러 조건을 비교해서 보상 가치를 비교할 수 있습니다.</p>
+<h3 id="_47">로아또</h3>
+<a class="site-card" href="https://loatto.kr/hell-rewards" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/05.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">지옥 보상 효율 - 지옥 던전 보상 분석</div>
+        <div class="site-card-domain">loatto.kr</div>
+        <div class="site-card-desc">로스트아크 지옥 던전 보상 효율 분석. 캐릭터별 최적의 지옥 던전 난이도를 추천하고, 보상 기대값을 계산합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_48">로펙</h3>
+<a class="site-card" href="https://lopec.kr/tool/reward" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">시즌3 지옥 보상표 | 로펙</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_49">로아랩</h3>
+<a class="site-card" href="https://lo4.app/tools/hell-reward" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">지옥 보상 분석 (시즌 4) | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">로스트아크 시즌 4 지옥/나락 열쇠 기대 가치와 상자 골드 효율을 계산하고, 특수 점프와 나락 중단 판단을 비교하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+
+<h3 id="_50">로아로골</h3>
+<a class="site-card" href="https://loalogol.kr/hell-reward" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loalogol.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아로골 | 지옥 보상 계산기</div>
+        <div class="site-card-domain">loalogol.kr</div>
+        <div class="site-card-desc">로스트아크 지옥/나락 보상을 층수별로 정리하고 실시간 시세 기반으로 골드 가치를 계산합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_51">북미 미터기</h2>
+<p>북미 미터기 사이트입니다. 레이드 관문별로 다양한 지표들을 조건별로 검색이 가능합니다. 북미 밸런스 패치가 본서버보다 느리기 때문에 한국 서버의 밸런스를 정확히 알 수 있는 자료는 아니지만 의미가 있다고 생각하는 사람들은 자주 사용하는 사이트입니다.</p>
+<a class="site-card" href="https://lostark.bible/stats/raids" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/09.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">Raid Statistics | lostark.bible</div>
+        <div class="site-card-domain">lostark.bible</div>
+        <div class="site-card-desc"></div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<div class="card">
+<h2 id="_52">사사게 검색기</h2>
+<p>인벤 사사게 검색 사이트입니다. 원정대 단위로 검색해서 알려주기 때문에 버스탈때나 구인구직할 때 사용하시면 좋습니다.</p>
+<a class="site-card" href="https://sasagefind.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image site-card-image-empty" style="pointer-events: none;">↗</div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아 인벤 사사게 검색기</div>
+        <div class="site-card-domain">sasagefind.com</div>
+        <div class="site-card-desc">로스트아크 인벤 사사게 검색기</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>

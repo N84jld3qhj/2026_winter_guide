@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>4. 일일 콘텐츠 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="4. 일일 콘텐츠 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row active" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">영웅의 공명</a><a class="page-toc-link" href="#_2">가디언 토벌</a><a class="page-toc-link" href="#_3">편린</a><a class="page-toc-link" href="#_4">아제나의 축복</a><a class="page-toc-link" href="#_5">휴식 보너스</a><a class="page-toc-link" href="#_6">에포나 의뢰</a><a class="page-toc-link" href="#_7">생활</a></div></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">04</span><h1 class="main-title" id="4">일일 콘텐츠</h1></div>
+
+<div class="card">
+<h2 id="_1">영웅의 공명</h2>
+<p><img alt="영웅의 공명" src="images/0264.png" width="1000" height="593"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EB%8D%98%EC%A0%84#h3-4">➡️ 쿠르잔 전선</a></p>
+<p>매일 충전되는 공명의 기운을 사용하여 입장 가능한 컨텐츠입니다.</p>
+<p>레벨 구간에 따라 카오스 던전 / 쿠르잔 전선 / 혼돈의 균열로 나뉩니다. 이름만 다르지 진행 방식과 보상은 같습니다.</p>
+<p>제한 시간 내 적들을 처치하고, 성장 구간에 필요한 다양한 재화를 획득할 수 있는 던전입니다.</p>
+<p>보상으로 4티어 재련 재료(파편, 돌파석, 파괴석, 수호석), 젬, 유물 각인서 등을 얻을 수 있고 주기적으로 큐브 입장권을 획득할 수 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_2">가디언 토벌</h2>
+<p><img alt="이미지 32" src="images/0032.png" width="1461" height="794"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%80%EB%94%94%EC%96%B8%20%ED%86%A0%EB%B2%8C">➡️ 가디언 토벌</a></p>
+<p>1일 1회 클리어 가능한 콘텐츠입니다. 쿠르잔 전선과 묶어서 일일숙제(일숙)으로 불립니다.</p>
+<p>보석, 장신구, 팔찌, 젬, 유물 각인서 등을 얻을 수 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_3">편린</h2>
+<p><img alt="편린" src="images/0265.png" width="1000" height="400"></p>
+<p>전선과 가토 중에는 낮은 확률로 편린을 획득할 수 있습니다.</p>
+<p>편린에서는 실링, 골드, 전설 카드, 젬 등의 보상을 얻을 수 있습니다. 레벨에 따라 보상이 증가합니다.</p>
+<p>골드 편린의 경우 최대 30만골드 까지 나오기 때문에 일일 숙제는 꾸준히 돌아주시는게 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_4">아제나의 축복</h2>
+<p><img alt="이미지 226" src="images/0226.png" width="309" height="673">  </p>
+<p>아제나의 축복은 캐릭터별로 적용되는 과금 시스템으로 구매 시 쿠르잔 전선과 가디언 토벌에서 '축복의 편린'을 추가적으로 획득할 수 있습니다. </p>
+<p>일반 편린에 비해 골드가 나올 확률이 굉장히 높고 캐릭터 레벨에 상관없이 골드 획득량이 같기 때문에 과금을 할 생각이 있다면 1순위로 추천됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_5">휴식 보너스</h2>
+<p><img alt="이미지 34" src="images/0034.png" width="1920" height="1080"></p>
+<p>ⓘ 휴식 보너스란?</p>
+<p>• 각 일일 콘텐츠는 수행 가능 횟수가 정해져 있으며, 초기화 시간은 매일 오전 6시입니다.</p>
+<p>• 각 콘텐츠 초기화 시점에 남아있는 수행 가능 횟수에 따라 휴식 보너스가 충전됩니다.</p>
+<p>• 휴식 보너스가 일정 수치 쌓여 있는 상태에서 콘텐츠를 진행하면 추가적으로 보상을 획득할 수 있습니다.</p>
+<p>쉽게 말해서 3일동안 1번만 클리어하면 2회치 보상을 얻을 수 있는 시스템입니다. </p>
+<p>일일숙제를 할 시간이 부족하거나 낮은 레벨의 캐릭터라서 보상이 적어서 시간이 아깝거나 하는 경우 사용하시면 되는 시스템입니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_6">에포나 의뢰</h2>
+<p><img alt="이미지 35" src="images/0035.png" width="1000" height="477"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%ED%80%98%EC%8A%A4%ED%8A%B8#h3-2">➡️ 에포나 의뢰</a>  </p>
+<p>에포나 의뢰는 정해진 주기를 기준으로 수행 정보가 초기화되며, 갱신 시점에 재진행이 가능한 주기형 퀘스트를 의미합니다.</p>
+<p>전투레벨 50 달성 후, 베른 성에서 '균열의 잔상' 퀘스트를 수행하다 보면 에포나 의뢰 콘텐츠가 개방됩니다.</p>
+<p>캐릭터 당 1일 최대 3개까지만 완료 가능하며, 매일 오전 6시에 완료 가능 수량과 진행 중인 의뢰 정보가 초기화됩니다.</p>
+<p>과거에는 에포나 의뢰를 통해 다양한 보상을 받을 수 있었지만 이제는 평판 보상 외에는 받을 수 없습니다.</p>
+<p>아크 패시브 포인트, 스킬 포인트, 능력치 증가 물약, 위대한 미술품, 감정표현, 호감도 아이템 등 다양한 평판 보상이 존재하는데 내실 관련 평판을 최우선으로 진행한 후 이후에는 필요한 보상을 찾아서 진행하시면 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_7">생활</h2>
+<p><img alt="이미지 36" src="images/0036.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%9D%ED%99%9C%20%ED%99%9C%EB%8F%99">➡️ 생활</a></p>
+<p>생활은 생명의 기운을 소모해서 생활 재료를 얻을 수 있는 콘텐츠입니다.</p>
+<p>생활을 통해 얻은 재료를 판매하거나 영지에서 제작을 통해 아이템을 만들어 판매해서 골드를 벌 수 있습니다.</p>
+<p>생활 스킬은 채집/채광/벌목/수렵/고고학/낚시 6종류가 있는데 생활 스킬별로 생기를 소모하는 시간이 다르고 보상 획득량과 가격이 달라서 동일 생기당 획득 골드도 다릅니다.</p>
+<p>생활 도구 옵션이나 생활별 획득 골드 정보는 <a href="https://lostgld.com/">➡️ 로스트골드</a> 사이트에서 얻을 수 있습니다.</p>
+<h3 id="_8">추천 생활 스킬</h3>
+<p><img alt="이미지 195" src="images/0195.png" width="1011" height="545"></p>
+<p>생활 종류별로 얻을 수 있는 재료가 다르고 재료별로 사용처가 달라서 매번 가격이 변동되기 때문에 수익 순위가 매번 바뀝니다.</p>
+<p>예를 들면 신규 레이드 난이도가 높아서 트라이 횟수가 많아지면 음식 소모량이 늘어나면서 음식 재료인 수렵/낚시 재료 가격이 올라갑니다.</p>
+<p>특정 레이드에서 빛나는 성스러운 폭탄이 필수로 사용되는 경우 빛성폭을 만들 수 있는 채광 재료 가격이 올라갑니다.</p>
+<p>누군가가 에스더 무기를 올린다면 모든 재료 가격이 올라가기도 합니다.</p>
+<p>매번 생활 재료 가격이 바뀌기는 하지만 일반적인 경우에는 생기 소모 속도가 가장 빠르고 보상이 좋은편인 벌목이 1순위로 추천됩니다.</p>
+<p>벌목은 2인으로 진행할 시 속도가 빨라지고 생기 소모량이 2배가 되면서 가장 빠른 속도로 생기를 소모할 수 있습니다.</p>
+<p>보상으로 나오는 재료는 융화 재료 제작에 사용하고 특히 희귀 재료인 '튼튼한 목재'가 일반, 고급 재료로 교환이 가능하기 때문에 가격이 비쌉니다.</p>
+<p>벌목은 반드시 2인으로 진행을 해야 합니다. 혼자서 할 시 메리트가 전혀 없기 때문에 2인으로 하는게 싫다면 다른 생활을 하는게 좋습니다.</p>
+<h3 id="_9">유물 도구</h3>
+<p><img alt="이미지 196" src="images/0196.png" width="2280" height="2108"><br />
+<img alt="이미지 042" src="images/0042.png" width="1021" height="61"></p>
+<p>유물 도구를 만들기 위해서는 달인용 제작 키트가 필요한데 가격이 비쌉니다.</p>
+<p>일주일 생기를 모두 써도 달인용 제작 키트 2개를 사기가 어렵습니다.</p>
+<p>하지만 유물 도구를 만들더라도 한번에 원하는 옵션을 모두 뽑기 어렵고 막상 수익에서도 큰 차이가 나지는 않습니다.</p>
+<p><img alt="이미지 197" src="images/0197.png" width="1040" height="673"><br />
+<img alt="이미지 198" src="images/0198.png" width="1027" height="664"></p>
+<p><a href="https://lostgld.com/">➡️ 로스트골드</a> 사이트에서 뽑은 70%급 유물 도구와 50%급 전설 도구를 비교해보면 1만생기당 1500골드 정도 더 수익을 낼 수 있습니다.</p>
+<p>1주일 생기가 3만생기정도니 1주일에 4500골드를 더 벌 수 있습니다. 원하는 옵션을 한번에 뽑는다면 8주를 사용해야 본전이고 제작 횟수가 늘어날수록 본전을 뽑는 기간이 늘어납니다.</p>
+<p>반면에 전설 도구는 만드는 가격이 싸서 원하는 옵션을 뽑기가 쉽고 수익도 큰 차이가 나지는 않습니다. 수리비도 등급이 높을수록 비싸기 때문에 뉴비때는 전설 도구 정도만 뽑아서 하시는걸 추천드립니다.</p>
+<h3 id="_10">세계수의 잎</h3>
+<p><img alt="이미지 192" src="images/0192.png" width="803" height="763"><br />
+<img alt="이미지 193" class="half-size" src="images/0193.png" width="342" height="393"></p>
+<p>세계수의 잎은 캐릭터의 스펙에 직접적으로 영향을 주는 보상은 없습니다.</p>
+<p>주로 생활에 관련된 보상을 받을 수 있고 생활 장비라고 볼 수 있는 생활 부적을 만들 수 있습니다.</p>
+<p>생활 종류별로 20개정도의 세계수의 잎을 얻을 수 있어서 전설 등급까지는 어렵지 않게 만들 수 있지만 유물 등급은 최소 4종류 이상의 생활을 해야 합니다.</p>
+<p>생활 레벨이 낮은 경우에는 수익이 크지 않기 때문에 부적을 만들기 위해서 낮은 레벨의 생활로 세계수의 잎을 모으는게 손해로 느껴질 수 있습니다.</p>
+<p>부적으로 얻을 수 있는 추가 수익이 엄청나게 크거나 한건 아니라서 유물 도구와 마찬가지로 전설 등급만 있어도 괜찮습니다.</p>
+<h3 id="_11">도약의 정수</h3>
+<p><img alt="이미지 194" class="half-size" src="images/0194.png" width="342" height="318"></p>
+<p>도약의 정수는 생활의 정수 소비량을 2배로 증가시키는 대신 보상을 2번 획득하는 아이템입니다.</p>
+<p>똑같은 보상을 2배로 획득하는게 아니라 보상 획득 기회가 2번이 되는거라 방식이 약간 다릅니다.</p>
+<p>소모되는 생기 대비 보상은 동일하기 때문에 생기를 쓸 시간이 없으신 분들만 사용하시면 됩니다.</p>
+<p>로아샵에서 크리스탈로 구매하는것 보다는 아제나의 축복 보상으로 얻는게 더 효율이 좋습니다.</p>
+<h3 id="_12">식물 채집</h3>
+<p><img alt="이미지 37" src="images/0037.png" width="950" height="430"></p>
+<p>식물 채집은 다른 생활과 다르게 미니게임이 없습니다.<br />
+대신 골든 핑거라는 버프를 유지하며 자동으로 추가보상을 획득하는 방식입니다.</p>
+<p>다른 생활들과는 다르게 융화 재료를 만드는데 잘 쓰이지 않습니다.<br />
+채집 재료는 대부분 정령의 가호를 만드는데 사용하기 때문에 아비도스 들꽃보다 다른 재료들이 더 많이 쓰입니다.</p>
+<p>그래서 그런지 신규 레이드 난이도가 높을수록 물약 소비량이 많아서 재료 가격이 올라가는 경향이 있습니다.</p>
+<p>식물 채집이 가능한 맵 2곳에서 카오스게이트가 열리기 때문에 항상 채널이 많고 식물 채집을 하는 유저가 많지 않아 경쟁은 거의 없는 편입니다.</p>
+<p>골든핑거 발동 시 채집 속도가 빨리지기는 하지만 기본 생기 소모량이 30이기 때문에 생기 소모 속도가 빠른편은 아닙니다.</p>
+<h3 id="_13">채광</h3>
+<p><img alt="이미지 38" src="images/0038.png" width="950" height="430"></p>
+<p>벌목과 비슷한 보상 종류를 갖는 생활이지만 벌목보다 유저수가 적고 배틀 아이템을 만드는데 필요한 재료가 있어 가격이 더 비쌉니다.</p>
+<p>빛나는 성스러운 폭탄을 제작할 수 있는데 가끔씩 신규 레이드에서 빛성폭이 필요한 기믹이 나오는 경우 재료 가격이 올라갑니다.</p>
+<p>채광이 가능한 맵에 채널이 적고 경쟁이 있다면 달빛 채광사 버프를 유지하기 어려워 효율이 떨어집니다.</p>
+<p>하는 사람이 적고 빛성폭 때문인지 재료 가격이 벌목보다 비싸기 때문에 동일 생기를 쓴다면 벌목보다 수익이 좋습니다. </p>
+<p>대신 생기 소모 속도는 벌목과는 비교할 수 없을 정도로 느립니다.</p>
+<h3 id="_14">벌목</h3>
+<p><img alt="이미지 39" src="images/0039.png" width="950" height="430"></p>
+<p>시즌3 기준 유저들이 가장 많이 하는 생활입니다.</p>
+<p>벌목은 2인으로 진행할 경우 속도가 빨라지고 생기 소모량이 2배가 돼서 다른 생활이랑 비교도 안되게 빠르게 생기를 쓸 수 있습니다.</p>
+<p>희귀 재료인 '튼튼한 목재'는 원정대 영지에서 일반 재료로 교환이 가능하기 때문에 희귀 재료가 가치가 없는 생활(수렵,고고학)에 비해 수익 저점이 높은 편입니다.</p>
+<p>그래서 시즌3 기준 대부분의 유저들이 벌목을 합니다.</p>
+<p>벌목이 가능한 맵 2곳에 카오스게이트가 열리기 때문에 채널이 항상 많지만 유저수도 많아서 경쟁이 있기는 합니다. 같은 채널에 다른 사람들이 있다면 그냥 채널이동을 하는게 좋습니다.</p>
+<p>단점으로 깐부를 구할 때 쌀먹을 만날 확률이 높습니다. </p>
+<p>생명의 기운이 원정대 단위이기 때문에 벌목을 다계정 쌀먹을 하는 사람들이 많은데 쌀먹 특성상 정신병자들이 많습니다.</p>
+<p>인벤 사사게에 벌목만 검색해봐도 로아에 미친 쌀먹 새끼들이 많다는걸 알 수 있는데 벌목을 하다보면 자주 만나게 됩니다.</p>
+<p>팁을 드리자면 깐부 구했는데 펫효과가 없다? 도망가십쇼. 자리 많은데 옆에서 시비건다? 그냥 채널이동 하십쇼. 진짜 로아에서 쌀먹하는 새끼들은 엮이면 피해만 봅니다.</p>
+<h3 id="_15">수렵</h3>
+<p><img alt="이미지 40" src="images/0040.png" width="950" height="430"></p>
+<p>수렵 특성상 몹을 잡고 바로 갈무리를 하지 않아도 갈무리감이 일정 시간 남아있는데 이걸 이용해서 케투스(영웅 등급)를 잡고 갈무리하지 않고 남겨뒀다가 미니게임 기회 획득 후 남겨놓은 케투스에 미니게임을 할 수 있습니다.</p>
+<p>다른 생활들의 경우 미니게임 기회 획득 후 보라색을 찾아다니는 방식이지만 수렵은 반대 방식도 가능하기 때문에 높은 확률로 미니게임을 영웅 등급에 털 수 있습니다.</p>
+<p>낚시 재료와 함께 요리와 만찬에 재료를 사용하는데 레이드 난이도가 높은 경우 트라이 횟수가 많아지면서 요리와 만찬의 소모량이 늘어나고 수렵 재료가 비싸지는 경우가 있습니다.</p>
+<p>얀의 길에 카오스게이트가 나오기 때문에 채널이 많고 유저수가 많지 않아 경쟁은 거의 없는편입니다. 생기 소모 속도는 빠른편은 아닙니다.</p>
+<h3 id="_16">고고학</h3>
+<p><img alt="이미지 41" src="images/0041.png" width="950" height="430"></p>
+<p>시즌3에는 벌목에 자리를 넘겨줬지만 시즌2까지는 독보적인 1위 생활이였습니다.</p>
+<p>아비도스 주둔지에서 고고학이 가능한데 카오스게이트가 나오는 구역에서 젠이 빨라서 그 구역만 뺑뻉이 돌아도 쉬지 않고 생기를 뺄 수 있습니다.</p>
+<p>생기 소모 속도는 벌목을 제외하면 가장 빠릅니다.</p>
+<p>하지만 희귀 재료가 가치가 없고 재료 가격이 다른 생활에 비해 싸기 때문에 추천을 드리지는 않습니다.</p>
+<p><img alt="이미지 42" src="images/0042.png" width="1021" height="61"></p>
+<p>생활 중 유일하게 제작 키트를 얻을 수 있습니다. 유물 등급 제작 키트의 경우 가격이 상당하기 때문에 이걸 노리고 고고학을 하기도 합니다.</p>
+<p>사소한거긴 한데 다른 생활들은 30레벨부터 미니게임이 가능하지만 고고학은 20레벨부터 가능합니다.</p>
+<h3 id="_17">낚시</h3>
+<p><img alt="이미지 43" src="images/0043.png" width="950" height="430"></p>
+<p>낚시는 매크로 때문에 다른 생활에 비해 보상이 적습니다. 매크로가 어딨어? 라고 생각하신다면 레이크바 낚시터에 한번 가보십쇼.</p>
+<p>낚시는 내실용으로만 하는게 좋습니다.</p>
+<p>낚시는 경쟁이 없는 대신 생기 소모 속도가 매우 느립니다. </p>
+<p>재료 가격은 크게 비싸진 않지만 수렵과 마찬가지로 요리 가격이 올라가면 재료 가격이 같이 올라갑니다.</p>
+<h3 id="_18">요약</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">생활</th>
+<th style="text-align: left;">생기 소모</th>
+<th style="text-align: left;">경쟁 정도</th>
+<th style="text-align: left;">핵심 특징</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>벌목</strong></td>
+<td style="text-align: left;">매우 빠름</td>
+<td style="text-align: left;">보통</td>
+<td style="text-align: left;">가장 많이하는 생활</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>고고학</strong></td>
+<td style="text-align: left;">빠름</td>
+<td style="text-align: left;">보통</td>
+<td style="text-align: left;">유물 키트 획득 가능</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>식물채집</strong></td>
+<td style="text-align: left;">보통</td>
+<td style="text-align: left;">낮음</td>
+<td style="text-align: left;">융화 재료보다는 물약 만드는데 사용</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>수렵</strong></td>
+<td style="text-align: left;">보통</td>
+<td style="text-align: left;">낮음</td>
+<td style="text-align: left;">요리 가격에 따라 재료값이 올라가기도 함</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>채광</strong></td>
+<td style="text-align: left;">보통</td>
+<td style="text-align: left;">낮음</td>
+<td style="text-align: left;">빛성폭 가격에 따라 재료값이 올라가기도 함</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>낚시</strong></td>
+<td style="text-align: left;">매우 느림</td>
+<td style="text-align: left;">없음</td>
+<td style="text-align: left;">수익 적음. 내실용으로만</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vs">재료 직접 판매 vs 영지 제작</h3>
+<p><img alt="이미지 44" src="images/0044.png" width="925" height="570"></p>
+<p>영지에서 생활 재료를 사용해 융화 재료나 배틀 아이템을 제작할 수 있습니다.</p>
+<p>영지 제작 시 세팅에 따라 수익이 큰 차이가 나게 됩니다. </p>
+<div class="site-card-grid columns-4">
+<a class="site-card" href="https://lostgld.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/08.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로스트골드 - 효율적인 골드 수급·소비</div>
+        <div class="site-card-domain">lostgld.com</div>
+        <div class="site-card-desc">로스트아크 재화 수급 계산기</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loatool.taeu.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loatool.taeu.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아도구 - 로스트아크 실시간 정보 제공 사이트</div>
+        <div class="site-card-domain">loatool.taeu.kr</div>
+        <div class="site-card-desc">영지 제작 효율을 확인할 수 있습니다. 본인 영지 세팅 입력 후 제작 효율을 확인할 수 있습니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loalogol.kr/life-master" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loalogol.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아로골 | 벌목 계산기 - 생활 효율, 융화재료 제작</div>
+        <div class="site-card-domain">loalogol.kr</div>
+        <div class="site-card-desc">로아로골 벌목 효율, 로아 생활 효율, 로아 융화재료 제작 손익을 실시간 시세로 계산하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lo4.app/tools/item-craft" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">아비도스 쌀산기 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">로스트아크 생활 제작 수익을 계산하세요. 재료 가격을 입력하면 제작 비용과 수익을 분석할 수 있습니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://zloa.net/craft" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/06.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+        <div class="site-card-domain">zloa.net</div>
+        <div class="site-card-desc">즐로아 ZLOA - 로스트아크 환산 점수, 랭킹</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<p>이런 외부 사이트들에서 영지 제작 효율을 찾아보시고 재료를 직접 팔지 영지 제작 후 판매할지 결정하시면 되겠습니다.</p>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>

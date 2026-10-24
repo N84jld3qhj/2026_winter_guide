@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>0. 뉴비용 게임 소개 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="0. 뉴비용 게임 소개 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row active" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">게임 소개</a><a class="page-toc-link" href="#_2">쌀먹 되나요?</a><a class="page-toc-link" href="#_3">직업 소개</a><a class="page-toc-link" href="#_8">전투 시스템 소개</a><a class="page-toc-link" href="#_13">배럭</a><a class="page-toc-link" href="#_14">나이스단</a><a class="page-toc-link" href="#_15">귀속 골드</a><a class="page-toc-link" href="#_16">레이드 관련 용어</a></div></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">00</span><h1 class="main-title" id="0">뉴비용 게임 소개</h1></div>
+<div class="card">
+<p>로스트아크를 한번도 해본적 없는 뉴비들을 대상으로 한 직업 소개 및 간단한 게임 소개입니다.</p>
+<p>뉴비분들이 아니라면 넘어가셔도 상관 없습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_1">게임 소개</h2>
+<p><img alt="레이드 컨텐츠" src="images/0279.png" width="1920" height="1080"></p>
+<p>로스트아크는 <strong>레이드</strong>가 메인인 RPG 게임입니다.</p>
+<p>오픈 초기에는 레이드 외에도 항해, 생활, PVP 등 다양한 방식으로 게임을 즐기고 레벨을 올리는게 가능했습니다.</p>
+<p>하지만 지금은 레이드만 남고 나머지 컨텐츠는 서브 컨텐츠로만 남아있습니다. </p>
+</div>
+
+<div class="card">
+<h2 id="_2">쌀먹 되나요?</h2>
+<details>
+  <summary>🔍 신뢰도 업데이트 내역</summary>
+  <div class="editor__table-wrapper"><table style="width: 100%;"><tbody><tr><td style="width: 100%; background-color: rgb(239, 239, 239);"><h4 style="margin-left: 20px;"><span style="font-size: 24px; color: rgb(117, 4, 251);">신뢰도 시스템 추가</span></h4></td></tr><tr><td><p>&nbsp; <strong>신뢰도 시스템이 추가되었습니다.</strong></p><ul><li>신뢰도 시스템은 캐릭터 성장을 위한 소비 활동으로 '신뢰도'를 획득하고, 보유한 신뢰도가 다른 모험가와의 거래 시의 수수료 및 거래 가능 여부에 영향을 미치는 시스템입니다.<ul><li>다른 원정대와 우편 및 개인 거래를 통한 골드 거래 시 신뢰도가 감소합니다.</li><li>신뢰도가 부족한 경우 다른 원정대와 우편 및 개인 거래를 통한 골드 거래가 제한될 수 있습니다.</li><li>신뢰도는 <span style="color: rgb(117, 4, 251);">계정 단위</span>로 적용됩니다.<br><br></li></ul></li><li>우편 및 개인 거래를 통한 골드 거래 시 신뢰도는 아래와 같이 사용됩니다.<br><span data-teams="true"><span data-teams="true">※ 골드 수령 시점에 차감되는 수수료(5%)는 발송자의 신뢰도 사용 여부와 무관하게 기존과 동일하게 적용됩니다.</span>&nbsp;</span></li></ul><table style="width: 100%;"><tbody><tr><td style="width: 12.4422%; text-align: center; background-color: rgb(112, 48, 160);"><strong><span style="color: rgb(255, 255, 255);">적용 항목</span></strong></td><td style="width: 17.6124%; text-align: center; background-color: rgb(112, 48, 160);"><strong><span style="color: rgb(255, 255, 255);">분류</span></strong></td><td style="width: 16.916%; text-align: center; background-color: rgb(112, 48, 160);"><strong><span style="color: rgb(255, 255, 255);">신뢰도 차감 대상</span></strong></td><td style="width: 52.9734%; text-align: center; background-color: rgb(112, 48, 160);"><strong><span style="color: rgb(255, 255, 255);">상세</span></strong></td></tr><tr><td rowspan="2" style="width: 12.4405%; text-align: center;">우편</td><td style="width: 17.6124%; text-align: center;">골드 첨부 우편</td><td style="text-align: center;">골드가 첨부된<br>우편을 보내는 캐릭터</td><td><ul><li>골드가 첨부된 우편 발송 시, 발송 금액에 따라 신뢰도가 감소합니다.<ul><li>신뢰도가 부족한 경우, <span style="color: rgb(117, 4, 251);">부족한 신뢰도 수치의 25%</span>에 해당하는 추가 수수료가 부과됩니다.<br>※ 예시) 신뢰도 1,000 보유 상태에서 5,000 골드 송금 시, 신뢰도 부족분 4,000의 25%인 1,000 골드가 수수료로 부과됩니다.<br>※ 추가 수수료 지불을 위한 골드가 부족하다면 골드가 첨부된 우편을 보낼 수 없습니다.</li></ul></li><li>골드가 첨부된 우편 회수 또는 반송 시, 해당 우편에 첨부된 골드를 수령하면 기존 우편 발송으로 감소된 신뢰도가 다시 상승합니다.</li></ul></td></tr><tr><td style="text-align: center;">대금 청구 우편</td><td style="text-align: center;">대금을 보내는 캐릭터</td><td><ul><li>대금 지불 시 발송 금액에 따른 신뢰도가 감소합니다.<ul><li>신뢰도가 부족한 경우, <span style="color: rgb(117, 4, 251);">부족한 신뢰도 수치의 25%</span>에 해당하는 추가 수수료가 부과됩니다.<br>※ 예시) 신뢰도 1,000 보유 상태에서 5,000 골드 대금 지불 시, 신뢰도 부족분 4,000의 25%인 1,000 골드가 수수료로 부과됩니다.<br>※ 추가 수수료 지불을 위한 골드가 부족하다면 첨부 아이템 수령 및 대금을 보낼 수 없습니다.</li></ul></li></ul></td></tr><tr><td style="width: 12.4422%; text-align: center;">개인 거래</td><td style="width: 17.6124%; text-align: center;">개인 거래를 통한<br>골드 거래</td><td style="text-align: center;">골드를<br>보낸 캐릭터</td><td><ul><li>골드를 상대에게 전달하는 시점에 거래 금액에 따른 신뢰도가 감소합니다.<ul><li>신뢰도가 부족한 경우,<span style="color: rgb(117, 4, 251);">&nbsp;부족한 신뢰도 수치의 25%</span>에 해당하는 추가 수수료가 부과됩니다.<br>※ 예시) 신뢰도 1,000 보유 상태에서 5,000 골드 거래 시, 신뢰도 부족분 4,000의 25%인 1,000 골드가 수수료로 부과됩니다.<br>※ 추가 수수료 지불을 위한 골드가 부족하다면 거래를 완료할 수 없습니다.</li></ul></li></ul></td></tr></tbody></table><br><div data-empty="true" style="margin-left: 20px;"><img src="https://cdn-lostark.game.onstove.com/uploadfiles/notice/beaa05c51c524d2e967e9adbe6c7ad78.png" class="fr-fic fr-dib fr-fil" data-code="0" data-message="beaa05c51c524d2e967e9adbe6c7ad78.png" data-path="/uploadfiles/notice/beaa05c51c524d2e967e9adbe6c7ad78.png"></div><ul><li>신뢰도는 우편 및 개인 거래 창에서 표시되며, 신뢰도 증가 또는 감소 시 채팅창의 시스템 메시지로 안내됩니다.</li><li>신뢰도는 아래 활동을 통해 일반 골드 또는 캐릭터 귀속 골드 소모 시 증가합니다.<ul><li>장비 재련/상급 재련</li><li>품질 업그레이드</li><li>콘텐츠 보상 더보기</li><li>장신구 연마</li><li>카르마 개방 및 레벨/랭크 성장</li><li>군단장 장비, 카제로스 장비 제작</li><li>증명의 전장 문장 제작</li><li>엘릭서 제작/정제/연성</li><li>초월 해방/정화/복원</li><li>원정대 영지 연구/지식 전수/만찬 제작/농장(귀속) 제작/펫 특기 훈련<br><br></li></ul></li><li>신뢰도는 일반 골드 또는 캐릭터 귀속 골드 소모량에 따라 아래의 비율로 증가하게 됩니다.<ul><li>일반 골드 1개 사용 시 → &nbsp;신뢰도 1 증가</li><li>캐릭터 귀속 골드 1개 사용 시 신뢰도 0.1 증가<br><br></li></ul></li><li>신뢰도 시스템 적용에 따라, 계정 내 캐릭터의 아래 정보를 기준으로 신뢰도를 소급 적용하였습니다.<ul><li>계정 내 캐릭터의 달성 아이템 레벨</li><li>계정 내 캐릭터의 카르마 랭크 및 레벨</li></ul></li></ul><p><br></p><p style="margin-left: 20px;"><strong>신뢰도 시스템 적용에 따른 기존 거래 관련 조정사항</strong></p><p style="margin-left: 20px;"><strong><span style="color: rgb(117, 4, 251);">[거래소 및 경매장]</span></strong></p><ul><li>거래소 및 경매장에 일부 아이템 등록 시, 통상적인 거래 범위를 과도하게 초과하는 판매금액을 설정할 수 없도록 상한가가 적용됩니다.<ul><li>대상 아이템의 입찰 시도 시 상한가를 초과한 금액은 설정할 수 없으며, 입력 단계에서 상한가 금액으로 보정됩니다.<br>※ 상한가로 입찰된 경우, 해당 아이템에는 상회 입찰을 진행할 수 없습니다.</li><li>아이템별 상한가는 세부 옵션과 거래 가치에 따라 동일한 아이템에서도 다르게 적용될 수 있으며, 일상적인 거래를 방해하지 않는 범위 내에서 탄력적으로 조정될 수 있습니다.<br>※ 상한가는 통상적인 거래 범위를 벗어난 기준으로 설정되는 수치로, 실제 거래 시 참고하기에는 적절하지 않기에 입력 단계에서만 확인하실 수 있습니다.<br>※ 상한가 시스템 적용에 따라 정기 점검 시점에 거래소 및 경매장에 등록된 물품은 등록 취소 처리되었으며, 등록 취소된 매물의 등록 비용과 등록 아이템은 우편함으로 환급됩니다.<br><br></li></ul></li><li>상한가가 적용되는 아이템은 원정대 단위로 일일 등록 가능 수량이 적용됩니다.<ul><li>원정대 일일 등록 수량은 상한가가 적용되는 아이템에만 사용되며 거래소 및 경매장 물품 등록 시, 등록 UI에서 잔여 횟수를 확인하실 수 있습니다.</li><li>원정대 일일 등록 수량은 '물품 등록' 시점에 사용되며, 기간만료 및 취소로 거래가 성사되지 않아도 복원되지 않습니다.</li><li>원정대 일일 등록 수량은 거래소 최대 100개, 경매장 최대 50개로 적용됩니다.<br>※ 일일 등록 가능 수량은 매일 06시에 최대 수치로 초기화됩니다.</li></ul></li></ul><p><br></p><p style="margin-left: 20px;"><strong><span style="color: rgb(117, 4, 251);">[콘텐츠 전리품 경매]</span></strong></p><ul><li>콘텐츠 전리품 경매에 상한가 시스템을 적용하였습니다.<ul><li>경매로 등장한 품목의 최근 7일치 평균 낙찰가 기준 500%의 상한가가 적용됩니다.<br>※ 예시) 특정 품목의 최근 7일 간 평균 낙찰가가 100 골드라면, 해당 품목은 상한가 500 골드가 적용됩니다.<br><br></li><li>입찰 시 지정된 상한가를 초과하여 입찰할 수 없습니다.<ul><li>다른 참여자가 상한가로 먼저 입찰한 경우, 해당 아이템에는 더 이상 입찰을 진행할 수 없습니다.</li></ul></li><li>유찰된 아이템의 경우, 50 골드를 낙찰가 기준으로 하여 상한가가 책정됩니다.</li><li>엔드 콘텐츠의 명예 보상은 상한가가 적용되지 않습니다.<br>※ 명예 보상은 엔드 콘텐츠에서 획득 가능한 특별한 보상을 의미합니다.<br>※ 예시) 카제로스 레이드 '2막 : 부유하는 악몽의 진혼곡' 명예 보상: MVP 배경 '몽환의 아페이론'<br><br></li></ul></li><li>콘텐츠 전리품 경매 시 분배금에 대한 수수료 적용 기준을 아래와 같이 변경하였습니다.<ul><li>기존: 10만 골드 초과 낙찰 금액에 대한 수수료 적용</li><li>변경: 낙찰 금액 전체에 대한 수수료 적용<br><br></li></ul></li><li>티어 3 엔드 콘텐츠 클리어 후 진행되는 전리품 경매에서 확정적으로 등장하는 품목을 제거하였습니다.<ul><li>어비스 던전 '카양겔', '혼돈의 상아탑'</li><li>군단장 레이드 '마수군단장 발탄' ~ '어둠군단장 카멘' 노말, 하드 난이도<br>※ 군단장 레이드 '어둠군단장 카멘' 하드 난이도 3, 4관 전리품 경매에서 일정 확률로 등장하는 탈것의 경우 경매 등장 물품으로 유지됩니다.<br><br></li><li>카제로스 레이드 '서막 : 붉어진 백야의 나선' 노말 난이도<br><br></li></ul></li><li>티어 3 엔드 콘텐츠 클리어 후 전리품 경매에서 확정적으로 등장하는 품목이 제거됨에 따라, 싱글 모드 교환 상점에서 교환 가능한 아래 물품의 교환 수량을 상향 조정하였습니다.<ul><li>빛나는 지혜의 엘릭서: 기존 주간 3개 →&nbsp;5개&nbsp;구매 제한으로 변경</li><li>어둠의 불: 기존 주간 20개 →&nbsp;30개&nbsp;구매 제한으로 변경</li></ul></li></ul><p><br></p><p style="margin-left: 20px;"><strong><span style="color: rgb(117, 4, 251);">[우편 시스템]</span></strong></p><p style="margin-left: 20px;">우편 시스템을 통해 전체 서버 간 골드 송금 기능을 추가하였습니다.</p><ul><li>편지쓰기 탭에서 '다른 서버 골드' 항목을 체크하면, 타 서버 캐릭터에게 골드를 송금할 수 있습니다.<ul><li>동일 서버 내 캐릭터에게는 해당 메뉴를 통해 우편을 발송할 수 없습니다.</li><li>보낼 금액을 입력한 경우에만 우편을 발송할 수 있습니다.</li><li>골드 외 아이템은 우편에 첨부할 수 없습니다.<br><br></li></ul></li><li>'다른 서버 골드' 우편 발송 시에도 일반 우편 발송과 동일한 기준으로 신뢰도가 사용됩니다.<ul><li>발송 금액에 따라 신뢰도가 감소합니다.<br>※ 신뢰도가 부족한 경우, <span style="color: rgb(117, 4, 251);">부족한 신뢰도 수치의 25%</span>에 해당하는 추가 수수료가 부과됩니다.<br>※ 추가 수수료 지불을 위한 골드가 부족하다면 골드가 첨부된 우편을 보낼 수 없습니다.</li></ul></li></ul><p><br></p><blockquote><p><strong>개발자 코멘트&nbsp;</strong></p><p>신뢰도 시스템의 기본 방향은 성장 및 소비 없이 골드를 유통하는 일부 유저층에 수수료를 부과하고<br>꾸준한 성장 플레이를 해 오신 대부분의 모험가분들께는 영향을 주지 않는 방향으로 설계되었습니다.<br><br>다만, 신뢰도 시스템 도입과 함께 아이템 거래를 통한 우회 가능성도 사전에 검토되고 있었지만<br>모든 가능성을 시스템으로 차단할 경우 일상적인 플레이에도 영향을 줄 수 있는 경계가 발생하는 것이 불가피한 상황입니다.<br><br>신뢰도 시스템의 목적은 골드 생산 중심 유저만을 타겟으로 삼아 견제하기 위함이지<br>모험가분들의 일상적인 게임 플레이에는 불편을 드리지 않겠다는 목표가 있기 때문에<br>거래소/경매장 상한가 적용 등의 방식으로 일상적인 거래를 침해하지 않는 선에서 제한을 적용하고<br>골드 이동만을 목적으로 한 의도적 아이템 거래나 구매 아이템 양도 행위 등에 대해서는<br>신뢰도 시스템을 의도적으로 우회하는 '어뷰징' 행위로 간주하여<br>시스템 대응과는 별개로 운영정책의 별도 기준에 따라 지속적으로 감지, 적발하여 단호하게 대응할 예정입니다.<br><br>신뢰도 시스템이 도입된 이후에도 모험가 여러분의 불편 사항을 꼼꼼히 살피며<br>보다 안정적인 방향으로 시스템을 보완해 나가도록 하겠습니다.</p></blockquote><p><br></p></td></tr></tbody></table></div>
+</details>
+
+<p>안됩니다. </p>
+<p>신뢰도 생긴 이후로 전업 쌀먹은 불가능합니다. 매랜하러 가십쇼.</p>
+<p>아직도 로아로 전업 쌀먹하는 애들은 머리가 나쁜겁니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_3">직업 소개</h2>
+<p>로스트아크는 <strong>딜러</strong>와 <strong>서포터</strong>로 직업군이 나누어지며, 기본 1파티는 <strong>딜러 3명 + 서포터 1명</strong>으로 구성됩니다.</p>
+<p>딜러 3명에 서포터 1명이니 유저 비율이 3:1이 바람직하지만 실제로는 서포터 유저가 적습니다.</p>
+<p>그래서 공팟 모집시 서포터가 부족한 랏폿 현상이 생기기도 합니다. </p>
+<p>랏폿 현상은 특히 신규 유저가 유입되는 시기에 신규 유저 레벨대에서 많이 나타납니다.</p>
+<p>신규 유저들은 아무래도 딜러를 키우는 사람이 많으니까요.</p>
+<p>하지만 항상 모든 구간에서 랏폿인건 아니고 신규 레이드 난이도나 업데이트에 따라 랏딜인 경우도 있으니</p>
+<p>신규 유저분들은 그냥 하고 싶은거 하시면 됩니다.</p>
+<h3 id="_4">딜러 직업군</h3>
+<div class="dealer-random-banner" id="dealerbanner"></div>
+
+<p>딜러 직업군은 공격 메커니즘에 따라 크게 <strong>사멸(백/헤드어택)</strong>과 <strong>비사멸(타대)</strong> 직업군으로 구별됩니다.</p>
+<h4 id="_5">사멸 직업군</h4>
+<p>사멸은 로스트아크 시스템 중 공격 타입이 <strong>'백어택'</strong> 또는 <strong>'헤드어택'</strong>이 주류인 직업을 말합니다.</p>
+<div class="img-grid columns-2">
+<p><img alt="백어택" src="images/0255.png" width="700" height="460"><br />
+<img alt="헤드어택" src="images/0256.png" width="700" height="460"></p>
+</div>
+<div class="attack-compare-grid">
+  <div class="attack-card back">
+    <div class="attack-header">🎯 백어택 (Back Attack)</div>
+    <ul>
+      <li><b>위치</b>: 몬스터 후방 공격</li>
+      <li><b>보너스</b>: 피해량 +5%, 치명타 적중률 +10%</li>
+    </ul>
+  </div>
+  <div class="attack-card head">
+    <div class="attack-header">🛡️ 헤드어택 (Head Attack)</div>
+    <ul>
+      <li><b>위치</b>: 몬스터 전방 공격</li>
+      <li><b>보너스</b>: 피해량 +20%, 무력화 +10%</li>
+    </ul>
+  </div>
+</div>
+
+<p>모든 스킬에 백어택,헤드어택이 적용되는게 아니라 '공격 타입'에 백어택, 헤드어택이 적혀있는 스킬들만 적용이 됩니다.</p>
+<p>로스트아크는 게임 특성 상 몬스터 어그로가 1명에게 고정되지 않습니다.</p>
+<p>어그로가 수시로 바뀌기 때문에 몬스터 헤드/백 방향이 계속해서 바뀌고 이걸 따라가면서 딜을 해야 하기 때문에 사멸 직업군이 타대 직업군 보다 난이도가 높습니다.</p>
+<p>그렇다고 리턴이 더 좋냐하면 딱히 그렇지도 않습니다.</p>
+<p>로스트아크 밸런스가 이유가 있어서 쌔거나 약한게 아니라 그냥 전재학 마음에 드는 캐릭터가 쌔기 때문에 사멸 직업군이라고 비사멸 직업군보다 강한것도 아니고 비사멸 직업군이라고 사멸 직업군보다 약한것도 아닙니다.</p>
+<p>난이도도 비사멸 직업에 비해 어렵고 그렇다고 리턴이 큰것도 아니기 때문에 뉴비들에게 추천을 한다면 비사멸 직업군을 추천합니다.</p>
+<p>하지만 키우면 안될 정도로 리스크가 큰건 아니라서 사멸 직업을 하고 싶다면 하셔도 상관없습니다.</p>
+<h4 id="_6">비사멸 직업군 (타대)</h4>
+<p>공격 타입에 '백어택' / '헤드어택' 제약이 없는 스킬이 주류인 직업군입니다.</p>
+<p>사멸 직업군에 비해 포지셔닝 제약이 없어 딜 넣기가 편하고 서포터의 케어를 받기 쉽습니다.</p>
+<p>사멸에 비해 난이도가 낮지만 그렇다고 리턴이 낮은것도 아니라서 뉴비들은 비사멸 직업군을 먼저하는게 좋습니다.</p>
+<p>하지만 위에서도 말했듯이 키우고 싶은게 있다면 그냥 키우셔도 됩니다.</p>
+<h3 id="_7">서포터 직업군</h3>
+<div class="dealer-random-banner" id="supporterbanner"></div>
+
+<p>서포터는 <strong>바드, 홀리나이트, 도화가, 발키리</strong> 4개의 직업이 있습니다.</p>
+<p>서폿은 딜러에 비해 난이도가 높습니다.</p>
+<p>딜러는 보스 몬스터 1마리만 보면 되지만 서폿은 보스 몬스터와 아군 딜러 3명까지 같이 보면서 레이드를 해야합니다.</p>
+<p>지금 게임 자체가 서폿 의존도가 심하게 높은 상태이기 때문에 서폿이 못하면 레이드 난이도가 크게 올라갑니다.</p>
+<p>그러니 나는 딜러는 싫고 무조건 서포터를 하겠어 라는 뉴비가 아니라면 딜러로 시작하는걸 추천드립니다.</p>
+<p>서포터를 좋아해서 서폿으로 시작하려는 뉴비가 있다면 말리지는 않습니다. </p>
+<p>대신 딜러보다는 공부를 많이 하고 시작하시기를 부탁드립니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_8">전투 시스템 소개</h2>
+<p>간단한 전투 시스템 소개입니다.</p>
+<p><mark>전부 게임 튜토리얼에 있는 내용입니다.</mark></p>
+<p>로스트아크를 처음 플레이하는 유저라면 튜토리얼은 반드시 진행해줍시다. 제발요</p>
+<h3 id="_9">무력화</h3>
+<p><img alt="무력화" half-size="half-size" src="images/0260.png" width="701" height="449"> <br />
+네임드 등급 이상 몬스터는 체력바 밑에 무력화 게이지가 있습니다.</p>
+<p>무력화 게이지는 데미지가 아니라 스킬에 있는 '무력화' 피해에 따라 감소하며 무력화 게이지가 모두 감소하면 무력화 상태에 빠집니다.</p>
+<p><img alt="무력화 패턴" half-size="half-size" src="images/0261.png" width="700" height="460"> <br />
+특정 레이드에서는 무력화를 해야하는 패턴이 존재합니다. </p>
+<p>몬스터에 무력화 게이지가 따로 표시되며 무력화 게이지를 모두 깎지 못하면 실패하게 됩니다.</p>
+<p>로스트아크 레이드에서 가장 많이 패턴으로 나오는 시스템이기 때문에 반드시 알아두셔야 합니다.</p>
+<p>직업별로 무력화 수치가 다르고 스킬마다 다르기 때문에 자기 캐릭터에 대해서는 어떤 스킬이 무력화가 높은지 반드시 파악하고 계셔야 합니다.</p>
+<h3 id="_10">부위 파괴</h3>
+<p><img alt="부위 파괴" half-size="half-size" src="images/0262.png" width="897" height="453"> <br />
+일부 몬스터는 부위 파괴가 가능합니다.</p>
+<p><img alt="부위 파괴" half-size="half-size" src="images/0263.png" width="557" height="348"> <br />
+파괴 효과가 있는 스킬이나 배틀 아이템으로 파괴 수치를 누적시킬 수 있으며 일정 수치 이상 파괴되면 부위 파괴 상태가 됩니다.</p>
+<p>부위 파괴 이후에는 몬스터의 패턴이 변경되거나 약화됩니다.</p>
+<p>무력화와 마찬가지로 레이드 패턴으로 많이 나오니 본인 캐릭터에 대해서는 어떤 스킬에 파괴가 달렸는지 알고 있어야 합니다.</p>
+<h3 id="_11">카운터</h3>
+<p><img alt="카운터" half-size="half-size" src="images/0257.png" width="897" height="453"><br />
+몬스터가 특정 패턴에서 파랗게 빛나면 '카운터' 스킬로 패턴을 저지할 수 있습니다.</p>
+<p><img alt="카운터 스킬" half-size="half-size" src="images/0258.png" width="689" height="399"><br />
+직업별로 카운터 스킬이 존재하며 카운터 스킬로 헤드어택을 성공했을 때만 카운터에 성공합니다.</p>
+<p>레이드 기믹에 많이 활용되는 패턴이기 때문에 연습해두시면 좋습니다.</p>
+<h3 id="_12">저스트 가드</h3>
+<p><img alt="저스트 가드" half-size="half-size" src="images/0259.png" width="897" height="453"><br />
+몬스터가 특정 패턴에서 노랗게 빛나면 적절한 타이밍에 맞춰 'G'키를 눌러 저스트 가드를 할 수 있습니다.</p>
+<p>저스트 가드 성공 시 피해를 받지 않고 방어할 수 있습니다.</p>
+<p>카운터와 마찬가지로 레이드 기믹에 많이 활용되기 때문에 연습하시면 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_13">배럭</h2>
+<p><img alt="이미지 47" src="images/0047.png" width="760" height="493"></p>
+<p>레이드가 메인 컨텐츠이지만 주간 입장 횟수가 제한되어 있고 플레이 타임이 그렇게 길지 않기 때문에 캐릭터 하나만 키울 경우 게임이 할 게 없습니다.</p>
+<p>그래서 자연스럽게 부캐릭터를 키우게 되는데 부캐릭터에 투자를 많이 하지 않고 단순히 골드 벌이용으로 키우는걸 배럭이라고 합니다.</p>
+<p>배럭은 단순히 골드 벌이용 캐릭터이기 때문에 스펙업에 큰 투자를 하지 않고 벌리는 골드를 본캐릭터에 몰아주거나 다른 용도로 사용을 하게 됩니다.</p>
+<p>배럭이 필수는 아니지만 배럭 없이 캐릭터를 키우려면 아무래도 돈이 많이 필요하기 때문에 과금을 많이 하는 유저가 아니라면 자연스럽게 배럭을 키우게 될 겁니다.</p>
+<p>귀속 골드와 지옥 컨텐츠가 생긴 이후부터는 큰 투자 없이 귀속 골드와 귀속 재화만으로도 배럭을 키우는게 가능해졌습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_14">나이스단</h2>
+<p><img alt="이미지 89" src="images/0089.png" width="756" height="874"></p>
+<p>배럭을 키울 때 효율적으로 스펙업을 하기 위해 같은 직업으로 원정대를 구성해 보석을 돌려 쓰는걸 나이스단이라고 합니다.</p>
+<p>보석은 거래가 가능하고 같은 직업이라면 효과를 바꿀 필요 없이 돌려쓰는게 가능하기 때문에 효율을 위해 같은 직업을 여러개 키우면 전투력 올리기가 쉽습니다.</p>
+<p>비나이스단에 비해 상대적으로 전투력 올리기가 쉽기 때문에 레이드 취업이 편하고 배럭 숙제를 쉽게 뺄 수 있기 떄문에 많은 유저들이 나이스단으로 원정대 구성을 하고는 합니다.</p>
+<p>효율면에서는 추천하는게 맞습니다만 사람에 따라서는 동일 직업을 여러개 키우는게 적성에 안맞는 경우가 있으니 본인 판단에 따라 하시면 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_15">귀속 골드</h2>
+<p><img alt="이미지 283" src="images/0283.png" width="842" height="556"></p>
+<p>특정 컨텐츠나 레이드에서는 '귀속 골드'를 얻을 수 있습니다.</p>
+<p>귀속 골드는 획득한 캐릭터에 귀속되는 재화로 경매장이나 유저간 거래를 제외한 대부분의 컨텐츠에서 사용이 가능합니다.</p>
+<p>신뢰도와 함께 로아 쌀먹이 어려운 이유로 꼽힙니다. </p>
+<p>하지만 쌀먹이 아니라면 귀속 골드 도입 이후 귀속 재화 획득량이 크게 늘어났기 때문에 오히려 배럭 키우기가 더 쉬워졌습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_16">레이드 관련 용어</h2>
+<h3 id="_17">헤딩팟</h3>
+<p>아무런 공략도 안보고 레이드 트라이를 하는 파티를 의미합니다. </p>
+<p>레이드 출시 직후에 아무런 공략이 나오지 않은 상태에서 트라이를 하는 파티를 의미하는대 오픈런을 하는 공대가 아니라면 보통 하지 않습니다.</p>
+<h3 id="_18">트라이팟</h3>
+<p>공략을 숙지한 상태에서 레이드 트라이를 하는 파티를 의미합니다.</p>
+<p>공략을 반드시 숙지한 상태로 트라이하셔야 합니다.</p>
+<h3 id="_19">클경팟</h3>
+<p>클리어를 해본 경험자들로 진행하는 파티입니다.</p>
+<p>클리어를 해봤다는건 공략을 알고 있다는 의미이니 큰 기믹은 당연히 할 줄 알아야 하고 짤패턴에 익숙하지 않아서 숙련이라고 할 수 없는 파티입니다.</p>
+<p>절대로 공략을 모르는 상태에서 가시면 안됩니다. 눕클이던 선클이던 클리어 경험이 있다는건 공략은 알고 있다는 의미여야 합니다.</p>
+<h3 id="_20">반숙팟</h3>
+<p>클경팟과 숙련팟 사이의 파티입니다.</p>
+<p>클경은 여러번인대 그렇다고 숙련도 아닌 말 그대로 반만 숙련인 파티입니다. 주로 짤패를 어려워하는 사람들이 많이 갑니다. </p>
+<p>당연히 기믹은 할 줄 알아야 합니다.</p>
+<h3 id="_21">숙련팟</h3>
+<p>말그대로 숙련자들로 진행하는 파티입니다.</p>
+<p>기믹도 다 알고 짤패턴도 다 알아서 진행하는데 절대 문제가 생겨서는 안되는 파티입니다.</p>
+<h3 id="_22">숙제팟</h3>
+<p>말그대로 레이드를 숙제처럼 뺄 수 있는 빡숙들로 이루어지는 파티입니다.</p>
+<p>빡숙이라면 죽어서는 안되겠지만 뭔가 이슈가 있어서 누군가 죽더라도 나머지 인원이 문제없이 클리어할 수 있을 정도의 숙련도가 필요합니다.</p>
+<h3 id="_23">버스</h3>
+<p>골드를 받고 레이드 클리어를 해주는 파티를 의미합니다.</p>
+<p>문제가 많이 되고 있기는 합니다. 해외서버의 경우 버스를 막는 시도가 있기도 했는데 아직 한국서버는 직접적인 조치가 취해지지는 않고 있습니다.</p>
+<p>레이드 관련 이벤트가 있을때는 특히 커뮤니티에서 언급이 많이 되는대 버스도 그렇고 대리도 그렇고 스마게가 확실하게 제재를 하고 있지는 않아서 진짜 심하게 어그로를 끌지 않는 이상 제재당하지는 않을겁니다.</p>
+<h3 id="_24">딜버스</h3>
+<p>해당 레이드 기준으로 오버스펙인 딜러가 딜을 밀어주는 파티를 의미합니다.</p>
+<p>일반 버스와는 다르게 같이 레이드를 진행을 하셔야 합니다.</p>
+<p>보통 클리어 후 나오는 경매 보상을 버스 기사가 가져가거나(경미참) 버스 기사에게 명예를 주거나 합니다.</p>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>

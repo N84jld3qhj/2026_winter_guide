@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>8. 스펙업 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="8. 스펙업 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a></div>
+                <div class="spine-item"><a class="spine-row active" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">스펙업 순서</a><a class="page-toc-link" href="#_2">재련</a><a class="page-toc-link" href="#_7">상급 재련</a><a class="page-toc-link" href="#_9">각인</a><a class="page-toc-link" href="#_10">어빌리티 스톤</a><a class="page-toc-link" href="#_12">보석</a><a class="page-toc-link" href="#_15">카드</a><a class="page-toc-link" href="#_21">장신구 연마</a><a class="page-toc-link" href="#_22">팔찌</a><a class="page-toc-link" href="#_23">카르마</a><a class="page-toc-link" href="#_24">아크 그리드</a><a class="page-toc-link" href="#_33">완갑</a><a class="page-toc-link" href="#_34">전설 아바타</a></div></div>
+                <div class="spine-item"><a class="spine-row" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">08</span><h1 class="main-title" id="8">스펙업</h1></div>
+<div class="card">
+<p><img alt="이미지 66" src="images/0066.png" width="1920" height="1080"></p>
+<p>로스트아크의 스펙업 요소들입니다. 작성 순서가 스펙업 우선 순위가 아닙니다. 우선 순위와 효율은 매 순간 달라지기 때문에 본인에 맞는 스펙업을 찾아서 하셔야 합니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_1">스펙업 순서</h2>
+<p><img alt="아이템 레벨 제한" src="images/0268.png" width="1000" height="509"></p>
+<p>로아는 레이드 입장 조건을 <strong>아이템 레벨</strong>로 설정하고 있습니다. 그래서 아이템 레벨만 넘으면 입장이 가능한데 클리어가 가능한건 아닙니다.</p>
+<p>시즌2까지는 아이템 레벨을 제외한 스펙업 요소가 많지 않아서 아이템 레벨만 봐도 충분했지만 시즌3는 아이템 레벨만으로는 제대로된 스펙을 보는게 힘들어졌고 전투력이라는 시스템이 나오게 됐습니다.</p>
+<p>근데 문제는 아직도 입장 조건은 아이템 레벨이라서 결국 레이드에 가기 위해선 아이템 레벨을 제일 먼저 맞춰야 합니다. 결국 1순위는 아이템 레벨입니다.</p>
+<p>그 다음은 효율 순으로 가게 되는데 외부 사이트에서 쉽게 확인이 가능합니다.</p>
+<div class="site-card-grid columns-3">
+<a class="site-card" href="https://loaguard.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아가드(LoaGuard) - 로스트아크 캐릭터 조회·전투력 랭킹·내실·레이드 헬퍼·고정 공대</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">캐릭터 스펙·전투력 랭킹·내실 진행도부터 레이드 헬퍼·고정 공대 일정까지. 로스트아크 올인원 도구.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loaup.com/combatpower-curve" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/11.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아업 LoaUp - 로스트아크 캐릭터 스펙업 효율 및 우선순위</div>
+        <div class="site-card-domain">loaup.com</div>
+        <div class="site-card-desc">로스트아크 캐릭터 정보 조회 및 개인화 스펙업 효율 우선순위 분석 서비스입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lopec.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로펙 | 로스트아크 환산 점수·시뮬레이터</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<p>이런 외부 사이트들에서 본인의 현재 캐릭터에 최적화된 스펙업 순서들을 쉽게 찾을 수 있습니다.</p>
+<p>저 사이트 외에도 스펙업 관련 정보를 제공하는 사이트들이 많으니 외부 사이트 이용해서 효율적으로 스펙업하시면 되겠습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_2">재련</h2>
+<p><img alt="이미지 70" src="images/0070.png" width="1378" height="705"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%AC%EB%A0%A8">➡️ 재련</a></p>
+<p>재련은 장비 아이템의 성장을 통해 아이템 레벨과 능력을 향상시킬 수 있는 성장의 핵심 시스템 중 하나입니다.</p>
+<p>로아의 모든 레이드는 '전투력'이 아닌 '아이템 레벨'을 기준으로 입장이 가능합니다. 그렇기 때문에 레이드에 가기 위해서는 장비 재련을 최우선으로 하셔야 합니다.</p>
+<h3 id="_3">재련 재료 수급처</h3>
+<p><img alt="이미지 71" src="images/0071.png" width="1920" height="1080"></p>
+<p>대부분의 PVE 컨텐츠에서 획득이 가능합니다.</p>
+<h3 id="_4">싱글 상점 주간 교환</h3>
+<p><img alt="이미지 52" src="images/0052.png" width="1110" height="550"></p>
+<p>싱글 상점에서 클리어 메달을 사용해 다양한 재련 재료를 구매할 수 있습니다.</p>
+<p>클리어 메달은 싱글 모드가 있는 레이드를 난이도 상관없이 클리어 시 받을 수 있습니다.</p>
+<h3 id="_5">효율적인 재련 방법과 순서</h3>
+<p>로스트아크에는 거래 가능한 재료와 귀속 재료가 나뉘어져있고 거래 가능 재료의 가격이 계속 변하기 때문에 효율적인 재련 순서나 방법이 매번 바뀌게 됩니다.</p>
+<p>보조 재료인 숨결이나 책을 사용하는 것이 이득일 때도 있고 오히려 손해인 경우도 있습니다.</p>
+<p>일반 재련보다 상급 재련을 먼저하는게 목표레벨 달성이 쉬운 구간이 있고 반대로 상급 재련이 일반 재련보다 효율적인 구간도 있습니다.</p>
+<p>매번 재련 효율이 다르기 때문에 효율적인 재련 방법을 찾아서 재련을 하는게 좋은데 외부 사이트들을 사용하면 쉽게 찾을 수 있습니다.</p>
+<div class="site-card-grid columns-4">
+<a class="site-card" href="https://loaup.com/refine-calculator" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/11.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아업 LoaUp - 로스트아크 캐릭터 스펙업 효율 및 우선순위</div>
+        <div class="site-card-domain">loaup.com</div>
+        <div class="site-card-desc">로스트아크 캐릭터 정보 조회 및 개인화 스펙업 효율 우선순위 분석 서비스입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loaguard.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아가드(LoaGuard) - 로스트아크 캐릭터 조회·전투력 랭킹·내실·레이드 헬퍼·고정 공대</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">캐릭터 스펙·전투력 랭킹·내실 진행도부터 레이드 헬퍼·고정 공대 일정까지. 로스트아크 올인원 도구.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lo4.app/tools/refine" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 재련 계산기 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">캐릭터 검색으로 일반·상급 재련 목표와 필요 재료를 계산하고, 일반 재련·상급 재련 계산기와 특재 효율을 한 곳에서 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lopec.kr/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">로펙 | 로스트아크 환산 점수·시뮬레이터</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<h3 id="_6">특수 재련</h3>
+<p><img alt="이미지 73" src="images/0073.png" width="1000" height="606"></p>
+<p>특수 재련은 기존 재료를 쓰지 않고 특수 재련 재료만을 사용하여 재련을 하는 방식입니다.</p>
+<p>기존 재련 재료가 들어가지 않기 때문에 골드가 많이 필요없고 대신 장인의 기운은 오르지 않습니다.</p>
+<p>특수 재련 재료는 레이드 클리어시 얻거나 낙원 지옥 콘텐츠에서 랜덤하게 얻을 수 있습니다.</p>
+<p><img alt="이미지 74" src="images/0074.png" width="1232" height="687"></p>
+<p>지옥이 특수 재련의 핵심입니다. </p>
+<p>특수 재련은 원래 레이드에서 재료가 많이 나오지 않아서 붙으면 좋고 아니면 말고 수준이였습니다.</p>
+<p>하지만 낙원이 나오면서 지옥에서 특수 재련 재료를 획득할 수 있게 되었고 부캐릭터의 경우 특수 재련 재료 만으로도 1700 이상을 찍는게 가능해졌습니다.</p>
+<p>지옥 보상 중 '특수 재련' 보상이 효율이 매우 좋으니 필요하다면 선택해서 사용하시면 좋겠습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_7">상급 재련</h2>
+<p><img alt="이미지 75" src="images/0075.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%83%81%EA%B8%89%20%EC%9E%AC%EB%A0%A8">➡️ 상급 재련</a></p>
+<p>상급 재련은 일반 재련과 다른 방식으로 진행되는 재련입니다.</p>
+<p><img alt="이미지 76" src="images/0076.png" width="1000" height="593"></p>
+<p>상급 재련을 하기 위해서는 먼저 담금질이 필요한데 10단계와 20단계를 하기 위해서는 카제로스 레이드 서막 클리어 보상이 필요하고 30단계와 40단계를 위해서는 3막 클리어 보상이 필요합니다.</p>
+<p><img alt="이미지 77" src="images/0077.png" width="988" height="644"></p>
+<p>상급 재련은 확률에 의해 성공 / 대성공 / 대성공x2 의 결과를 얻을 수 있는대 보조 재료와 재봉술/야금술을 사용해 대성공/대성공x2 의 확률을 올릴 수 있습니다.</p>
+<p><img alt="이미지 78" src="images/0078.png" width="815" height="561"></p>
+<p>상급 재련을 3번 진행하면 선조의 가호를 받을 수 있습니다. 확률에 따라 추가 효과가 발동되는데 테메르의 정을 제외한 효과들이 모두 좋아서 가능하다면 선조의 가호 턴에는 추가 재료를 넣어주시는게 좋습니다.</p>
+<h3 id="_8">선택 재료</h3>
+<p>숨결, 야금술/재봉술의 가격이 항상 변하기 때문에 추가 재료를 넣는게 좋을때도 있고 넣지 않는게 더 좋을때도 있습니다.</p>
+<p>어떤 추가 재료를 어느 타이밍에 사용하는게 좋은지는 외부 사이트에서 쉽게 확인할 수 있습니다</p>
+<div class="site-card-grid columns-4">
+<a class="site-card" href="https://loa.icepeng.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image site-card-image-empty" style="pointer-events: none;">↗</div>
+    <div class="site-card-body">
+        <div class="site-card-title">LoaCalc</div>
+        <div class="site-card-domain">loa.icepeng.com</div>
+        <div class="site-card-desc">로스트아크 최적화 계산기 - 각인, 트포, 재련, 세공</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://mokoko.co.kr/upgrade-calculator" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/mokoko.co.kr.webp" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">모코코 - 로스트아크 팬사이트</div>
+        <div class="site-card-domain">mokoko.co.kr</div>
+        <div class="site-card-desc">재련 비용 사이트</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://www.loavesting.com/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image site-card-image-empty" style="pointer-events: none;">↗</div>
+    <div class="site-card-body">
+        <div class="site-card-title">로아베스팅</div>
+        <div class="site-card-domain">www.loavesting.com</div>
+        <div class="site-card-desc">재련 견적 사이트</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loaguard.com/honing/" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/10.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 재련 플랜 · 일반·상급 재련 계산기 · LoaGuard</div>
+        <div class="site-card-domain">loaguard.com</div>
+        <div class="site-card-desc">통합 재련 플랜·일반 재련 효율·상급 재련 보조재료 전략을 한곳에서 계산합니다. 업화·전율·계승 경로 포함 6부위 최소비용 경로를 자동 산출합니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loatto.kr/refining-simulator" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/05.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합재련 시뮬레이터 | Loatto</div>
+        <div class="site-card-domain">loatto.kr</div>
+        <div class="site-card-desc">여러 재련단계를 통합해서 확인하고 장비성장 및 담금질 비용을 포함하여 계산합니다. 장비별 강화 계획을 세워보세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lo4.app/tools/refine" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lo4.app.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">통합 재련 계산기 | LOALAB</div>
+        <div class="site-card-domain">lo4.app</div>
+        <div class="site-card-desc">캐릭터 검색으로 일반·상급 재련 목표와 필요 재료를 계산하고, 일반 재련·상급 재련 계산기와 특재 효율을 한 곳에서 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://loagap.com/efficiency/enhance" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/loagap.com.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">상급 재련 효율 계산기 | LOAGAP</div>
+        <div class="site-card-domain">loagap.com</div>
+        <div class="site-card-desc">로스트아크 상급 재련 비용 대비 효율을 실시간 시세로 분석하고, 최적의 재련 루트를 제안하는 계산기입니다.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+<a class="site-card" href="https://lopec.kr/tool/enhancement" target="_blank" rel="noopener noreferrer">
+    <div class="site-card-image" style="pointer-events: none;"><img src="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/sites/lopec.kr.png" alt="" style="pointer-events: none;"></div>
+    <div class="site-card-body">
+        <div class="site-card-title">강화 최적화 | 로펙</div>
+        <div class="site-card-domain">lopec.kr</div>
+        <div class="site-card-desc">로스트아크 캐릭터 환산 점수, 장비, 랭킹, 시뮬레이터까지 한 번에 확인하세요.</div>
+    </div>
+    <div class="site-card-arrow">↗</div>
+</a>
+</div>
+
+<p>이런 사이트들에서 본인이 가지고 있는 귀속 재화를 입력하고 최적의 효율을 찾아서 상급재련을 진행하시면 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_9">각인</h2>
+<p><img alt="이미지 79" src="images/0079.png" width="1920" height="1080"><br />
+<img alt="이미지 80" src="images/0080.png" width="1000" height="576"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8">➡️ 각인</a></p>
+<p>각인은 전투와 관련된 다양한 효과를 얻을 수 있는 시스템으로 원정대 단위로 공유됩니다.<br />
+각인 및 어빌리티 스톤을 장착하여 활성화 할 수 있습니다.</p>
+<p>습득한 각인들 중 원하는 각인을 선택해서 최대 5개를 장착하게 되는데 각인은 습득한 각인서의 등급에 따라 전설/유물 등급으로 나뉘게 됩니다.</p>
+<p>각인서는 5장 습득마다 1단계씩 활성화되며 전설 각인서 20장(전설 4단계)을 읽으면 유물 각인서를 읽는게 가능해집니다.</p>
+<p>유물 각인서도 마찬가지로 최대 20장을 읽을 수 있는데 가격이 상당히 비쌉니다. 진짜 많이 비쌉니다.</p>
+<p>본인 스펙업 효율 생각해서 현명하게 구매하시길 바랍니다.</p>
+<p><img alt="이미지 81" src="images/0081.png" width="1237" height="205"></p>
+<p>나락에서 보상으로 귀속 랜덤 유물 각인서 상자가 나오기 때문에 최고의 가성비를 노린다면 유물 각인서는 3단계만 활성화하고 나락에서 나오길 기다려도 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_10">어빌리티 스톤</h2>
+<p><img alt="이미지 82" src="images/0082.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EA%B0%81%EC%9D%B8#h3-2">➡️ 어빌리티 스톤</a></p>
+<p>어빌리티 스톤은 각인서와 함께 더 높은 수준의 '각인 효과'를 활성화 시킬 수 있는 아이템입니다.</p>
+<p>기본적으로 체력 증가 효과를 제공하며, 어빌리티 스톤 내에 깃들어 있는 각인 효과를 통해 추가 효과를 얻을 수 있습니다.</p>
+<p>그러나 모든 능력치를 활성화 할 수 있는 것은 아니며, 활성화 시 감소되는 능력치 역시 함께 깃들어 있기 때문에 정밀한 세공을 필요로 합니다.</p>
+<p>세공 성공 6/7/9/10회마다 세공 레벨 1/2/3/4레벨에 해당하는 어빌리티 스톤 효과가 부여됩니다.</p>
+<h3 id="97">97돌</h3>
+<p><img alt="이미지 239" src="images/0239.png" width="337" height="483"></p>
+<p>어빌리티 스톤에 부여된 2개의 증가 효과 각인(전투 각인)의 세공 레벨 합이 5 이상이라면 기본 공격력 1.5% 증가 효과가 적용됩니다.</p>
+<p>'세공 레벨 합이 5 이상' 이 조건을 만족하는 어빌리티 스톤을 97돌이라고 합니다. </p>
+<p>하나가 3단계(9성공), 나머지 하나가 2단계(7성공) 이상인 돌을 말하는데 이게 성공 확률이 굉장히 낮습니다. </p>
+<p>자동 세공 확률 공개에 따르면 0.0038% 라고 합니다.</p>
+<p>그런데 어빌리티 스톤은 천장이 없습니다. </p>
+<p>재련은 장인의 기운이 있고 각인도 20장이 최대고 보석은 10레벨이 끝입니다. </p>
+<p>장신구도 상상상이 끝이고 카드도 30각이 끝입니다. 근데 97돌이랑 팔찌는 천장이 없습니다. </p>
+<p>진짜 운이 없다면 몇천만원 쓰고도 못깎습니다.</p>
+<p>그러니 97돌이랑 팔찌는 마지막에 하셔야 합니다.</p>
+<p><a href="https://lostark.game.onstove.com/Probability/%EC%96%B4%EB%B9%8C%EB%A6%AC%ED%8B%B0%20%EC%8A%A4%ED%86%A4%20%EC%9E%90%EB%8F%99%20%EC%84%B8%EA%B3%B5">➡️ 자동 세공 확률 공개</a></p>
+<p>공개된 자동 세공 확률표를 보면 세공 레벨 합이</p>
+<ul>
+<li>5 이상일 확률: 0.13410497373900000000000000%</li>
+<li>6 이상일 확률: 0.00381178684834200000000000%</li>
+<li>7 이상일 확률: 0.00001320761073040000000000%</li>
+<li>8 이상일 확률: 0.00000014983300745100000000%</li>
+</ul>
+<p>저 확률에 천장도 없으니까 무리하지말고 천천히 깎으시길 바랍니다.</p>
+<h3 id="_11">어빌리티 스톤 지정 키트</h3>
+<p><img alt="이미지 83" class="half-size" src="images/0083.png" width="760" height="644"></p>
+<p>낙원 지옥 보상으로 비상의 돌 각인 지정 키트 를 얻을 수 있습니다.</p>
+<p>사용 시 본인이 원하는 돌을 설정해서 얻을 수 있습니다.</p>
+<p>돌 깎을때 가장 비싼게 페온입니다. </p>
+<p>돌 가격은 이미 바닥이기 때문에 문제가 없는데 돌 살때 사용하는 페온의 가격이 비쌉니다.</p>
+<p>그런데 키트를 사용하면 페온값 없이 돌을 구할 수 있기 때문에 만약 97돌을 노릴 생각이시라면 지옥에서 선택지가 나오면 고려할만 합니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_12">보석</h2>
+<p><img alt="이미지 84" src="images/0084.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EB%B3%B4%EC%84%9D">➡️ 보석</a></p>
+<p>보석은 스킬을 강화해주는 아이템으로 스킬 대미지를 올려주는 겁화 / 쿨타임을 줄여주는 작열 2종류가 있습니다.</p>
+<p>보석은 레벨에 따라 효과가 달라지며 10레벨이 최고레벨입니다.</p>
+<p>보석은 1개의 스킬만을 강화해주는데 원하는 스킬이 아니라면 실링을 사용해 다른 스킬로 변환이 가능합니다.</p>
+<h3 id="_13">보석 조율 광휘의 보석</h3>
+<p><img alt="이미지 85" src="images/0085.png" width="1920" height="1080"></p>
+<p>4티어 보석은 광휘의 보석으로 조율이 가능하며 광휘의 보석은 겁화↔작열을 마음대로 바꿀 수 있고 효과 변환도 무료로 가능합니다.</p>
+<p>대신 캐릭터 귀속으로 바뀌게 되며 조율을 풀기 위해서는 15일을 기다리거나 크리스탈을 소모해야 합니다.</p>
+<h3 id="6">싱글 상점 6레벨 광휘의 보석</h3>
+<p><img alt="이미지 86" src="images/0086.png" width="1115" height="532"></p>
+<p>싱글 상점에서 6레벨 광휘의 보석을 구입할 수 있습니다.</p>
+<p>일명 협찬 보석인데 로아는 보석이 큰 진입장벽으로 작용하기 때문에 이를 완화하기 위해 나온 정책입니다.</p>
+<p>6광휘만 하더라도 다른 스펙업이 충분하다면 대부분의 숙제 콘텐츠가 가능하니까 우선은 6광휘 사용하시다가 상위레벨 보석 구매하시면 됩니다.</p>
+<h3 id="7">골드 상점 7레벨 광휘의 보석</h3>
+<p><img alt="이미지 87" src="images/0087.png" width="900" height="500"><br />
+<img alt="이미지 88" class="half-size" src="images/0088.png" width="760" height="820"></p>
+<p>골드 상점에서 7레벨 광휘의 보석 11개를 구매할 수 있습니다.</p>
+<p>귀속 골드로 구매가 가능하기 때문에 부캐릭터 육성에 부담이 많이 줄었습니다.</p>
+<h3 id="_14">나이스단</h3>
+<p><img alt="이미지 89" src="images/0089.png" width="756" height="874"></p>
+<p>나이스단은 동일 직업을 여러개 키워 보석을 공유하는 원정대 구성을 의미합니다.</p>
+<p>어원은 데헌'나이스' 입니다. 참고로 저 사람은 로아 접고 디아블로4 버스광고 하던게 마지막 목격담입니다.</p>
+<p>보석은 광휘로 변환하지 않으면 공유가 가능한대 같은 직업이라면 스킬변환 없이 사용이 가능하기 때문에 같은 직업으로만 원정대를 구성해서 보석을 돌려쓰는 사람들을 나이스단이라고 표현합니다.</p>
+<p>효율은 정말 좋습니다. </p>
+<p>보석을 1세트만 사면 되기 때문에 비나이스단과 비교했을 때 같은 금액으로 더 높은 레벨의 보석을 사용 가능하며 동일 직업이라면 각인도 공유하기 때문에 비나이스단에 비해 더 높은 전투력으로 파티가입도 편하고 숙제도 쉽게 뺄 수 있습니다.</p>
+<p>추천을 하냐고 물으시면 효율면에서는 당연히 추천하는게 맞는대 동일 직업으로만 플레이하는게 사람에 따라선 정말 재미없게 느껴지기 때문에 직접적으로 추천드리지는 않습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_15">카드</h2>
+<p><img alt="이미지 89" src="images/0090.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%B9%B4%EB%93%9C">➡️ 카드</a></p>
+<p>한때 뉴비 절단기 1호였던 시스템입니다. </p>
+<p>한 종류의 카드를 16장을 모아 5각성을 하게 되는데 세트효과를 맞추기 위해서는 6개의 5각성 카드가 필요합니다.</p>
+<p>가장 많이 쓰이는 세상을 구한 빛, 일명 세구빛 30각을 위해서 80장의 전설 카드가 필요하다는 의미죠.</p>
+<p>물론 지금은 익스프레스 진행 시 세구빛 30각을 지원해주기 때문에 큰 문제 없습니다.</p>
+<p>세구빛 외에 다른 속성 세트인 암구빛, 토구빛, 화구빛, 뇌구빛, 수구빛 세트가 있는데 뉴비의 영역이 아닙니다. </p>
+<p>고인물들의 영역이니까 뉴비들은 천천히 맞추시면 되겠습니다.</p>
+<p>어차피 뉴비들이 이거 필요한 레이드 나올 쯤이면 완화해서 맞추기 쉬워질겁니다.</p>
+<h3 id="_16">카드 수급처</h3>
+<h4 id="_17">모험섬</h4>
+<p><img alt="이미지 90" src="images/0091.png" width="1000" height="474"></p>
+<p>모험섬 보상으로 카드가 들어있습니다. 골드섬이 있는게 아니라면 대부분 카드섬을 갑니다.</p>
+<h4 id="_18">카드작</h4>
+<p><img alt="이미지 91" src="images/0092.png" width="1300" height="680"></p>
+<p>엔드 콘텐츠는 골드 획득 3회 이후부터는 골드는 획득하지 못하지만 다른 보상은 획득이 가능합니다.</p>
+<p>전설 카드 역시 획득이 가능한데 이를 이용해 보상으로 카드를 주는 하위 레이드를 도는걸 카드작이라고 합니다.</p>
+<p>싱글 모드로 플레이가능한 레이드 위주로 많이 돕니다.</p>
+<h4 id="_19">떠돌이 상인</h4>
+<p><img alt="이미지 92" src="images/0093.png" width="985" height="440"></p>
+<p>로아에는 떠돌이 상인 NPC가 있습니다</p>
+<p>10시~15시 30분 / 16시~21시 30분 / 22시~03시 30분 / 04시~09시 30분에 대륙별로 출현을 하는데 판매 품목중에 카드가 있고 몇몇 대륙의 경우 전설 카드를 판매하기도 합니다.</p>
+<p>실링만으로 전설 카드 구매가 가능하기 때문에 대륙별로 판매하는 전설 카드 확인하시고 시간별로 확인해서 필요한 카드 구매하시면 되겠습니다.</p>
+<table>
+<thead>
+<tr>
+<th>지역</th>
+<th>획득 가능 카드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>아르테미스</td>
+<td>카마인</td>
+</tr>
+<tr>
+<td>루테란 동부</td>
+<td>데런 아만, 진저웨일, 발탄, 에스더 루테란</td>
+</tr>
+<tr>
+<td>애니츠</td>
+<td>비아키스, 웨이, 에스더 시엔, 가디언 루</td>
+</tr>
+<tr>
+<td>아르데타인</td>
+<td>일리아칸</td>
+</tr>
+<tr>
+<td>로헨델</td>
+<td>아제나&amp;이난나</td>
+</tr>
+<tr>
+<td>욘</td>
+<td>바훈투르, 에스더 갈라투르</td>
+</tr>
+<tr>
+<td>파푸니카</td>
+<td>쿠크세이튼, 광기를 잃은 쿠크세이튼</td>
+</tr>
+<tr>
+<td>베른 남부</td>
+<td>아브렐슈드</td>
+</tr>
+<tr>
+<td>엘가시아</td>
+<td>베아트리스, 에버그레이스</td>
+</tr>
+<tr>
+<td>볼다이크</td>
+<td>바르칸</td>
+</tr>
+<tr>
+<td>쿠르잔 북부</td>
+<td>카멘</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_20">일회성 수급처</h4>
+<p><a href="https://gall.dcinside.com/mgallery/board/view/?id=loaon&amp;no=2459029">➡️ https://gall.dcinside.com/mgallery/board/view/?id=loaon&amp;no=2459029</a></p>
+<p>위 링크 참고 하시면 좋을것 같습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_21">장신구 연마</h2>
+<p><img alt="이미지 93" src="images/0094.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EC%8B%A0%EA%B5%AC%20%EC%97%B0%EB%A7%88">➡️ 장신구 연마</a></p>
+<p>장신구는 연마를 통해 아크 패시브 포인트와 연마 효과를 얻을 수 있습니다.</p>
+<p>아크 패시브 포인트는 품질에 따라 부여가 되는데 66 이상이면 최대 포인트가 되니까 크게 신경쓸 필요는 없습니다.</p>
+<p>연마 효과는 부위 당 2가지의 유효 옵션이 존재하고 같은 옵션은 중복해서 나오지 않습니다.</p>
+<p>각각의 옵션은 상/중/하 3개의 등급이 존재하며 유효 옵션 등급에 따라 하하~상상까지 등급이 구분됩니다.</p>
+<p><img alt="이미지 203" src="images/0203.png" width="1710" height="473"></p>
+<p>왼쪽부터 상상/상중/상하/중중/상단일 악세로 왼쪽으로 갈수록 성능이 좋습니다.</p>
+<p>뉴비들이라면 상하~상단일 정도를 사용하시는게 좋습니다.</p>
+<p><img alt="이미지 95" src="images/0095.png" width="900" height="500"><br />
+<img alt="이미지 96" class="half-size" src="images/0096.png" width="760" height="528"></p>
+<p>골드 상점에서 장신구를 구매할 수 있습니다. </p>
+<p>귀속 골드로 구매가 가능하지만 같은 옵션을 거래소에서 구매할 경우 페온이 들긴 하지만 훨씬 더 싸기 때문에 남는 페온이 있다면 거래소에서 사셔도 됩니다.</p>
+<p>저 정도 악세로 초반에 대부분의 컨텐츠가 가능하니까 악세 부담없이 뉴비나 복귀유저가 세팅할 수 있게 됐습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_22">팔찌</h2>
+<p><img alt="이미지 97" src="images/0097.png" width="1000" height="509"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%9E%A5%EB%B9%84#h3-2">➡️ 팔찌</a></p>
+<p>팔찌는 달성 아이템 레벨 1490 이후 부터 획득 및 착용 가능한 장신구 아이템입니다.</p>
+<p>팔찌가 보유하고 있는 효과를 통해 전투에 도움이 되는 다양한 스탯, 특성, 특수 효과를 얻을 수 있습니다.</p>
+<p>팔찌는 고정 효과와 부여 효과로 구분 됩니다.</p>
+<p>고정 효과는 팔찌 습득 시 자동으로 고정되어 있는 효과들로 무작위로 부여되며 변경할 수 없습니다.</p>
+<p>부여 효과는 최대 3개까지 부여가 가능하며 팔찌 습득 시 슬롯의 갯수가 랜덤하게 부여됩니다.</p>
+<p>슬롯은 NPC를 통해 효과 기본 4회 부여가 가능하고 팔찌 효과 재변환권을 사용해 3회 추가 변경이 가능합니다.</p>
+<p>직업에 맞는 전투 특성 2개를 고정 효과로 갖고 부여 효과 3줄을 유효로 갖는 팔찌를 만드는게 목표입니다.</p>
+<p>팔찌는 엔드급을 노리는게 아니라면 효율이 좋은 편입니다. </p>
+<p>특성 2줄 + 특옵 2줄 정도라면 그렇게 큰 돈안쓰고 뽑을 수 있는데 효율이 좋은 편이니 그정도는 뉴비가 뽑으셔도 괜찮습니다.</p>
+<p>팔찌에서 가장 중요한 점은 97돌과 마찬가지로 천장이 없습니다. 운이 없으면 억을 박아도 안나오는게 팔찌입니다.</p>
+<p>적당한 팔찌 뽑으면 천장있는 다른 스펙업 먼저 하시고 마지막에 97돌이랑 같이 하시길 바랍니다.</p>
+<p><img alt="이미지 98" class="half-size" src="images/0098.png" width="760" height="762"></p>
+<p>골드 상점에서 팔찌를 구매할 수 있는데 뉴비에게 굉장히 좋은편입니다. </p>
+<p>구매해서 사용하다가 특성2줄 + 특옵2줄 정도 노리면서 깎아보시는걸 추천드립니다.</p>
+<p>팔찌 효율은 인게임내에서 전투력을 비교하여 알 수 있는데 사실 인게임 전투력은 옵션별 가중치가 정확하지 않아서 잘 사용하지 않고 외부 사이트들을 사용합니다.</p>
+<p>➡️ <a href="https://lopec.kr/">로펙</a> / <a href="https://lostbuilds.com/">로스트빌드</a> / <a href="https://kloa.gg/">클로아</a></p>
+<p>이런 외부 사이트 들에서 팔찌 효율을 확인 가능한데 같은 팔찌라도 사이트별로 효율이 다르게 나오는 경우가 있습니다. </p>
+<p>사이트별로 옵션별 가중치를 다르게 둬서 생기는 문제인데 사실 어디가 정확하다 얘기할 수 없는 부분이라 그냥 참고만 하시면 되겠습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_23">카르마</h2>
+<p><img alt="이미지 99" src="images/0099.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%ED%8C%A8%EC%8B%9C%EB%B8%8C#h3-2">➡️ 카르마</a></p>
+<p>카르마는 2막 클리어 후 개방 가능한 시스템으로 아크 패시브와 관련된 효과를 강화할 수 있습니다.</p>
+<p>랭크 성장과 레벨 성장으로 나뉘며 각 아크 패시브 타입에 따라 강화 효과가 달라집니다.</p>
+<p>진화 / 깨달음 / 도약으로 나뉘며 각각 성장 시 강화 효과는 다음과 같습니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">타입</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>진화</strong></td>
+<td>- 랭크 성장 : 진화형 피해, 낙인력 증가<br>- 레벨 성장 : 최대 생명력 증가</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>깨달음</strong></td>
+<td>- 랭크 성장 : 깨달음 포인트 획득<br>- 레벨 성장 : 무기 공격력 증가</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>도약</strong></td>
+<td>- 랭크 성장 : 도약 포인트 획득<br>- 레벨 성장 : 초각성기 피해 증가</td>
+</tr>
+</tbody>
+</table>
+<p>진화와 도약은 랭크 성장이 중요하며 깨달음은 랭크 성장과 레벨성장 둘 다 중요합니다.</p>
+<p>랭크는 최대 6랭크, 레벨은 최대 30레벨까지 가능한데 진화와 도약의 경우 21 레벨 이상은 큰 의미가 없기 때문에 6랭크 21레벨만 달성하고 다른 스펙업을 하는게 좋습니다.</p>
+<p>깨달음의 경우 6랭크 21레벨 이후 레벨 1업당 무기 공격력 0.1%가 상승하는데 26레벨까지는 카르마의 기운(카기백)이 있어서 할만합니다.</p>
+<p>그 이상은 고인물의 영역으로 골드를 때려 박아야 하는데</p>
+<p><img alt="이미지 100" class="half-size" src="images/0100.png" width="760" height="566"></p>
+<p>지옥에서 얻을 수 있게된 정련된 운명의돌이 있습니다. </p>
+<p>특수 재련 재료와 비슷한데 무료로 강화 시도를 할 수 있는 대신 카르마의 기운은 오르지 않습니다. </p>
+<p>지옥 보상에서 선택지로 나온다면 고려해볼만한 보상입니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_24">아크 그리드</h2>
+<p><img alt="이미지 101" src="images/0101.png" width="1920" height="1080"><br />
+<img alt="이미지 102" src="images/0102.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%95%84%ED%81%AC%20%EA%B7%B8%EB%A6%AC%EB%93%9C">➡️ 아크 그리드</a></p>
+<p>아크 그리드는 코어와 젬을 장착 및 조합하여 다양한 효과를 얻을 수 있는 성장 시스템입니다.</p>
+<p>아크 그리드에 구조개선을 포함한 다양한 옵션들이 있기 때문에 아크 그리드 전/후로 캐릭터가 완전히 달라지는 경우가 많습니다.</p>
+<h3 id="_25">의지력과 포인트</h3>
+<p>아크 그리드는 <strong>코어가 공급하는 의지력으로 젬을 켜고, 젬이 제공하는 포인트로 코어 효과를 개방하는 연계 시스템</strong>입니다.</p>
+<h4 id="_26">의지력</h4>
+<p>코어를 장착하면 젬을 켤 수 있는 <strong>'의지력'</strong>이 공급됩니다.</p>
+<ul>
+<li>각 젬은 활성화에 필요한 <strong>필요 의지력</strong>을 가지고 있습니다.</li>
+<li>코어와 가까운 젬부터 순서대로 의지력이 전달됩니다.</li>
+<li>코어 등급(전설/유물/고대)이 높을수록 의지력이 많아져 <strong>더 많은 젬을 동시에 활성화</strong>할 수 있습니다.</li>
+</ul>
+<h4 id="_27">질서 / 혼돈 포인트</h4>
+<p>의지력을 통해 활성화된 젬들이 <strong>코어에게 전달하는 '합산 점수'</strong>입니다.</p>
+<ul>
+<li>활성화된 젬들의 포인트 합계가 특정 구간(<strong>10 / 14 / 17 / 18 / 19 / 20 포인트</strong>)에 도달할 때마다 코어의 핵심 효과가 단계별로 개방됩니다.</li>
+<li>젬을 높게 가공할수록 더 높은 코어 효과를 활성화할 수 있습니다.</li>
+</ul>
+<h3 id="_28">코어</h3>
+<p><strong>코어</strong>는 클래스별 고유 효과를 지는 질서 코어와 모든 클래스가 같은 효과를 받는 혼돈 코어로 나뉩니다.</p>
+<p>질서 코어는 해/달/별 3가지 종류로 나뉘고 각각 직업각인별로 3종류가 존재합니다.</p>
+<p>해달별이 각각 3 종류기 때문에 총 27가지 조합이 가능하지만 실제로는 성능이 좋지않은 코어들이 많아서 몇가지 조합만 실전에서 사용하는 편입니다.</p>
+<p>직업별로 사용되는 코어 조합이 다르기 때문에 직접 알아보고 사용할 조합을 선택하셔야 합니다.</p>
+<p>혼돈 코어 역시 해/달/별 3가지로 나뉘고 각각 6종류의 코어가 존재합니다.</p>
+<p>혼돈 코어는 효율이 가장 좋은 조합이 고정되어 있습니다.</p>
+<p><img alt="이미지 240" src="images/0240.png" width="2280" height="1144"></p>
+<p>딜러는 현란한 공격(해) / 불타는 일격(달) / 공격(별)</p>
+<p><img alt="이미지 241" src="images/0241.png" width="2280" height="1144"></p>
+<p>서포터는 신념의 강화(해) / 낙인의 흔적(달) / 무기(별)</p>
+<p>저 혼돈 코어들이 없다면 차선책으로 다른 코어를 낄 수는 있지만 성능이 저 코어들에 비해 좋지 않기 때문에 결국에는 저 코어들을 맞추셔야 합니다.</p>
+<p>코어는 랜덤으로 드랍되기 때문에 본인이 원한다고 세팅을 할 수 있는건 아닙니다.</p>
+<p>원하는 고대 코어를 확정으로 얻을 방법은 지평의 성당 보상으로 얻을 수 있는 고대 코어 선택 상자 뿐인데 캐릭터별로 1회만 구매 가능하기 때문에 모든 코어를 고대로 세팅하는건 운이 많이 필요합니다.</p>
+<p>우선은 코어 정수 모아서 유물 등급을 다 맞추는걸 목표로 하시면 됩니다.</p>
+<h3 id="111-222-333">111? 222? 333 ?</h3>
+<p>직업별 공략을 보다보면 111, 222, 221 이런식으로 코어조합을 숫자로 표시하는게 있습니다.</p>
+<p>이건 아크 그리드 창에서 나오는 코어를 위쪽부터 순서대로 번호를 붙여서 부르기 편하게 만든 방식입니다.</p>
+<p><img alt="이미지 242" class="half-size" src="images/0242.png" width="365" height="405"></p>
+<p>예를들어 위의 사진은 기상술사의 코어 표인데 질풍 기상술사의 경우</p>
+<p>비연참(1)/우산의 춤(1)/휘몰아치기(1)를 사용하는 111 빌드</p>
+<p>기류 조절(2)/상승기류(2)/휘몰아치기(1)를 사용하는 221 빌드</p>
+<p>바람의 칼날(3)/쾌속(3)/강풍일섬(3)을 사용하는 333빌드가 있습니다</p>
+<h3 id="_29">젬</h3>
+<p><img alt="이미지 243" src="images/0243.png" width="1000" height="596"></p>
+<p><strong>젬</strong>은 코어에 착용하는 아이템으로 젬의 포인트에 따라 코어 옵션이 활성화됩니다.</p>
+<p>젬 옵션은 의지력 효율, 질서/혼돈 포인트, 딜러 옵션(공격력,추가피해,보스피해), 서포터 옵션(낙인력,아군피해강화,아군공격강화)으로 나뉩니다.</p>
+<p>기본적으로 의지력 효율, 질서/혼돈 포인트는 고정이고 나머지 2자리를 딜러 옵션과 서포터 옵션중에 랜덤으로 2가지가 정해집니다.</p>
+<p>젬 가공 시 랜덤으로 주어지는 4개의 선택지 중에서 1개씩 선택해서 옵션 수치가 바뀌거나 옵션 자체가 다른 종류로 변하거나 합니다.</p>
+<p>젬 가공의 목표는 의지력 효율, 질서/혼돈 포인트를 최대로 하는걸 최우선으로 하고 남은 2자리에 본인 캐릭터에 맞는 옵션 수치를 올리는걸 나중으로 하게 됩니다.</p>
+<p>젬의 옵션보다 코어의 활성화 옵션이 훨씬 성능이 좋기 때문에 코어 활성화를 위해 의지력 효율, 질서/혼돈 포인트를 최우선으로 하고 이후에 코어 활성화가 다 되었다면 그때 나머지 옵션을 올리면 되겠습니다.</p>
+<h3 id="_30">발사대</h3>
+<p><img alt="이미지 244" src="images/0244.png" width="332" height="450"></p>
+<p>코어 17포인트 활성화를 위해 의지력과 질서/혼돈 포인트만 최대한 높인 젬을 발사대라고 합니다. </p>
+<p>사진의 젬은 의지력 효율 5 / 질서 포인트 5 만 맞춘 젬으로 저런걸 발사대라고 합니다.</p>
+<p>발사대는 많은 골드가 들지 않지만 유효 옵션만으로 젬옵션을 도배하는 세팅은 매우 많은 골드가 들어갑니다.</p>
+<p>특히 보스 피해/아군 공격 강화 옵션을 위해서 젬을 깎는 경우 매우 많은 골드가 필요합니다.</p>
+<p>뉴비들은 부가 옵션보다는 코어 활성화가 우선이니 발사대를 띄워서 코어 17포인트를 활성화하는걸 목표로 젬을 깎는걸 추천드립니다.</p>
+<h3 id="_31">안정침식 / 견고왜곡 / 불변붕괴</h3>
+<p><img alt="이미지 245" src="images/0245.png" width="1093" height="185"></p>
+<p>코어를 다 활성화한 후에는 젬 부가 옵션을 올리는걸 목표로 하는데 부가 옵션 중 보스피해/아군공격강화의 성능이 다른 옵션들보다 좋기 때문에 이걸 노리고 젬 가공을 시도하게 됩니다. </p>
+<p>보통 이걸 '보피작' 이라고 합니다.</p>
+<p>표에서 보면 안정/침식은 보스피해/아군공격강화 옵션이 나오지 않습니다. 대신 기본 필요 의지력이 8이기 때문에 보피작은 불가능하지만 발사대를 깎기 위해서는 좋습니다.</p>
+<p>견고/왜곡부터 보피/아공강이 나오는데 공격력/낙인력 보다 추가피해/아피강이 성능이 더 좋기 때문에 보피작을 할 때 불변/붕괴를 많이 깎습니다.</p>
+<p>하지만 불변/붕괴는 기본 필요 의지력이 10이기 때문에 발사대로 사용하기 어렵습니다. 그러니 뉴비들은 가능하다면 안정/침식 위주로 깎아서 발사대를 먼저 완성하시는게 좋습니다.</p>
+<p><a href="#아크-그리드">➡️ 아크 그리드 사이트</a> 아크 그리드 관련 외부 사이트입니다. 잼을 깎거나 착용할 때 도움을 받을 수 있는 사이트들입니다.</p>
+<h3 id="_32">젬 자동 장착</h3>
+<p><img alt="이미지 246" src="images/0246.png" width="1000" height="594"></p>
+<p>젬 자동 장착 기능을 사용해 자동으로 젬 세팅을 할 수 있습니다. </p>
+<p>하지만 전투력을 기준으로 젬을 장착하기 때문에 찐빠가 많이 납니다.</p>
+<p>젬이 제대로 깎이지 않은 상태에서 사용한다면 하나의 코어에 젬이 몰리는 현상이 있어서 사용해보고 제대로 코어 옵션들이 활성화 되지 않는다면 외부 사이트를 사용해보시는걸 추천드립니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_33">완갑</h2>
+<p><img alt="이미지 완갑" src="images/0253.png" width="688" height="580"></p>
+<p>완갑은 벨가르딘 레이드에서 얻을 수 있는 장비 아이템으로 일반 장비와 마찬가지로 재련을 통해 강화를 할 수 있습니다.</p>
+<p>아이템 레벨에는 영향을 주지 않으며 재련 효율이 매우 높기 때문에 매우 추천하는 스펙업 요소입니다.</p>
+<p><img alt="이미지 완갑 한계해방" src="images/0254.png" width="550" height="635"></p>
+<p>벨가르딘 레이드 클리어시 영웅 등급 완갑을 획득할 수 있으며 클리어 보상으로 얻는 재료들을 사용한 한계 해방을 통해 최대 재련 단계를 올릴 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">완갑 등급</th>
+<th style="text-align: center;">재련 가능 단계</th>
+<th style="text-align: left;">한계 해방을 통한 등급 상승</th>
+<th style="text-align: left;">해방 재료</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">영웅</td>
+<td style="text-align: center;">재련 전 ~ 최대 10단계</td>
+<td style="text-align: left;">• 10단계 해방 시 전설 등급으로 상승</td>
+<td style="text-align: left;">• 사령의 잔영 x 200 또는 죽음의 손 x 100</td>
+</tr>
+<tr>
+<td style="text-align: center;">전설</td>
+<td style="text-align: center;">10단계 ~ 최대 15단계</td>
+<td style="text-align: left;">• 15단계에서 해방 시 유물 등급으로 상승</td>
+<td style="text-align: left;">• 사령의 잔영 x 240 또는 죽음의 손 x 120</td>
+</tr>
+<tr>
+<td style="text-align: center;">유물</td>
+<td style="text-align: center;">15단계 ~ 최대 20단계</td>
+<td style="text-align: left;">• 20단계에서 해방 시 고대 등급으로 상승</td>
+<td style="text-align: left;">• 죽음의 손 x 150</td>
+</tr>
+<tr>
+<td style="text-align: center;">고대</td>
+<td style="text-align: center;">20단계 ~ 최대 25단계</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<p>노말 난이도는 15단계까지 해방이 가능하고 20단계 이후는 하드 난이도를 클리어해야 가능합니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_34">전설 아바타</h2>
+<p><img alt="이미지 103" src="images/0103.png" width="1000" height="563"><br />
+<img alt="이미지 104" src="images/0104.png" width="1520" height="634"></p>
+<p>전설 아바타는 부위당 스탯 2%의 옵션을 갖고 있는데 영웅 아바타는 부위당 스탯 1%입니다.</p>
+<p>머리, 상의, 하의, 무기 총 4부위를 착용하니까 최대 4%의 스탯을 추가로 얻을 수 있습니다.</p>
+<p>효율이 좋은 편이기 때문에 가능하다면 맞춰주시는게 좋습니다.</p>
+<p>요즈의 항아리를 사용해 직접 만들수도 있지만 확률이 10%라 추천은 안합니다.</p>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>

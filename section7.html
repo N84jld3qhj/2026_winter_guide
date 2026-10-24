@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>7. 골드 수급처 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="7. 골드 수급처 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row active" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">엔드 콘텐츠</a><a class="page-toc-link" href="#_2">일일 숙제</a><a class="page-toc-link" href="#_3">할의 유산</a><a class="page-toc-link" href="#_4">캘린더 콘텐츠</a><a class="page-toc-link" href="#_9">생활</a><a class="page-toc-link" href="#_10">길드 혈석 상점 교환</a><a class="page-toc-link" href="#_11">림레이크 보석 교환</a><a class="page-toc-link" href="#_12">수집품</a></div></div>
+                <div class="spine-item"><a class="spine-row" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">07</span><h1 class="main-title" id="7">골드 수급처</h1></div>
+<div class="card">
+<p><img alt="이미지 15" src="images/0015.png" width="1920" height="1080"></p>
+<p>골드를 획득할 수 있는 콘텐츠들입니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_1">엔드 콘텐츠</h2>
+<p><img alt="이미지 16" src="images/0016.png" width="1920" height="1080"></p>
+<p>클리어 보상으로 골드를 주는 레이드입니다.</p>
+<p>원정대당 6개의 캐릭터를 골드 획득 캐릭터로 지정 가능하며 골드 획득 캐릭터 이외의 캐릭터는 엔드 콘텐츠를 클리어해도 보상으로 골드를 받을 수 없습니다(6회 제한).</p>
+<p>레이드 입장화면에서 관문 정보를 누르면 지급 되는 골드를 확인할 수 있습니다.</p>
+<p><img alt="이미지 17" src="images/0017.png" width="1057" height="778"></p>
+<p>싱글 모드의 경우 일정 비율을 캐릭터 귀속 골드로 받습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_2">일일 숙제</h2>
+<p><img alt="이미지 18" src="images/0018.png" width="1920" height="640"></p>
+<p>일일 숙제인 쿠르잔 전선과 가디언 토벌에서 나오는 재료들을 팔아 돈을 벌 수 있습니다.</p>
+<p><img alt="이미지 19" src="images/0019.png" width="1000" height="394"></p>
+<p>일일 콘텐츠에서는 낮은 확률로 편린이 나오는데 최대 30만골드까지 획득이 가능합니다.</p>
+<p>아제나의 축복을 구매한 캐릭터의 경우 추가적으로 '축복의 편린'이 나오는데 축복의 편린에서 획득한 골드는 획득 시 원정대 귀속, 사용 시 캐릭터 귀속이 됩니다.</p>
+<p>레벨 상관없이 동일하게 편린 보상이 나와서 저레벨 캐릭터에 아제나의 축복을 사주고 편린에서 나온 골드를 키우는 캐릭에 몰아주는 방식으로 사용할수도 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_3">할의 유산</h2>
+<p><img alt="이미지 20" src="images/0020.png" width="1000" height="594"></p>
+<p>할의 유산은 영웅의 공명을 돌아 얻을 수 있는 입장권을 사용하여 입장 가능하며 클리어 보상으로 보석, 돌파석(귀속), 숨결(귀속), 각인서를 얻을 수 있습니다.</p>
+<p>각인서의 경우 낮은 확률이지만 유효 유물 각인서가 나올 경우 상당한 골드를 벌 수 있습니다.</p>
+<p><img alt="이미지 21" src="images/0021.png" width="378" height="296"></p>
+<p>큐브는 입장권 3배 사용이 가능합니다. 보상이 3배로 나오지만 럭키나 메가럭키가 나올 확률이 3배가 되지는 않으니 잘 생각해서 사용합시다.</p>
+<p><img alt="이미지 22" src="images/0022.png" width="791" height="681"></p>
+<p>큐브 입장권은 지옥 열쇠로 교환이 가능한데 지옥에서 얻는 보상은 모두 귀속이라 판매하여 골드로 바꿀 수 없으니 골드가 필요한 경우에는 큐브를 도는게 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_4">캘린더 콘텐츠</h2>
+<h3 id="_5">섬</h3>
+<p><img alt="이미지 23" src="images/0023.png" width="1000" height="474"></p>
+<p>모험섬 보상은 랜덤으로 정해지는데 골드가 보상으로 나오는 경우 참여해주시면 좋습니다.</p>
+<h3 id="_6">카오스게이트</h3>
+<p><img alt="이미지 24" src="images/0024.png" width="1000" height="486"><br />
+<img alt="이미지 25" src="images/0025.png" width="626" height="742"></p>
+<p>카오스게이트 보상으로 귀속 골드, 파편 주머니, 숨결, 각인서, 보석이 나오고 히든 관문 등장시 랜덤으로 거래 가능 골드를 보상으로 획득할 수 있습니다.</p>
+<p>모든 보상이 거래 가능하고 유물 각인서를 획득할 확률이 높기 때문에 보상 획득기회가 남아있다면 반드시 참여하는게 좋습니다.</p>
+<h3 id="_7">필드 보스</h3>
+<p><img alt="이미지 26" src="images/0026.png" width="1000" height="485"></p>
+<p>보상으로 보석, 각인서, 재련 재료를 얻을 수 있습니다. </p>
+<p>경매로 각인서와 카드가 나오는데 비싼 각인서가 나올 경우 분배금으로 꽤 많은 골드가 들어옵니다.</p>
+<p>카게와 마찬가지로 보상 획득기회가 남아 있다면 반드시 참여하는게 좋습니다.</p>
+<h3 id="_8">태초의 섬</h3>
+<p><img alt="이미지 27" src="images/0027.png" width="1000" height="485"></p>
+<p>일종의 배틀로얄 장르의 미니게임으로 15위 달성 시 3레벨 보석 상자를 받을 수 있습니다.</p>
+<p>고인물들이 많고 티밍유저들도 있으니 그냥 맘 편하게 보석만 노리고 15등만 하시는게 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_9">생활</h2>
+<p><img alt="이미지 28" src="images/0028.png" width="1920" height="1080"></p>
+<p>매일 충전되는 생명의 기운을 소모해 생활 재료를 얻을 수 있습니다. </p>
+<p>뉴비들에게는 엔드 콘텐츠 획득 골드를 제외하면 가장 많은 골드를 벌 수 있는 방법입니다.</p>
+<p>생활 레벨이 낮을땐 크게 벌린다는 생각이 안들수도 있지만 생활 레벨이 올라가고 높은 등급의 도구를 맞추면 주간 획득 골드가 상당하니 꾸준히 생활을 해줍시다.</p>
+</div>
+
+<div class="card">
+<h2 id="_10">길드 혈석 상점 교환</h2>
+<p><img alt="이미지 204" src="images/0204.png" width="1084" height="732"></p>
+<p>길드 활동을 통해 매주 실마엘 혈석을 획득하고 혈석 상점에서 필요한 물품을 교환할 수 있습니다.</p>
+<p>파괴석 결정을 판매하거나 큐브 입장권을 구매해 큐브를 돌고 나온 보석을 판매해서 골드를 벌 수 있습니다.</p>
+<p>길드 활동에 관심이 없더라도 혈석 길드나 1인 길드를 통해 혈석 상점을 이용하시는게 좋습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_11">림레이크 보석 교환</h2>
+<p><img alt="이미지 29" src="images/0029.png" width="793" height="683"></p>
+<p>림레이크 항구 앞바다에서 매시 정각~15분 / 30분~45분 출현하는 텀벙게 어업 길드선에서 주마다 1레벨 보석 상자를 구매할 수 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_12">수집품</h2>
+<p><img alt="이미지 30" src="images/0030.png" width="1026" height="671"></p>
+<p>필드에서 사냥을 통해 모험의서 수집품을 획득해 판매하는 방법입니다. 별로 추천드리는 방법은 아닙니다.</p>
+<p>프로키온의 숨결은 가격이 비싼데 비싼 이유가 다 있습니다.<br />
+가격이 비쌀수록 드랍률이 낮아서 이거 할 시간에 다른거 하는게 좋습니다.</p>
+<p>신규 대륙이 나올 경우 해당 대륙의 수집품이 비싸기 때문에 이때는 수집품 노가다를 하셔도 괜찮습니다.<br />
+이때는 낮은 등급의 수집품도 가격이 비싸기 때문에 할만 합니다.</p>
+<p>4인이 파티를 맺고 같이 하면 같은 화면에 있지 않아도 보상이 나오기 때문에 수집품 파티를 구해서 하시면 4배의 효율로 가능합니다.</p>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>

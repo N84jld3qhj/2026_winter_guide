@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>9. 내실 | 2026 로아온 윈터 뉴비/복귀 가이드</title>
+    <!-- no-flash theme: MUST run before stylesheet so dark readers never see a white flash on navigation -->
+     <!-- 파비콘: 로아 공식 아이콘 -->
+    <link rel="icon" href="https://cdn-lostark.game.onstove.com/2018/obt/assets/images/common/icon/favicon.ico?v=20260918100221">
+
+    <!-- 링크 공유 미리보기 (카카오톡/디스코드/트위터 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="9. 내실 | 2026 로아온 윈터 뉴비/복귀 가이드" />
+    <meta property="og:description" content="로스트아크 뉴비·복귀 유저를 위한 2026 윈터 가이드" />
+    <meta property="og:image" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/images/og-image.png" />
+    <meta property="og:url" content="https://n84jld3qhj.github.io/2026_winter_loaon_guide/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+        (function () {
+            try {
+                var s = localStorage.getItem('theme');
+                var d = s ? s : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', d);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="style.css?v={{BUILD_DATE}}" />
+</head>
+
+<body data-page="section">
+
+
+    <!-- [수정됨] 공식 가이드 스타일의 Flexbox 레이아웃 컨테이너 -->
+    <div class="container layout-section">
+        <button class="drawer-toggle" id="drawerToggle" aria-label="섹션 목차 열기" aria-expanded="false">☰</button>
+        <div class="scrim" id="drawerScrim" hidden></div>
+        <!-- Zone A: 좌측 고정 목차 (사이드바) -->
+        <nav class="sidebar rail-left" id="railLeft" aria-label="전역 목차">
+            <div class="gnb__header">
+        <h1 class="gnb__bi">
+            <a href="index.html" class="gnb__bi-link">
+                <img src="images/bi-lostark.png" alt="Lostark">
+            </a>
+        </h1>
+        <button class="drawer-close" id="drawerClose" aria-label="목차 닫기">✕</button>
+    </div>
+            <button class="search-trigger search-trigger--rail" data-search-open aria-label="검색 열기">
+                <span class="search-ico" aria-hidden="true">🔍</span><span class="search-label">검색</span><kbd class="search-kbd">⌘K</kbd>
+            </button>
+            <div class="spine" aria-label="섹션 0–9">
+                <div class="spine-item"><a class="spine-row" href="section0.html" style="--tier: var(--tier-common)"><span class="spine-badge">00</span><span class="spine-label">뉴비용 게임 소개</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section1.html" style="--tier: var(--tier-uncommon)"><span class="spine-badge">01</span><span class="spine-label">과금 요소</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section2.html" style="--tier: var(--tier-rare)"><span class="spine-badge">02</span><span class="spine-label">공식 게임 가이드</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section3.html" style="--tier: var(--tier-heroic)"><span class="spine-badge">03</span><span class="spine-label">인게임 설정</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section4.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">04</span><span class="spine-label">일일 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section5.html" style="--tier: var(--tier-relic)"><span class="spine-badge">05</span><span class="spine-label">주간 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section6.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">06</span><span class="spine-label">캘린더 콘텐츠</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section7.html" style="--tier: var(--tier-esther)"><span class="spine-badge">07</span><span class="spine-label">골드 수급처</span></a></div>
+                <div class="spine-item"><a class="spine-row" href="section8.html" style="--tier: var(--tier-legendary)"><span class="spine-badge">08</span><span class="spine-label">스펙업</span></a></div>
+                <div class="spine-item"><a class="spine-row active" href="section9.html" style="--tier: var(--tier-ancient)"><span class="spine-badge">09</span><span class="spine-label">내실</span></a><div class="spine-subitems"><a class="page-toc-link" href="#_1">내실이란?</a><a class="page-toc-link" href="#_2">내실 우선 순위</a><a class="page-toc-link" href="#_4">아크라시아 투어</a><a class="page-toc-link" href="#_5">아크 패시브 포인트</a><a class="page-toc-link" href="#_12">스킬 포인트</a><a class="page-toc-link" href="#_21">스킬 룬</a><a class="page-toc-link" href="#_40">카드</a><a class="page-toc-link" href="#_42">치명 / 특화 / 신속</a><a class="page-toc-link" href="#_56">기본 능력치 / 체력 증가 물약</a></div></div>
+                <div class="spine-item"><a class="spine-row" href="section10.html" style="--tier: var(--tier-common)"><span class="spine-badge">10</span><span class="spine-label">외부 사이트</span></a></div>
+            </div>
+            <div class="spine-progress" aria-hidden="true"><span id="progressBar"></span></div>
+        </nav>
+
+        <!-- Zone: 본문 (우측 전체 확장 영역) -->
+        <main class="contents main-content" id="content">
+            <!-- 화면 우상단 고정 토글 (상단바가 없어진 자리를 대신함) -->
+            <button class="theme-toggle" id="themeToggle" aria-label="라이트/다크 테마 전환">
+                <span class="theme-ico theme-ico--sun" aria-hidden="true">☀</span>
+                <span class="theme-ico theme-ico--moon" aria-hidden="true">☾</span>
+            </button>
+            <div class="chapter-head"><span class="chapter-chip" aria-hidden="true">09</span><h1 class="main-title" id="9">내실</h1></div>
+
+<div class="card">
+<h2 id="_1">내실이란?</h2>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EB%82%B4%EC%8B%A4%EC%9D%84%20%ED%83%84%ED%83%84%ED%95%98%EA%B2%8C">➡️ 초보자 가이드 &gt; 내실을 탄탄하게</a></p>
+<p>내실이란 원정대 단위로 적용되는 캐릭터 스펙업 요소입니다. </p>
+<p>퀘스트, 수집형 포인트, 던전 클리어 보상 등으로 획득할 수 있습니다.</p>
+<p>모코코처럼 캐릭터 스펙에 직접적인 영향이 없는 단순한 수집 요소도 내실이라 부르지만 이 문서에서는 캐릭터 스펙에 직접적으로 영향을 주는 요소들만 다루도록 하겠습니다.</p>
+<p>내실은 캐릭터 스펙에 가장 기본이 되는 요소이며, 골드로 구매가 불가능하기 때문에 시간을 들여서 직접 작업을 진행해야 합니다.</p>
+<p><img alt="내실 아이템 사전" src="images/0269.png" width="824" height="554"></p>
+<p>게임 내 아이템 사전(Alt + D)을 통해 내실 관련 획득 정보를 쉽게 확인할 수 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_2">내실 우선 순위</h2>
+<ol class="rank-list">
+  <li><b>아크 패시브 포인트</b></li>
+  <li><b>스킬 포인트</b></li>
+  <li><b>룬</b></li>
+  <li>영구 능력치 증가 (치명 / 특화 / 신속)</li>
+  <li>카드</li>
+  <li>펫목장</li>
+  <li>영구 능력치 증가 (기본 능력치)</li>
+  <li>영구 능력치 증가 (체력)</li>
+</ol>
+
+<blockquote>
+<p>💡 직업에 따라 '풍요' 룬이 필수인 경우가 있습니다. 이 경우 <strong>풍요 룬을 최우선으로 작업</strong>하는 것이 좋습니다.</p>
+<p>ℹ️ 제압/인내/숙련 능력치 및 성향 포인트(지성, 담력, 매력, 친절)는 캐릭터 스펙에 큰 영향을 주지 않습니다.</p>
+</blockquote>
+<h3 id="_3">평판 우선 순위</h3>
+<ol class="rank-list">
+  <li><b>'끝나지 않은 싸움'</b>  아크 패시브 포인트</li>
+  <li><b>'지혜의 섬 보조 사서'</b>  스킬 포인트</li>
+</ol>
+
+<blockquote>
+<p>📌 내실 관련 에포나 평판은 <strong>위 2개만 진행</strong>하시면 됩니다. 나머지는 아크라시아 투어 보상으로 자동 완료됩니다.</p>
+</blockquote>
+</div>
+
+<div class="card">
+<h2 id="_4">아크라시아 투어</h2>
+<p><img alt="이미지 106" src="images/0106.png" width="1920" height="1080"><br />
+<img alt="이미지 107" src="images/0107.png" width="1629" height="710"></p>
+<p>아크라시아 투어는 원정대 단위로 저티어 내실을 간단한 퀘스트와 수집을 통해 스킵해주는 시스템이며, 일종의 내실 점핑이라고 볼 수 있습니다.</p>
+<p>총 4단계로 구성되어 있으며, 간단한 퀘스트만으로 파푸니카까지의 내실 보상을 받을 수 있으므로 가장 먼저 진행해야 합니다.</p>
+<blockquote>
+<p><strong>💡 참고:</strong> 아크라시아 투어로 전체 혹은 일부 획득 가능한 내실 요소들은 가이드 내에 <mark>강조</mark>로 표시되어 있습니다.</p>
+</blockquote>
+</div>
+
+<div class="card">
+<h2 id="_5">아크 패시브 포인트</h2>
+<p><img alt="이미지 108" src="images/0108.png" width="1920" height="1080"></p>
+<p>아크 패시브 중 '깨달음' 관련 포인트를 내실로 획득할 수 있습니다. </p>
+<p>깨달음 노드 4티어를 찍기 위해 반드시 최우선적으로 모아야 하는 포인트입니다.</p>
+<h3 id="_6">에포나 평판</h3>
+<p><img alt="이미지 109" class="half-size" src="images/0109.png" width="760" height="528"><br />
+<img alt="이미지 110" src="images/0110.png" width="1137" height="533"></p>
+<p>에포나 평판 보상으로 얻을 수 있습니다.</p>
+<p>에포나 의뢰 창에서 평판 현황 → 평판 보상 → 깨달음 포인트 물약 검색 시 확인할 수 있습니다.</p>
+<blockquote>
+<p>완료까지 16일이 걸리므로 미리 시작해야 합니다.</p>
+</blockquote>
+<p>첫 번째 의뢰인 '악몽의 그림자'가 끝나는 날은 두 번째 의뢰를 바로 이어서 수행 가능합니다.<br />
+그날 두 번 깨서 수행 횟수를 늘려야 총 16일차에 획득할 수 있습니다.</p>
+<h3 id="_7">모험의 서</h3>
+<p><img alt="이미지 111" class="half-size" src="images/0111.png" width="760" height="528"><br />
+<img alt="이미지 112" class="half-size" src="images/0112.png" width="382" height="331"></p>
+<p>모험의 서 쿠르잔 북부 70% 보상으로 획득 가능합니다. 모험의 서 공략은 검색을 통해 쉽게 찾을 수 있습니다.</p>
+<p>80% 보상인 해도 조각도 다음 깨달음 포인트 물약 획득 과정에 필요하므로, 쿠르잔 북부 모험의 서 80% 달성을 목표로 하는 것이 좋습니다.</p>
+<h3 id="_8">필드 보스</h3>
+<p><img alt="이미지 113" class="half-size" src="images/0113.png" width="760" height="528"></p>
+<p>쿠르잔 북부 필드 보스 세베크 아툰을 잡아 얻을 수 있습니다.</p>
+<p>확률로 드랍하며, 보이지 않는 천장(18회)이 존재하기 때문에 꾸준히 잡다 보면 반드시 획득할 수 있습니다.</p>
+<h3 id="_9">크림스네일의 해도</h3>
+<p><img alt="이미지 114" class="half-size" src="images/0114.png" width="760" height="528"><br />
+<img alt="이미지 115" src="images/0115.png" width="801" height="710"></p>
+<p>크림스네일의 해도 '2포인트' 보상으로 획득 가능합니다. '두 번째 해도' 보상이 아니라 해도 2개를 모두 모았을 때 받는 보상입니다.</p>
+<h4 id="_10">첫번째 해도</h4>
+<ol>
+<li>
+<p>쿠르잔 북부의 모험의 서를 80% 이상 달성하기<br />
+<img alt="이미지 116" class="half-size" src="images/0116.png" width="760" height="722"></p>
+</li>
+<li>
+<p>쿠르잔 북부의 필드 보스 세베크 아툰을 처치하여 일정 확률로 획득<br />
+<img alt="이미지 117" class="half-size" src="images/0117.png" width="760" height="722"></p>
+</li>
+<li>
+<p>쿠르잔 남부의 작살아귀 헌팅 길드선에서 판매하는 오래된 빈병에서 일정 확률로 획득<br />
+<img alt="이미지 118" class="half-size" src="images/0118.png" width="760" height="722"><br />
+<img alt="이미지 119" class="half-size" src="images/0119.png" width="760" height="566"><br />
+해적 주화 4,000개로 교환 가능합니다. 확률이 낮아 해적 주화가 많이 필요할 수 있습니다.</p>
+</li>
+<li>
+<p>쿠르잔 남부의 작살아귀 헌팅 길드선에서 물물 교환으로 획득<br />
+<img alt="이미지 120" class="half-size" src="images/0120.png" width="760" height="722"><br />
+해적 주화 100,000개로 교환 가능합니다.</p>
+</li>
+</ol>
+<h4 id="_11">두번째 해도</h4>
+<ol>
+<li>
+<p>림레이크 남섬에 있는 긴과 호감도 쌓기<br />
+<img alt="이미지 121" class="half-size" src="images/0121.png" width="760" height="722"><br />
+긴 호감도 신뢰 보상으로 얻을 수 있습니다.</p>
+</li>
+<li>
+<p>루테란의 왕실 무역선에서 물물 교환으로 획득<br />
+<img alt="이미지 122" class="half-size" src="images/0122.png" width="760" height="722"><br />
+루테란 왕실 무역선에서 해적 주화 100,000개로 구매 가능합니다.<br />
+<a href="https://www.fmkorea.com/7901156628">➡️ 두번째 해도 2번 조각 루테란 왕실 무역선 정보 로스트아크 에펨코리아</a> 이 글을 참고하여 구매하면 됩니다.</p>
+</li>
+<li>
+<p>림레이크 남섬의 에포나 의뢰 평판 쌓기<br />
+<img alt="이미지 123" class="half-size" src="images/0123.png" width="760" height="722"><br />
+림레이크 남부 에포나 의뢰 평판 보상으로 획득 가능하며, 14일이 필요합니다.</p>
+</li>
+<li>
+<p>에브니 큐브 해금 이상 난이도의 몬스터들을 처치하여 일정 확률로 획득<br />
+<img alt="이미지 124" class="half-size" src="images/0124.png" width="760" height="762"><br />
+큐브에서 획득 가능합니다. 럭키방 등장시 확정 드랍됩니다.</p>
+</li>
+<li>
+<p>원정대 영지의 일반 파견에서 일정 확률로 획득<br />
+<img alt="이미지 125" class="half-size" src="images/0125.png" width="760" height="722"><br />
+원정대 영지 일반 파견 보상으로 획득가능합니다.</p>
+</li>
+</ol>
+</div>
+
+<div class="card">
+<h2 id="_12">스킬 포인트</h2>
+<p>스킬 포인트는 모험의 서, 일반 퀘스트, 필드보스, 거인의 심장, 에포나 평판, 섬의 마음, 이그네아의 징표, 오르페우스의 별 콘텐츠에서 획득 가능합니다.</p>
+<p>총 31가지가 있으며, 아이템 사전(Alt + D)을 통해 확인하면 편리합니다.</p>
+<blockquote>
+<p><mark>아크라시아 투어 완료시 거의 대부분의 스킬포인트를 획득 가능하니 아크라시아 투어를 먼저 진행해주세요.</mark></p>
+</blockquote>
+<h3 id="_13"><mark>모험의 서 </mark></h3>
+<p><img alt="이미지 126" src="images/0126.png" width="2280" height="1056"></p>
+<p>루테란 동부 / 베른 북부 / 슈샤이어 / 로헨델 / 파푸니카 / 림레이크 남섬 모험의 서에서 획득 가능합니다.</p>
+<p>아크라시아 투어에서 앞의 4개 대륙 보상을 지급합니다. 파푸니카 대륙은 직접 보상을 주지는 않지만 호감도/요리/수집품을 제외한 것들을 다 채워줍니다.</p>
+<p>따라서 사실상 림레이크 남섬만 직접 달성하면 됩니다.</p>
+<h3 id="_14"><mark>필드보스</mark></h3>
+<p><img alt="이미지 127" src="images/0127.png" width="2280" height="528"></p>
+<p>필드보스를 잡아 스킬포인트 물약을 얻을 수 있습니다.</p>
+<p>대부분 아크라시아 투어 완료 시 자동으로 받을 수 있습니다.</p>
+<h3 id="_15"><mark>일반 퀘스트</mark></h3>
+<p><img alt="이미지 128" src="images/0128.png" width="2280" height="2112"></p>
+<p>일반 퀘스트 보상으로 스킬 포인트 물약을 주는 경우가 있습니다.</p>
+<p>점핑권을 사용했다면 대부분의 일반 퀘스트가 자동으로 클리어되기 때문에 따로 진행할 필요는 없습니다.</p>
+<p>아이템 사전을 확인하여 혹시 미완료 퀘스트가 있다면 진행하시면 됩니다.</p>
+<h3 id="_16"><mark>거인의 심장</mark></h3>
+<p><img alt="이미지 129" src="images/0129.png" width="805" height="589"></p>
+<p>4개의 스킬 포인트 물약을 획득 가능합니다.</p>
+<p>거인의 심장은 아크라시아 투어 완료 시 호감도 보상 3개와 마지막 퀘스트 보상 1개를 제외한 11개를 보상으로 받을 수 있습니다.</p>
+<p>따라서 호감도로 하나만 더 수집하면 됩니다.</p>
+<p>로스트아크는 스토리 진행 중 특정 NPC의 호감도 진행이 불가능한 경우 해당 NPC의 호감도를 신뢰로 만들어주는 시스템이 있습니다.</p>
+<p>아만, 진저웨일, 베아트리스 등이 있는데 이 중에서 베아트리스의 경우 카제로스 전조 퀘스트 진행 중에 행방불명 되면서 호감도 진행이 불가능해지는 구간이 있습니다.</p>
+<p>이때 호감도 창에서 신뢰 등급까지 보상을 모두 받을 수 있는데 이를 활용해서 거인의 심장을 수집할 수 있습니다.</p>
+<p>카제로스 전조 퀘스트는 1660 레벨부터 진행이 가능합니다.</p>
+<h3 id="_17"><mark>에포나 평판</mark></h3>
+<p><img alt="이미지 130" src="images/0130.png" width="1520" height="528"></p>
+<p>평판 보상으로 2개를 받을 수 있습니다.</p>
+<p>1개는 아크라시아 투어 보상으로 획득 가능하므로 1개만 추가로 진행하면 됩니다.</p>
+<p>지혜의 섬에서 수행 가능한 에포나 의뢰 '지혜의 섬 보조 사서'를 수행해야 합니다.</p>
+<p>첫 번째 의뢰가 끝나는 날 바로 두 번째 의뢰가 가능하므로, 그날은 2번 수행이 가능합니다. 총 13일이 필요합니다.</p>
+<h3 id="_18"><mark>섬의 마음</mark></h3>
+<p><img alt="이미지 131" class="half-size" src="images/0131.png" width="760" height="528"></p>
+<p>섬의 마음 20개 보상으로 획득이 가능합니다. 아크라시아 투어 완료 시 20개 이상의 섬의 마음을 제공하므로 자동으로 습득됩니다.</p>
+<h3 id="_19">이그네아의 징표</h3>
+<p><img alt="이미지 132" class="half-size" src="images/0132.png" width="760" height="528"></p>
+<p>이그네아의 징표는 각 대륙별 모험의 서를 100% 달성 시 획득이 가능합니다.</p>
+<p>모험의 서의 경우 아크라시아 투어 완료 시 100%를 달성해주지는 않기 때문에 따로 작업해야 합니다.</p>
+<p>호감도/요리/수집품 3가지를 직접 수행해야 하며, 대륙별 난이도가 다르기 때문에 쉬운 대륙 위주로 작업하는 것이 좋습니다.</p>
+<p>참고로 9개 보상인 비프로스트 열쇠도 매우 중요하므로, 하는 김에 9개까지 달성하는 것이 좋습니다.</p>
+<p><a href="https://www.inven.co.kr/board/lostark/4821/79873">➡️ 뉴비를 위한 이그네아 징표작 대륙 추천 | 로아 인벤</a> 이 글 참고하시면 좋을것 같습니다.</p>
+<h3 id="_20"><mark>오르페우스의 별</mark></h3>
+<p><img alt="이미지 133" src="images/0133.png" width="793" height="450"></p>
+<p>오르페우스의 별 2개, 6개 보상에 스킬포인트 물약이 있습니다.</p>
+<p>아크라시아 투어 보상으로 오르페우스의 별 6개를 지급하므로, 스킬 포인트 물약을 얻기 위해 따로 오르페우스의 별을 모을 필요는 없습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_21">스킬 룬</h2>
+<p><img alt="이미지 134" src="images/0134.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%8A%A4%ED%82%AC%20%EB%A3%AC">➡️ 스킬 룬</a></p>
+<p>스킬 룬은 원하는 스킬에 장착하여 해당 스킬 사용 시 더욱 강력한 효과를 얻을 수 있는 시스템입니다.</p>
+<h3 id="_22">질풍</h3>
+<p><img alt="이미지 135" class="half-size" src="images/0135.png" width="760" height="712"></p>
+<p>스킬 시전 속도를 올려주는 룬입니다.</p>
+<p>'공격 속도'가 아니라 '시전 속도'입니다. </p>
+<p>공격 속도는 140% 제한이 있지만, 시전 속도는 스킬 프레임 자체를 줄여주기 때문에 140% 제한 없이 적용됩니다.</p>
+<p>스킬 모션이 긴 스킬에 착용합니다.</p>
+<p>가디언 토벌에서 획득 가능합니다.</p>
+<h3 id="_23">풍요</h3>
+<p>스킬 적중 시 아이덴티티 게이지 획득량을 증가시켜주는 룬입니다.</p>
+<p>아덴(아이덴티티) 캐릭터라면 필수입니다. 일부 직업은 풍요 룬이 없으면 스킬 사이클 자체가 안 굴러가는 경우가 있으니 그런 경우 최우선으로 작업해야 합니다.</p>
+<h4 id="_24"><mark>오르페우스의 별</mark></h4>
+<p><img alt="이미지 136" class="half-size" src="images/0136.png" width="760" height="634"><br />
+5개 보상에서 획득 가능하며, 아크라시아 투어 보상으로 받을 수 있습니다.</p>
+<h4 id="_25">블루홀</h4>
+<p><img alt="이미지 137" class="half-size" src="images/0137.png" width="760" height="634"><br />
+캘린더 섬인 블루홀 섬에서 획득 가능합니다.</p>
+<p>인게임에서 Alt + H 를 누르면 캘린더가 열리는데 여기서 섬 스케쥴을 확인할 수 있습니다. 미리 블루홀 섬이 나오는 날을 체크해두시면 좋습니다.</p>
+<h4 id="_26">항해 모험물</h4>
+<p><img alt="이미지 138" class="half-size" src="images/0138.png" width="760" height="634"><br />
+모험물 34개 보상으로 얻을 수 있습니다. 아크라시아 투어 완료 시 20개 정도를 주므로 14개를 더 모아야 합니다.</p>
+<p>항해 협동은 가장 나중으로 미루고 영지 교환/호감도 위주로 모으는 것이 좋습니다.</p>
+<h4 id="_27">영지 교환</h4>
+<p><img alt="이미지 139" class="half-size" src="images/0139.png" width="760" height="634"><br />
+희귀까지 쓰는 경우는 많이 없고 있더라도 아크라시아 투어 보상으로 2개를 주니까 이것까지 필요한 경우는 많이 없는데 필요한 경우</p>
+<p><img alt="이미지 140" src="images/0140.png" width="824" height="540"><br />
+영지에서 얘한테 사시면 됩니다.</p>
+<h3 id="_28">중독/출혈</h3>
+<p><img alt="이미지 141" src="images/0141.png" width="1659" height="750"></p>
+<p>필드 보스에서 획득 가능합니다. 직업마다 다른데 딜지분 1~2% 나옵니다.</p>
+<p>쿨타임 짧은스킬에 주로 사용합니다.</p>
+<h3 id="_29">정화</h3>
+<p>스킬 사용 시 해로운 효과 1개를 제거합니다. 영웅 등급은 70% 전설 등급은 80% 확률로 발동합니다.</p>
+<p>상태이상이 있는 던전에서 많이 사용합니다.</p>
+<h4 id="_30">이그네아의 징표</h4>
+<p><img alt="이미지 142" src="images/0142.png" width="1520" height="634"></p>
+<p>전설은 이그네아 15개 보상인데 쉽지 않습니다. 화이팅</p>
+<p>영웅은 5개인데 보통 스킬 포인트 작업하면서 획득 가능합니다.</p>
+<h3 id="_31">압도</h3>
+<p>무력화 피해를 증가시켜주는 룬입니다. 기믹에 무력화가 많이 요구되는 레이드에서 많이 사용합니다.</p>
+<h4 id="_32">비탄의 섬</h4>
+<p><img alt="이미지 143" class="half-size" src="images/0143.png" width="760" height="634"><br />
+비탄의 섬 보상으로 얻을 수 있습니다. 비탄의섬의 경우 오르페우스의 별과 섬의 마음을 아크라시아 투어에서 주기 때문에 압도만 먹고 치우시는걸 추천드립니다.</p>
+<h4 id="_33">영지 교환</h4>
+<p><img alt="이미지 144" class="half-size" src="images/0144.png" width="760" height="634"><br />
+영지에서 구매 가능합니다.</p>
+<h4 id="_34"><mark>오르페우스의 별</mark></h4>
+<p><img alt="이미지 145" class="half-size" src="images/0145.png" width="760" height="634"><br />
+오르페우스의 별 3개 보상에 있습니다. 아크라시아 투어에서 자동으로 받아집니다.</p>
+<h4 id="_35"><mark>모험의 서</mark></h4>
+<p><img alt="이미지 146" class="half-size" src="images/0146.png" width="760" height="634"><br />
+페이튼 모험의 서 보상입니다. 아크라시아 투어 보상으로 획득 가능합니다.</p>
+<h3 id="_36">단죄/심판</h3>
+<p>세트로 사용하는 룬입니다. 단죄 발동 → 심판 발동 순서로 작동하는 세트 룬입니다.</p>
+<p>단죄는 심판 발동 역할만 하고, 심판은 발동 시 쿨타임 감소와 전투 자원 회복량 증가 효과가 있습니다.</p>
+<p>쿨타임 감소 효과는 '현재 쿨이 돌고 있는 스킬'이 아니라 '단심 발동 후에 사용하는 스킬'에 적용되므로 사이클 맨 처음에 사용해야 합니다.</p>
+<p>공격 시 확률적으로 발동하며, 타수마다 발동 기회가 있기 때문에 다단히트 스킬에 착용하는 것이 좋습니다.</p>
+<h4 id="_37">전설 등급</h4>
+<p><img alt="이미지 147" src="images/0147.png" width="1520" height="674"><br />
+영지에서 54,000개로 구매 가능합니다. 등급이 높을수록 발동확률이 높아서 사실 이것만 사시면 됩니다.</p>
+<h4 id="_38"><mark>영웅 등급</mark></h4>
+<p><img alt="이미지 148" src="images/0148.png" width="1520" height="674"><br />
+미술품은 24개 보상입니다. 아크라시아 투어 완료시 20개쯤 주고 큐브나 카오스게이트에서도 획득 가능하니 크게 어렵지 않습니다.</p>
+<h3 id="_39">속행</h3>
+<p>스킬 사용 시 전체 재사용 대기시간이 감소하는 룬입니다. 단심과 다르게 '이미 쿨타임이 돌고 있는 스킬'의 남은 시간을 줄여주는 방식입니다.</p>
+<p>내부 쿨타임이 없어서 쿨타임이 짧은 스킬에 착용하는 것이 효율적입니다.</p>
+<p><img alt="이미지 149" src="images/0149.png" width="1520" height="1268"></p>
+<p>일반 퀘스트와 필드보스 보상으로 얻을 수 있습니다. 아크라시아 투어에서 받지 못한게 있다면 아이템 사전에서 검색해서 진행해주시면 되겠습니다.</p>
+<p>나머지 룬은 중요한 룬은 아닙니다. 필요하시면 도감에서 획득 정보 확인하셔서 습득하시면 되겠습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_40">카드</h2>
+<p><img alt="이미지 150" src="images/0150.png" width="1000" height="431"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%EC%B9%B4%EB%93%9C">➡️ 카드</a></p>
+<p>카드는 사실 굉장히 큰 내실 요소이지만 시간이 오래 걸립니다. 과금을 해서 시간을 많이 줄일 수는 있지만 굉장히 비효율적입니다.</p>
+<p>익스프레스에서 세구빛을 지원해 주기 전에는 세구빛 30각을 빠르게 맞춰야 해서 내실 우선 순위가 높았지만 익스프레스에서 세구빛 30각을 지원해준 이후로는 내실로 카드를 우선할 필요가 없어졌습니다.</p>
+<p>어차피 카드는 계속 완화하니까 천천히 하시면 됩니다.</p>
+<p>카드는 2가지 효과가 있습니다.</p>
+<p><img alt="카드 누적 효과" src="images/0270.png" width="1000" height="545"></p>
+<p><strong>수집 효과</strong> 카드를 수집하여 도감을 완성했을 때 얻는 효과입니다. </p>
+<p>수집 효과는 모든 카드를 5각성을 해야 완성이 됩니다. 장착 효과가 없는 카드라도 도감에서 효과를 받기 위해 5각성을 해야한다는 의미인데 이게 뉴비들은 굉장히 어렵습니다. 카드를 모으는것 자체도 어렵고 카드 경험치 모으는것도 어렵습니다.</p>
+<p>악마 추가 피해 같은 옵션을 먼저 하는 방법도 있지만 이것도 쉽지 않습니다. 과금을 하기엔 효율이 좋지 않고 카드는 완화를 계속하니까 천천히 하시는걸 추천드립니다.</p>
+<p><img alt="이미지 152" src="images/0152.png" width="1000" height="552"></p>
+<p><strong>장착 효과</strong> 장착한 카드 세트에 따라 받게되는 효과입니다. 흔히 딜러들이 사용하는 세구빛 30각 효과가 여기에 해당됩니다.</p>
+<p>익스프레스를 완료하면 세구빛 30각과 남바절 30각을 지급해주는데 세구빛이나 남바절 외에 다른 세트효과는 있으면 좋지만 없다고 게임이 불가능한 정도의 성능은 아닙니다. 이건 고인물들의 영역이고 게임 오래하면 해결되는 문제라서 이거 하겠다고 시간이랑 돈을 쓰는게 너무 비효율적입니다.</p>
+<p>다시 얘기하지만 카드는 과금하지 말고 천천히 하는걸 추천드립니다. 어차피 나중가면 다 쓸모없는 카드 경험치일 뿐입니다.</p>
+<p>카드 수급처 관련 내용은 앞에서 <a href="#카드-수급처">➡️ 카드 수급처</a>에서 설명했습니다.</p>
+<h3 id="_41">펫특기</h3>
+<p><img alt="이미지 153" src="images/0153.png" width="1920" height="1080"></p>
+<p><a href="https://lostark.game.onstove.com/GameGuide/Pages/%ED%8E%AB#h4-6">➡️ 펫 특기</a></p>
+<p>원정대 영지에서 특기 훈련을 통해 펫 특기를 습득할 수 있습니다.</p>
+<p><img alt="이미지 154" src="images/0154.png" width="1039" height="800"></p>
+<p>하루에 2회 특기 훈련이 가능하며 니나브의 축복 적용 시 1회 추가로 더 가능합니다.</p>
+<p>펫 특기 중 펫 목장 관련 옵션이 스펙업과 관련된 요소이기 때문에 펫 목장 위주로 특기 훈련을 진행해주시면 됩니다.</p>
+<p>추가 피해, 힘민지 스탯, 계열 피해량 위주로 먼저 진행해주시면 됩니다.</p>
+<p>펫 특기는 하루 진행횟수가 정해져 있고 골드를 소비하는 특급 훈련을 하더라도 원하는 옵션이 나온다는 보장이 있는건 아니기 때문에 천천히 진행하시면 됩니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_42">치명 / 특화 / 신속</h2>
+<p>이건 종류가 몇개 없어서 카드나 펫특기에 비해 금방 모으기 때문에 우선 순위 4위로 했습니다.</p>
+<h3 id="_43">치명</h3>
+<h4 id="_44">가디언 토벌</h4>
+<p><img alt="이미지 155" src="images/0155.png" width="2280" height="1056"><br />
+나크라세나 / 중갑 나크라세나 / 벨가누스 / 소나벨 / 크라티오스 에서 획득 가능합니다.</p>
+<h4 id="_45">아제나 호감도</h4>
+<p><img alt="이미지 156" class="half-size" src="images/0156.png" width="760" height="528"><br />
+아제나 호감도 신뢰 등급 보상입니다.</p>
+<h4 id="_46"><mark>평판</mark></h4>
+<p><img alt="이미지 157" class="half-size" src="images/0157.png" width="760" height="528"><br />
+독을 품은 사막 에포나 평판보상입니다. 아크라시아 투어 보상으로 받을 수 있습니다.</p>
+<h4 id="_47">퀘스트</h4>
+<p><img alt="이미지 158" class="half-size" src="images/0158.png" width="760" height="528"><br />
+볼다이크 퀘스트에서 획득할 수 있습니다.</p>
+<h3 id="_48">특화</h3>
+<h4 id="_49">가디언 토벌</h4>
+<p><img alt="이미지 159" src="images/0159.png" width="2280" height="1056"><br />
+어둠의 레기오로스 / 베르투스 / 흑야의 요호 / 엘버하스틱 / 아카테스 / 베스칼 보상으로 획득 가능합니다.</p>
+<h4 id="_50">모험의 서 쿠르잔 남부</h4>
+<p><img alt="이미지 160" class="half-size" src="images/0160.png" width="760" height="528"><br />
+쿠르잔 남부 모험의서 30% 보상으로 받을 수 있습니다.</p>
+<h4 id="_51"><mark>퀘스트</mark></h4>
+<p><img alt="이미지 161" class="half-size" src="images/0161.png" width="760" height="528"><br />
+욘 퀘스트로 받을 수 있습니다. 아크라시아 투어 완료시 지급됩니다.</p>
+<h3 id="_52">신속</h3>
+<h4 id="_53">가디언 토벌</h4>
+<p><img alt="이미지 162" src="images/0162.png" width="2280" height="1056"><br />
+헬가이아 / 레바노스 / 루메루스 / 가르가디스 / 드렉탈라스 보상으로 얻을 수 있습니다.</p>
+<h4 id="_54"><mark>평판</mark></h4>
+<p><img alt="이미지 163" src="images/0163.png" width="1520" height="528"><br />
+페이토와 로헨델 에포나 평판 보상으로 받을 수 있는데 두개 역시 아크라시아 투어 보상으로 받을 수 있습니다.</p>
+<h4 id="_55">퀘스트</h4>
+<p><img alt="이미지 164" class="half-size" src="images/0164.png" width="760" height="528"><br />
+파푸니카 퀘스트로 받을 수 있습니다.</p>
+</div>
+
+<div class="card">
+<h2 id="_56">기본 능력치 / 체력 증가 물약</h2>
+<p><img alt="이미지 165" src="images/0165.png" width="3800" height="528"></p>
+<p>이건 획득 방식이 너무 많습니다.</p>
+<p>원정대 레벨 / 일반 퀘스트 / 평판 / 모험의 서 / 호감도 / 모코코 씨앗 등 90개를 전부 설명하기는 어렵고 게임을 하다보면 자연스럽게 습득되니까 찾아가면서 할 필요는 없습니다.</p>
+<p>사실 힘민지5가 큰의미가 있는건 아닙니다. 전부 모으면 힘민지 630인데 의미가 있다면 있고 없다면 없는 수치라 필수적으로 해야한다 라는건 아니니 천천히 시간날때 모아주시면 되겠습니다.</p>
+<p>체력도 마찬가지로 다 모으면 2575인데 이것도 천천히 하셔도 됩니다.</p>
+</div>
+        </main>
+    </div>
+
+    <!-- ⌘K 커맨드 팔레트 -->
+    <dialog class="search-dialog" id="searchDialog" aria-label="가이드 검색">
+        <form class="search-form" method="dialog">
+            <span class="search-dialog-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="searchInput" class="search-input" placeholder="섹션·항목 검색…" autocomplete="off" aria-label="검색어" />
+            <button type="submit" class="search-close" aria-label="닫기">esc</button>
+        </form>
+        <ul class="search-results" id="searchResults" role="listbox"></ul>
+        <p class="search-empty" id="searchEmpty" hidden>결과가 없습니다.</p>
+    </dialog>
+
+    <!-- 하단 고정 UI: 맨 위로 + 최종 수정일 -->
+    <div class="fixed-bottom-ui">
+        <ul>
+            <li>
+                <button id="topBtn" type="button">맨 위로</button>
+            </li>
+            <li>
+                <div class="update-date">최종 수정일: 2026. 10. 24</div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---- 테마 토글 ---- */
+            var root = document.documentElement;
+            var themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', function () {
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
+                    try { localStorage.setItem('theme', next); } catch (e) { }
+                });
+            }
+
+            /* ---- 모바일 드로어 ---- */
+            var drawerBtn = document.getElementById('drawerToggle');
+            var drawerCloseBtn = document.getElementById('drawerClose');
+            var scrim = document.getElementById('drawerScrim');
+            function setDrawer(open) {
+                document.body.classList.toggle('drawer-open', open);
+                if (scrim) scrim.hidden = !open;
+                if (drawerBtn) drawerBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            if (drawerBtn) drawerBtn.addEventListener('click', function () {
+                setDrawer(!document.body.classList.contains('drawer-open'));
+            });
+            if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', function () { setDrawer(false); });
+            if (scrim) scrim.addEventListener('click', function () { setDrawer(false); });
+            document.querySelectorAll('.sidebar a').forEach(function (a) {
+                a.addEventListener('click', function () { setDrawer(false); });
+            });
+            /* ---- 진행률 바 (스파인 하단 채움) ---- */
+            var progressBar = document.getElementById('progressBar');
+            function updateProgress() {
+                if (!progressBar) return;
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+            }
+
+            /* ---- 우측 페이지 목차 h2 스크롤스파이 + breadcrumb ---- */
+            var headings = Array.prototype.slice.call(document.querySelectorAll('main.main-content h2[id]'));
+            var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.page-toc-link'));
+            var crumbCurrent = document.querySelector('.breadcrumb .crumb-current');
+            var crumbSep = document.querySelector('.breadcrumb .crumb-sep');
+            // 헤딩은 scroll-margin-top(=topbar 56 + 8 = 64) 위치에 안착하므로, 임계값을
+            // 그보다 약간 크게 잡아야 막 클릭해 도착한 헤딩이 곧바로 active로 판정된다(off-by-one 방지).
+            var topOffset = 96; // topbar + scroll-margin + 여유
+            var activeId = null;
+
+            function syncSpy() {
+                if (!headings.length) return;
+                var current = null;
+                for (var i = 0; i < headings.length; i++) {
+                    if (headings[i].getBoundingClientRect().top <= topOffset) {
+                        current = headings[i];
+                    }
+                }
+                var id = current ? current.getAttribute('id') : null;
+                if (id === activeId) return;
+                activeId = id;
+                tocLinks.forEach(function (link) {
+                    link.classList.toggle('active', !!id && link.getAttribute('href') === '#' + id);
+                });
+                if (crumbCurrent) {
+                    crumbCurrent.textContent = current ? current.textContent.trim() : '';
+                    if (crumbSep) crumbSep.style.visibility = current ? 'visible' : 'hidden';
+                }
+            }
+
+            var ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                window.requestAnimationFrame(function () {
+                    updateProgress();
+                    syncSpy();
+                    ticking = false;
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll, { passive: true });
+            updateProgress();
+            syncSpy();
+
+            /* ---- 이미지 로드 인지 앵커 스크롤 (스크린샷 시프트 방지) ---- */
+            function scrollToTarget(el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.replaceState(null, '', ' ');
+            }
+            document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    var id = this.getAttribute('href').substring(1);
+                    if (!id) return;
+                    var target = document.getElementById(decodeURIComponent(id));
+                    if (!target) return;
+                    e.preventDefault();
+                    var imgs = target.querySelectorAll('.lazy-scroll-img');
+                    if (!imgs.length) { scrollToTarget(target); return; }
+                    var loaded = 0;
+                    function done() { loaded++; if (loaded === imgs.length) scrollToTarget(target); }
+                    imgs.forEach(function (img) {
+                        if (img.complete) { done(); }
+                        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+                    });
+                });
+            });
+
+            /* ---- ⌘K 검색 ---- */
+            var dialog = document.getElementById('searchDialog');
+            var input = document.getElementById('searchInput');
+            var resultsEl = document.getElementById('searchResults');
+            var emptyEl = document.getElementById('searchEmpty');
+            var chunks = null, activeIdx = -1;
+
+            function loadIndex() {
+                if (chunks) return Promise.resolve();
+                return fetch('search-index.json').then(function (r) { return r.json(); })
+                    .then(function (data) { chunks = data; })
+                    .catch(function () { chunks = []; });
+            }
+            function openSearch() {
+                if (!dialog || typeof dialog.showModal !== 'function') return;
+                loadIndex().then(function () {
+                    if (!dialog.open) dialog.showModal();
+                    input.value = '';
+                    render('');
+                    setTimeout(function () { input.focus(); }, 0);
+                });
+            }
+            function hrefOf(c) { return c.anchor ? c.file + '#' + c.anchor : c.file; }
+            function snippet(text, q) {
+                var i = (text || '').toLowerCase().indexOf(q);
+                if (i < 0) return null;
+                var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 40);
+                return {
+                    pre: (s > 0 ? '…' : '') + text.slice(s, i),
+                    hit: text.slice(i, i + q.length),
+                    post: text.slice(i + q.length, e) + (e < text.length ? '…' : '')
+                };
+            }
+            function render(q) {
+                q = q.trim().toLowerCase();
+                resultsEl.innerHTML = '';
+                var items;
+                if (!q) {
+                    items = (chunks || []).slice(0, 10).map(function (c) { return { c: c, snip: null }; });
+                } else {
+                    var scored = [];
+                    (chunks || []).forEach(function (c) {
+                        var inHead = (c.heading || '').toLowerCase().indexOf(q) !== -1;
+                        var inPage = (c.page || '').toLowerCase().indexOf(q) !== -1;
+                        var snip = snippet(c.text, q);
+                        if (inHead || inPage || snip) {
+                            scored.push({ c: c, rank: inHead ? 0 : (inPage ? 1 : 2), snip: snip });
+                        }
+                    });
+                    scored.sort(function (a, b) { return a.rank - b.rank; });
+                    var seen = {}; items = [];
+                    scored.forEach(function (it) {
+                        var h = hrefOf(it.c);
+                        if (!seen[h]) { seen[h] = 1; items.push(it); }
+                    });
+                    items = items.slice(0, 30);
+                }
+                activeIdx = items.length ? 0 : -1;
+                items.forEach(function (it, i) {
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = hrefOf(it.c);
+                    if (i === 0) a.classList.add('active');
+                    var t = document.createElement('span'); t.className = 'res-title';
+                    t.textContent = it.c.heading || it.c.page;
+                    var cx = document.createElement('span'); cx.className = 'res-ctx';
+                    cx.textContent = it.c.page;
+                    a.appendChild(t); a.appendChild(cx);
+                    if (it.snip) {
+                        var sn = document.createElement('span'); sn.className = 'res-snip';
+                        sn.appendChild(document.createTextNode(it.snip.pre));
+                        var mk = document.createElement('mark'); mk.textContent = it.snip.hit;
+                        sn.appendChild(mk);
+                        sn.appendChild(document.createTextNode(it.snip.post));
+                        a.appendChild(sn);
+                    }
+                    li.appendChild(a);
+                    resultsEl.appendChild(li);
+                });
+                emptyEl.hidden = !(q && !items.length);
+            }
+            function move(d) {
+                var links = resultsEl.querySelectorAll('a');
+                if (!links.length) return;
+                links[activeIdx] && links[activeIdx].classList.remove('active');
+                activeIdx = (activeIdx + d + links.length) % links.length;
+                links[activeIdx].classList.add('active');
+                links[activeIdx].scrollIntoView({ block: 'nearest' });
+            }
+            if (dialog) {
+                document.querySelectorAll('[data-search-open]').forEach(function (b) {
+                    b.addEventListener('click', openSearch);
+                });
+                document.addEventListener('keydown', function (e) {
+                    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openSearch(); }
+                });
+                input.addEventListener('input', function () { render(input.value); });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+                    else if (e.key === 'Enter') {
+                        var a = resultsEl.querySelectorAll('a')[activeIdx];
+                        if (a) { e.preventDefault(); window.location.href = a.getAttribute('href'); }
+                    }
+                });
+            }
+
+            /* ---- 맨 위로 ---- */
+            var topBtn = document.getElementById('topBtn');
+            if (topBtn) topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        })();
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. 이미지 경로만 배열로 관리 (파일명이 곧 직업명)
+    const supporters = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/바드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/홀리나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/도화가.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/b/발키리.png"
+    ];
+
+    const dealers = [
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/가디언나이트.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/건슬링어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기공사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/기상술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데모닉.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/데빌헌터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/디스트로이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/리퍼.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/배틀마스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/브레이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블래스터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/블레이드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/서머너.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소서리스.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/소울이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스카우터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/스트라이커.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/슬레이어.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/아르카나.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/워로드.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/인파이터.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/창술사.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/호크아이.png",
+        "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/class/a/환술사.png"
+    ];
+
+    // 배너 랜더링 함수
+    function renderBanner(containerId, list, count) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // 무작위 셔플 후 지정된 개수 추출
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+
+        container.innerHTML = selected.map(src => {
+            // 파일 경로에서 확장자와 폴더명을 제거해 직업명 추출 (예: "https://raw.githubusercontent.com/N84jld3qhj/2026_winter_guide/main/images/b/버서커.png" -> "버서커")
+            const jobName = src.split('/').pop().replace(/\.[^/.]+$/, "");
+
+            return `
+                <div class="dealer-item">
+                    <img src="${src}" alt="${jobName}">
+                    <span>${jobName}</span>
+                </div>
+            `;
+        }).join("");
+    }
+
+    // 실행 (서포터 4개, 딜러 4개 추출)
+    renderBanner("supporterbanner", supporters, 4);
+    renderBanner("dealerbanner", dealers, 18);
+});
+</script>
+
+<!-- 이미지 확대용 모달 오버레이 -->
+<div id="imageModal" class="img-modal" onclick="closeImageModal()">
+  <span class="img-modal-close">&times;</span>
+  <img class="img-modal-content" id="modalImage" alt="확대된 이미지">
+</div>
+
+<script>
+  // 본문 내부의 모든 이미지에 클릭 이벤트 자동 바인딩
+  document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('main img, .content img');
+    images.forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        openImageModal(img.src);
+      });
+    });
+  });
+
+  function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'flex';
+    modalImg.src = src;
+    document.body.style.overflow = 'hidden'; // 배경 스크롤 방지
+  }
+
+  function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 스크롤 원복
+  }
+
+  // ESC 키 누르면 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>
+</body>
+
+</html>
